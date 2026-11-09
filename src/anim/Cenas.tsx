@@ -4,6 +4,7 @@ import { geoGraticule10, geoOrthographic, geoPath } from 'd3-geo';
 import { feature } from 'topojson-client';
 import type { Topology } from 'topojson-specification';
 import land110 from 'world-atlas/land-110m.json';
+import '@fontsource/playfair-display/latin-800-italic.css';
 import { AbsoluteFill, Easing, interpolate, random, spring, useCurrentFrame, useVideoConfig } from 'remotion';
 
 const FONTE = "'Inter Variable', 'Helvetica Neue', Arial, sans-serif";
@@ -14,62 +15,70 @@ const grade = geoGraticule10();
 
 export const PALETA = ['#0071e3', '#e0245e', '#157a33', '#8e3fd0', '#b84a00', '#f5c542', '#30b0c7'];
 
-// ---------- Abertura: o nome do jogo entra palavra por palavra; "Especialista" em ouro, com aura e brilhos ----------
-// Ouro em faixas horizontais (efeito metálico) e um reflexo de luz que atravessa a palavra de tempos em tempos.
-const OURO_BASE = 'linear-gradient(180deg, #f6dd8a 0%, #e2b64a 38%, #a9781c 62%, #d9ab45 82%, #f3d47a 100%)';
-const REFLEXO = 'linear-gradient(100deg, rgba(255,255,255,0) 42%, rgba(255,250,232,0.95) 50%, rgba(255,255,255,0) 58%)';
-const ESTRELA = 'M0,-1 C0.12,-0.12 0.12,-0.12 1,0 C0.12,0.12 0.12,0.12 0,1 C-0.12,0.12 -0.12,0.12 -1,0 C-0.12,-0.12 -0.12,-0.12 0,-1Z';
-const BRILHOS: [number, number, number][] = [
-  [-3, 18, 1], [6, 96, 0.7], [27, -14, 0.8], [52, 104, 0.9], [74, -10, 1.1], [101, 26, 0.85], [95, 94, 0.65], [-6, 70, 0.55],
-];
+// ---------- Abertura: astrolábio com os ícones dos módulos em órbita e o nome do jogo no centro ----------
+const SERIFA = "'Playfair Display', Georgia, 'Times New Roman', serif";
+const ORBITA = [
+  { cor: '#0071e3', icone: 'globo' }, { cor: '#e0245e', icone: 'bandeira' }, { cor: '#157a33', icone: 'moeda' },
+  { cor: '#8e3fd0', icone: 'arte' }, { cor: '#b84a00', icone: 'escudo' },
+] as const;
 
-const PalavraOraculo = ({ texto, frame, fps, altura, atraso }: { texto: string; frame: number; fps: number; altura: number; atraso: number }) => {
-  const s = spring({ frame: frame - atraso, fps, config: { damping: 12, mass: 0.7 } });
-  const ciclo = (frame - atraso - 12) % 150;
-  const pos = frame - atraso - 12 < 0 ? 110 : interpolate(ciclo, [0, 70], [110, -10], clamp);
-  const aura = s * (0.78 + 0.22 * Math.sin(frame / 38));
-  return (
-    <span style={{ position: 'relative', display: 'inline-block', transform: `translateY(${(1 - s) * 60}px) scale(${0.8 + 0.2 * s})`, opacity: s }}>
-      <span aria-hidden style={{ position: 'absolute', inset: '-55% -18%', borderRadius: '50%', opacity: aura, background: 'radial-gradient(ellipse at center, rgba(236,196,96,0.34) 0%, rgba(236,196,96,0.12) 42%, rgba(236,196,96,0) 70%)' }} />
-      {BRILHOS.map(([x, y, tam], k) => {
-        const t = 0.5 + 0.5 * Math.sin(frame / 11 + k * 1.7);
-        const r = altura * 0.12 * tam * (0.4 + 0.8 * t) * s;
-        return (
-          <svg key={k} aria-hidden width={r * 2} height={r * 2} viewBox="-1 -1 2 2"
-            style={{ position: 'absolute', left: `calc(${x}% - ${r}px)`, top: `calc(${y}% - ${r}px)`, opacity: (0.25 + 0.75 * t) * s, transform: `rotate(${frame * 0.6 + k * 20}deg)` }}>
-            <path d={ESTRELA} fill={k % 3 === 0 ? '#fff6d8' : '#e6be5c'} />
-          </svg>
-        );
-      })}
-      <span style={{
-        position: 'relative', fontSize: altura, fontWeight: 800, letterSpacing: '-0.035em', lineHeight: 1, display: 'inline-block',
-        backgroundImage: `${REFLEXO}, ${OURO_BASE}`, backgroundSize: '250% 100%, 100% 100%', backgroundPosition: `${pos}% 0, 0 0`, backgroundRepeat: 'no-repeat',
-        WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent',
-        filter: 'drop-shadow(0 0 14px rgba(214,166,60,0.45)) drop-shadow(0 2px 1px rgba(110,78,16,0.35))',
-      }}>
-        {texto}
-      </span>
-    </span>
-  );
+const IconeOrbita = ({ icone }: { icone: (typeof ORBITA)[number]['icone'] }) => {
+  const t = { stroke: '#fff', strokeWidth: 1.6, fill: 'none', strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
+  if (icone === 'globo') return <g {...t}><circle r="7.5" /><ellipse rx="3.4" ry="7.5" /><path d="M-7.5 0H7.5M-6.4 -3.8H6.4M-6.4 3.8H6.4" /></g>;
+  if (icone === 'bandeira') return <g {...t}><path d="M-6 8V-8" /><path d="M-6 -7H6L3.5 -3L6 1H-6" fill="#fff" fillOpacity={0.9} /></g>;
+  if (icone === 'moeda') return <g {...t}><circle r="7.5" /><text x="0" y="3.6" textAnchor="middle" fontSize="9.5" fontWeight="800" fill="#fff" stroke="none" fontFamily="Inter, Arial">$</text></g>;
+  if (icone === 'arte') return <g {...t}><rect x="-7.5" y="-6" width="15" height="12" rx="1.5" /><path d="M-5.5 4L-1.5 -0.5L1.5 2.5L3.5 0.5L5.5 4" /><circle cx="3.2" cy="-2.6" r="1.2" fill="#fff" /></g>;
+  return <g {...t}><path d="M0 -8L6.5 -5.5V0.5C6.5 4.5 3.6 7 0 8.3C-3.6 7 -6.5 4.5 -6.5 0.5V-5.5Z" /><path d="M-3 0.5L-0.8 2.8L3.2 -1.6" /></g>;
 };
 
 export const Abertura = () => {
   const frame = useCurrentFrame();
   const { width, height, fps } = useVideoConfig();
-  const palavras = ['Quem', 'é', 'o'];
+  const cx = width / 2, cy = height / 2;
+  const rx = width * 0.42, ry = height * 0.37;
+  const volta = 900; // uma volta a cada 30 s
+  const desenho = interpolate(frame, [0, 40], [1, 0], { ...clamp, easing: SUAVE });
+  const giro = (frame / volta) * 360;
+  const itens = ORBITA.map((o, i) => {
+    const a = (frame / volta) * Math.PI * 2 + (i * Math.PI * 2) / ORBITA.length - Math.PI / 2;
+    const prof = Math.sin(a); // -1 atrás (alto), +1 na frente (baixo)
+    const s = spring({ frame: frame - 18 - i * 5, fps, config: { damping: 13 } });
+    return { ...o, x: cx + Math.cos(a) * rx, y: cy + prof * ry, esc: (0.72 + 0.28 * (prof + 1) / 2) * s, prof, op: (0.55 + 0.45 * (prof + 1) / 2) * s };
+  });
+  const bola = (it: (typeof itens)[number]) => (
+    <g key={it.icone} transform={`translate(${it.x} ${it.y}) scale(${it.esc * 2.6})`} opacity={it.op}>
+      <circle r="13" fill={it.cor} />
+      <circle r="13" fill="none" stroke="#fff" strokeOpacity={0.35} strokeWidth={1} />
+      <IconeOrbita icone={it.icone} />
+    </g>
+  );
+  const anel = 'var(--cinza-3, #86868b)';
+  const sQuem = spring({ frame: frame - 8, fps, config: { damping: 14 } });
+  const sEsp = spring({ frame: frame - 16, fps, config: { damping: 12, mass: 0.8 } });
   return (
-    <AbsoluteFill style={{ fontFamily: FONTE, alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ display: 'flex', gap: width * 0.018, alignItems: 'baseline', flexWrap: 'wrap', justifyContent: 'center', maxWidth: width * 0.86 }}>
-        {palavras.map((p, i) => {
-          const s = spring({ frame: frame - 6 - i * 6, fps, config: { damping: 12, mass: 0.7 } });
-          return (
-            <span key={p} style={{ fontSize: height * 0.2, fontWeight: 800, letterSpacing: '-0.045em', lineHeight: 1, transform: `translateY(${(1 - s) * 60}px) scale(${0.8 + 0.2 * s})`, opacity: s, display: 'inline-block', color: 'var(--preto, #1d1d1f)' }}>
-              {p}
-            </span>
-          );
-        })}
-        <PalavraOraculo texto="Especialista" frame={frame} fps={fps} altura={height * 0.27} atraso={24} />
-      </div>
+    <AbsoluteFill>
+      <svg width={width} height={height} style={{ position: 'absolute', inset: 0 }}>
+        <g fill="none" stroke={anel}>
+          <ellipse cx={cx} cy={cy} rx={rx} ry={ry} strokeOpacity={0.55} strokeWidth={1.4} pathLength={1} strokeDasharray="1" strokeDashoffset={desenho} />
+          <ellipse cx={cx} cy={cy} rx={rx + 10} ry={ry + 10} strokeOpacity={0.3} strokeWidth={6} pathLength={360} strokeDasharray="0.25 4.75" transform={`rotate(${giro * 0.2} ${cx} ${cy})`} opacity={1 - desenho} />
+          <ellipse cx={cx} cy={cy} rx={rx * 0.78} ry={ry * 0.62} strokeOpacity={0.28} strokeWidth={1} pathLength={1} strokeDasharray="1" strokeDashoffset={desenho} transform={`rotate(${-14 + Math.sin(frame / 90) * 4} ${cx} ${cy})`} />
+          <ellipse cx={cx} cy={cy} rx={rx * 0.92} ry={ry * 0.2} strokeOpacity={0.22} strokeWidth={1} pathLength={1} strokeDasharray="1" strokeDashoffset={desenho} transform={`rotate(${10 - giro * 0.05} ${cx} ${cy})`} />
+        </g>
+        {itens.filter((it) => it.prof < 0).map(bola)}
+      </svg>
+      <AbsoluteFill style={{ alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', gap: width * 0.016, alignItems: 'baseline', flexWrap: 'wrap', justifyContent: 'center', maxWidth: width * 0.84 }}>
+          <span style={{ fontFamily: FONTE, fontSize: height * 0.13, fontWeight: 600, letterSpacing: '-0.02em', color: 'var(--cinza-2, #6e6e73)', opacity: sQuem, transform: `translateY(${(1 - sQuem) * 30}px)`, display: 'inline-block' }}>
+            Quem é o
+          </span>
+          <span style={{ fontFamily: SERIFA, fontStyle: 'italic', fontSize: height * 0.3, fontWeight: 800, letterSpacing: '-0.01em', lineHeight: 1.05, color: 'var(--preto, #1d1d1f)', opacity: sEsp, transform: `translateY(${(1 - sEsp) * 40}px) scale(${0.9 + 0.1 * sEsp})`, display: 'inline-block', paddingRight: '0.08em' }}>
+            Especialista
+          </span>
+        </div>
+      </AbsoluteFill>
+      <svg width={width} height={height} style={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
+        {itens.filter((it) => it.prof >= 0).map(bola)}
+      </svg>
     </AbsoluteFill>
   );
 };
