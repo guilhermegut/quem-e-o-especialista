@@ -302,7 +302,7 @@ function Menu({ hoje, go, onDaily }: { hoje: string; go: (s: Screen) => void; on
             ? <button type="button" className="botao-texto" onClick={() => { saveSettings({ som: !som }); setSom(!som); }} aria-pressed={som}>Voz: {som ? 'ligada' : 'desligada'}</button>
             : <span className="menu-nota">Narração: gravações ainda não incluídas</span>}
         </nav>
-        <p className="aviso-previa">Prévia 3. Conteúdo do quiz conferido por verificação independente; fichas de guerras em verificação.</p>
+        <p className="aviso-previa">Conteúdo conferido por verificação independente, com as fontes ao fim de cada rodada.</p>
       </div>
       <div className="menu-mapa" aria-hidden>
         {geo && <WorldMap geo={geo} layers="fronteiras" reveal={demo} interactive={false} ariaLabel="" insetBottom={64} />}
