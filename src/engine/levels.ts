@@ -1,3 +1,4 @@
+import { todayBR } from './date';
 // Dois níveis (decisão do usuário em 09/11/2026): Estagiário e Prime, com diferença moderada de dificuldade.
 export type LevelId = 'estagiario' | 'prime';
 
@@ -26,7 +27,12 @@ export const TIMERS: Record<LevelId, Record<ModuleId, number>> = {
   estagiario: { mapa: 18, bandeiras: 10, mundo: 14, cultura: 14, conflitos: 30 },
   prime: { mapa: 15, bandeiras: 9, mundo: 12, cultura: 12, conflitos: 27 },
 };
-export const timerFor = (level: LevelId, mod: ModuleId) => TIMERS[level][mod];
+// Guerras exigem leitura longa: +25% de tempo (30→38 s e 27→34 s) a partir do Desafio de 10/11/2026,
+// para não mudar as regras no meio do dia em que o ranking estreou.
+const GUERRAS_MAIS_TEMPO = { estagiario: 38, prime: 34 } as const;
+const INICIO_MAIS_TEMPO = '2026-11-10';
+export const timerFor = (level: LevelId, mod: ModuleId) =>
+  mod === 'conflitos' && todayBR() >= INICIO_MAIS_TEMPO ? GUERRAS_MAIS_TEMPO[level] : TIMERS[level][mod];
 
 export const ROUNDS_PER_MODULE = 3;
 
