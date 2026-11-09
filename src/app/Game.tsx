@@ -1,6 +1,8 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { loadFlags } from '../data';
-import { LEVELS, MODULES, MODULE, timerFor, type LevelId, type ModuleId } from '../engine/levels';
+import { LEVELS, MODULE, timerFor, type LevelId, type ModuleId } from '../engine/levels';
+import { fotoSrc } from '../engine/fotos';
+import { FotoRoundView } from '../modules/foto/FotoRoundView';
 import type { Round } from '../engine/match';
 import { tier } from '../engine/scoring';
 import type { RoundResult } from '../engine/storage';
@@ -24,8 +26,8 @@ interface Props {
   onProgresso?: (p: { i: number; results: RoundResult[]; emRodada: boolean }) => void;
 }
 
-const COR: Record<ModuleId, string> = { mapa: '#0071e3', bandeiras: '#e0245e', mundo: '#157a33', cultura: '#8e3fd0', conflitos: '#b84a00' };
-const FALA_MOD: Record<ModuleId, Fala> = { mapa: 'mod-mapa', bandeiras: 'mod-bandeiras', mundo: 'mod-mundo', cultura: 'mod-cultura', conflitos: 'mod-guerras' };
+const COR: Record<ModuleId, string> = { mapa: '#0071e3', bandeiras: '#e0245e', mundo: '#157a33', cultura: '#8e3fd0', foto: '#0a6e8a', conflitos: '#b84a00' };
+const FALA_MOD: Record<ModuleId, Fala> = { mapa: 'mod-mapa', bandeiras: 'mod-bandeiras', mundo: 'mod-mundo', cultura: 'mod-cultura', foto: 'mod-foto', conflitos: 'mod-guerras' };
 
 export function Game({ rounds, level, titulo, onFinish, onQuit, inicio, onProgresso }: Props) {
   const [geo, setGeo] = useState<GeoData | null>(null);
@@ -47,6 +49,9 @@ export function Game({ rounds, level, titulo, onFinish, onQuit, inicio, onProgre
 
   const round = rounds[i];
   const mod = MODULE[round.mod];
+  const modsDaPartida = useMemo(() => [...new Set(rounds.map((r) => r.mod))], [rounds]);
+  // Fotos da partida começam a baixar já na abertura, para o tempo da rodada não esperar a rede.
+  useEffect(() => { for (const r of rounds) if (r.mod === 'foto') { const im = new Image(); im.src = fotoSrc(r.id); } }, [rounds]);
   const ready = round.mod === 'mapa' ? geo : round.mod === 'bandeiras' ? flags : true;
   const total = results.reduce((a, r) => a + r.raw, 0);
 
@@ -81,7 +86,7 @@ export function Game({ rounds, level, titulo, onFinish, onQuit, inicio, onProgre
     const comecar = () => { calar(); setVinheta(false); };
     return (
       <div className="vinheta" data-mod={round.mod} role="dialog" aria-labelledby="vinheta-titulo">
-        <AnimVinheta numero={mod.numero} total={MODULES.length} titulo={mod.nome} chamada={mod.chamada} cor={COR[round.mod]} icone={round.mod} nivel={LEVELS[level].titulo} />
+        <AnimVinheta numero={modsDaPartida.indexOf(round.mod) + 1} total={modsDaPartida.length} titulo={mod.nome} chamada={mod.chamada} cor={COR[round.mod]} icone={round.mod} nivel={LEVELS[level].titulo} />
         <div className="vinheta-texto">
           <p className="vinheta-nivel">{titulo} · {LEVELS[level].titulo}</p>
           {retomada && results.length === i && i === inicio!.i && <p className="vinheta-retomada">Partida retomada na rodada {i + 1} de {rounds.length}.{inicio!.results.some((r) => r.detail === 'rodada interrompida') ? ' A rodada que estava na tela quando a página recarregou contou zero.' : ''}</p>}
@@ -129,6 +134,9 @@ export function Game({ rounds, level, titulo, onFinish, onQuit, inicio, onProgre
         )}
         {(round.mod === 'mundo' || round.mod === 'cultura') && (
           <QuizRoundView key={i} round={round} level={level} flags={flags} onTimer={onTimer} onResolved={onResolved} onNext={next} isLast={i + 1 === rounds.length} />
+        )}
+        {round.mod === 'foto' && (
+          <FotoRoundView key={i} round={round} level={level} onTimer={onTimer} onResolved={onResolved} onNext={next} isLast={i + 1 === rounds.length} />
         )}
         {round.mod === 'bandeiras' && flags && (
           <FlagRoundView key={i} round={round} level={level} flags={flags} onTimer={onTimer} onResolved={onResolved} onNext={next} isLast={i + 1 === rounds.length} />

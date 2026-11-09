@@ -6,7 +6,8 @@ import { haversineKm } from './geo';
 import { dailyItems, flagPool, generateMatch, mapPool, _internals, type FlagRound } from './match';
 import { finalScore, mapPrecision, roundPoints, shareSymbol } from './scoring';
 import { quizPrecision, temaDaKey, temaPool, _quizInternals, TEMAS_CULTURA, TEMAS_MUNDO, type QuizRound } from './quiz';
-import { MAX_RAW, MODULES, PRIME_MIN_RAW, ROUNDS_PER_MODULE, TIMERS } from './levels';
+import { FOTO_DESDE, maxRaw, modulosDoDia, primeMinRaw, ROUNDS_PER_MODULE, temposDoDia } from './levels';
+import { FOTO, fotoPrecision, fotoRound } from './fotos';
 import { CONFLITO, CONFLITOS, CONFLITOS_JOGO, EM_JOGO, PISTAS, conflictItems, conflictRound, dossieRound, ladosPrecision, ladosRound } from './conflitos';
 import { rngFrom } from './rng';
 import type { ConflictRound } from './match';
@@ -303,16 +304,36 @@ describe('quiz: Mundo hoje e Cultura', () => {
 });
 
 describe('partida de até 5 minutos e liberação do Prime', () => {
-  it('três rodadas por módulo, cinco módulos, tempo máximo de resposta abaixo de 4 min 20 s', () => {
-    expect(MODULES.map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'conflitos']);
-    for (const l of ['estagiario', 'prime'] as const) {
-      const total = MODULES.reduce((a, m) => a + TIMERS[l][m.id] * ROUNDS_PER_MODULE, 0);
-      expect(total).toBeLessThanOrEqual(260);
+  it('três rodadas por módulo e tempo máximo de resposta de até 5 minutos, antes e depois do módulo Foto', () => {
+    expect(modulosDoDia('2026-11-10').map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'conflitos']);
+    expect(modulosDoDia('2099-01-01').map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'foto', 'conflitos']);
+    for (const dia of ['2026-11-09', '2026-11-10', '2099-01-01']) for (const l of ['estagiario', 'prime'] as const) {
+      const total = modulosDoDia(dia).reduce((a, m) => a + temposDoDia(dia)[l][m.id] * ROUNDS_PER_MODULE, 0);
+      expect(total).toBeLessThanOrEqual(300);
     }
+    expect(temposDoDia('2026-11-10').estagiario.conflitos).toBe(38);
   });
-  it('Prime libera com 60% do máximo bruto', () => {
-    expect(MAX_RAW).toBe(15000);
-    expect(PRIME_MIN_RAW).toBe(9000);
+  it('Prime libera com 60% do máximo bruto do dia', () => {
+    expect(maxRaw('2026-11-10')).toBe(15000);
+    expect(primeMinRaw('2026-11-10')).toBe(9000);
+    expect(maxRaw('2099-01-01')).toBe(18000);
+    expect(primeMinRaw('2099-01-01')).toBe(10800);
+    expect(FOTO_DESDE >= '2026-11-10').toBe(true);
+  });
+  it('foto: cinco anos igualmente espaçados com a resposta, dentro de 1880–2026; pontuação parcial', () => {
+    const f = { id: 't', ano: 2021, titulo: '', acervo: '', autor: '', licenca: '', url: '', w: 4, h: 3 };
+    FOTO.set('t', f);
+    try {
+      for (let k = 0; k < 50; k++) for (const level of ['estagiario', 'prime'] as const) {
+        const r = fotoRound(rngFrom('f' + k), level, 't');
+        expect(r.opcoes[r.certo]).toBe(2021);
+        expect(Math.max(...r.opcoes)).toBeLessThanOrEqual(2026);
+        expect(new Set(r.opcoes.map((a, i) => (i ? a - r.opcoes[i - 1] : r.passo))).size).toBe(1);
+        expect(fotoPrecision(r, r.certo)).toBe(1);
+        if (r.certo > 0) expect(fotoPrecision(r, r.certo - 1)).toBe(0.6);
+        expect(fotoPrecision(r, null)).toBe(0);
+      }
+    } finally { FOTO.delete('t'); }
   });
   it('partidas de 60 dias seguidos geram sem erro nos dois níveis', () => {
     for (const level of ['estagiario', 'prime'] as const) for (let d = 0; d < 60; d++) {

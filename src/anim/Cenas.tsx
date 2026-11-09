@@ -19,7 +19,7 @@ export const PALETA = ['#0071e3', '#e0245e', '#157a33', '#8e3fd0', '#b84a00', '#
 const SERIFA = "'Playfair Display', Georgia, 'Times New Roman', serif";
 const ORBITA = [
   { cor: '#0071e3', icone: 'globo' }, { cor: '#e0245e', icone: 'bandeira' }, { cor: '#157a33', icone: 'moeda' },
-  { cor: '#8e3fd0', icone: 'arte' }, { cor: '#b84a00', icone: 'escudo' },
+  { cor: '#8e3fd0', icone: 'arte' }, { cor: '#0a6e8a', icone: 'camera' }, { cor: '#b84a00', icone: 'escudo' },
 ] as const;
 
 const IconeOrbita = ({ icone }: { icone: (typeof ORBITA)[number]['icone'] }) => {
@@ -27,6 +27,7 @@ const IconeOrbita = ({ icone }: { icone: (typeof ORBITA)[number]['icone'] }) => 
   if (icone === 'globo') return <g {...t}><circle r="7.5" /><ellipse rx="3.4" ry="7.5" /><path d="M-7.5 0H7.5M-6.4 -3.8H6.4M-6.4 3.8H6.4" /></g>;
   if (icone === 'bandeira') return <g {...t}><path d="M-6 8V-8" /><path d="M-6 -7H6L3.5 -3L6 1H-6" fill="#fff" fillOpacity={0.9} /></g>;
   if (icone === 'moeda') return <g {...t}><circle r="7.5" /><text x="0" y="3.6" textAnchor="middle" fontSize="9.5" fontWeight="800" fill="#fff" stroke="none" fontFamily="Inter, Arial">$</text></g>;
+  if (icone === 'camera') return <g {...t}><rect x="-8" y="-4.5" width="16" height="11" rx="2" /><path d="M-3.5 -4.5L-2 -7H2L3.5 -4.5" /><circle cy="1" r="3.2" /></g>;
   if (icone === 'arte') return <g {...t}><rect x="-7.5" y="-6" width="15" height="12" rx="1.5" /><path d="M-5.5 4L-1.5 -0.5L1.5 2.5L3.5 0.5L5.5 4" /><circle cx="3.2" cy="-2.6" r="1.2" fill="#fff" /></g>;
   return <g {...t}><path d="M0 -8L6.5 -5.5V0.5C6.5 4.5 3.6 7 0 8.3C-3.6 7 -6.5 4.5 -6.5 0.5V-5.5Z" /><path d="M-3 0.5L-0.8 2.8L3.2 -1.6" /></g>;
 };
@@ -162,7 +163,23 @@ const Radar = ({ frame, size }: { frame: number; size: number }) => (
   </svg>
 );
 
-const ICONE = { mapa: Globo, bandeiras: Bandeira, mundo: Moedas, cultura: Moldura, conflitos: Radar } as const;
+// Câmera: o obturador se abre e um flash pisca.
+const Camera = ({ frame, size }: { frame: number; size: number }) => {
+  const abre = interpolate(frame, [6, 26], [0, 1], { ...clamp, easing: SUAVE });
+  const flash = interpolate(frame, [26, 30, 44], [0, 1, 0], clamp);
+  return (
+    <svg width={size} height={size} viewBox="0 0 300 300">
+      <rect x={40} y={90} width={220} height={150} rx={22} fill="rgba(255,255,255,0.14)" stroke="#fff" strokeWidth={10} />
+      <rect x={105} y={62} width={80} height={34} rx={10} fill="#fff" />
+      <circle cx={150} cy={165} r={52} fill="none" stroke="#fff" strokeWidth={10} />
+      <circle cx={150} cy={165} r={40 * abre} fill="#fff" opacity={0.85} />
+      <circle cx={220} cy={118} r={9} fill="#fff" />
+      <rect x={0} y={0} width={300} height={300} fill="#fff" opacity={flash * 0.55} />
+    </svg>
+  );
+};
+
+const ICONE = { mapa: Globo, bandeiras: Bandeira, mundo: Moedas, cultura: Moldura, foto: Camera, conflitos: Radar } as const;
 export type IconeId = keyof typeof ICONE;
 
 // ---------- Vinheta de módulo ----------

@@ -16,6 +16,7 @@
   --c-mundo: #157a33;
   --c-cultura: #8e3fd0;
   --c-conflitos: #b84a00;
+  --c-foto: #0a6e8a;
   --c-prime: #b8860b;
   --c-certo: #157a33;
   --c-errado: #d70015;
@@ -604,3 +605,14 @@ h1, h2, h3 { font-weight: 800; }
 .ranking-colocacao { font-size: var(--t1); }
 .ranking-voce-bloco .botao-texto, .ranking-voce-bloco .sair-confirma { align-self: flex-start; }
 .ranking-legenda { margin-bottom: 10px; }
+
+/* ---------- Foto ---------- */
+[data-mod='foto'] { --cor: var(--c-foto); }
+.rodada-foto { display: flex; flex-direction: column; gap: 16px; max-width: 920px; margin: 0 auto; width: 100%; }
+.foto-quadro { position: relative; margin: 0; width: 100%; max-height: 56vh; background: #111; border-radius: var(--raio-grande, 20px); overflow: hidden; display: flex; align-items: center; justify-content: center; box-shadow: var(--sombra); }
+.foto-quadro img { width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity 0.35s ease; user-select: none; }
+.foto-quadro img.foto-pronta { opacity: 1; }
+.foto-carregando { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 12px; color: #f5f5f7; font-weight: 600; }
+.foto-opcoes { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.foto-opcoes .opcao { justify-content: center; font-size: var(--t1, 1.25rem); font-variant-numeric: tabular-nums; font-weight: 700; }
+@media (max-width: 560px) { .foto-opcoes { grid-template-columns: repeat(3, minmax(0, 1fr)); } .foto-quadro { max-height: 44vh; } }

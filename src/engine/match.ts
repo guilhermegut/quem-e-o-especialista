@@ -1,6 +1,8 @@
 import { CITIES, CITY, COUNTRIES, COUNTRY, CONTENT_VERSION, IDENTICAL_DE, SIMILAR, type City } from '../data';
 import { dayIndex } from './date';
-import { MODULES, ROUNDS_PER_MODULE, type LevelId, type ModuleId } from './levels';
+import { modulosDoDia, ROUNDS_PER_MODULE, type LevelId, type ModuleId } from './levels';
+import { todayBR } from './date';
+import { FOTOS, fotoRound, type FotoRound } from './fotos';
 import { rngFrom, shuffle, type Rng } from './rng';
 const pick = <T,>(rng: Rng, arr: T[]) => arr[Math.floor(rng() * arr.length)];
 import { TEMAS_CULTURA, TEMAS_MUNDO, quizRound, temaDaKey, temaPool, type QuizRound, type Tema } from './quiz';
@@ -27,8 +29,8 @@ export interface FlagClassic { mod: 'bandeiras'; key: string; variant: 'classico
 export interface FlagReveal { mod: 'bandeiras'; key: string; variant: 'revelacao'; answer: string; options: string[]; focus: [number, number] }
 export interface FlagIntruder { mod: 'bandeiras'; key: string; variant: 'intrusa'; pairs: { flag: string; label: string }[]; wrongIndex: number }
 export type FlagRound = FlagClassic | FlagReveal | FlagIntruder;
-export type Round = MapRound | FlagRound | ConflictRound | QuizRound;
-export type { ConflictRound, QuizRound };
+export type Round = MapRound | FlagRound | ConflictRound | QuizRound | FotoRound;
+export type { ConflictRound, QuizRound, FotoRound };
 
 export type MatchSpec =
   | { kind: 'daily'; date: string; level: LevelId }
@@ -72,8 +74,9 @@ export function flagPool(level: LevelId): Item[] {
 }
 
 const quizItems = (tema: Tema, level: LevelId): Item[] => temaPool(tema, level).map((key) => ({ key, cc: key }));
+const fotoPool = (): Item[] => FOTOS.map((f) => ({ key: `foto:${f.id}`, cc: f.id }));
 const poolFor = (mod: ModuleId, level: LevelId): Item[] =>
-  mod === 'mapa' ? mapPool(level) : mod === 'bandeiras' ? flagPool(level) : mod === 'conflitos' ? conflictItems(level) : [];
+  mod === 'mapa' ? mapPool(level) : mod === 'bandeiras' ? flagPool(level) : mod === 'conflitos' ? conflictItems(level) : mod === 'foto' ? fotoPool() : [];
 const TEMAS: Partial<Record<ModuleId, Tema[]>> = { mundo: TEMAS_MUNDO, cultura: TEMAS_CULTURA };
 
 /** Rotação sem repetição de um único tema do quiz: um item por dia, o ciclo embaralhado pela seed. */
@@ -110,6 +113,16 @@ export function dailyItems(mod: ModuleId, level: LevelId, date: string, cv = CON
   if (temas) {
     const rng = rngFrom(`${cv}|${date}|${level}|${mod}|ordem`);
     return shuffle(rng, temas).slice(0, ROUNDS_PER_MODULE).map((t) => dailyQuizItem(t, level, date, cv));
+  }
+  if (mod === 'foto') {
+    // Estagiário e Prime do mesmo dia nunca repetem foto: os dois níveis andam juntos na mesma ordem.
+    const pool = fotoPool();
+    const porDia = ROUNDS_PER_MODULE * 2;
+    const perCycleF = Math.floor(pool.length / porDia);
+    const idxF = Math.max(0, dayIndex(date));
+    const order = shuffle(rngFrom(`${cv}|foto|ciclo${Math.floor(idxF / perCycleF)}`), pool);
+    const ini = (idxF % perCycleF) * porDia + (level === 'prime' ? ROUNDS_PER_MODULE : 0);
+    return order.slice(ini, ini + ROUNDS_PER_MODULE);
   }
   const pool = poolFor(mod, level);
   const perCycle = Math.floor(pool.length / ROUNDS_PER_MODULE);
@@ -189,6 +202,7 @@ export function buildRounds(mod: ModuleId, level: LevelId, items: Item[], rng: R
   if (mod === 'mapa') return items.map((it) => mapRound(it, level));
   if (mod === 'conflitos') return arrangeConflicts(items).map((it, i) => conflictRound(rng, level, it.key.slice(5), i));
   if (mod === 'mundo' || mod === 'cultura') return items.map((it) => quizRound(rng, level, mod, temaDaKey(it.key), it.key));
+  if (mod === 'foto') return items.map((it) => fotoRound(rng, level, it.key.slice(5)));
   const variants = flagVariants(rng, level);
   return items.map((it, i) => flagRound(rng, it, level, variants[i]));
 }
@@ -198,7 +212,7 @@ export const specSeed = (spec: MatchSpec, cv = CONTENT_VERSION) =>
 
 export function generateMatch(spec: MatchSpec, cv = CONTENT_VERSION): Match {
   const rng = rngFrom(specSeed(spec, cv));
-  const modules = MODULES.map((m) => m.id);
+  const modules = modulosDoDia(spec.kind === 'daily' ? spec.date : todayBR()).map((m) => m.id);
   const rounds: Round[] = [];
   for (const mod of modules) {
     const items = spec.kind === 'daily' ? dailyItems(mod, spec.level, spec.date, cv) : freeItems(mod, spec.level, rng);

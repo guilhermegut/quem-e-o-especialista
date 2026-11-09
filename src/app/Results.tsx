@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { countryName } from '../data';
 import { formatDateBR } from '../engine/date';
 import { duelLink, encodeDuel, type DuelPayload } from '../engine/duel';
-import { LEVELS, MAX_RAW, MODULES, PRIME_MIN_RAW } from '../engine/levels';
+import { LEVELS, maxRaw, MODULES, primeMinRaw } from '../engine/levels';
+import { FOTO } from '../engine/fotos';
 import { TEMA_NOME } from '../engine/quiz';
 import type { MatchSpec, Round } from '../engine/match';
 import { finalScore, tier } from '../engine/scoring';
@@ -36,11 +37,14 @@ export function roundLabel(r: Round): string {
     if (r.variant === 'intrusa') return `Dupla errada: ${countryName(r.pairs[r.wrongIndex].flag)}`;
     return `Bandeira: ${countryName(r.answer)}`;
   }
+  if (r.mod === 'foto') return `Foto de ${r.opcoes[r.certo]}: ${FOTO.get(r.id)?.titulo ?? ''}`;
   return `${TEMA_NOME[r.tema]}: ${r.formato === 'pares' ? r.esquerda!.join(', ') : r.opcoes[r.certo[0]]}`;
 }
 
 const TIER_TEXT = { otimo: 'ótimo', bom: 'bom', 'raspão': 'raspão', erro: 'errou' } as const;
-const COR_MOD = { mapa: '#0071e3', bandeiras: '#e0245e', mundo: '#157a33', cultura: '#8e3fd0', conflitos: '#b84a00' } as const;
+const COR_MOD = { mapa: '#0071e3', bandeiras: '#e0245e', mundo: '#157a33', cultura: '#8e3fd0', foto: '#0a6e8a', conflitos: '#b84a00' } as const;
+
+const diaDe = (spec: MatchSpec) => (spec.kind === 'daily' ? spec.date : undefined);
 
 export function falaDoResultado(fracao: number): Fala {
   return fracao >= 0.85 ? 'res-especialista' : fracao >= 0.6 ? 'res-bom' : fracao >= 0.35 ? 'res-medio' : 'res-baixo';
@@ -92,7 +96,7 @@ export function Results({ partes, duel, onHome, prime = null, onPrime, onRanking
 
   useEffect(() => {
     const ultima = notas[notas.length - 1];
-    const fala = falaDoResultado(ultima.bruto / MAX_RAW);
+    const fala = falaDoResultado(ultima.bruto / maxRaw(diaDe(partes[partes.length - 1].spec)));
     if (partes.length === 2) falar([fala, 'fim-prime']);
     else if (prime === 'bloqueado') falar([fala, 'prime-bloqueado']);
     else falar(fala);
@@ -114,14 +118,14 @@ export function Results({ partes, duel, onHome, prime = null, onPrime, onRanking
             {k === 0 && prime === 'liberado' && (
               <section className="prime-aviso prime-liberado" aria-live="polite">
                 <h2>Nível Prime liberado</h2>
-                <p>Você fez {fmtInt(notas[0].bruto)} pontos brutos, acima dos {fmtInt(PRIME_MIN_RAW)} necessários. Dá para jogar o Prime de hoje quando quiser, pelo menu.</p>
+                <p>Você fez {fmtInt(notas[0].bruto)} pontos brutos, acima dos {fmtInt(primeMinRaw(diaDe(p.spec)))} necessários. Dá para jogar o Prime de hoje quando quiser, pelo menu.</p>
                 {onPrime && <button type="button" className="botao botao-prime botao-grande" onClick={onPrime}>Jogar o Nível Prime agora</button>}
               </section>
             )}
             {k === 0 && prime === 'bloqueado' && (
               <section className="prime-aviso prime-bloqueado" aria-live="polite">
                 <h2>Prime fechado</h2>
-                <p>Faltaram {fmtInt(PRIME_MIN_RAW - notas[0].bruto)} pontos brutos para chegar aos {fmtInt(PRIME_MIN_RAW)} (60% do máximo). Amanhã tem novo desafio.</p>
+                <p>Faltaram {fmtInt(primeMinRaw(diaDe(p.spec)) - notas[0].bruto)} pontos brutos para chegar aos {fmtInt(primeMinRaw(diaDe(p.spec)))} (60% do máximo). Amanhã tem novo desafio.</p>
               </section>
             )}
             {k === 0 && duel && rival !== null && (

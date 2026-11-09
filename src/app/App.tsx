@@ -3,7 +3,11 @@ import { CITIES, CONTENT_VERSION, DATA_VERSIONS } from '../data';
 import { formatDateBR, todayBR } from '../engine/date';
 import { decodeDuel, type DuelPayload } from '../engine/duel';
 import { formatKm, haversineKm } from '../engine/geo';
-import { LEVEL_ORDER, LEVELS, MAX_RAW, MODULES, PRIME_MIN_RAW, ROUNDS_PER_MODULE, TIMERS, type LevelId, type ModuleId } from '../engine/levels';
+import { LEVEL_ORDER, LEVELS, maxRaw, modulosDoDia, primeMinRaw, ROUNDS_PER_MODULE, temposDoDia, type LevelId, type ModuleId } from '../engine/levels';
+import { FOTOS } from '../engine/fotos';
+
+const EXTENSO = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete'];
+const listaNomes = (nomes: string[]) => nomes.slice(0, -1).join(', ') + ' e ' + nomes[nomes.length - 1];
 import { flagPool, generateMatch, mapPool, trainingSet, type MatchSpec, type Round } from '../engine/match';
 import { conflictItems } from '../engine/conflitos';
 import { TEMA_NOME as NOME_TEMA, TEMAS_CULTURA, TEMAS_MUNDO, temaPool } from '../engine/quiz';
@@ -120,7 +124,7 @@ export function App() {
             // Nível 1 do desafio de hoje: com 60% o Prime abre e começa na sequência; sem isso, fica só este resultado.
             if (spec.kind === 'daily' && spec.level === 'estagiario' && spec.date === hoje && !duel) {
               const bruto = results.reduce((a, r) => a + r.raw, 0);
-              if (bruto >= PRIME_MIN_RAW) {
+              if (bruto >= primeMinRaw(spec.date)) {
                 salvarAndamento({ tela: 'desbloqueio', spec, ranked, nivel1: parte, i: 0, results: [], emRodada: false });
                 setScreen({ s: 'desbloqueio', nivel1: parte });
                 return;
@@ -156,7 +160,7 @@ export function App() {
         <Pagina titulo="Treinar um módulo" onBack={home}>
           <p className="lead">Rodadas sem fim, fora do ranking. O nível se ajusta ao seu desempenho a cada três rodadas, e o jogo evita repetir o que você viu na última semana.</p>
           <div className="lista-escolha">
-            {MODULES.map((m) => {
+            {modulosDoDia(hoje).map((m) => {
               const l = getTrainingLevel(m.id) ?? getSettings().nivel;
               return (
                 <button key={m.id} type="button" className="escolha escolha-modulo" data-mod={m.id} onClick={() => startTraining(m.id, l)}>
@@ -231,7 +235,7 @@ function Desbloqueio({ nivel1, onJogar, onAgoraNao }: { nivel1: Parte; onJogar: 
   const [resta, setResta] = useState(ESPERA_PRIME);
   const jogarRef = useRef(onJogar);
   jogarRef.current = onJogar;
-  useEffect(() => { falar([falaDoResultado(bruto / MAX_RAW), 'prime-liberado']); }, [bruto]);
+  useEffect(() => { falar([falaDoResultado(bruto / maxRaw()), 'prime-liberado']); }, [bruto]);
   useEffect(() => {
     if (resta <= 0) { jogarRef.current(); return; }
     const t = window.setTimeout(() => setResta((r) => r - 1), 1000);
@@ -242,8 +246,8 @@ function Desbloqueio({ nivel1, onJogar, onAgoraNao }: { nivel1: Parte; onJogar: 
       <AnimCelebracao titulo="Prime liberado" sub="Nível 2 desbloqueado" cor="#b8860b" />
       <h1 id="desbloqueio-titulo" className="desbloqueio-titulo">Você desbloqueou o Nível Prime</h1>
       <p className="desbloqueio-texto">
-        Nível 1 concluído com {fmtInt(score)} pontos ({fmtInt(bruto)} brutos, acima dos {fmtInt(PRIME_MIN_RAW)} necessários).
-        O Prime começa em <strong aria-live="polite">{resta} s</strong>, com cinco módulos de novo, um pouco mais difíceis e multiplicador de 1,25.
+        Nível 1 concluído com {fmtInt(score)} pontos ({fmtInt(bruto)} brutos, acima dos {fmtInt(primeMinRaw())} necessários).
+        O Prime começa em <strong aria-live="polite">{resta} s</strong>, com {EXTENSO[modulosDoDia().length]} módulos de novo, um pouco mais difíceis e multiplicador de 1,25.
       </p>
       <div className="cartao-acoes">
         <button type="button" className="botao botao-prime botao-grande" onClick={onJogar} autoFocus>Começar o Nível Prime agora</button>
@@ -282,9 +286,9 @@ function Menu({ hoje, go, onDaily }: { hoje: string; go: (s: Screen) => void; on
         <p className="menu-data">Desafio de {formatDateBR(hoje)}</p>
         <h1 className="sr-only">Quem é o Especialista</h1>
         <AnimAbertura />
-        <p className="menu-lead">Cinco temas, cinco minutos. Mapa, bandeiras, mundo de hoje, cultura e guerras: todo dia uma partida nova, a mesma para todo mundo.</p>
+        <p className="menu-lead">{modulosDoDia(hoje).length === 6 ? 'Seis temas, cinco minutos. Mapa, bandeiras, mundo de hoje, cultura, fotos e guerras' : 'Cinco temas, cinco minutos. Mapa, bandeiras, mundo de hoje, cultura e guerras'}: todo dia uma partida nova, a mesma para todo mundo.</p>
         <ul className="menu-modulos" aria-label="Módulos da partida">
-          {MODULES.map((m) => <li key={m.id} data-mod={m.id}>{m.nome}</li>)}
+          {modulosDoDia(hoje).map((m) => <li key={m.id} data-mod={m.id}>{m.nome}</li>)}
         </ul>
         <button type="button" className="jogar-hoje" onClick={jogar} autoFocus>
           <span className="jogar-hoje-acao">{est || estIniciado ? 'Jogar de novo, como treino' : 'Jogar o desafio de hoje'}</span>
@@ -293,7 +297,7 @@ function Menu({ hoje, go, onDaily }: { hoje: string; go: (s: Screen) => void; on
         {(est || pri) && (
           <p className="menu-placar">
             Hoje: {est ? `Nível 1, ${fmtInt(est.score)} pontos` : ''}{pri ? ` · Prime, ${fmtInt(pri.score)} pontos` : ''}
-            {est && !liberado ? ` · faltaram ${fmtInt(PRIME_MIN_RAW - rawOf(est))} pontos brutos para o Prime` : ''}
+            {est && !liberado ? ` · faltaram ${fmtInt(primeMinRaw(hoje) - rawOf(est))} pontos brutos para o Prime` : ''}
           </p>
         )}
         {primePendente && <button type="button" className="botao botao-prime" onClick={() => onDaily('prime')}>Jogar o Nível Prime de hoje</button>}
@@ -353,14 +357,15 @@ function DuelScreen({ inicial, onAccept, onCreate, onBack }: { inicial?: string;
 }
 
 function ComoJogar({ onBack }: { onBack: () => void }) {
-  const tempo = (l: LevelId) => MODULES.reduce((a, m) => a + TIMERS[l][m.id] * ROUNDS_PER_MODULE, 0);
+  const mods = modulosDoDia();
+  const tempo = (l: LevelId) => mods.reduce((a, m) => a + temposDoDia()[l][m.id] * ROUNDS_PER_MODULE, 0);
   const dias = (n: number) => `${fmtInt(n)} dias`;
   return (
     <Pagina titulo="Como jogar" onBack={onBack}>
       <div className="texto-corrido">
-        <p>Cada partida tem cinco módulos, sempre nesta ordem, com três rodadas cada: Mapa, Bandeiras, Mundo hoje, Cultura e Guerras. São 15 rodadas e até 15.000 pontos brutos. Somando o tempo de leitura das respostas, a partida cabe em cerca de cinco minutos por nível: o tempo máximo de resposta é de {Math.floor(tempo('estagiario') / 60)} min {tempo('estagiario') % 60} s no Estagiário e {Math.floor(tempo('prime') / 60)} min {tempo('prime') % 60} s no Prime.</p>
+        <p>Cada partida tem {EXTENSO[mods.length]} módulos, sempre nesta ordem, com três rodadas cada: {listaNomes(mods.map((m) => m.nome))}. São {mods.length * ROUNDS_PER_MODULE} rodadas e até {fmtInt(maxRaw())} pontos brutos. Somando o tempo de leitura das respostas, a partida cabe em cerca de cinco minutos por nível: o tempo máximo de resposta é de {Math.floor(tempo('estagiario') / 60)} min {tempo('estagiario') % 60} s no Estagiário e {Math.floor(tempo('prime') / 60)} min {tempo('prime') % 60} s no Prime.</p>
         <h2>Dois níveis</h2>
-        <p>O desafio do dia começa no Nível 1, Estagiário. Se você fizer {fmtInt(PRIME_MIN_RAW)} pontos brutos ou mais (60% do máximo), a tela avisa que o Nível 2, Prime, foi desbloqueado e ele começa na sequência; no fim aparecem os dois resultados. Se preferir parar, fica só o resultado do Nível 1, e o Prime continua disponível no menu até o fim do dia. O Prime é um degrau acima, sem salto brusco: um pouco menos de tempo, alternativas mais próximas da resposta e multiplicador de 1,25. Para valer no ranking, o Prime precisa ter sido liberado pela primeira tentativa do dia no Nível 1.</p>
+        <p>O desafio do dia começa no Nível 1, Estagiário. Se você fizer {fmtInt(primeMinRaw())} pontos brutos ou mais (60% do máximo), a tela avisa que o Nível 2, Prime, foi desbloqueado e ele começa na sequência; no fim aparecem os dois resultados. Se preferir parar, fica só o resultado do Nível 1, e o Prime continua disponível no menu até o fim do dia. O Prime é um degrau acima, sem salto brusco: um pouco menos de tempo, alternativas mais próximas da resposta e multiplicador de 1,25. Para valer no ranking, o Prime precisa ter sido liberado pela primeira tentativa do dia no Nível 1.</p>
         <h2>Mapa</h2>
         <p>Aparece o nome de um país ou de uma cidade. Clique onde fica e confirme. Dentro do país, a precisão é máxima; fora, conta a distância até a fronteira mais próxima. A precisão cai com a distância: a 1.200 km ainda rende 37% no Estagiário; no Prime, a mesma fração exige errar por no máximo 800 km. O mapa é colorido por continente, como num tabuleiro.</p>
         <h2>Bandeiras</h2>
@@ -369,6 +374,10 @@ function ComoJogar({ onBack }: { onBack: () => void }) {
         <p>Uma pergunta sobre moedas, uma sobre líderes do G20 nos últimos 30 anos e uma sobre a religião predominante de um país, em formatos que variam: múltipla escolha, ligue os pares e, no Prime, ache o intruso. Nos líderes, o jogo pergunta por quem comandava o governo: presidentes, primeiros-ministros e chanceleres; na França, na Rússia e na China, pelo presidente; na Arábia Saudita, pelo rei.</p>
         <h2>Cultura</h2>
         <p>Três perguntas por dia, de três destes quatro temas: esporte (Copas do Mundo, Olimpíadas, Fórmula 1 e Bola de Ouro), filosofia, pintura e cultura pop (Oscar, livros e videogames mais vendidos). Nas obras de arte, o jogo pergunta pelo autor e pelo movimento, nunca pelo lugar onde estão.</p>
+        {mods.some((m) => m.id === 'foto') && (<>
+          <h2>Foto</h2>
+          <p>Uma fotografia aparece na tela e você escolhe, entre cinco anos, quando ela foi tirada. Repare nos carros, nas roupas, nos anúncios, nas cores e na própria imagem: grão, nitidez, preto e branco. No Estagiário, os anos estão a cerca de uma década uns dos outros; no Prime, a 3 a 5 anos. Acertar vale 100%; marcar o ano vizinho vale 60%, e o seguinte, 20%. O tempo só começa quando a foto termina de carregar. São {fmtInt(FOTOS.length)} fotos de acervos públicos ou com licença livre, com fonte, autor e licença ao fim de cada rodada.</p>
+        </>)}
         <h2>Guerras</h2>
         <p>O módulo usa {conflictItems('estagiario').length} conflitos dos séculos XX e XXI: as duas guerras mundiais, Afeganistão e Iraque, as guerras com Israel, as guerras do Oriente Médio e as guerras com países europeus como beligerantes principais. Duas dinâmicas se alternam. No Dossiê, as pistas de um conflito aparecem uma de cada vez; com uma pista aberta, o acerto vale 100%, com duas 75%, com três 50% e com as quatro 30%. Em Lados, você diz de que lado estava cada participante.</p>
         <h2>Pontos</h2>

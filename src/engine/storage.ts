@@ -1,5 +1,5 @@
 // localStorage sempre protegido: pode falhar (modo privado, iframe, cota) sem derrubar o jogo.
-import { PRIME_MIN_RAW, type LevelId, type ModuleId } from './levels';
+import { primeMinRaw, type LevelId, type ModuleId } from './levels';
 
 const PREFIX = 'geoduelo:';
 const memory = new Map<string, string>();
@@ -48,7 +48,7 @@ export const dailyDuracao = (date: string, level: LevelId): number | null => {
 
 /** O Prime do dia libera quando a tentativa ranqueada do Estagiário fez ao menos PRIME_MIN_RAW pontos brutos. */
 export const rawOf = (rec: DailyRecord | null) => (rec ? rec.rounds.reduce((a, r) => a + r.raw, 0) : 0);
-export const primeLiberado = (date: string) => rawOf(getDaily(date, 'estagiario')) >= PRIME_MIN_RAW;
+export const primeLiberado = (date: string) => rawOf(getDaily(date, 'estagiario')) >= primeMinRaw(date);
 
 // ---------- Memória de exposição (treino) ----------
 const EXPOSURE_MAX = 400;

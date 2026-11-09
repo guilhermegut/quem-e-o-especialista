@@ -4,7 +4,7 @@ import { getSettings } from '../engine/storage';
 
 export type Fala =
   | 'abertura' | 'nivel-estagiario' | 'nivel-prime'
-  | 'mod-mapa' | 'mod-bandeiras' | 'mod-mundo' | 'mod-cultura' | 'mod-guerras'
+  | 'mod-mapa' | 'mod-bandeiras' | 'mod-mundo' | 'mod-cultura' | 'mod-foto' | 'mod-guerras'
   | 'prime-liberado' | 'prime-bloqueado'
   | 'res-especialista' | 'res-bom' | 'res-medio' | 'res-baixo' | 'fim-prime';
 
