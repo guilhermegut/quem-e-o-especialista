@@ -1,0 +1,940 @@
+{
+ "_nota": "Consultado em 09/11/2026. Filmes pelo título original, como nas fontes. Títulos brasileiros dos livros conferidos na Wikipédia em português (verificação de 09/11/2026); o campo original traz o título na língua original. Pokémon Red e Blue: a fonte agrupa Red, Blue e Yellow; Mario Kart 8 inclui a versão Deluxe.",
+ "oscarFilme": [
+  {
+   "ano": 1997,
+   "filme": "The English Patient",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "filme": "Titanic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "filme": "Shakespeare in Love",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "filme": "American Beauty",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "filme": "Gladiator",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "filme": "A Beautiful Mind",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "filme": "Chicago",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "filme": "The Lord of the Rings: The Return of the King",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "filme": "Million Dollar Baby",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "filme": "Crash",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "filme": "The Departed",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "filme": "No Country for Old Men",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "filme": "Slumdog Millionaire",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "filme": "The Hurt Locker",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "filme": "The King's Speech",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "filme": "The Artist",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "filme": "Argo",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "filme": "12 Years a Slave",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "filme": "Birdman",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "filme": "Spotlight",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "filme": "Moonlight",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "filme": "The Shape of Water",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "filme": "Green Book",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "filme": "Parasite",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "filme": "Nomadland",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "filme": "CODA",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "filme": "Everything Everywhere All at Once",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "filme": "Oppenheimer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "filme": "Anora",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "filme": "One Battle After Another",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Picture",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture"
+    }
+   ]
+  }
+ ],
+ "oscarDirecao": [
+  {
+   "ano": 1998,
+   "diretor": "James Cameron",
+   "filme": "Titanic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "diretor": "Steven Spielberg",
+   "filme": "Saving Private Ryan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "diretor": "Sam Mendes",
+   "filme": "American Beauty",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "diretor": "Steven Soderbergh",
+   "filme": "Traffic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "diretor": "Ron Howard",
+   "filme": "A Beautiful Mind",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "diretor": "Roman Polanski",
+   "filme": "The Pianist",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "diretor": "Peter Jackson",
+   "filme": "The Lord of the Rings: The Return of the King",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "diretor": "Clint Eastwood",
+   "filme": "Million Dollar Baby",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "diretor": "Ang Lee",
+   "filme": "Brokeback Mountain",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "diretor": "Martin Scorsese",
+   "filme": "The Departed",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "diretor": "Joel e Ethan Coen",
+   "filme": "No Country for Old Men",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "diretor": "Danny Boyle",
+   "filme": "Slumdog Millionaire",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "diretor": "Kathryn Bigelow",
+   "filme": "The Hurt Locker",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "diretor": "Tom Hooper",
+   "filme": "The King's Speech",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "diretor": "Michel Hazanavicius",
+   "filme": "The Artist",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "diretor": "Ang Lee",
+   "filme": "Life of Pi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "diretor": "Alfonso Cuarón",
+   "filme": "Gravity",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "diretor": "Alejandro G. Iñárritu",
+   "filme": "Birdman",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "diretor": "Alejandro G. Iñárritu",
+   "filme": "The Revenant",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "diretor": "Damien Chazelle",
+   "filme": "La La Land",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "diretor": "Guillermo del Toro",
+   "filme": "The Shape of Water",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "diretor": "Alfonso Cuarón",
+   "filme": "Roma",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "diretor": "Bong Joon-ho",
+   "filme": "Parasite",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "diretor": "Chloé Zhao",
+   "filme": "Nomadland",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "diretor": "Jane Campion",
+   "filme": "The Power of the Dog",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "diretor": "Daniel Kwan e Daniel Scheinert",
+   "filme": "Everything Everywhere All at Once",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "diretor": "Christopher Nolan",
+   "filme": "Oppenheimer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "diretor": "Sean Baker",
+   "filme": "Anora",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "diretor": "Paul Thomas Anderson",
+   "filme": "One Battle After Another",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Academy Award for Best Director",
+     "u": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Director"
+    }
+   ]
+  }
+ ],
+ "livros": [
+  {
+   "titulo": "O Pequeno Príncipe",
+   "original": "Le Petit Prince",
+   "autor": "Antoine de Saint-Exupéry",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "O Alquimista",
+   "original": "O Alquimista",
+   "autor": "Paulo Coelho",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "Harry Potter e a Pedra Filosofal",
+   "original": "Harry Potter and the Philosopher's Stone",
+   "autor": "J. K. Rowling",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "E Não Sobrou Nenhum",
+   "original": "And Then There Were None",
+   "autor": "Agatha Christie",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "O Hobbit",
+   "original": "The Hobbit",
+   "autor": "J. R. R. Tolkien",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "Alice no País das Maravilhas",
+   "original": "Alice's Adventures in Wonderland",
+   "autor": "Lewis Carroll",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "O Código Da Vinci",
+   "original": "The Da Vinci Code",
+   "autor": "Dan Brown",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "O Apanhador no Campo de Centeio",
+   "original": "The Catcher in the Rye",
+   "autor": "J. D. Salinger",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "O Mundo de Sofia",
+   "original": "Sofies verden",
+   "autor": "Jostein Gaarder",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma História em Duas Cidades",
+   "original": "A Tale of Two Cities",
+   "autor": "Charles Dickens",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ]
+  },
+  {
+   "titulo": "One Piece",
+   "original": "One Piece",
+   "autor": "Eiichiro Oda",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ],
+   "serie": true
+  },
+  {
+   "titulo": "Diário de um Banana",
+   "original": "Diary of a Wimpy Kid",
+   "autor": "Jeff Kinney",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling books",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_books"
+    }
+   ],
+   "serie": true
+  }
+ ],
+ "jogos": [
+  {
+   "titulo": "Minecraft",
+   "editora": "Mojang Studios",
+   "ano": 2011,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Grand Theft Auto V",
+   "editora": "Rockstar Games",
+   "ano": 2013,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Red Dead Redemption 2",
+   "editora": "Rockstar Games",
+   "ano": 2018,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Wii Sports",
+   "editora": "Nintendo",
+   "ano": 2006,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Mario Kart 8",
+   "editora": "Nintendo",
+   "ano": 2014,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "The Elder Scrolls V: Skyrim",
+   "editora": "Bethesda Softworks",
+   "ano": 2011,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "The Witcher 3: Wild Hunt",
+   "editora": "CD Projekt",
+   "ano": 2015,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Super Mario Bros.",
+   "editora": "Nintendo",
+   "ano": 1985,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "The Sims",
+   "editora": "Electronic Arts",
+   "ano": 2000,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Overwatch",
+   "editora": "Blizzard Entertainment",
+   "ano": 2016,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Pokémon Red e Blue",
+   "editora": "Nintendo",
+   "ano": 1996,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Call of Duty: Modern Warfare",
+   "editora": "Activision",
+   "ano": 2019,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Sonic the Hedgehog",
+   "editora": "Sega",
+   "ano": 1991,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Cyberpunk 2077",
+   "editora": "CD Projekt",
+   "ano": 2020,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "Hogwarts Legacy",
+   "editora": "Warner Bros. Games",
+   "ano": 2023,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  },
+  {
+   "titulo": "PUBG: Battlegrounds",
+   "editora": "Krafton",
+   "ano": 2017,
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of best-selling video games",
+     "u": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games"
+    }
+   ]
+  }
+ ]
+}

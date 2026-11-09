@@ -1,0 +1,598 @@
+{
+ "_fonte": "Datas, participantes, lados, desfecho e mortes: Correlates of War (Sarkees e Wayman, Resort to War, 2010), Inter-State v4.0, Intra-State v4.1 e Extra-State v4.0; arquivos em data/raw/cow, conferidos pelo tamanho publicado no site do projeto. Nomes em português: tradução editorial para pt-BR, sem anos no nome para não entregar respostas.",
+ "_marcas": "ini=false: o início no COW diverge da periodização usual (fica fora das perguntas de ano e da linha do tempo). fim=false: o mesmo para o fim. nota: frase exibida no contexto da revelação.",
+ "inter": {
+  "1": {
+   "n": "Intervenção francesa na Espanha"
+  },
+  "4": {
+   "n": "Primeira Guerra Russo-Turca",
+   "nota": "Numeração do Correlates of War, que começa em 1816."
+  },
+  "7": {
+   "n": "Guerra Mexicano-Americana",
+   "fim": false
+  },
+  "10": {
+   "n": "Guerra Austro-Sarda"
+  },
+  "13": {
+   "n": "Primeira Guerra do Schleswig",
+   "fim": false
+  },
+  "16": {
+   "n": "Guerra contra a República Romana"
+  },
+  "19": {
+   "n": "Guerra do Prata"
+  },
+  "22": {
+   "n": "Guerra da Crimeia"
+  },
+  "25": {
+   "n": "Guerra Anglo-Persa"
+  },
+  "28": {
+   "n": "Segunda Guerra de Independência Italiana"
+  },
+  "31": {
+   "n": "Primeira Guerra Hispano-Marroquina"
+  },
+  "34": {
+   "n": "Guerra Ítalo-Pontifícia"
+  },
+  "37": {
+   "n": "Guerra Napolitana"
+  },
+  "40": {
+   "n": "Intervenção Francesa no México",
+   "ini": false
+  },
+  "43": {
+   "n": "Guerra Equatoriano-Colombiana"
+  },
+  "46": {
+   "n": "Segunda Guerra do Schleswig"
+  },
+  "49": {
+   "n": "Guerra do Paraguai",
+   "nota": "O Correlates of War não lista o Uruguai entre os participantes por não atingir seus critérios de participação."
+  },
+  "52": {
+   "n": "Guerra Hispano-Sul-Americana"
+  },
+  "55": {
+   "n": "Guerra das Sete Semanas"
+  },
+  "58": {
+   "n": "Guerra Franco-Prussiana"
+  },
+  "60": {
+   "n": "Primeira Guerra Centro-Americana",
+   "nota": "Numeração do Correlates of War."
+  },
+  "61": {
+   "n": "Segunda Guerra Russo-Turca",
+   "nota": "Numeração do Correlates of War, que começa em 1816."
+  },
+  "64": {
+   "n": "Guerra do Pacífico"
+  },
+  "65": {
+   "n": "Guerra Anglo-Egípcia"
+  },
+  "67": {
+   "n": "Guerra Franco-Chinesa"
+  },
+  "70": {
+   "n": "Segunda Guerra Centro-Americana",
+   "nota": "Numeração do Correlates of War."
+  },
+  "73": {
+   "n": "Primeira Guerra Sino-Japonesa"
+  },
+  "76": {
+   "n": "Guerra dos Trinta Dias",
+   "nota": "Também chamada de Guerra Greco-Turca de 1897."
+  },
+  "79": {
+   "n": "Guerra Hispano-Americana"
+  },
+  "82": {
+   "n": "Rebelião dos Boxers",
+   "nota": "O Correlates of War registra a fase da intervenção estrangeira contra a China.",
+   "ini": false,
+   "fim": false
+  },
+  "83": {
+   "n": "Invasão russa da Manchúria"
+  },
+  "85": {
+   "n": "Guerra Russo-Japonesa"
+  },
+  "88": {
+   "n": "Terceira Guerra Centro-Americana",
+   "nota": "Numeração do Correlates of War."
+  },
+  "91": {
+   "n": "Quarta Guerra Centro-Americana",
+   "nota": "Numeração do Correlates of War."
+  },
+  "94": {
+   "n": "Segunda Guerra Hispano-Marroquina"
+  },
+  "97": {
+   "n": "Guerra Ítalo-Turca"
+  },
+  "100": {
+   "n": "Primeira Guerra Balcânica"
+  },
+  "103": {
+   "n": "Segunda Guerra Balcânica"
+  },
+  "106": {
+   "n": "Primeira Guerra Mundial",
+   "nota": "O Correlates of War só lista Estados com ao menos 100 mortos em combate ou 1.000 soldados em ação; por isso o Brasil não aparece entre os participantes."
+  },
+  "107": {
+   "n": "Guerra de Independência da Estônia"
+  },
+  "108": {
+   "n": "Guerra de Independência da Letônia"
+  },
+  "109": {
+   "n": "Guerra Polaco-Soviética"
+  },
+  "112": {
+   "n": "Guerra contra a República Soviética Húngara"
+  },
+  "115": {
+   "n": "Guerra Greco-Turca"
+  },
+  "116": {
+   "n": "Guerra Franco-Turca"
+  },
+  "117": {
+   "n": "Guerra Polaco-Lituana"
+  },
+  "118": {
+   "n": "Conflito sino-soviético da Ferrovia da China Oriental"
+  },
+  "121": {
+   "n": "Invasão japonesa da Manchúria"
+  },
+  "124": {
+   "n": "Guerra do Chaco"
+  },
+  "125": {
+   "n": "Guerra Saudita-Iemenita"
+  },
+  "127": {
+   "n": "Segunda Guerra Ítalo-Etíope"
+  },
+  "130": {
+   "n": "Segunda Guerra Sino-Japonesa",
+   "fim": false,
+   "nota": "O Correlates of War encerra esta guerra em dezembro de 1941, quando ela passa a integrar a Segunda Guerra Mundial."
+  },
+  "133": {
+   "n": "Batalha do Lago Khasan"
+  },
+  "136": {
+   "n": "Batalhas de Khalkhin Gol"
+  },
+  "139": {
+   "n": "Segunda Guerra Mundial"
+  },
+  "142": {
+   "n": "Guerra de Inverno"
+  },
+  "145": {
+   "n": "Guerra Franco-Tailandesa"
+  },
+  "147": {
+   "n": "Primeira Guerra da Caxemira"
+  },
+  "148": {
+   "n": "Primeira Guerra Árabe-Israelense"
+  },
+  "151": {
+   "n": "Guerra da Coreia"
+  },
+  "153": {
+   "n": "Primeira Crise do Estreito de Taiwan"
+  },
+  "155": {
+   "n": "Crise de Suez"
+  },
+  "156": {
+   "n": "Invasão soviética da Hungria"
+  },
+  "158": {
+   "n": "Guerra de Ifni"
+  },
+  "159": {
+   "n": "Segunda Crise do Estreito de Taiwan"
+  },
+  "160": {
+   "n": "Guerra Sino-Indiana"
+  },
+  "163": {
+   "n": "Guerra do Vietnã",
+   "ini": false,
+   "nota": "O Correlates of War registra aqui a fase entre Estados, a partir de 1965; a fase anterior é tratada como guerra civil."
+  },
+  "166": {
+   "n": "Segunda Guerra da Caxemira"
+  },
+  "169": {
+   "n": "Guerra dos Seis Dias"
+  },
+  "170": {
+   "n": "Guerra do Laos",
+   "ini": false,
+   "nota": "O Correlates of War registra aqui a fase entre Estados, a partir de 1968."
+  },
+  "172": {
+   "n": "Guerra de Atrito",
+   "ini": false
+  },
+  "175": {
+   "n": "Guerra do Futebol"
+  },
+  "176": {
+   "n": "Campanha do Camboja"
+  },
+  "178": {
+   "n": "Guerra de Libertação de Bangladesh",
+   "nota": "O Correlates of War registra a fase entre Índia e Paquistão, em dezembro de 1971."
+  },
+  "181": {
+   "n": "Guerra do Yom Kipur"
+  },
+  "184": {
+   "n": "Invasão turca de Chipre"
+  },
+  "186": {
+   "n": "Intervenção estrangeira em Angola"
+  },
+  "187": {
+   "n": "Guerra de Ogaden"
+  },
+  "189": {
+   "n": "Guerra Cambojano-Vietnamita",
+   "ini": false,
+   "fim": false
+  },
+  "190": {
+   "n": "Guerra Uganda-Tanzânia"
+  },
+  "193": {
+   "n": "Guerra Sino-Vietnamita"
+  },
+  "199": {
+   "n": "Guerra Irã-Iraque"
+  },
+  "202": {
+   "n": "Guerra das Malvinas"
+  },
+  "205": {
+   "n": "Invasão israelense do Líbano"
+  },
+  "207": {
+   "n": "Guerra da Faixa de Aouzou"
+  },
+  "208": {
+   "n": "Conflito de fronteira sino-vietnamita"
+  },
+  "211": {
+   "n": "Guerra do Golfo"
+  },
+  "216": {
+   "n": "Primeira Guerra de Nagorno-Karabakh",
+   "ini": false
+  },
+  "217": {
+   "n": "Guerra do Cenepa"
+  },
+  "219": {
+   "n": "Guerra Eritreia-Etiópia"
+  },
+  "221": {
+   "n": "Guerra do Kosovo"
+  },
+  "223": {
+   "n": "Guerra de Kargil"
+  },
+  "225": {
+   "n": "Invasão do Afeganistão"
+  },
+  "227": {
+   "n": "Invasão do Iraque"
+  }
+ },
+ "intra": {
+  "506": {
+   "n": "Guerra de Independência da Grécia",
+   "fim": false
+  },
+  "510": {
+   "n": "Guerras Liberais"
+  },
+  "526": {
+   "n": "Revolução Farroupilha"
+  },
+  "531": {
+   "n": "Sabinada"
+  },
+  "554": {
+   "n": "Guerra de Independência Húngara"
+  },
+  "572": {
+   "n": "Guerra de Secessão"
+  },
+  "597": {
+   "n": "Terceira Guerra Carlista"
+  },
+  "620": {
+   "n": "Revolução Federalista",
+   "fim": false
+  },
+  "621": {
+   "n": "Revolta da Armada"
+  },
+  "632": {
+   "n": "Guerra de Canudos"
+  },
+  "636": {
+   "n": "Guerra dos Mil Dias"
+  },
+  "652": {
+   "n": "Revolução Mexicana",
+   "fim": false,
+   "nota": "O Correlates of War registra a fase de 1910 a 1914."
+  },
+  "677": {
+   "n": "Guerra Civil Russa",
+   "fim": false
+  },
+  "680": {
+   "n": "Guerra Civil Finlandesa"
+  },
+  "701": {
+   "n": "Guerra Cristera"
+  },
+  "715": {
+   "n": "Revolução Constitucionalista"
+  },
+  "718": {
+   "n": "Guerra Civil Espanhola"
+  },
+  "731": {
+   "n": "La Violencia, na Colômbia"
+  },
+  "775": {
+   "n": "Guerra de Biafra"
+  },
+  "815": {
+   "n": "Revolução Sandinista"
+  },
+  "817": {
+   "n": "Guerra Civil de El Salvador"
+  },
+  "828": {
+   "n": "Guerra dos Contras",
+   "ini": false
+  },
+  "877": {
+   "n": "Guerra da Bósnia"
+  },
+  "915": {
+   "n": "Segunda Guerra da Chechênia",
+   "fim": false
+  }
+ },
+ "extra": {
+  "315": {
+   "n": "Guerra da Cisplatina",
+   "ini": false,
+   "nota": "O Brasil declarou guerra em dezembro de 1825; o Correlates of War conta o combate sustentado a partir de 1826."
+  },
+  "322": {
+   "n": "Primeira Guerra Anglo-Afegã"
+  },
+  "323": {
+   "n": "Primeira Guerra do Ópio"
+  },
+  "343": {
+   "n": "Segunda Guerra do Ópio"
+  },
+  "347": {
+   "n": "Revolta dos Sipaios",
+   "fim": false
+  },
+  "363": {
+   "n": "Guerra dos Dez Anos, em Cuba"
+  },
+  "379": {
+   "n": "Segunda Guerra Anglo-Afegã"
+  },
+  "380": {
+   "n": "Guerra Anglo-Zulu"
+  },
+  "382": {
+   "n": "Primeira Guerra dos Bôeres"
+  },
+  "404": {
+   "n": "Guerra de Independência de Cuba"
+  },
+  "410": {
+   "n": "Revolução Filipina"
+  },
+  "414": {
+   "n": "Guerra Filipino-Americana"
+  },
+  "416": {
+   "n": "Segunda Guerra dos Bôeres"
+  },
+  "442": {
+   "n": "Terceira Guerra Anglo-Afegã"
+  },
+  "457": {
+   "n": "Guerra da Indochina"
+  },
+  "464": {
+   "n": "Revolta dos Mau-Mau",
+   "fim": false
+  },
+  "466": {
+   "n": "Guerra da Argélia"
+  },
+  "469": {
+   "n": "Guerra de Independência de Angola"
+  },
+  "471": {
+   "n": "Guerra de Independência de Moçambique",
+   "fim": false
+  },
+  "476": {
+   "n": "Guerra Soviético-Afegã",
+   "ini": false,
+   "nota": "A intervenção soviética começou em dezembro de 1979; o Correlates of War conta a guerra a partir de 1980."
+  }
+ },
+ "estados": {
+  "United States of America": "Estados Unidos",
+  "United States": "Estados Unidos",
+  "Canada": "Canadá",
+  "Cuba": "Cuba",
+  "Mexico": "México",
+  "Guatemala": "Guatemala",
+  "Honduras": "Honduras",
+  "El Salvador": "El Salvador",
+  "Nicaragua": "Nicarágua",
+  "Colombia": "Colômbia",
+  "Ecuador": "Equador",
+  "Peru": "Peru",
+  "Brazil": "Brasil",
+  "Bolivia": "Bolívia",
+  "Paraguay": "Paraguai",
+  "Chile": "Chile",
+  "Argentina": "Argentina",
+  "United Kingdom": "Reino Unido",
+  "Netherlands": "Países Baixos",
+  "Belgium": "Bélgica",
+  "France": "França",
+  "Spain": "Espanha",
+  "Portugal": "Portugal",
+  "Hanover": "Reino de Hanôver",
+  "Bavaria": "Reino da Baviera",
+  "Prussia": "Prússia",
+  "Germany": "Alemanha",
+  "Baden": "Grão-Ducado de Baden",
+  "Saxony": "Reino da Saxônia",
+  "Wuerttemburg": "Reino de Württemberg",
+  "Hesse Electoral": "Eleitorado de Hesse",
+  "Hesse Grand Ducal": "Grão-Ducado de Hesse",
+  "Mecklenburg Schwerin": "Mecklemburgo-Schwerin",
+  "Poland": "Polônia",
+  "Austria": "Império Austríaco",
+  "Austria-Hungary": "Áustria-Hungria",
+  "Hungary": "Hungria",
+  "Czechoslovakia": "Tchecoslováquia",
+  "Italy": "Itália",
+  "Sardinia/Piedmont": "Reino da Sardenha",
+  "Papal States": "Estados Papais",
+  "Two Sicilies": "Reino das Duas Sicílias",
+  "Modena": "Ducado de Módena",
+  "Tuscany": "Grão-Ducado da Toscana",
+  "Croatia": "Croácia",
+  "Yugoslavia": "Iugoslávia",
+  "Bosnia": "Bósnia e Herzegovina",
+  "Greece": "Grécia",
+  "Cyprus": "Chipre",
+  "Bulgaria": "Bulgária",
+  "Romania": "Romênia",
+  "Russia": "Rússia",
+  "USSR": "URSS",
+  "Estonia": "Estônia",
+  "Latvia": "Letônia",
+  "Lithuania": "Lituânia",
+  "Armenia": "Armênia",
+  "Azerbaijan": "Azerbaijão",
+  "Finland": "Finlândia",
+  "Norway": "Noruega",
+  "Denmark": "Dinamarca",
+  "Chad": "Chade",
+  "Democratic Republic of the Congo": "Zaire",
+  "Uganda": "Uganda",
+  "Tanzania": "Tanzânia",
+  "Somalia": "Somália",
+  "Ethiopia": "Etiópia",
+  "Eritrea": "Eritreia",
+  "Angola": "Angola",
+  "South Africa": "África do Sul",
+  "Morocco": "Marrocos",
+  "Libya": "Líbia",
+  "Iran": "Irã",
+  "Ottoman Empire": "Império Otomano",
+  "Turkey": "Turquia",
+  "Iraq": "Iraque",
+  "Egypt": "Egito",
+  "Syria": "Síria",
+  "Lebanon": "Líbano",
+  "Jordan": "Jordânia",
+  "Israel": "Israel",
+  "Saudi Arabia": "Arábia Saudita",
+  "Yemen Arab Republic": "Iêmen do Norte",
+  "Kuwait": "Kuwait",
+  "Qatar": "Catar",
+  "United Arab Emirates": "Emirados Árabes Unidos",
+  "Oman": "Omã",
+  "Afghanistan": "Afeganistão",
+  "China": "China",
+  "China (PRC)": "China",
+  "Mongolia": "Mongólia",
+  "Taiwan": "Taiwan",
+  "Taiwan (ROC)": "Taiwan",
+  "North Korea": "Coreia do Norte",
+  "South Korea": "Coreia do Sul",
+  "Japan": "Japão",
+  "India": "Índia",
+  "Pakistan": "Paquistão",
+  "Thailand": "Tailândia",
+  "Cambodia": "Camboja",
+  "Laos": "Laos",
+  "Vietnam": "Vietnã",
+  "South Vietnam": "Vietnã do Sul",
+  "Philippines": "Filipinas",
+  "Australia": "Austrália",
+  "New Zealand": "Nova Zelândia"
+ },
+ "_regras_de_nome_por_ano": "Turquia antes de 1923 = Império Otomano; Rússia 1917-1922 = Rússia soviética e 1922-1991 = URSS, antes de 1917 = Império Russo; Alemanha antes de 1871 = Prússia; Itália antes de 1861 = Reino da Sardenha; Iugoslávia antes de 1918 = Sérvia; Vietnã antes de 1976 = Vietnã do Norte; Irã antes de 1935 = Pérsia; França no lado do Eixo na Segunda Guerra = França de Vichy.",
+ "metropoles": {
+  "France": "à França",
+  "Portugal": "a Portugal",
+  "UK": "ao Reino Unido",
+  "Great Britain": "à Grã-Bretanha",
+  "Belgium": "à Bélgica",
+  "Spain": "à Espanha",
+  "Ethiopia": "à Etiópia",
+  "Sudan": "ao Sudão",
+  "Colombia": "à Colômbia",
+  "Soviet Union": "à União Soviética",
+  "Netherlands": "aos Países Baixos",
+  "Japan": "ao Japão",
+  "US": "aos Estados Unidos",
+  "Ottoman Empire": "ao Império Otomano",
+  "Yugoslavia": "à Iugoslávia",
+  "Soviet Russia": "à Rússia soviética",
+  "Russia": "à Rússia",
+  "Serbia": "à Sérvia",
+  "Brazil": "ao Brasil",
+  "Pakistan": "ao Paquistão",
+  "Malaysian Federation": "à Federação da Malásia",
+  "State Union of Serbia and Montenegro": "a Sérvia e Montenegro",
+  "British India": "à Índia britânica"
+ }
+}

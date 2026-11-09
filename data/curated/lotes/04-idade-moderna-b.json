@@ -1,0 +1,612 @@
+[
+  {
+    "id": "invasoes-holandesas-no-brasil",
+    "n": "Invasões holandesas no Brasil",
+    "periodo": "1624–1654",
+    "ini": 1624,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Com Portugal unido à coroa espanhola, a guerra entre a Espanha e as Províncias Unidas fechou os portos holandeses ao açúcar da colônia, e uma companhia holandesa de comércio foi criada para atuar no Atlântico.",
+      "envolvidos": "Uma companhia de comércio de uma república protestante, com tropas majoritariamente europeias e alguns colaboradores locais, contra senhores de engenho, soldados negros e indígenas da colônia de um reino católico.",
+      "estopim": "Uma esquadra da companhia tomou a capital da colônia, retomada no ano seguinte por uma armada espanhola; anos depois, a companhia conquistou Olinda e Recife.",
+      "desfecho": "Depois do governo de Maurício de Nassau, os senhores de engenho se rebelaram, venceram duas batalhas nos montes Guararapes e obtiveram a capitulação dos invasores. Um tratado posterior confirmou a colônia para Portugal, mediante indenização de oito milhões de florins."
+    },
+    "dado": "Maurício de Nassau, que governou a conquista de 1637 a 1644, ficou conhecido por promover a tolerância e os estudos, segundo a Wikipedia em inglês.",
+    "fontes": [
+      {
+        "t": "Wikipedia (pt), Invasões holandesas no Brasil",
+        "u": "https://pt.wikipedia.org/wiki/Invas%C3%B5es_holandesas_no_Brasil"
+      },
+      {
+        "t": "Wikipedia (en), Dutch Brazil",
+        "u": "https://en.wikipedia.org/wiki/Dutch_Brazil"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Luso-brasileiros",
+        "membros": [
+          {
+            "n": "João Fernandes Vieira",
+            "nota": "Senhor de engenho, um dos líderes da Insurreição Pernambucana."
+          },
+          {
+            "n": "André Vidal de Negreiros",
+            "dificil": true
+          },
+          {
+            "n": "Henrique Dias"
+          },
+          {
+            "n": "Filipe Camarão"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Holandeses",
+        "membros": [
+          {
+            "n": "Companhia das Índias Ocidentais",
+            "nota": "Criada em 1621, liderou a conquista."
+          },
+          {
+            "n": "Maurício de Nassau",
+            "nota": "Governou o Brasil holandês de 1637 a 1644."
+          },
+          {
+            "n": "Calabar",
+            "nota": "Apoiou a administração neerlandesa.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-da-restauracao",
+    "n": "Guerra da Restauração",
+    "periodo": "1640–1668",
+    "ini": 1640,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Unido havia seis décadas à coroa vizinha sob um mesmo rei, um reino ibérico via mercadores mais taxados, nobres sem influência, estrangeiros em cargos e colônias expostas a ataques holandeses.",
+      "envolvidos": "Os partidários de uma casa ducal nacional, apoiados por potências inimigas da Espanha, contra a monarquia dos Habsburgos espanhóis.",
+      "estopim": "Aproveitando uma revolta na Catalunha, conspiradores mataram o ministro que representava o governo dos Habsburgos e aclamaram rei um duque no mesmo dia.",
+      "desfecho": "Depois de vitórias em Montijo, nas Linhas de Elvas, no Ameixial e em Montes Claros, um tratado reconheceu a nova dinastia e a independência; o reino cedeu Ceuta."
+    },
+    "dado": "A França firmou aliança com Portugal em 1641.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Portuguese Restoration War",
+        "u": "https://en.wikipedia.org/wiki/Portuguese_Restoration_War"
+      },
+      {
+        "t": "Wikipedia (pt), Guerra da Restauração",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_da_Restaura%C3%A7%C3%A3o"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Portugal e aliados",
+        "membros": [
+          {
+            "n": "D. João IV",
+            "nota": "Duque de Bragança aclamado rei em 1º de dezembro de 1640."
+          },
+          {
+            "n": "França",
+            "nota": "Aliou-se a Portugal em 1641.",
+            "dificil": true
+          },
+          {
+            "n": "Inglaterra",
+            "nota": "Apoiou Portugal.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Espanha",
+        "membros": [
+          {
+            "n": "Filipe IV",
+            "nota": "Rei dos Habsburgos que perdeu Portugal."
+          },
+          {
+            "n": "Miguel de Vasconcelos",
+            "nota": "Ministro do governo dos Habsburgos em Lisboa, morto pelos conjurados.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-civil-inglesa",
+    "n": "Guerra Civil Inglesa",
+    "periodo": "1642–1651",
+    "ini": 1642,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um rei que governou anos sem convocar o Parlamento cobrava tributos contestados, impunha reformas religiosas e enfrentou guerras com os escoceses e uma rebelião na Irlanda.",
+      "envolvidos": "Os partidários do rei contra os da assembleia que ele desafiava, com presbiterianos escoceses e confederados irlandeses também em armas.",
+      "estopim": "O rei ergueu seu estandarte em Nottingham, chamando os súditos às armas.",
+      "desfecho": "Um novo exército profissional venceu em Marston Moor e Naseby; o rei foi julgado e executado, instaurou-se uma república, e uma vitória em Worcester encerrou a guerra."
+    },
+    "dado": "Para a Britannica, foram guerras em todas as Ilhas Britânicas, com escoceses e irlandeses além dos ingleses.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), English Civil War",
+        "u": "https://en.wikipedia.org/wiki/English_Civil_War"
+      },
+      {
+        "t": "Britannica, English Civil Wars",
+        "u": "https://www.britannica.com/event/English-Civil-Wars"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Realistas",
+        "membros": [
+          {
+            "n": "Carlos I",
+            "nota": "Executado em janeiro de 1649."
+          },
+          {
+            "n": "Cavaleiros",
+            "nota": "Apelido dos partidários do rei.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Parlamentaristas",
+        "membros": [
+          {
+            "n": "Parlamento"
+          },
+          {
+            "n": "Oliver Cromwell"
+          },
+          {
+            "n": "Thomas Fairfax",
+            "nota": "Comandou o Novo Exército Modelo.",
+            "dificil": true
+          },
+          {
+            "n": "Cabeças redondas",
+            "nota": "Apelido dos partidários do Parlamento.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "grande-guerra-do-norte",
+    "n": "Grande Guerra do Norte",
+    "periodo": "1700–1721",
+    "ini": 1700,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um reino escandinavo tinha construído um império em volta do mar Báltico e dominava a região; seus vizinhos viram no novo rei, muito jovem, uma oportunidade.",
+      "envolvidos": "Um império do leste, um reino escandinavo vizinho e um rei que governava ao mesmo tempo um Estado alemão e a Polônia, depois reforçados por dois Estados alemães, contra o império báltico.",
+      "estopim": "Os três vizinhos atacaram juntos; o jovem rei derrotou primeiro os russos em Narva e depois derrubou o rei polonês.",
+      "desfecho": "Derrotado em Poltava, o rei fugiu para o Império Otomano e mais tarde morreu na Noruega. A paz de Nystad deu ao vencedor as províncias bálticas e o fez grande potência, com uma cidade fundada durante a guerra como base no Báltico."
+    },
+    "dado": "São Petersburgo foi fundada em 1703, durante a guerra.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Great Northern War",
+        "u": "https://en.wikipedia.org/wiki/Great_Northern_War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Coalizão",
+        "membros": [
+          {
+            "n": "Rússia",
+            "nota": "Liderada por Pedro I."
+          },
+          {
+            "n": "Dinamarca-Noruega"
+          },
+          {
+            "n": "Saxônia-Polônia",
+            "nota": "Governada por Augusto II, que Carlos XII destronou.",
+            "dificil": true
+          },
+          {
+            "n": "Prússia",
+            "nota": "Entrou mais tarde contra a Suécia.",
+            "dificil": true
+          },
+          {
+            "n": "Hanôver",
+            "nota": "Entrou mais tarde contra a Suécia.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Suécia",
+        "membros": [
+          {
+            "n": "Carlos XII",
+            "nota": "Morreu na Noruega em 1718."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-de-sucessao-espanhola",
+    "n": "Guerra de Sucessão Espanhola",
+    "periodo": "1701–1714",
+    "ini": 1701,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "O último rei de uma dinastia morreu sem filhos e deixou em testamento um império mundial a um neto do rei mais poderoso da Europa, enquanto a dinastia rival, que reinava na Áustria, também reivindicava o trono.",
+      "envolvidos": "Uma monarquia francesa, o neto instalado em Madri e um eleitorado alemão contra uma grande aliança do imperador, da monarquia insular britânica e da república dos Países Baixos, com dois Estados trocando de lado durante a guerra.",
+      "estopim": "O rei francês aceitou o testamento que fazia do neto o herdeiro do trono vizinho.",
+      "desfecho": "Depois das vitórias aliadas em Blenheim, Ramillies e Malplaquet, os tratados de Utrecht e Rastatt mantiveram o neto no trono, com a renúncia à sucessão francesa, e deram à Grã-Bretanha Gibraltar, Menorca e direitos de comércio na América espanhola."
+    },
+    "dado": "Portugal e Saboia trocaram de lado durante a guerra.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), War of the Spanish Succession",
+        "u": "https://en.wikipedia.org/wiki/War_of_the_Spanish_Succession"
+      },
+      {
+        "t": "Britannica, War of the Spanish Succession",
+        "u": "https://www.britannica.com/event/War-of-the-Spanish-Succession"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Bourbons",
+        "membros": [
+          {
+            "n": "Luís XIV",
+            "nota": "Avô do pretendente Filipe de Anjou."
+          },
+          {
+            "n": "Filipe V da Espanha",
+            "nota": "Manteve o trono e renunciou à sucessão francesa."
+          },
+          {
+            "n": "Baviera",
+            "nota": "Lutou ao lado da França.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Grande Aliança",
+        "membros": [
+          {
+            "n": "Sacro Império Romano-Germânico"
+          },
+          {
+            "n": "Grã-Bretanha",
+            "nota": "Ganhou Gibraltar e Menorca."
+          },
+          {
+            "n": "República Holandesa",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-de-sucessao-austriaca",
+    "n": "Guerra de Sucessão Austríaca",
+    "periodo": "1740–1748",
+    "ini": 1740,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um imperador sem filhos homens obteve acordos para que a filha herdasse todas as terras da dinastia, mas, com sua morte, vários vizinhos contestaram o direito dela.",
+      "envolvidos": "A herdeira, apoiada por duas potências marítimas, contra um rei do norte da Alemanha e uma coalizão de monarquias católicas rivais, com um Estado alemão trocando de lado.",
+      "estopim": "Dois meses depois da morte do imperador, o rei prussiano invadiu a Silésia.",
+      "desfecho": "Depois de Mollwitz, Dettingen e Fontenoy, a paz de Aix-la-Chapelle confirmou a perda da Silésia para a Prússia; o marido da herdeira já tinha sido eleito imperador."
+    },
+    "dado": "A Saxônia trocou de lado durante a guerra.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), War of the Austrian Succession",
+        "u": "https://en.wikipedia.org/wiki/War_of_the_Austrian_Succession"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Áustria e aliados",
+        "membros": [
+          {
+            "n": "Maria Teresa",
+            "nota": "Filha do imperador Carlos VI, herdeira pela Pragmática Sanção."
+          },
+          {
+            "n": "Grã-Bretanha"
+          },
+          {
+            "n": "República Holandesa",
+            "dificil": true
+          },
+          {
+            "n": "Sardenha",
+            "nota": "Aliou-se à Áustria em 1742.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Prússia e aliados",
+        "membros": [
+          {
+            "n": "Frederico II da Prússia",
+            "nota": "Invadiu a Silésia em dezembro de 1740."
+          },
+          {
+            "n": "França"
+          },
+          {
+            "n": "Baviera",
+            "dificil": true
+          },
+          {
+            "n": "Espanha",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-dos-sete-anos",
+    "n": "Guerra dos Sete Anos",
+    "periodo": "1756–1763",
+    "ini": 1756,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Uma reviravolta diplomática inverteu as alianças na Europa; duas potências coloniais rivais já se enfrentavam por territórios na América do Norte, e um império da Europa Central queria recuperar uma província perdida.",
+      "envolvidos": "Uma potência naval e um reino alemão em ascensão contra uma coalizão de monarquias continentais, da qual um grande império do leste participou até mudar de lado.",
+      "estopim": "O rei prussiano abriu a guerra na Europa invadindo a Saxônia.",
+      "desfecho": "Pelos tratados de Paris e Hubertusburg, a França cedeu à Grã-Bretanha suas possessões norte-americanas a leste do Mississippi, a Prússia manteve a Silésia e os britânicos ganharam o domínio comercial na Índia."
+    },
+    "dado": "Para a Britannica, foi a última grande guerra antes da Revolução Francesa a envolver todas as grandes potências da Europa.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Seven Years' War",
+        "u": "https://en.wikipedia.org/wiki/Seven_Years%27_War"
+      },
+      {
+        "t": "Britannica, Seven Years' War",
+        "u": "https://www.britannica.com/event/Seven-Years-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Grã-Bretanha e Prússia",
+        "membros": [
+          {
+            "n": "Grã-Bretanha"
+          },
+          {
+            "n": "Prússia",
+            "nota": "Invadiu a Saxônia em 1756."
+          },
+          {
+            "n": "Hanôver",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Coalizão",
+        "membros": [
+          {
+            "n": "França"
+          },
+          {
+            "n": "Áustria",
+            "nota": "Queria recuperar a Silésia."
+          },
+          {
+            "n": "Suécia",
+            "dificil": true
+          },
+          {
+            "n": "Saxônia",
+            "dificil": true
+          },
+          {
+            "n": "Espanha",
+            "nota": "Entrou mais tarde na guerra.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-de-independencia-dos-estados-unidos",
+    "n": "Guerra de Independência dos Estados Unidos",
+    "periodo": "1775–1783",
+    "ini": 1775,
+    "reg": "América do Norte",
+    "pistas": {
+      "fundo": "Depois de uma guerra mundial cara, a metrópole passou a cobrar novos impostos e a controlar mais de perto suas colônias da América do Norte, antes deixadas em paz; as medidas punitivas que se seguiram a um protesto em Boston aumentaram a revolta.",
+      "envolvidos": "Treze colônias e seu exército continental, depois apoiadas por uma monarquia rival da metrópole, por outra potência ibérica e pelos holandeses, contra a metrópole, que contava com colonos leais, auxiliares alemães e muitos povos indígenas.",
+      "estopim": "Tiroteios entre milicianos coloniais e soldados britânicos em Lexington e Concord abriram a luta armada.",
+      "desfecho": "Uma vitória em Saratoga convenceu a França a entrar na guerra, a rendição britânica em Yorktown decidiu o conflito, e o Tratado de Paris encerrou a guerra com a independência."
+    },
+    "dado": "A Declaração de Independência foi aprovada em 1776, no segundo ano da guerra.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), American Revolutionary War",
+        "u": "https://en.wikipedia.org/wiki/American_Revolutionary_War"
+      },
+      {
+        "t": "Britannica, American Revolution",
+        "u": "https://www.britannica.com/event/American-Revolution"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Patriotas e aliados",
+        "membros": [
+          {
+            "n": "Exército Continental"
+          },
+          {
+            "n": "França",
+            "nota": "Entrou em 1778, depois de Saratoga."
+          },
+          {
+            "n": "Espanha",
+            "nota": "Entrou em 1779.",
+            "dificil": true
+          },
+          {
+            "n": "República Holandesa",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Grã-Bretanha e aliados",
+        "membros": [
+          {
+            "n": "Grã-Bretanha"
+          },
+          {
+            "n": "Legalistas",
+            "nota": "Colonos fiéis à coroa.",
+            "dificil": true
+          },
+          {
+            "n": "Hessianos",
+            "nota": "Auxiliares alemães contratados pelos britânicos.",
+            "dificil": true
+          },
+          {
+            "n": "Povos indígenas aliados",
+            "nota": "Muitas nações indígenas lutaram ao lado britânico.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "revolucao-haitiana",
+    "n": "Revolução Haitiana",
+    "periodo": "1791–1804",
+    "ini": 1791,
+    "reg": "América Central e Caribe",
+    "pistas": {
+      "fundo": "A colônia mais rica de uma potência europeia no Caribe produzia açúcar com o trabalho de uma maioria escravizada, em condições brutais, enquanto pessoas livres de cor sofriam discriminação e chegavam as ideias de uma revolução na metrópole.",
+      "envolvidos": "Escravizados rebelados, liderados por antigos cativos que se tornaram generais, contra colonos e sucessivos exércitos europeus, entre eles uma expedição enviada para restabelecer a escravidão.",
+      "estopim": "Uma cerimônia religiosa no bosque de Bois Caïman antecedeu o grande levante dos escravizados.",
+      "desfecho": "O primeiro grande líder foi preso e morreu na França; seu sucessor venceu em Vertières, e a independência fez do país o primeiro fundado por pessoas que tinham sido escravizadas. Seguiu-se um massacre dos brancos que restavam."
+    },
+    "dado": "A expedição enviada por Napoleão rompeu um armistício e levou Toussaint Louverture preso para a França, onde ele morreu em 1803, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Haitian Revolution",
+        "u": "https://en.wikipedia.org/wiki/Haitian_Revolution"
+      },
+      {
+        "t": "Britannica, Haitian Revolution",
+        "u": "https://www.britannica.com/topic/Haitian-Revolution"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Revolucionários",
+        "membros": [
+          {
+            "n": "Toussaint Louverture"
+          },
+          {
+            "n": "Jean-Jacques Dessalines",
+            "nota": "Venceu em Vertières e proclamou a independência."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Potências coloniais",
+        "membros": [
+          {
+            "n": "Expedição de Leclerc",
+            "nota": "Enviada por Napoleão em 1802.",
+            "dificil": true
+          },
+          {
+            "n": "Reino Unido",
+            "nota": "Interveio na colônia e foi combatido pelos revolucionários.",
+            "dificil": true
+          },
+          {
+            "n": "Colonos brancos"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerras-revolucionarias-francesas",
+    "n": "Guerras Revolucionárias Francesas",
+    "periodo": "1792–1802",
+    "ini": 1792,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Uma revolução tinha derrubado o poder absoluto do rei num grande reino, e as monarquias vizinhas temiam que ela se espalhasse; duas delas emitiram uma declaração conjunta em Pillnitz.",
+      "envolvidos": "Um governo revolucionário, com um exército de massa recrutado por convocação geral, contra coalizões sucessivas de monarquias europeias.",
+      "estopim": "O governo revolucionário declarou guerra ao imperador austríaco.",
+      "desfecho": "Os invasores foram detidos em Valmy, um jovem general fez campanhas na Itália e no Egito, e tratados como os de Campo Formio, Lunéville e Amiens confirmaram a expansão territorial do país."
+    },
+    "dado": "A convocação geral, a levée en masse, foi decretada em 1793.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), French Revolutionary Wars",
+        "u": "https://en.wikipedia.org/wiki/French_Revolutionary_Wars"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "França revolucionária",
+        "membros": [
+          {
+            "n": "República Francesa"
+          },
+          {
+            "n": "Napoleão Bonaparte",
+            "nota": "Comandou as campanhas da Itália e do Egito."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Coalizões",
+        "membros": [
+          {
+            "n": "Áustria"
+          },
+          {
+            "n": "Prússia"
+          },
+          {
+            "n": "Grã-Bretanha"
+          },
+          {
+            "n": "Rússia",
+            "nota": "Integrou a Segunda Coalizão.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  }
+]

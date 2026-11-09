@@ -1,0 +1,396 @@
+{
+ "filosofos": [
+  {
+   "n": "Platão",
+   "origem": "Atenas, Grécia Antiga",
+   "epoca": "Antiguidade",
+   "obras": [
+    "A República"
+   ],
+   "extra": "Discípulo de Sócrates e mestre de Aristóteles; fundou a Academia, em Atenas.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Platão",
+     "u": "https://pt.wikipedia.org/wiki/Plat%C3%A3o"
+    }
+   ]
+  },
+  {
+   "n": "Aristóteles",
+   "origem": "Estagira, Grécia Antiga",
+   "epoca": "Antiguidade",
+   "obras": [
+    "Ética a Nicômaco",
+    "Política",
+    "Metafísica"
+   ],
+   "extra": "Discípulo de Platão, preceptor de Alexandre, o Grande, e fundador do Liceu.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Aristóteles",
+     "u": "https://pt.wikipedia.org/wiki/Arist%C3%B3teles"
+    }
+   ]
+  },
+  {
+   "n": "Confúcio",
+   "origem": "China (estado de Lu)",
+   "epoca": "Antiguidade",
+   "obras": [
+    "Analectos"
+   ],
+   "conceito": "confucionismo",
+   "extra": "Os Analectos são uma coletânea de aforismos compilada muitos anos após a sua morte.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Confúcio",
+     "u": "https://pt.wikipedia.org/wiki/Conf%C3%BAcio"
+    }
+   ]
+  },
+  {
+   "n": "Sêneca",
+   "origem": "Córdoba, na atual Espanha",
+   "epoca": "Antiguidade",
+   "obras": [
+    "Cartas a Lucílio"
+   ],
+   "conceito": "estoicismo",
+   "extra": "Filósofo estoico, foi tutor do imperador Nero.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Seneca the Younger",
+     "u": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+    }
+   ]
+  },
+  {
+   "n": "Santo Agostinho",
+   "origem": "Tagaste, na província romana da Numídia",
+   "epoca": "Antiguidade tardia",
+   "obras": [
+    "Confissões",
+    "A Cidade de Deus"
+   ],
+   "extra": "Foi bispo de Hipona.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Agostinho de Hipona",
+     "u": "https://pt.wikipedia.org/wiki/Agostinho_de_Hipona"
+    }
+   ]
+  },
+  {
+   "n": "Tomás de Aquino",
+   "origem": "Roccasecca, Itália",
+   "epoca": "Idade Média",
+   "obras": [
+    "Suma Teológica"
+   ],
+   "conceito": "escolástica",
+   "extra": "Frade dominicano, conciliou a fé cristã com o pensamento de Aristóteles.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Tomás de Aquino",
+     "u": "https://pt.wikipedia.org/wiki/Tom%C3%A1s_de_Aquino"
+    }
+   ]
+  },
+  {
+   "n": "Maquiavel",
+   "origem": "Florença",
+   "epoca": "Renascimento",
+   "obras": [
+    "O Príncipe"
+   ],
+   "extra": "O Príncipe foi dedicado a Lourenço II de Médici.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Nicolau Maquiavel",
+     "u": "https://pt.wikipedia.org/wiki/Nicolau_Maquiavel"
+    }
+   ]
+  },
+  {
+   "n": "René Descartes",
+   "origem": "França",
+   "epoca": "Idade Moderna",
+   "obras": [
+    "Discurso sobre o Método",
+    "Meditações sobre Filosofia Primeira"
+   ],
+   "conceito": "racionalismo",
+   "frase": "Penso, logo existo",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), René Descartes",
+     "u": "https://pt.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+    }
+   ]
+  },
+  {
+   "n": "Thomas Hobbes",
+   "origem": "Inglaterra",
+   "epoca": "Século XVII",
+   "obras": [
+    "Leviatã"
+   ],
+   "extra": "Para ele, um estado natural de conflito permanente é superado por um acordo que cria uma autoridade soberana.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Thomas Hobbes",
+     "u": "https://pt.wikipedia.org/wiki/Thomas_Hobbes"
+    }
+   ]
+  },
+  {
+   "n": "John Locke",
+   "origem": "Inglaterra",
+   "epoca": "Século XVII",
+   "obras": [
+    "Dois Tratados sobre o Governo",
+    "Ensaio acerca do Entendimento Humano"
+   ],
+   "conceito": "tábula rasa",
+   "extra": "Considerado o pai do liberalismo e um dos principais nomes do empirismo britânico.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), John Locke",
+     "u": "https://pt.wikipedia.org/wiki/John_Locke"
+    }
+   ]
+  },
+  {
+   "n": "Montesquieu",
+   "origem": "França",
+   "epoca": "Iluminismo",
+   "obras": [
+    "O Espírito das Leis"
+   ],
+   "conceito": "separação dos poderes",
+   "extra": "Defendeu a divisão entre Executivo, Legislativo e Judiciário, adotada por muitas constituições, inclusive a brasileira.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Montesquieu",
+     "u": "https://pt.wikipedia.org/wiki/Montesquieu"
+    }
+   ]
+  },
+  {
+   "n": "Jean-Jacques Rousseau",
+   "origem": "Genebra",
+   "epoca": "Século XVIII",
+   "obras": [
+    "Do Contrato Social",
+    "Emílio, ou Da Educação"
+   ],
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Jean-Jacques Rousseau",
+     "u": "https://pt.wikipedia.org/wiki/Jean-Jacques_Rousseau"
+    }
+   ]
+  },
+  {
+   "n": "Immanuel Kant",
+   "origem": "Königsberg, Prússia",
+   "epoca": "Iluminismo",
+   "obras": [
+    "Crítica da Razão Pura",
+    "Crítica da Razão Prática"
+   ],
+   "conceito": "imperativo categórico",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Immanuel Kant",
+     "u": "https://pt.wikipedia.org/wiki/Immanuel_Kant"
+    }
+   ]
+  },
+  {
+   "n": "Karl Marx",
+   "origem": "Alemanha",
+   "epoca": "Século XIX",
+   "obras": [
+    "O Capital",
+    "Manifesto Comunista"
+   ],
+   "conceito": "materialismo histórico",
+   "extra": "Escreveu o Manifesto Comunista com Friedrich Engels.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Karl Marx",
+     "u": "https://pt.wikipedia.org/wiki/Karl_Marx"
+    }
+   ]
+  },
+  {
+   "n": "Friedrich Nietzsche",
+   "origem": "Prússia, na atual Alemanha",
+   "epoca": "Século XIX",
+   "obras": [
+    "Assim Falou Zaratustra",
+    "Além do Bem e do Mal",
+    "A Gaia Ciência"
+   ],
+   "conceito": "além-do-homem",
+   "frase": "Deus está morto",
+   "extra": "A frase aparece em A Gaia Ciência; o além-do-homem, em Assim Falou Zaratustra.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Friedrich Nietzsche",
+     "u": "https://pt.wikipedia.org/wiki/Friedrich_Nietzsche"
+    }
+   ]
+  },
+  {
+   "n": "Jean-Paul Sartre",
+   "origem": "França",
+   "epoca": "Século XX",
+   "obras": [
+    "O Ser e o Nada",
+    "A Náusea"
+   ],
+   "conceito": "existencialismo",
+   "extra": "Recusou o Prêmio Nobel de Literatura de 1964.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Jean-Paul Sartre",
+     "u": "https://pt.wikipedia.org/wiki/Jean-Paul_Sartre"
+    }
+   ]
+  },
+  {
+   "n": "Simone de Beauvoir",
+   "origem": "França",
+   "epoca": "Século XX",
+   "obras": [
+    "O Segundo Sexo"
+   ],
+   "frase": "Não se nasce mulher, torna-se",
+   "extra": "A frase está em O Segundo Sexo, de 1949.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Simone de Beauvoir",
+     "u": "https://pt.wikipedia.org/wiki/Simone_de_Beauvoir"
+    }
+   ]
+  },
+  {
+   "n": "Hannah Arendt",
+   "origem": "Alemanha",
+   "epoca": "Século XX",
+   "obras": [
+    "As Origens do Totalitarismo",
+    "A Condição Humana",
+    "Eichmann em Jerusalém"
+   ],
+   "conceito": "banalidade do mal",
+   "extra": "A expressão aparece em Eichmann em Jerusalém, sobre o julgamento de Adolf Eichmann.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Hannah Arendt",
+     "u": "https://pt.wikipedia.org/wiki/Hannah_Arendt"
+    }
+   ]
+  }
+ ],
+ "livres": [
+  {
+   "pergunta": "Quem foi o mestre de Aristóteles?",
+   "certa": "Platão",
+   "erradas": [
+    "Sêneca",
+    "Confúcio",
+    "Tomás de Aquino"
+   ],
+   "explicacao": "Aristóteles foi discípulo de Platão na Academia, em Atenas.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Aristóteles",
+     "u": "https://pt.wikipedia.org/wiki/Arist%C3%B3teles"
+    }
+   ]
+  },
+  {
+   "pergunta": "Aristóteles foi preceptor de qual futuro governante?",
+   "certa": "Alexandre, o Grande",
+   "erradas": [
+    "Júlio César",
+    "Nero",
+    "Carlos Magno"
+   ],
+   "explicacao": "Aristóteles foi preceptor de Alexandre, o Grande.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Aristóteles",
+     "u": "https://pt.wikipedia.org/wiki/Arist%C3%B3teles"
+    }
+   ]
+  },
+  {
+   "pergunta": "Sêneca foi tutor de qual imperador romano?",
+   "certa": "Nero",
+   "erradas": [
+    "Augusto",
+    "Marco Aurélio",
+    "Constantino"
+   ],
+   "explicacao": "O filósofo estoico Sêneca foi tutor de Nero.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Seneca the Younger",
+     "u": "https://en.wikipedia.org/wiki/Seneca_the_Younger"
+    }
+   ]
+  },
+  {
+   "pergunta": "A quem Maquiavel dedicou O Príncipe?",
+   "certa": "Lourenço II de Médici",
+   "erradas": [
+    "Cosme de Médici",
+    "César Bórgia",
+    "Carlos V"
+   ],
+   "explicacao": "O Príncipe foi dedicado a Lourenço II de Médici.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Nicolau Maquiavel",
+     "u": "https://pt.wikipedia.org/wiki/Nicolau_Maquiavel"
+    }
+   ]
+  },
+  {
+   "pergunta": "Com quem Karl Marx escreveu o Manifesto Comunista?",
+   "certa": "Friedrich Engels",
+   "erradas": [
+    "Friedrich Nietzsche",
+    "Max Weber",
+    "Hegel"
+   ],
+   "explicacao": "O Manifesto Comunista, de 1848, foi escrito por Marx e Engels.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Karl Marx",
+     "u": "https://pt.wikipedia.org/wiki/Karl_Marx"
+    }
+   ]
+  },
+  {
+   "pergunta": "Que prêmio Jean-Paul Sartre recusou em 1964?",
+   "certa": "Nobel de Literatura",
+   "erradas": [
+    "Nobel da Paz",
+    "Prêmio Pulitzer",
+    "Prêmio Goncourt"
+   ],
+   "explicacao": "Sartre recusou o Prêmio Nobel de Literatura de 1964.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Jean-Paul Sartre",
+     "u": "https://pt.wikipedia.org/wiki/Jean-Paul_Sartre"
+    }
+   ]
+  }
+ ]
+}

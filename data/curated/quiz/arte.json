@@ -1,0 +1,259 @@
+{
+ "obras": [
+  {
+   "titulo": "Mona Lisa",
+   "autor": "Leonardo da Vinci",
+   "ano": "iniciada em 1503",
+   "local": "Museu do Louvre",
+   "cidade": "Paris",
+   "movimento": "Renascimento",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Mona Lisa",
+     "u": "https://pt.wikipedia.org/wiki/Mona_Lisa"
+    }
+   ]
+  },
+  {
+   "titulo": "O Nascimento de Vênus",
+   "autor": "Sandro Botticelli",
+   "ano": "c. 1485",
+   "local": "Galeria Uffizi",
+   "cidade": "Florença",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), O Nascimento de Vênus",
+     "u": "https://pt.wikipedia.org/wiki/O_Nascimento_de_V%C3%AAnus"
+    }
+   ]
+  },
+  {
+   "titulo": "A Noite Estrelada",
+   "autor": "Vincent van Gogh",
+   "ano": "1889",
+   "local": "Museu de Arte Moderna (MoMA)",
+   "cidade": "Nova York",
+   "movimento": "Pós-impressionismo",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), A Noite Estrelada",
+     "u": "https://pt.wikipedia.org/wiki/A_Noite_Estrelada"
+    }
+   ]
+  },
+  {
+   "titulo": "O Grito",
+   "autor": "Edvard Munch",
+   "ano": "1893",
+   "local": "Museu Nacional da Noruega",
+   "cidade": "Oslo",
+   "movimento": "Expressionismo",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), O Grito",
+     "u": "https://pt.wikipedia.org/wiki/O_Grito"
+    },
+    {
+     "t": "Wikipedia (en), The Scream",
+     "u": "https://en.wikipedia.org/wiki/The_Scream"
+    }
+   ]
+  },
+  {
+   "titulo": "Guernica",
+   "autor": "Pablo Picasso",
+   "ano": "1937",
+   "local": "Museu Reina Sofía",
+   "cidade": "Madri",
+   "extra": "Retrata o bombardeio da cidade basca de Guernica.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Guernica (quadro)",
+     "u": "https://pt.wikipedia.org/wiki/Guernica_(quadro)"
+    }
+   ]
+  },
+  {
+   "titulo": "A Persistência da Memória",
+   "autor": "Salvador Dalí",
+   "ano": "1931",
+   "local": "Museu de Arte Moderna (MoMA)",
+   "cidade": "Nova York",
+   "movimento": "Surrealismo",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), A Persistência da Memória",
+     "u": "https://pt.wikipedia.org/wiki/A_Persist%C3%AAncia_da_Mem%C3%B3ria"
+    }
+   ]
+  },
+  {
+   "titulo": "Abaporu",
+   "autor": "Tarsila do Amaral",
+   "ano": "1928",
+   "local": "MALBA",
+   "cidade": "Buenos Aires",
+   "movimento": "Antropofagia (modernismo brasileiro)",
+   "extra": "Foi pintado como presente de aniversário para Oswald de Andrade.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Abaporu",
+     "u": "https://pt.wikipedia.org/wiki/Abaporu"
+    }
+   ]
+  },
+  {
+   "titulo": "As Meninas",
+   "autor": "Diego Velázquez",
+   "ano": "1656",
+   "local": "Museu do Prado",
+   "cidade": "Madri",
+   "movimento": "Século de Ouro espanhol",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Las Meninas",
+     "u": "https://en.wikipedia.org/wiki/Las_Meninas"
+    }
+   ]
+  },
+  {
+   "titulo": "Moça com Brinco de Pérola",
+   "autor": "Johannes Vermeer",
+   "ano": "c. 1665",
+   "local": "Mauritshuis",
+   "cidade": "Haia",
+   "movimento": "Século de Ouro neerlandês",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Girl with a Pearl Earring",
+     "u": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+    }
+   ]
+  },
+  {
+   "titulo": "A Ronda Noturna",
+   "autor": "Rembrandt",
+   "ano": "1642",
+   "local": "Rijksmuseum",
+   "cidade": "Amsterdã",
+   "movimento": "Barroco",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), The Night Watch",
+     "u": "https://en.wikipedia.org/wiki/The_Night_Watch"
+    }
+   ]
+  },
+  {
+   "titulo": "Impressão, Sol Nascente",
+   "autor": "Claude Monet",
+   "ano": "1872",
+   "local": "Museu Marmottan Monet",
+   "cidade": "Paris",
+   "movimento": "Impressionismo",
+   "extra": "O título da tela inspirou o nome do movimento impressionista.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Impression, Sunrise",
+     "u": "https://en.wikipedia.org/wiki/Impression,_Sunrise"
+    }
+   ]
+  },
+  {
+   "titulo": "O Beijo",
+   "autor": "Gustav Klimt",
+   "ano": "1907–1908",
+   "local": "Galeria Belvedere",
+   "cidade": "Viena",
+   "movimento": "Secessão de Viena (art nouveau)",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), The Kiss (Klimt)",
+     "u": "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)"
+    }
+   ]
+  },
+  {
+   "titulo": "A Grande Onda de Kanagawa",
+   "autor": "Katsushika Hokusai",
+   "ano": "c. 1831",
+   "movimento": "Ukiyo-e",
+   "extra": "Xilogravura, a primeira da série Trinta e Seis Vistas do Monte Fuji.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), The Great Wave off Kanagawa",
+     "u": "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"
+    }
+   ]
+  },
+  {
+   "titulo": "Latas de Sopa Campbell",
+   "autor": "Andy Warhol",
+   "ano": "1961–1962",
+   "local": "Museu de Arte Moderna (MoMA)",
+   "cidade": "Nova York",
+   "movimento": "Pop art",
+   "extra": "São 32 telas.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Campbell's Soup Cans",
+     "u": "https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans"
+    }
+   ]
+  },
+  {
+   "titulo": "As Duas Fridas",
+   "autor": "Frida Kahlo",
+   "ano": "1939",
+   "local": "Museu de Arte Moderna",
+   "cidade": "Cidade do México",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), The Two Fridas",
+     "u": "https://en.wikipedia.org/wiki/The_Two_Fridas"
+    }
+   ]
+  },
+  {
+   "titulo": "A Escola de Atenas",
+   "autor": "Rafael",
+   "ano": "1509–1511",
+   "local": "Palácio Apostólico",
+   "cidade": "Vaticano",
+   "movimento": "Renascimento",
+   "extra": "É um afresco.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), The School of Athens",
+     "u": "https://en.wikipedia.org/wiki/The_School_of_Athens"
+    }
+   ]
+  },
+  {
+   "titulo": "A Criação de Adão",
+   "autor": "Michelangelo",
+   "ano": "1508–1512",
+   "local": "Teto da Capela Sistina",
+   "cidade": "Vaticano",
+   "extra": "É um afresco.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), The Creation of Adam",
+     "u": "https://en.wikipedia.org/wiki/The_Creation_of_Adam"
+    }
+   ]
+  },
+  {
+   "titulo": "Guerra e Paz",
+   "autor": "Candido Portinari",
+   "ano": null,
+   "extra": "Os painéis foram doados à sede da ONU em 1956; voltaram ao Brasil em 2010 para exposição no Rio.",
+   "fontes": [
+    {
+     "t": "Wikipedia (pt), Candido Portinari",
+     "u": "https://pt.wikipedia.org/wiki/Candido_Portinari"
+    }
+   ]
+  }
+ ]
+}

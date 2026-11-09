@@ -1,0 +1,579 @@
+[
+  {
+    "id": "guerra-civil-chinesa",
+    "n": "Guerra Civil Chinesa",
+    "periodo": "1927–1949",
+    "ini": 1927,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Depois da queda da última dinastia, o país ficou fragmentado entre senhores da guerra; um partido nacionalista e um partido comunista se aliaram para combatê-los numa expedição militar ao norte.",
+      "envolvidos": "O partido nacionalista que governava a república contra o partido comunista, que construiu seu exército no campo; os dois fizeram uma trégua para enfrentar uma invasão estrangeira.",
+      "estopim": "O líder nacionalista expurgou os comunistas, inclusive com um massacre em Xangai.",
+      "desfecho": "Depois de uma longa marcha que consolidou a liderança de Mao, da guerra contra o Japão e da retomada dos combates, os comunistas venceram e proclamaram uma república popular; o governo derrotado se retirou para Taiwan. Nenhum armistício ou tratado de paz foi assinado."
+    },
+    "dado": "A República Popular da China foi proclamada em 1º de outubro de 1949.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Chinese Civil War",
+        "u": "https://en.wikipedia.org/wiki/Chinese_Civil_War"
+      },
+      {
+        "t": "Britannica, Chinese Civil War",
+        "u": "https://www.britannica.com/event/Chinese-Civil-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Nacionalistas",
+        "membros": [
+          {
+            "n": "Kuomintang"
+          },
+          {
+            "n": "Chiang Kai-shek"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Comunistas",
+        "membros": [
+          {
+            "n": "Partido Comunista Chinês"
+          },
+          {
+            "n": "Mao Zedong",
+            "nota": "Consolidou a liderança na Longa Marcha."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "revolucao-constitucionalista",
+    "n": "Revolução Constitucionalista",
+    "periodo": "1932",
+    "ini": 1932,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Depois de uma revolução que levou ao poder um governo provisório, o país era governado por decretos, sem Constituição, e o presidente nomeava interventores para os estados.",
+      "envolvidos": "O estado mais rico do país, quase isolado e com apoio de parte de um estado vizinho do Centro-Oeste, contra as forças do governo federal, mais numerosas.",
+      "estopim": "Quatro jovens foram mortos durante um protesto, e as iniciais de seus sobrenomes deram nome ao movimento que articulou a revolta.",
+      "desfecho": "Os estados que deveriam aderir não aderiram, e os rebeldes se renderam em menos de três meses; ainda assim, o governo convocou uma Assembleia Constituinte, e uma nova Constituição foi promulgada dois anos depois."
+    },
+    "dado": "Os mortos foram 934 pela contagem oficial, com estimativas de até 2.200.",
+    "fontes": [
+      {
+        "t": "Wikipedia (pt), Revolução Constitucionalista de 1932",
+        "u": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Constitucionalista_de_1932"
+      },
+      {
+        "t": "Wikipedia (en), Constitutionalist Revolution",
+        "u": "https://en.wikipedia.org/wiki/Constitutionalist_Revolution"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Constitucionalistas",
+        "membros": [
+          {
+            "n": "São Paulo"
+          },
+          {
+            "n": "MMDC",
+            "nota": "Movimento batizado com as iniciais dos quatro jovens mortos em 23 de maio de 1932.",
+            "dificil": true
+          },
+          {
+            "n": "Parte do Mato Grosso",
+            "nota": "Apoiou os paulistas.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Governo federal",
+        "membros": [
+          {
+            "n": "Getúlio Vargas"
+          },
+          {
+            "n": "Forças federais"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-do-chaco",
+    "n": "Guerra do Chaco",
+    "periodo": "1932–1935",
+    "ini": 1932,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Um país sem saída para o mar desde uma guerra perdida no século anterior buscava acesso ao Atlântico por um rio e disputava com o vizinho uma região que se acreditava rica em petróleo.",
+      "envolvidos": "Dois países sul-americanos sem litoral, um deles derrotado meio século antes numa guerra que lhe tirou a costa.",
+      "estopim": "Escaramuças entre fortins na região disputada, que vinham desde o fim da década anterior, viraram guerra aberta.",
+      "desfecho": "Uma trégua encerrou os combates, e um tratado deu ao vencedor três quartos da região; o derrotado recebeu um corredor e um porto fluvial."
+    },
+    "dado": "Morreram cerca de 100 mil homens, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Chaco War",
+        "u": "https://en.wikipedia.org/wiki/Chaco_War"
+      },
+      {
+        "t": "Britannica, Chaco War",
+        "u": "https://www.britannica.com/event/Chaco-War"
+      }
+    ]
+  },
+  {
+    "id": "guerra-civil-espanhola",
+    "n": "Guerra Civil Espanhola",
+    "periodo": "1936–1939",
+    "ini": 1936,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Uma república jovem estava profundamente polarizada, e uma frente de esquerda venceu por pouco as eleições.",
+      "envolvidos": "Os defensores do governo eleito, com armas de uma superpotência comunista e de um país latino-americano e com voluntários estrangeiros, contra generais rebelados e seus aliados, apoiados por dois regimes fascistas europeus e por um país vizinho.",
+      "estopim": "Um golpe militar de generais fracassou em parte e dividiu o país.",
+      "desfecho": "Depois de bombardeios como o de Guernica e de um acordo de não intervenção que três potências ignoraram, os rebeldes venceram, e seu chefe governou como ditador por mais de três décadas."
+    },
+    "dado": "Morreram cerca de 110 mil combatentes republicanos e 90 mil nacionalistas, além de dezenas a centenas de milhares de civis nas duas zonas, conforme as estimativas.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Spanish Civil War",
+        "u": "https://en.wikipedia.org/wiki/Spanish_Civil_War"
+      },
+      {
+        "t": "Wikipedia (pt), Guerra Civil Espanhola",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_Civil_Espanhola"
+      },
+      {
+        "t": "Spartacus Educational, Spanish Civil War casualties",
+        "u": "https://spartacus-educational.com/SPcasualties.htm"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Republicanos",
+        "membros": [
+          {
+            "n": "Segunda República Espanhola"
+          },
+          {
+            "n": "Brigadas Internacionais",
+            "nota": "Voluntários estrangeiros."
+          },
+          {
+            "n": "União Soviética",
+            "nota": "Ajudou os republicanos.",
+            "dificil": true
+          },
+          {
+            "n": "México",
+            "nota": "Ajudou os republicanos.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Nacionalistas",
+        "membros": [
+          {
+            "n": "Francisco Franco"
+          },
+          {
+            "n": "Itália fascista",
+            "nota": "Apoiou os nacionalistas.",
+            "dificil": true
+          },
+          {
+            "n": "Alemanha nazista",
+            "nota": "Enviou a Legião Condor, principal autora do bombardeio de Guernica.",
+            "dificil": true
+          },
+          {
+            "n": "Portugal",
+            "nota": "Forneceu munições e apoio logístico aos nacionalistas.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "segunda-guerra-sino-japonesa",
+    "n": "Segunda Guerra Sino-Japonesa",
+    "periodo": "1937–1945",
+    "ini": 1937,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Um império insular tinha invadido a Manchúria e criado ali um Estado fantoche.",
+      "envolvidos": "O império insular e seus Estados fantoches contra a república chinesa, cujos nacionalistas e comunistas fizeram uma frente comum.",
+      "estopim": "Um choque perto de uma ponte nos arredores de Pequim virou guerra em larga escala.",
+      "desfecho": "Os invasores tomaram a capital nacionalista e cometeram um massacre; depois de anos de impasse, a guerra se fundiu à guerra mundial e terminou com a rendição do império insular."
+    },
+    "dado": "A guerra causou cerca de 20 milhões de mortes, a maioria de civis chineses; em Nanquim, até 300 mil civis e soldados rendidos foram mortos, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Second Sino-Japanese War",
+        "u": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War"
+      },
+      {
+        "t": "Britannica, Second Sino-Japanese War",
+        "u": "https://www.britannica.com/event/Second-Sino-Japanese-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "China",
+        "membros": [
+          {
+            "n": "República da China"
+          },
+          {
+            "n": "Partido Comunista Chinês",
+            "nota": "Fez frente comum com os nacionalistas contra o Japão.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Japão",
+        "membros": [
+          {
+            "n": "Império do Japão"
+          },
+          {
+            "n": "Manchukuo",
+            "nota": "Estado fantoche criado na Manchúria.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "segunda-guerra-mundial",
+    "n": "Segunda Guerra Mundial",
+    "periodo": "1939–1945",
+    "ini": 1939,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Tensões mal resolvidas da guerra mundial anterior, o ressentimento alemão contra o tratado de paz, a ascensão do fascismo e do nazismo, a expansão de um império asiático e a política de apaziguamento.",
+      "envolvidos": "Uma aliança de democracias ocidentais, de um país asiático já invadido pelo vizinho, de um Estado comunista que antes tinha feito um pacto com o agressor e, depois, da maior potência das Américas, contra uma aliança de três potências expansionistas e seus parceiros europeus.",
+      "estopim": "A Alemanha invadiu a Polônia, e o Reino Unido e a França lhe declararam guerra.",
+      "desfecho": "Depois do Holocausto, a Alemanha se rendeu; meses depois, após os bombardeios atômicos de Hiroshima e Nagasaki, o Japão também capitulou. Surgiram as Nações Unidas, e começou a Guerra Fria."
+    },
+    "dado": "Estima-se que morreram de 60 a 75 milhões de pessoas.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), World War II",
+        "u": "https://en.wikipedia.org/wiki/World_War_II"
+      },
+      {
+        "t": "Wikipedia (en), Brazil in World War II",
+        "u": "https://en.wikipedia.org/wiki/Brazil_in_World_War_II"
+      },
+      {
+        "t": "Britannica, Bulgaria: World War II",
+        "u": "https://www.britannica.com/place/Bulgaria/World-War-II"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Aliados",
+        "membros": [
+          {
+            "n": "Reino Unido"
+          },
+          {
+            "n": "França"
+          },
+          {
+            "n": "União Soviética",
+            "nota": "Antes tinha assinado com a Alemanha um pacto para dividir a Polônia; foi invadida em 1941.",
+            "dificil": true
+          },
+          {
+            "n": "Estados Unidos",
+            "nota": "Entraram depois do ataque a Pearl Harbor, em 1941."
+          },
+          {
+            "n": "China"
+          },
+          {
+            "n": "Brasil",
+            "nota": "Declarou guerra ao Eixo em 1942 e mandou a Força Expedicionária Brasileira lutar na Itália.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Eixo",
+        "membros": [
+          {
+            "n": "Alemanha"
+          },
+          {
+            "n": "Japão"
+          },
+          {
+            "n": "Itália",
+            "nota": "Membro central do Eixo; depois do armistício de 1943, o novo governo passou para o lado dos Aliados."
+          },
+          {
+            "n": "Hungria",
+            "dificil": true
+          },
+          {
+            "n": "Romênia",
+            "dificil": true,
+            "nota": "Aderiu ao Eixo em 1940; em 1944, depois de um golpe, passou para o lado dos Aliados."
+          },
+          {
+            "n": "Bulgária",
+            "dificil": true,
+            "nota": "Aderiu ao Eixo em 1941; em 1944, depois de um golpe, declarou guerra à Alemanha e passou para o lado dos Aliados."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-da-indochina",
+    "n": "Guerra da Indochina",
+    "periodo": "1946–1954",
+    "ini": 1946,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Depois de décadas de domínio colonial francês e da ocupação japonesa na guerra mundial, um líder revolucionário declarou a independência, mas a antiga metrópole decidiu retomar o controle.",
+      "envolvidos": "Uma potência colonial europeia, com Estados associados locais e ajuda americana, contra uma frente independentista liderada por comunistas e apoiada pelo vizinho comunista do norte.",
+      "estopim": "Um bombardeio naval francês contra o porto de Haiphong e, no mês seguinte, combates em Hanói.",
+      "desfecho": "Depois da derrota francesa no cerco de Dien Bien Phu, acordos assinados em Genebra dividiram provisoriamente o país no paralelo 17."
+    },
+    "dado": "A divisão, que deveria ser provisória, criou um norte dominado pelos comunistas e um sul apoiado pelos Estados Unidos, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), First Indochina War",
+        "u": "https://en.wikipedia.org/wiki/First_Indochina_War"
+      },
+      {
+        "t": "Britannica, Indochina wars",
+        "u": "https://www.britannica.com/event/Indochina-wars"
+      },
+      {
+        "t": "Wikipedia (en), Haiphong incident",
+        "u": "https://en.wikipedia.org/wiki/Haiphong_incident"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "União Francesa",
+        "membros": [
+          {
+            "n": "França"
+          },
+          {
+            "n": "Estado do Vietnã",
+            "dificil": true
+          },
+          {
+            "n": "Reino do Laos",
+            "dificil": true
+          },
+          {
+            "n": "Reino do Camboja",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Independentistas",
+        "membros": [
+          {
+            "n": "Viet Minh"
+          },
+          {
+            "n": "Ho Chi Minh",
+            "nota": "Declarou a independência em 1945."
+          },
+          {
+            "n": "China",
+            "nota": "A República Popular, fundada em 1949, apoiou o Viet Minh.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "primeira-guerra-arabe-israelense",
+    "n": "Primeira Guerra Árabe-Israelense",
+    "periodo": "1948–1949",
+    "ini": 1948,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "O fim de um mandato britânico se aproximava, e um plano de partilha aprovado na ONU, rejeitado pelos árabes, já tinha levado a uma guerra civil entre árabes e judeus no território.",
+      "envolvidos": "Um Estado recém-declarado contra cinco Estados árabes, quatro deles vizinhos, e um exército de voluntários árabes.",
+      "estopim": "Com o fim do mandato, os Estados árabes invadiram o território.",
+      "desfecho": "O novo Estado venceu, e armistícios fixaram fronteiras de fato; a Transjordânia ocupou e depois anexou a Cisjordânia, e o Egito ocupou a Faixa de Gaza. Centenas de milhares de árabes palestinos fugiram ou foram expulsos."
+    },
+    "dado": "Mais de 600 mil árabes palestinos, provavelmente mais de 700 mil, foram deslocados; os árabes lembram a guerra como Nakba, a catástrofe, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), 1948 Arab–Israeli War",
+        "u": "https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War"
+      },
+      {
+        "t": "Britannica, 1948 Arab-Israeli War",
+        "u": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+      },
+      {
+        "t": "Wikipedia (en), Jordanian annexation of the West Bank",
+        "u": "https://en.wikipedia.org/wiki/Jordanian_annexation_of_the_West_Bank"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Israel",
+        "membros": [
+          {
+            "n": "Israel"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Estados árabes",
+        "membros": [
+          {
+            "n": "Egito"
+          },
+          {
+            "n": "Transjordânia"
+          },
+          {
+            "n": "Síria"
+          },
+          {
+            "n": "Iraque",
+            "nota": "Nunca assinou armistício.",
+            "dificil": true
+          },
+          {
+            "n": "Líbano",
+            "dificil": true,
+            "nota": "Participou pouco: seu exército fez uma única ofensiva."
+          },
+          {
+            "n": "Exército de Libertação Árabe",
+            "nota": "Força de voluntários árabes.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "revolucao-cubana",
+    "n": "Revolução Cubana",
+    "periodo": "1953–1959",
+    "ini": 1953,
+    "reg": "América Central e Caribe",
+    "pistas": {
+      "fundo": "Um general tinha tomado o poder num golpe e governava uma ilha caribenha marcada pela corrupção e pelo forte peso econômico dos Estados Unidos.",
+      "envolvidos": "Um movimento guerrilheiro de jovens revolucionários contra o ditador e seu exército.",
+      "estopim": "Um ataque a um quartel em Santiago de Cuba fracassou; depois do exílio e de um treinamento no México, os líderes voltaram de barco.",
+      "desfecho": "Os sobreviventes do desembarque se reagruparam na Sierra Maestra; depois da tomada de Santa Clara, o ditador fugiu no primeiro dia do ano, e o movimento passou a governar."
+    },
+    "dado": "Fidel Castro governou Cuba de 1959 a 2008, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Cuban Revolution",
+        "u": "https://en.wikipedia.org/wiki/Cuban_Revolution"
+      },
+      {
+        "t": "Britannica, Cuban Revolution",
+        "u": "https://www.britannica.com/event/Cuban-Revolution"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Revolucionários",
+        "membros": [
+          {
+            "n": "Fidel Castro"
+          },
+          {
+            "n": "Che Guevara"
+          },
+          {
+            "n": "Raúl Castro"
+          },
+          {
+            "n": "Camilo Cienfuegos",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Governo",
+        "membros": [
+          {
+            "n": "Fulgencio Batista",
+            "nota": "Fugiu em 1º de janeiro de 1959."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-da-argelia",
+    "n": "Guerra da Argélia",
+    "periodo": "1954–1962",
+    "ini": 1954,
+    "reg": "África",
+    "pistas": {
+      "fundo": "Uma colônia norte-africana ocupada havia mais de um século era dominada por colonos europeus, com desigualdade legal, e um massacre no fim da guerra mundial aumentou o ressentimento.",
+      "envolvidos": "Um movimento nacionalista armado e seu exército de guerrilha contra a metrópole, que contava com auxiliares muçulmanos locais e, no fim, enfrentou também uma organização clandestina de militares e colonos contrária à independência.",
+      "estopim": "Uma onda de ataques coordenados do movimento contra alvos militares e civis em vários pontos do território abriu a guerra.",
+      "desfecho": "Depois da batalha de Argel, de denúncias de tortura e de uma crise que levou um general ao poder na metrópole, acordos assinados em Évian foram aprovados em referendos, e a colônia se tornou independente; cerca de 900 mil colonos partiram."
+    },
+    "dado": "As estimativas de argelinos mortos vão de 400 mil a 1,5 milhão.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Algerian War",
+        "u": "https://en.wikipedia.org/wiki/Algerian_War"
+      },
+      {
+        "t": "Britannica, Algerian War",
+        "u": "https://www.britannica.com/event/Algerian-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Independentistas",
+        "membros": [
+          {
+            "n": "Frente de Libertação Nacional",
+            "nota": "A FLN abriu a guerra em 1º de novembro de 1954."
+          }
+        ]
+      },
+      "b": {
+        "nome": "França",
+        "membros": [
+          {
+            "n": "França"
+          },
+          {
+            "n": "Harkis",
+            "nota": "Auxiliares argelinos do exército francês.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  }
+]

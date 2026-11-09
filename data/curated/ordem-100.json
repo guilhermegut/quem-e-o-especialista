@@ -1,0 +1,702 @@
+[
+{
+"n": 1,
+"id": "guerras-medicas",
+"nome": "Guerras Médicas",
+"periodo": "499–449 a.C.",
+"onde": "Grécia e Império Persa"
+},
+{
+"n": 2,
+"id": "guerra-do-peloponeso",
+"nome": "Guerra do Peloponeso",
+"periodo": "431–404 a.C.",
+"onde": "Grécia"
+},
+{
+"n": 3,
+"id": "conquistas-de-alexandre-o-grande",
+"nome": "Conquistas de Alexandre, o Grande",
+"periodo": "336–323 a.C.",
+"onde": "Do Egito à Índia"
+},
+{
+"n": 4,
+"id": "guerras-punicas",
+"nome": "Guerras Púnicas",
+"periodo": "264–146 a.C.",
+"onde": "Mediterrâneo ocidental"
+},
+{
+"n": 5,
+"id": "guerras-de-unificacao-da-china-por-qin",
+"nome": "Guerras de unificação da China por Qin",
+"periodo": "230–221 a.C.",
+"onde": "China"
+},
+{
+"n": 6,
+"id": "guerras-galicas",
+"nome": "Guerras Gálicas",
+"periodo": "58–50 a.C.",
+"onde": "Gália"
+},
+{
+"n": 7,
+"id": "guerra-civil-de-cesar",
+"nome": "Guerra civil de César",
+"periodo": "49–45 a.C.",
+"onde": "Mundo romano"
+},
+{
+"n": 8,
+"id": "primeira-guerra-judaico-romana",
+"nome": "Primeira Guerra Judaico-Romana",
+"periodo": "66–73",
+"onde": "Judeia"
+},
+{
+"n": 9,
+"id": "guerra-dos-tres-reinos",
+"nome": "Guerra dos Três Reinos",
+"periodo": "184–280",
+"onde": "China"
+},
+{
+"n": 10,
+"id": "campanhas-de-atila",
+"nome": "Campanhas de Átila",
+"periodo": "434–453",
+"onde": "Europa"
+},
+{
+"n": 11,
+"id": "guerra-gotica-de-justiniano",
+"nome": "Guerra Gótica de Justiniano",
+"periodo": "535–554",
+"onde": "Itália"
+},
+{
+"n": 12,
+"id": "guerra-bizantino-sassanida",
+"nome": "Guerra Bizantino-Sassânida",
+"periodo": "602–628",
+"onde": "Oriente Médio"
+},
+{
+"n": 13,
+"id": "conquistas-arabes",
+"nome": "Conquistas árabes",
+"periodo": "632–750",
+"onde": "Oriente Médio, Norte da África e Península Ibérica"
+},
+{
+"n": 14,
+"id": "rebeliao-de-an-lushan",
+"nome": "Rebelião de An Lushan",
+"periodo": "755–763",
+"onde": "China"
+},
+{
+"n": 15,
+"id": "invasoes-vikings",
+"nome": "Invasões vikings",
+"periodo": "793–1066",
+"onde": "Europa"
+},
+{
+"n": 16,
+"id": "conquista-normanda-da-inglaterra",
+"nome": "Conquista normanda da Inglaterra",
+"periodo": "1066",
+"onde": "Inglaterra"
+},
+{
+"n": 17,
+"id": "reconquista",
+"nome": "Reconquista",
+"periodo": "718–1492",
+"onde": "Península Ibérica"
+},
+{
+"n": 18,
+"id": "cruzadas",
+"nome": "Cruzadas",
+"periodo": "1096–1291",
+"onde": "Oriente Médio"
+},
+{
+"n": 19,
+"id": "conquistas-mongois",
+"nome": "Conquistas mongóis",
+"periodo": "1206–1368",
+"onde": "Ásia e Europa"
+},
+{
+"n": 20,
+"id": "guerra-dos-cem-anos",
+"nome": "Guerra dos Cem Anos",
+"periodo": "1337–1453",
+"onde": "França e Inglaterra"
+},
+{
+"n": 21,
+"id": "campanhas-de-tamerlao",
+"nome": "Campanhas de Tamerlão",
+"periodo": "1370–1405",
+"onde": "Ásia Central e Oriente Médio"
+},
+{
+"n": 22,
+"id": "queda-de-constantinopla",
+"nome": "Queda de Constantinopla",
+"periodo": "1453",
+"onde": "Bizâncio e Império Otomano"
+},
+{
+"n": 23,
+"id": "guerra-das-rosas",
+"nome": "Guerra das Rosas",
+"periodo": "1455–1487",
+"onde": "Inglaterra"
+},
+{
+"n": 24,
+"id": "periodo-sengoku-e-unificacao-do-japao",
+"nome": "Período Sengoku e unificação do Japão",
+"periodo": "1467–1615",
+"onde": "Japão"
+},
+{
+"n": 25,
+"id": "guerras-italianas",
+"nome": "Guerras Italianas",
+"periodo": "1494–1559",
+"onde": "Itália"
+},
+{
+"n": 26,
+"id": "conquista-do-imperio-asteca",
+"nome": "Conquista do Império Asteca",
+"periodo": "1519–1521",
+"onde": "México"
+},
+{
+"n": 27,
+"id": "conquista-do-imperio-inca",
+"nome": "Conquista do Império Inca",
+"periodo": "1532–1572",
+"onde": "Andes"
+},
+{
+"n": 28,
+"id": "guerras-de-religiao-na-franca",
+"nome": "Guerras de religião na França",
+"periodo": "1562–1598",
+"onde": "França"
+},
+{
+"n": 29,
+"id": "guerra-dos-oitenta-anos",
+"nome": "Guerra dos Oitenta Anos",
+"periodo": "1568–1648",
+"onde": "Países Baixos"
+},
+{
+"n": 30,
+"id": "guerra-anglo-espanhola",
+"nome": "Guerra Anglo-Espanhola",
+"periodo": "1585–1604",
+"onde": "Atlântico"
+},
+{
+"n": 31,
+"id": "invasoes-japonesas-da-coreia",
+"nome": "Invasões japonesas da Coreia",
+"periodo": "1592–1598",
+"onde": "Coreia"
+},
+{
+"n": 32,
+"id": "guerra-dos-trinta-anos",
+"nome": "Guerra dos Trinta Anos",
+"periodo": "1618–1648",
+"onde": "Europa Central"
+},
+{
+"n": 33,
+"id": "conquista-da-china-pelos-manchus",
+"nome": "Conquista da China pelos manchus",
+"periodo": "1618–1683",
+"onde": "China"
+},
+{
+"n": 34,
+"id": "invasoes-holandesas-no-brasil",
+"nome": "Invasões holandesas no Brasil",
+"periodo": "1624–1654",
+"onde": "Brasil"
+},
+{
+"n": 35,
+"id": "guerra-da-restauracao",
+"nome": "Guerra da Restauração",
+"periodo": "1640–1668",
+"onde": "Portugal e Espanha"
+},
+{
+"n": 36,
+"id": "guerra-civil-inglesa",
+"nome": "Guerra Civil Inglesa",
+"periodo": "1642–1651",
+"onde": "Ilhas Britânicas"
+},
+{
+"n": 37,
+"id": "grande-guerra-do-norte",
+"nome": "Grande Guerra do Norte",
+"periodo": "1700–1721",
+"onde": "Báltico"
+},
+{
+"n": 38,
+"id": "guerra-de-sucessao-espanhola",
+"nome": "Guerra de Sucessão Espanhola",
+"periodo": "1701–1714",
+"onde": "Europa"
+},
+{
+"n": 39,
+"id": "guerra-de-sucessao-austriaca",
+"nome": "Guerra de Sucessão Austríaca",
+"periodo": "1740–1748",
+"onde": "Europa"
+},
+{
+"n": 40,
+"id": "guerra-dos-sete-anos",
+"nome": "Guerra dos Sete Anos",
+"periodo": "1756–1763",
+"onde": "Europa, América e Ásia"
+},
+{
+"n": 41,
+"id": "guerra-de-independencia-dos-estados-unidos",
+"nome": "Guerra de Independência dos Estados Unidos",
+"periodo": "1775–1783",
+"onde": "América do Norte"
+},
+{
+"n": 42,
+"id": "revolucao-haitiana",
+"nome": "Revolução Haitiana",
+"periodo": "1791–1804",
+"onde": "Haiti"
+},
+{
+"n": 43,
+"id": "guerras-revolucionarias-francesas",
+"nome": "Guerras Revolucionárias Francesas",
+"periodo": "1792–1802",
+"onde": "Europa"
+},
+{
+"n": 44,
+"id": "guerras-napoleonicas",
+"nome": "Guerras Napoleônicas",
+"periodo": "1803–1815",
+"onde": "Europa"
+},
+{
+"n": 45,
+"id": "guerra-peninsular",
+"nome": "Guerra Peninsular",
+"periodo": "1807–1814",
+"onde": "Portugal e Espanha"
+},
+{
+"n": 46,
+"id": "guerras-de-independencia-da-america-espanhola",
+"nome": "Guerras de independência da América Espanhola",
+"periodo": "1808–1833",
+"onde": "América Latina"
+},
+{
+"n": 47,
+"id": "guerra-de-1812",
+"nome": "Guerra de 1812",
+"periodo": "1812–1815",
+"onde": "América do Norte"
+},
+{
+"n": 48,
+"id": "guerra-de-independencia-da-grecia",
+"nome": "Guerra de Independência da Grécia",
+"periodo": "1821–1829",
+"onde": "Grécia"
+},
+{
+"n": 49,
+"id": "guerra-de-independencia-do-brasil",
+"nome": "Guerra de Independência do Brasil",
+"periodo": "1822–1824",
+"onde": "Brasil"
+},
+{
+"n": 50,
+"id": "guerra-da-cisplatina",
+"nome": "Guerra da Cisplatina",
+"periodo": "1825–1828",
+"onde": "Rio da Prata"
+},
+{
+"n": 51,
+"id": "revolucao-farroupilha",
+"nome": "Revolução Farroupilha",
+"periodo": "1835–1845",
+"onde": "Sul do Brasil"
+},
+{
+"n": 52,
+"id": "primeira-guerra-do-opio",
+"nome": "Primeira Guerra do Ópio",
+"periodo": "1839–1842",
+"onde": "China"
+},
+{
+"n": 53,
+"id": "guerra-mexicano-americana",
+"nome": "Guerra Mexicano-Americana",
+"periodo": "1846–1848",
+"onde": "México e Estados Unidos"
+},
+{
+"n": 54,
+"id": "rebeliao-taiping",
+"nome": "Rebelião Taiping",
+"periodo": "1850–1864",
+"onde": "China"
+},
+{
+"n": 55,
+"id": "guerra-da-crimeia",
+"nome": "Guerra da Crimeia",
+"periodo": "1853–1856",
+"onde": "Mar Negro"
+},
+{
+"n": 56,
+"id": "revolta-dos-sipaios",
+"nome": "Revolta dos Sipaios",
+"periodo": "1857–1858",
+"onde": "Índia"
+},
+{
+"n": 57,
+"id": "guerras-de-unificacao-italiana",
+"nome": "Guerras de unificação italiana",
+"periodo": "1848–1871",
+"onde": "Itália"
+},
+{
+"n": 58,
+"id": "guerra-de-secessao",
+"nome": "Guerra de Secessão",
+"periodo": "1861–1865",
+"onde": "Estados Unidos"
+},
+{
+"n": 59,
+"id": "guerra-do-paraguai",
+"nome": "Guerra do Paraguai",
+"periodo": "1864–1870",
+"onde": "América do Sul"
+},
+{
+"n": 60,
+"id": "guerra-austro-prussiana",
+"nome": "Guerra Austro-Prussiana",
+"periodo": "1866",
+"onde": "Europa Central"
+},
+{
+"n": 61,
+"id": "guerra-boshin",
+"nome": "Guerra Boshin",
+"periodo": "1868–1869",
+"onde": "Japão"
+},
+{
+"n": 62,
+"id": "guerra-franco-prussiana",
+"nome": "Guerra Franco-Prussiana",
+"periodo": "1870–1871",
+"onde": "França e Alemanha"
+},
+{
+"n": 63,
+"id": "guerra-russo-turca",
+"nome": "Guerra Russo-Turca",
+"periodo": "1877–1878",
+"onde": "Bálcãs e Cáucaso"
+},
+{
+"n": 64,
+"id": "guerra-do-pacifico",
+"nome": "Guerra do Pacífico",
+"periodo": "1879–1884",
+"onde": "Chile, Peru e Bolívia"
+},
+{
+"n": 65,
+"id": "primeira-guerra-sino-japonesa",
+"nome": "Primeira Guerra Sino-Japonesa",
+"periodo": "1894–1895",
+"onde": "Coreia e China"
+},
+{
+"n": 66,
+"id": "guerra-de-canudos",
+"nome": "Guerra de Canudos",
+"periodo": "1896–1897",
+"onde": "Bahia"
+},
+{
+"n": 67,
+"id": "guerra-hispano-americana",
+"nome": "Guerra Hispano-Americana",
+"periodo": "1898",
+"onde": "Caribe e Filipinas"
+},
+{
+"n": 68,
+"id": "segunda-guerra-dos-boeres",
+"nome": "Segunda Guerra dos Bôeres",
+"periodo": "1899–1902",
+"onde": "África do Sul"
+},
+{
+"n": 69,
+"id": "guerra-russo-japonesa",
+"nome": "Guerra Russo-Japonesa",
+"periodo": "1904–1905",
+"onde": "Manchúria e Coreia"
+},
+{
+"n": 70,
+"id": "revolucao-mexicana",
+"nome": "Revolução Mexicana",
+"periodo": "1910–1920",
+"onde": "México"
+},
+{
+"n": 71,
+"id": "guerras-balcanicas",
+"nome": "Guerras Balcânicas",
+"periodo": "1912–1913",
+"onde": "Bálcãs"
+},
+{
+"n": 72,
+"id": "guerra-do-contestado",
+"nome": "Guerra do Contestado",
+"periodo": "1912–1916",
+"onde": "Paraná e Santa Catarina"
+},
+{
+"n": 73,
+"id": "primeira-guerra-mundial",
+"nome": "Primeira Guerra Mundial",
+"periodo": "1914–1918",
+"onde": "Mundo"
+},
+{
+"n": 74,
+"id": "guerra-civil-russa",
+"nome": "Guerra Civil Russa",
+"periodo": "1917–1922",
+"onde": "Rússia"
+},
+{
+"n": 75,
+"id": "guerra-de-independencia-turca",
+"nome": "Guerra de Independência Turca",
+"periodo": "1919–1923",
+"onde": "Anatólia"
+},
+{
+"n": 76,
+"id": "guerra-civil-chinesa",
+"nome": "Guerra Civil Chinesa",
+"periodo": "1927–1949",
+"onde": "China"
+},
+{
+"n": 77,
+"id": "revolucao-constitucionalista",
+"nome": "Revolução Constitucionalista",
+"periodo": "1932",
+"onde": "São Paulo"
+},
+{
+"n": 78,
+"id": "guerra-do-chaco",
+"nome": "Guerra do Chaco",
+"periodo": "1932–1935",
+"onde": "Bolívia e Paraguai"
+},
+{
+"n": 79,
+"id": "guerra-civil-espanhola",
+"nome": "Guerra Civil Espanhola",
+"periodo": "1936–1939",
+"onde": "Espanha"
+},
+{
+"n": 80,
+"id": "segunda-guerra-sino-japonesa",
+"nome": "Segunda Guerra Sino-Japonesa",
+"periodo": "1937–1945",
+"onde": "China"
+},
+{
+"n": 81,
+"id": "segunda-guerra-mundial",
+"nome": "Segunda Guerra Mundial",
+"periodo": "1939–1945",
+"onde": "Mundo"
+},
+{
+"n": 82,
+"id": "guerra-da-indochina",
+"nome": "Guerra da Indochina",
+"periodo": "1946–1954",
+"onde": "Vietnã, Laos e Camboja"
+},
+{
+"n": 83,
+"id": "primeira-guerra-arabe-israelense",
+"nome": "Primeira Guerra Árabe-Israelense",
+"periodo": "1948–1949",
+"onde": "Palestina"
+},
+{
+"n": 84,
+"id": "guerra-da-coreia",
+"nome": "Guerra da Coreia",
+"periodo": "1950–1953",
+"onde": "Coreia"
+},
+{
+"n": 85,
+"id": "revolucao-cubana",
+"nome": "Revolução Cubana",
+"periodo": "1953–1959",
+"onde": "Cuba"
+},
+{
+"n": 86,
+"id": "guerra-da-argelia",
+"nome": "Guerra da Argélia",
+"periodo": "1954–1962",
+"onde": "Argélia"
+},
+{
+"n": 87,
+"id": "guerra-do-vietna",
+"nome": "Guerra do Vietnã",
+"periodo": "1955–1975",
+"onde": "Vietnã, Laos e Camboja"
+},
+{
+"n": 88,
+"id": "guerra-colonial-portuguesa",
+"nome": "Guerra Colonial Portuguesa",
+"periodo": "1961–1974",
+"onde": "Angola, Moçambique e Guiné-Bissau"
+},
+{
+"n": 89,
+"id": "guerra-dos-seis-dias",
+"nome": "Guerra dos Seis Dias",
+"periodo": "1967",
+"onde": "Oriente Médio"
+},
+{
+"n": 90,
+"id": "guerra-do-yom-kipur",
+"nome": "Guerra do Yom Kipur",
+"periodo": "1973",
+"onde": "Oriente Médio"
+},
+{
+"n": 91,
+"id": "guerra-sovietico-afega",
+"nome": "Guerra Soviético-Afegã",
+"periodo": "1979–1989",
+"onde": "Afeganistão"
+},
+{
+"n": 92,
+"id": "guerra-ira-iraque",
+"nome": "Guerra Irã-Iraque",
+"periodo": "1980–1988",
+"onde": "Golfo Pérsico"
+},
+{
+"n": 93,
+"id": "guerra-das-malvinas",
+"nome": "Guerra das Malvinas",
+"periodo": "1982",
+"onde": "Atlântico Sul"
+},
+{
+"n": 94,
+"id": "guerra-do-golfo",
+"nome": "Guerra do Golfo",
+"periodo": "1990–1991",
+"onde": "Kuwait e Iraque"
+},
+{
+"n": 95,
+"id": "guerras-iugoslavas",
+"nome": "Guerras Iugoslavas",
+"periodo": "1991–2001",
+"onde": "Bálcãs"
+},
+{
+"n": 96,
+"id": "segunda-guerra-do-congo",
+"nome": "Segunda Guerra do Congo",
+"periodo": "1998–2003",
+"onde": "África Central"
+},
+{
+"n": 97,
+"id": "guerra-do-afeganistao",
+"nome": "Guerra do Afeganistão",
+"periodo": "2001–2021",
+"onde": "Afeganistão"
+},
+{
+"n": 98,
+"id": "guerra-do-iraque",
+"nome": "Guerra do Iraque",
+"periodo": "2003–2011",
+"onde": "Iraque"
+},
+{
+"n": 99,
+"id": "guerra-civil-siria",
+"nome": "Guerra Civil Síria",
+"periodo": "desde 2011",
+"onde": "Síria"
+},
+{
+"n": 100,
+"id": "guerra-russo-ucraniana",
+"nome": "Guerra Russo-Ucraniana",
+"periodo": "desde 2014",
+"onde": "Ucrânia"
+}
+]

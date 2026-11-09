@@ -1,0 +1,449 @@
+[
+  {
+    "id": "primeira-guerra-sino-japonesa",
+    "n": "Primeira Guerra Sino-Japonesa",
+    "periodo": "1894–1895",
+    "ini": 1894,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Um país asiático recém-modernizado via na península vizinha, tributária da dinastia chinesa, um alvo estratégico.",
+      "envolvidos": "Um império insular modernizado contra a dinastia que governava a China, em disputa pela influência sobre a península.",
+      "estopim": "Uma revolta camponesa na península levou os dois rivais a mandar tropas.",
+      "desfecho": "O império insular venceu em terra e no mar. O tratado de Shimonoseki reconheceu a independência da península e cedeu Taiwan, as ilhas Pescadores e a península de Liaodong, devolvida depois por pressão de três potências europeias."
+    },
+    "dado": "A China também teve de pagar uma grande indenização.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), First Sino-Japanese War",
+        "u": "https://en.wikipedia.org/wiki/First_Sino-Japanese_War"
+      },
+      {
+        "t": "Britannica, First Sino-Japanese War",
+        "u": "https://www.britannica.com/event/First-Sino-Japanese-War-1894-1895"
+      }
+    ]
+  },
+  {
+    "id": "guerra-de-canudos",
+    "n": "Guerra de Canudos",
+    "periodo": "1896–1897",
+    "ini": 1896,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "No sertão de um estado nordestino, a seca, o latifúndio e o desemprego reuniam milhares de pobres num arraial em torno de um pregador peregrino, que a imprensa e os fazendeiros associavam à monarquia recém-derrubada.",
+      "envolvidos": "Sertanejos de um arraial religioso contra o exército de uma república recém-proclamada.",
+      "estopim": "Uma encomenda de madeira feita numa cidade vizinha não foi entregue, e o conflito com as autoridades locais levou à primeira expedição militar.",
+      "desfecho": "Três expedições fracassaram, e um coronel famoso morreu na terceira. A quarta destruiu e incendiou o arraial; restaram cerca de 150 sobreviventes, segundo uma estimativa."
+    },
+    "dado": "Euclides da Cunha narrou o conflito em Os Sertões (1902). As estimativas de mortos vão de 5 mil a 30 mil.",
+    "fontes": [
+      {
+        "t": "Wikipedia (pt), Guerra de Canudos",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_de_Canudos"
+      },
+      {
+        "t": "Wikipedia (en), War of Canudos",
+        "u": "https://en.wikipedia.org/wiki/War_of_Canudos"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Canudos",
+        "membros": [
+          {
+            "n": "Antônio Conselheiro",
+            "nota": "Peregrino que liderava o arraial de Belo Monte."
+          },
+          {
+            "n": "Sertanejos de Belo Monte"
+          }
+        ]
+      },
+      "b": {
+        "nome": "República",
+        "membros": [
+          {
+            "n": "Exército Brasileiro"
+          },
+          {
+            "n": "Moreira César",
+            "nota": "Coronel morto na terceira expedição."
+          },
+          {
+            "n": "Arthur Oscar",
+            "nota": "General da quarta expedição, que destruiu o arraial.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-hispano-americana",
+    "n": "Guerra Hispano-Americana",
+    "periodo": "1898",
+    "ini": 1898,
+    "reg": "América Central e Caribe",
+    "pistas": {
+      "fundo": "Uma colônia caribenha lutava pela independência contra a metrópole europeia, que concentrava a população rural em campos, com muitas mortes, enquanto jornais sensacionalistas de uma potência vizinha inflamavam a opinião pública.",
+      "envolvidos": "Uma república americana em ascensão contra uma velha potência colonial europeia, com combates no Caribe e no Pacífico.",
+      "estopim": "Um encouraçado americano explodiu e afundou no porto de Havana; a responsabilidade nunca foi determinada, mas o público culpou a metrópole.",
+      "desfecho": "Depois de vitórias em Manila e Santiago, o tratado de paz deu ao vencedor Porto Rico, Guam e as Filipinas, por 20 milhões de dólares, e Cuba ficou sob ocupação americana."
+    },
+    "dado": "A transferência das Filipinas levou a uma nova guerra, entre filipinos e americanos.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Spanish–American War",
+        "u": "https://en.wikipedia.org/wiki/Spanish%E2%80%93American_War"
+      },
+      {
+        "t": "Britannica, Spanish-American War",
+        "u": "https://www.britannica.com/event/Spanish-American-War"
+      }
+    ]
+  },
+  {
+    "id": "segunda-guerra-dos-boeres",
+    "n": "Segunda Guerra dos Bôeres",
+    "periodo": "1899–1902",
+    "ini": 1899,
+    "reg": "África",
+    "pistas": {
+      "fundo": "A descoberta de ouro numa república de colonos de origem holandesa atraiu estrangeiros sem direito de voto, e uma incursão armada fracassada contra ela aumentou a tensão com o império vizinho.",
+      "envolvidos": "Um império europeu contra duas pequenas repúblicas de colonos do interior da África austral.",
+      "estopim": "As repúblicas abriram a guerra sitiando Ladysmith, Mafeking e Kimberley.",
+      "desfecho": "Depois de tomar as capitais, o império enfrentou uma guerrilha e respondeu com terra arrasada e campos de concentração, onde morreram cerca de 26 mil civis bôeres e 20 mil africanos negros. A paz incorporou as repúblicas ao império."
+    },
+    "dado": "Para a Britannica, as causas são discutidas: muitos historiadores dizem que a disputa real era pelo controle do ouro do Witwatersrand.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Second Boer War",
+        "u": "https://en.wikipedia.org/wiki/Second_Boer_War"
+      },
+      {
+        "t": "Britannica, South African War",
+        "u": "https://www.britannica.com/event/South-African-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Império Britânico",
+        "membros": [
+          {
+            "n": "Reino Unido"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Repúblicas bôeres",
+        "membros": [
+          {
+            "n": "República Sul-Africana",
+            "nota": "Também chamada de Transvaal."
+          },
+          {
+            "n": "Estado Livre de Orange"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-russo-japonesa",
+    "n": "Guerra Russo-Japonesa",
+    "periodo": "1904–1905",
+    "ini": 1904,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Dois impérios disputavam o domínio da Manchúria e da Coreia, e um deles tinha obtido da China o arrendamento de Port Arthur.",
+      "envolvidos": "Um império insular asiático contra um império europeu que teve de mandar sua frota do Báltico até o Pacífico.",
+      "estopim": "Um ataque surpresa contra a frota inimiga em Port Arthur.",
+      "desfecho": "Depois de Mukden, a frota vinda do Báltico foi destruída em Tsushima. Um tratado mediado pelo presidente americano deu ao vencedor o arrendamento de Port Arthur e o sul de Sacalina e reconheceu seus interesses na Coreia."
+    },
+    "dado": "Foi a primeira vitória moderna de uma potência asiática sobre uma europeia, e a derrota contribuiu para a Revolução Russa de 1905.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Russo-Japanese War",
+        "u": "https://en.wikipedia.org/wiki/Russo-Japanese_War"
+      },
+      {
+        "t": "Britannica, Russo-Japanese War",
+        "u": "https://www.britannica.com/event/Russo-Japanese-War"
+      }
+    ]
+  },
+  {
+    "id": "revolucao-mexicana",
+    "n": "Revolução Mexicana",
+    "periodo": "1910–1920",
+    "ini": 1910,
+    "reg": "América do Norte",
+    "pistas": {
+      "fundo": "Um general governava o país havia mais de três décadas por meio de eleições fraudadas; as terras comunais tinham sido vendidas, muitos camponeses trabalhavam presos às fazendas e greves eram reprimidas.",
+      "envolvidos": "Revolucionários de origens e programas diferentes, de líderes camponeses do sul a caudilhos do norte, que primeiro derrubaram o ditador e depois lutaram contra um general golpista e entre si, com intervenções do vizinho do norte.",
+      "estopim": "Um candidato de oposição foi preso durante a eleição e depois lançou um plano chamando à revolta.",
+      "desfecho": "Uma nova Constituição trouxe reforma agrária, direitos trabalhistas e mais poder do Estado sobre a Igreja; a luta terminou quando generais do norte se rebelaram contra o presidente e um deles assumiu o poder."
+    },
+    "dado": "Morreram cerca de um milhão de pessoas, a maioria não combatentes.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Mexican Revolution",
+        "u": "https://en.wikipedia.org/wiki/Mexican_Revolution"
+      }
+    ]
+  },
+  {
+    "id": "guerras-balcanicas",
+    "n": "Guerras Balcânicas",
+    "periodo": "1912–1913",
+    "ini": 1912,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um império em declínio ainda controlava parte do sudeste da Europa, cobiçada por Estados cristãos vizinhos que tinham se libertado do seu domínio nas décadas anteriores.",
+      "envolvidos": "Uma liga de quatro Estados vizinhos contra o império; depois, um dos vencedores contra os antigos aliados, reforçados por um vizinho do norte e pelo próprio império.",
+      "estopim": "Quatro Estados vizinhos aliados atacaram o império; cerca de um mês depois do tratado de paz, um deles atacou os antigos aliados.",
+      "desfecho": "O império perdeu quase todo o território europeu, e uma Albânia independente foi criada; na segunda guerra, o agressor foi derrotado. As tensões prepararam a crise que levou à Primeira Guerra Mundial."
+    },
+    "dado": "A primeira guerra terminou com o Tratado de Londres, em maio de 1913, e a segunda, principalmente, com o de Bucareste, em agosto.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Balkan Wars",
+        "u": "https://en.wikipedia.org/wiki/Balkan_Wars"
+      },
+      {
+        "t": "Wikipedia (en), Bulgarian Declaration of Independence",
+        "u": "https://en.wikipedia.org/wiki/Bulgarian_Declaration_of_Independence"
+      }
+    ],
+    "lados": {
+      "contexto": "Na Primeira Guerra Balcânica (1912–1913)",
+      "a": {
+        "nome": "Liga Balcânica",
+        "membros": [
+          {
+            "n": "Bulgária",
+            "nota": "Na segunda guerra, atacou os antigos aliados.",
+            "dificil": true
+          },
+          {
+            "n": "Sérvia"
+          },
+          {
+            "n": "Grécia"
+          },
+          {
+            "n": "Montenegro",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Império Otomano",
+        "membros": [
+          {
+            "n": "Império Otomano",
+            "nota": "Perdeu quase todo o território europeu."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-do-contestado",
+    "n": "Guerra do Contestado",
+    "periodo": "1912–1916",
+    "ini": 1912,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Dois estados do sul disputavam uma região rica em erva-mate e madeira, e terras concedidas a uma companhia estrangeira para construir uma ferrovia expulsaram posseiros e deixaram trabalhadores sem emprego.",
+      "envolvidos": "Camponeses e pequenos posseiros, seguidores de monges peregrinos, contra forças estaduais e federais que apoiavam as companhias e os grandes proprietários.",
+      "estopim": "Num combate no Irani, morreram o monge que liderava os fiéis e o coronel que comandava a força estadual.",
+      "desfecho": "Os fiéis se reuniram em redutos religiosos; o exército, sob um general que usou aviões para reconhecimento, venceu, e um acordo fixou os limites entre os dois estados."
+    },
+    "dado": "As estimativas de mortos variam muito conforme a fonte, de cerca de 5 mil a 20 mil.",
+    "fontes": [
+      {
+        "t": "Wikipedia (pt), Guerra do Contestado",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_do_Contestado"
+      },
+      {
+        "t": "Wikipedia (en), Contestado War",
+        "u": "https://en.wikipedia.org/wiki/Contestado_War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Sertanejos",
+        "membros": [
+          {
+            "n": "José Maria",
+            "nota": "Monge morto no combate do Irani, em 1912."
+          },
+          {
+            "n": "Redutos do Contestado",
+            "nota": "Povoados religiosos dos rebeldes.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Governos e companhias",
+        "membros": [
+          {
+            "n": "Exército Brasileiro"
+          },
+          {
+            "n": "Setembrino de Carvalho",
+            "nota": "General que comandou as forças federais.",
+            "dificil": true
+          },
+          {
+            "n": "Brazil Railway Company",
+            "nota": "Companhia de Percival Farquhar que recebeu as terras.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-civil-russa",
+    "n": "Guerra Civil Russa",
+    "periodo": "1917–1922",
+    "ini": 1917,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Em meio a uma guerra mundial, duas revoluções derrubaram a monarquia e, depois, o governo provisório; a tomada do poder por um partido radical provocou oposição armada.",
+      "envolvidos": "A força armada do novo governo revolucionário contra exércitos comandados por generais e almirantes do antigo regime, apoiados por intervenção estrangeira e por uma legião de desertores do exército austro-húngaro; exércitos camponeses, que combatiam os dois lados, e movimentos de independência também pegaram em armas.",
+      "estopim": "A oposição à tomada do poder pelos bolcheviques virou guerra em larga escala no ano seguinte.",
+      "desfecho": "Com o Terror Vermelho e a requisição forçada de grãos, que provocou revoltas camponesas, os vermelhos venceram e fundaram a União Soviética; uma grande fome devastou o país no fim da guerra."
+    },
+    "dado": "As estimativas de mortos vão de 7 a 12 milhões, a maioria civis.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Russian Civil War",
+        "u": "https://en.wikipedia.org/wiki/Russian_Civil_War"
+      },
+      {
+        "t": "Britannica, Russian Civil War",
+        "u": "https://www.britannica.com/event/Russian-Civil-War"
+      },
+      {
+        "t": "Wikipedia (en), Czechoslovak Legion",
+        "u": "https://en.wikipedia.org/wiki/Czechoslovak_Legion"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Vermelhos",
+        "membros": [
+          {
+            "n": "Exército Vermelho"
+          },
+          {
+            "n": "Lenin",
+            "nota": "Liderava o governo bolchevique."
+          },
+          {
+            "n": "Trótski",
+            "nota": "Como comissário da guerra, transformou a Guarda Vermelha no Exército Vermelho."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Brancos e intervencionistas",
+        "membros": [
+          {
+            "n": "Kolchak"
+          },
+          {
+            "n": "Denikin"
+          },
+          {
+            "n": "Wrangel",
+            "dificil": true
+          },
+          {
+            "n": "Legião Tchecoslovaca",
+            "dificil": true,
+            "nota": "Revoltou-se contra os bolcheviques e tomou a Transiberiana; no fim, declarou-se neutra e negociou com os vermelhos a saída do país."
+          },
+          {
+            "n": "Japão",
+            "nota": "Desembarcou tropas no leste.",
+            "dificil": true
+          },
+          {
+            "n": "Reino Unido",
+            "nota": "Desembarcou tropas no norte.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-de-independencia-turca",
+    "n": "Guerra de Independência Turca",
+    "periodo": "1919–1923",
+    "ini": 1919,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Depois da derrota de um império na guerra mundial, os vencedores ocuparam sua capital e pressionaram o governo a assinar um tratado que repartia seu território.",
+      "envolvidos": "Nacionalistas liderados por uma assembleia instalada no interior da Anatólia contra um país vizinho que desembarcou na costa do Egeu, com potências ocidentais e uma república do Cáucaso também contra eles.",
+      "estopim": "Tropas gregas desembarcaram em Esmirna, e dias depois um general otomano chegou a Samsun para organizar a resistência.",
+      "desfecho": "Os nacionalistas detiveram o avanço grego no rio Sakarya e retomaram Esmirna; em Lausanne, o novo governo obteve reconhecimento internacional e acertou uma troca de populações com a Grécia, e pouco depois proclamou uma república."
+    },
+    "dado": "A República da Turquia foi proclamada em 29 de outubro de 1923.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Turkish War of Independence",
+        "u": "https://en.wikipedia.org/wiki/Turkish_War_of_Independence"
+      },
+      {
+        "t": "Wikipedia (en), Franco-Turkish War",
+        "u": "https://en.wikipedia.org/wiki/Franco-Turkish_War"
+      },
+      {
+        "t": "Wikipedia (en), Population exchange between Greece and Turkey",
+        "u": "https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Nacionalistas turcos",
+        "membros": [
+          {
+            "n": "Grande Assembleia Nacional",
+            "nota": "Instalada em Ancara."
+          },
+          {
+            "n": "Mustafa Kemal"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Adversários",
+        "membros": [
+          {
+            "n": "Grécia"
+          },
+          {
+            "n": "Armênia",
+            "nota": "Entrou na guerra em 1920.",
+            "dificil": true
+          },
+          {
+            "n": "França",
+            "dificil": true,
+            "nota": "Combateu os nacionalistas no sul da Anatólia até fazer a paz em separado, em 1921."
+          },
+          {
+            "n": "Reino Unido",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  }
+]

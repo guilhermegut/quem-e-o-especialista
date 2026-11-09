@@ -1,0 +1,555 @@
+[
+  {
+    "id": "guerra-das-rosas",
+    "n": "Guerra das Rosas",
+    "periodo": "1455–1487",
+    "ini": 1455,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Depois das derrotas na França, o rei inglês sofria de uma doença mental que o incapacitava, e um duque de outro ramo da mesma dinastia reavivou sua pretensão ao trono.",
+      "envolvidos": "Dois ramos rivais da mesma dinastia, com a nobreza dividida entre eles, uma rainha à frente de um dos lados e um conde poderoso que mudou de lado.",
+      "estopim": "O choque entre partidários do duque e do rei em St Albans abriu a luta armada.",
+      "desfecho": "Em Bosworth, o último rei de um dos ramos foi morto pelo pretendente do outro, que se casou com a herdeira rival, unindo as duas casas e fundando uma nova dinastia; uma última vitória em Stoke encerrou a luta."
+    },
+    "dado": "O nome vem das rosas usadas como símbolo: vermelha para Lancaster e branca para York.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Wars of the Roses",
+        "u": "https://en.wikipedia.org/wiki/Wars_of_the_Roses"
+      },
+      {
+        "t": "World History Encyclopedia, Wars of the Roses",
+        "u": "https://www.worldhistory.org/Wars_of_the_Roses/"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Lancaster",
+        "membros": [
+          {
+            "n": "Henrique VI"
+          },
+          {
+            "n": "Margarida de Anjou",
+            "nota": "Rainha que liderou a resistência lancastriana.",
+            "dificil": true
+          },
+          {
+            "n": "Henrique Tudor",
+            "nota": "Venceu em Bosworth e fundou a dinastia Tudor."
+          }
+        ]
+      },
+      "b": {
+        "nome": "York",
+        "membros": [
+          {
+            "n": "Ricardo, duque de York",
+            "nota": "Morto em Wakefield, em 1460."
+          },
+          {
+            "n": "Eduardo IV",
+            "nota": "Filho do duque; tornou-se rei depois de Towton, em 1461.",
+            "dificil": true
+          },
+          {
+            "n": "Ricardo III",
+            "nota": "Morto em Bosworth, em 1485."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "periodo-sengoku-e-unificacao-do-japao",
+    "n": "Período Sengoku e unificação do Japão",
+    "periodo": "1467–1615",
+    "ini": 1467,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "O xogunato que governava em nome do imperador perdeu autoridade, e senhores regionais passaram a guerrear entre si para ampliar seus domínios.",
+      "envolvidos": "Dezenas de senhores feudais rivais e seus samurais, até que três chefes sucessivos submeteram os demais.",
+      "estopim": "Uma guerra de sucessão de dez anos destruiu a capital imperial e terminou sem vencedor.",
+      "desfecho": "Armas de fogo trazidas por portugueses mudaram a guerra. O primeiro unificador tomou a capital e exilou o último xogum; o terceiro venceu em Sekigahara, fundou um novo xogunato e eliminou os últimos rivais no cerco de Osaka."
+    },
+    "dado": "Os historiadores não concordam sobre a data em que o período termina.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Sengoku period",
+        "u": "https://en.wikipedia.org/wiki/Sengoku_period"
+      },
+      {
+        "t": "World History Encyclopedia, Sengoku Period",
+        "u": "https://www.worldhistory.org/Sengoku_Period/"
+      }
+    ]
+  },
+  {
+    "id": "guerras-italianas",
+    "n": "Guerras Italianas",
+    "periodo": "1494–1559",
+    "ini": 1494,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "A península estava dividida entre vários Estados, como Milão, Veneza, os Estados Papais e o reino de Nápoles, e um deles incentivou um rei estrangeiro a reivindicar o trono napolitano.",
+      "envolvidos": "Uma monarquia do outro lado dos Alpes contra a dinastia que ocupava o trono espanhol e o do Sacro Império, com Estados italianos, o papado e até o sultão otomano trocando de aliança ao longo das guerras.",
+      "estopim": "Um rei francês invadiu a península para tomar o reino de Nápoles, invocando uma pretensão herdada da casa de Anjou.",
+      "desfecho": "Um rei francês foi capturado em Pavia, tropas imperiais saquearam Roma, e a paz de Cateau-Cambrésis praticamente expulsou a França da Itália: a Espanha ficou com Nápoles, Sicília e Milão, e a França manteve Calais e três bispados."
+    },
+    "dado": "Em 1536, a França chegou a se aliar ao Império Otomano contra os Habsburgos.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Italian Wars",
+        "u": "https://en.wikipedia.org/wiki/Italian_Wars"
+      },
+      {
+        "t": "Britannica, Italian Wars",
+        "u": "https://www.britannica.com/event/Italian-Wars"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "França e aliados",
+        "membros": [
+          {
+            "n": "Reino da França",
+            "nota": "Carlos VIII abriu as guerras em 1494; Francisco I foi capturado em Pavia."
+          },
+          {
+            "n": "Império Otomano",
+            "nota": "Aliou-se à França em 1536.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Habsburgos",
+        "membros": [
+          {
+            "n": "Espanha"
+          },
+          {
+            "n": "Sacro Império Romano-Germânico",
+            "nota": "Suas tropas saquearam Roma em 1527.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "conquista-do-imperio-asteca",
+    "n": "Conquista do Império Asteca",
+    "periodo": "1519–1521",
+    "ini": 1519,
+    "reg": "América do Norte",
+    "pistas": {
+      "fundo": "Um império da Mesoamérica tinha inimigos e povos submetidos ressentidos, entre eles uma república vizinha que estava em guerra com ele.",
+      "envolvidos": "Uma pequena força europeia, com grandes exércitos indígenas aliados, contra o império e seu soberano.",
+      "estopim": "Um capitão espanhol desembarcou na costa do golfo, fundou um povoado e marchou para o interior, onde fez aliança com os inimigos do império.",
+      "desfecho": "Recebido na capital, o capitão prendeu o imperador, mas depois teve de fugir à noite com pesadas perdas. Voltou com os aliados, e a capital, devastada pela varíola, caiu após um cerco; sobre suas ruínas nasceu a Cidade do México."
+    },
+    "dado": "Os tlaxcaltecas, que estavam em guerra com Moctezuma, foram os aliados mais fiéis de Cortés, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Spanish conquest of the Aztec Empire",
+        "u": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire"
+      },
+      {
+        "t": "Britannica, Hernán Cortés",
+        "u": "https://www.britannica.com/biography/Hernan-Cortes"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Espanhóis e aliados",
+        "membros": [
+          {
+            "n": "Hernán Cortés"
+          },
+          {
+            "n": "Tlaxcaltecas",
+            "nota": "Estavam em guerra com Moctezuma e foram os aliados mais fiéis dos espanhóis."
+          },
+          {
+            "n": "Totonacas",
+            "dificil": true
+          },
+          {
+            "n": "Texcocanos",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Império Asteca",
+        "membros": [
+          {
+            "n": "Moctezuma II",
+            "nota": "Morreu em circunstâncias pouco claras durante a ocupação espanhola."
+          },
+          {
+            "n": "Cuauhtémoc",
+            "nota": "Último imperador, capturado no fim do cerco de Tenochtitlán.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "conquista-do-imperio-inca",
+    "n": "Conquista do Império Inca",
+    "periodo": "1532–1572",
+    "ini": 1532,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Um império andino acabara de sair de uma guerra civil entre dois irmãos que disputavam o trono, depois da morte do imperador, provavelmente de varíola.",
+      "envolvidos": "Menos de 200 soldados europeus, com aliados indígenas que se opunham ao domínio do império, contra um imperador recém-vitorioso e, depois, uma resistência refugiada nas montanhas.",
+      "estopim": "Em Cajamarca, os europeus atacaram a escolta do imperador e o capturaram; ele pagou um resgate enchendo uma sala de ouro e prata, mas foi executado mesmo assim.",
+      "desfecho": "A capital foi ocupada sem luta. Um imperador instalado pelos europeus se rebelou e fundou um Estado nas montanhas de Vilcabamba, que resistiu até a execução de seu filho, o último soberano."
+    },
+    "dado": "Francisco Pizarro morreu em 1541, atacado em seu palácio em Lima por seguidores de Diego de Almagro.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Spanish conquest of the Inca Empire",
+        "u": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Inca_Empire"
+      },
+      {
+        "t": "Britannica, Francisco Pizarro",
+        "u": "https://www.britannica.com/biography/Francisco-Pizarro"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Espanhóis e aliados",
+        "membros": [
+          {
+            "n": "Francisco Pizarro"
+          },
+          {
+            "n": "Huancas",
+            "nota": "Povo andino que se opunha ao domínio inca.",
+            "dificil": true
+          },
+          {
+            "n": "Cañaris",
+            "nota": "Povo andino que se opunha ao domínio inca.",
+            "dificil": true
+          },
+          {
+            "n": "Chachapoyas",
+            "nota": "Povo andino que se opunha ao domínio inca.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Incas",
+        "membros": [
+          {
+            "n": "Atahualpa",
+            "nota": "Capturado em Cajamarca e executado em 1533."
+          },
+          {
+            "n": "Manco Inca",
+            "nota": "Instalado pelos espanhóis, rebelou-se e fundou o Estado de Vilcabamba.",
+            "dificil": true
+          },
+          {
+            "n": "Túpac Amaru",
+            "nota": "Último soberano inca, executado em 1572.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerras-de-religiao-na-franca",
+    "n": "Guerras de religião na França",
+    "periodo": "1562–1598",
+    "ini": 1562,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "A expansão do protestantismo calvinista dividiu a nobreza e as cidades de um reino católico, e grandes famílias aristocráticas lideravam cada um dos lados.",
+      "envolvidos": "Católicos liderados por uma família ducal e depois por uma liga, apoiados por uma potência ibérica e por um ducado alpino, contra protestantes liderados por príncipes de sangue real, apoiados por uma rainha protestante do outro lado do Canal e pelos holandeses.",
+      "estopim": "Homens de um duque católico massacraram uma congregação protestante em Vassy, o que desencadeou levantes armados.",
+      "desfecho": "Depois do massacre da noite de São Bartolomeu, o líder protestante herdou o trono, converteu-se ao catolicismo e assinou um édito que garantiu tolerância religiosa aos protestantes."
+    },
+    "dado": "Estima-se que de 2 a 4 milhões de pessoas morreram por violência, fome e doenças.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), French Wars of Religion",
+        "u": "https://en.wikipedia.org/wiki/French_Wars_of_Religion"
+      },
+      {
+        "t": "Britannica, Wars of Religion",
+        "u": "https://www.britannica.com/event/Wars-of-Religion"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Católicos",
+        "membros": [
+          {
+            "n": "Família Guise"
+          },
+          {
+            "n": "Liga Católica"
+          },
+          {
+            "n": "Espanha",
+            "nota": "Apoiou a Liga Católica.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Huguenotes",
+        "membros": [
+          {
+            "n": "Casa de Condé"
+          },
+          {
+            "n": "Henrique de Navarra",
+            "nota": "Líder protestante que se converteu e virou Henrique IV.",
+            "dificil": true
+          },
+          {
+            "n": "Inglaterra",
+            "nota": "Apoiou os huguenotes.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-dos-oitenta-anos",
+    "n": "Guerra dos Oitenta Anos",
+    "periodo": "1568–1648",
+    "ini": 1568,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Províncias ricas do norte da Europa, herdadas por um rei espanhol, resistiam à centralização, aos impostos pesados e à perseguição aos protestantes, que feriam privilégios antigos da nobreza e das cidades.",
+      "envolvidos": "Rebeldes das províncias do norte, liderados por um príncipe exilado e por forças irregulares, contra a monarquia espanhola, com apoio intermitente de potências vizinhas aos rebeldes.",
+      "estopim": "Uma onda de destruição de imagens em igrejas por calvinistas foi respondida com dura repressão por um duque enviado pelo rei, e o príncipe exilado lançou invasões para libertar as províncias.",
+      "desfecho": "As províncias do norte se uniram e declararam independência. Depois de uma trégua de doze anos, a luta se misturou a uma grande guerra europeia, e a paz de Münster reconheceu a nova república, enquanto as províncias do sul seguiram espanholas."
+    },
+    "dado": "Os Geuzen, forças irregulares holandesas, tomaram a Holanda e a Zelândia até o fim de 1573, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Eighty Years' War",
+        "u": "https://en.wikipedia.org/wiki/Eighty_Years%27_War"
+      },
+      {
+        "t": "Britannica, Eighty Years' War",
+        "u": "https://www.britannica.com/event/Eighty-Years-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Rebeldes",
+        "membros": [
+          {
+            "n": "Guilherme de Orange",
+            "nota": "Liderou as revoltas a partir do exílio."
+          },
+          {
+            "n": "Geuzen",
+            "nota": "Forças irregulares holandesas.",
+            "dificil": true
+          },
+          {
+            "n": "Províncias Unidas",
+            "nota": "Reconhecidas como república independente em 1648."
+          },
+          {
+            "n": "Inglaterra",
+            "nota": "Apoiou os rebeldes, entre outros momentos pelo Tratado de Nonsuch, de 1585.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Espanha",
+        "membros": [
+          {
+            "n": "Filipe II"
+          },
+          {
+            "n": "Duque de Alba",
+            "nota": "Impôs dura repressão às províncias.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-anglo-espanhola",
+    "n": "Guerra Anglo-Espanhola",
+    "periodo": "1585–1604",
+    "ini": 1585,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "A rivalidade entre a maior potência católica e um reino protestante se somava aos ataques de corsários deste contra navios daquela.",
+      "envolvidos": "Uma rainha protestante e seus corsários, aliados a rebeldes de províncias que se revoltavam contra o rei católico, contra a monarquia que dominava a Península Ibérica, que por sua vez apoiou rebeldes na Irlanda.",
+      "estopim": "Por um tratado, a rainha passou a apoiar abertamente os rebeldes holandeses; pouco depois, mandou executar uma rainha católica que era sua prisioneira.",
+      "desfecho": "Uma grande frota espanhola foi repelida, uma contra-armada inglesa também fracassou, e tropas espanholas enviadas para ajudar rebeldes irlandeses foram derrotadas em Kinsale. Um tratado de paz restaurou a situação anterior."
+    },
+    "dado": "A guerra nunca foi declarada formalmente.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Anglo-Spanish War (1585–1604)",
+        "u": "https://en.wikipedia.org/wiki/Anglo-Spanish_War_(1585%E2%80%931604)"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Inglaterra e aliados",
+        "membros": [
+          {
+            "n": "Reino da Inglaterra"
+          },
+          {
+            "n": "Rebeldes holandeses",
+            "nota": "Apoiados pela Inglaterra a partir do Tratado de Nonsuch, de 1585.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Espanha e aliados",
+        "membros": [
+          {
+            "n": "Espanha dos Habsburgos",
+            "nota": "Mandou a Grande Armada em 1588."
+          },
+          {
+            "n": "Rebeldes irlandeses",
+            "nota": "Receberam tropas espanholas, derrotadas em Kinsale em 1601.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "invasoes-japonesas-da-coreia",
+    "n": "Invasões japonesas da Coreia",
+    "periodo": "1592–1598",
+    "ini": 1592,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "O senhor da guerra que acabara de unificar seu país queria conquistar a China e via a península vizinha como caminho.",
+      "envolvidos": "Um exército insular invasor contra o reino da península, defendido por um almirante com navios blindados, por milícias civis e por tropas enviadas pela dinastia que governava a China.",
+      "estopim": "As tropas invasoras desembarcaram e tomaram rapidamente Seul e Pyongyang.",
+      "desfecho": "A marinha do reino cortou os suprimentos inimigos, a ajuda chinesa travou o avanço, e uma segunda invasão também empacou no sul. Com a morte do senhor da guerra, os invasores se retiraram, e as fronteiras voltaram ao que eram."
+    },
+    "dado": "O almirante Yi Sun-sin morreu na batalha final, em Noryang.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Imjin War",
+        "u": "https://en.wikipedia.org/wiki/Imjin_War"
+      },
+      {
+        "t": "World History Encyclopedia, The Japanese Invasions of Korea",
+        "u": "https://www.worldhistory.org/article/1398/the-japanese-invasions-of-korea-1592-1598-ce/"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Coreia e aliados",
+        "membros": [
+          {
+            "n": "Reino Joseon"
+          },
+          {
+            "n": "Dinastia Ming",
+            "nota": "Mandou tropas para socorrer a Coreia."
+          },
+          {
+            "n": "Yi Sun-sin",
+            "nota": "Almirante coreano dos navios-tartaruga.",
+            "dificil": true
+          },
+          {
+            "n": "Exércitos dos justos",
+            "nota": "Milícias civis coreanas.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Japão",
+        "membros": [
+          {
+            "n": "Toyotomi Hideyoshi",
+            "nota": "Sua morte, em 1598, levou à retirada japonesa."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "conquista-da-china-pelos-manchus",
+    "n": "Conquista da China pelos manchus",
+    "periodo": "1618–1683",
+    "ini": 1618,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "A dinastia que governava a China enfrentava crise financeira, revoltas camponesas e fomes ligadas a um período de resfriamento do clima, enquanto um povo do nordeste se unificava sob um chefe que rompeu com ela.",
+      "envolvidos": "Um Estado do nordeste, que depois adotou novo nome dinástico, contra a velha dinastia chinesa e seus herdeiros no sul, num conflito que incluiu rebeldes camponeses e um general que trocou de lado.",
+      "estopim": "O chefe do nordeste publicou uma lista de sete queixas contra a dinastia chinesa e declarou guerra.",
+      "desfecho": "Rebeldes tomaram Pequim e o último imperador se enforcou; um general da fronteira abriu a passagem de Shanhai para os invasores, que derrotaram os rebeldes e tomaram a capital. A resistência no sul e um reino em Taiwan caíram décadas depois."
+    },
+    "dado": "Os vencedores impuseram aos chineses han o penteado com trança, o queue.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Transition from Ming to Qing",
+        "u": "https://en.wikipedia.org/wiki/Transition_from_Ming_to_Qing"
+      },
+      {
+        "t": "Britannica, Qing dynasty",
+        "u": "https://www.britannica.com/topic/Qing-dynasty"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Manchus",
+        "membros": [
+          {
+            "n": "Nurhaci",
+            "nota": "Publicou as Sete Queixas contra os Ming em 1618."
+          },
+          {
+            "n": "Dinastia Qing",
+            "nota": "Nome adotado pelo Estado manchu em 1636.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Ming e legalistas",
+        "membros": [
+          {
+            "n": "Imperador Chongzhen",
+            "nota": "Enforcou-se quando os rebeldes tomaram Pequim, em 1644."
+          },
+          {
+            "n": "Ming do Sul",
+            "nota": "Legalistas que resistiram por décadas.",
+            "dificil": true
+          },
+          {
+            "n": "Reino de Tungning",
+            "nota": "Reino fundado por Koxinga em Taiwan; caiu em 1683.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  }
+]

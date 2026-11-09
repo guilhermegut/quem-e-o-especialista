@@ -1,0 +1,574 @@
+[
+  {
+    "id": "conquistas-arabes",
+    "n": "Conquistas árabes",
+    "periodo": "632–750",
+    "ini": 632,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Uma nova fé monoteísta tinha unificado as tribos da Península Arábica, enquanto os dois grandes impérios vizinhos estavam esgotados por décadas de guerra entre si e por epidemias de peste.",
+      "envolvidos": "Os exércitos de um Estado religioso nascido na Arábia, sob sucessivos califas, contra o império cristão de Constantinopla, o império persa, um reino germânico na Península Ibérica e, no extremo oeste, os povos da Gália.",
+      "estopim": "Depois que as tribos rebeldes da Arábia foram submetidas, os exércitos do califado avançaram sobre a Síria e o Iraque e venceram batalhas decisivas no rio Yarmuk e em Qadisiyyah.",
+      "desfecho": "Em pouco mais de um século, o califado ia do vale do Indo aos Pireneus. O império persa desapareceu, a expansão perdeu fôlego depois de uma derrota na Gália, e uma revolução derrubou a dinastia que governava o califado."
+    },
+    "dado": "Parte das populações locais, como os cristãos monofisitas, preferiu o domínio muçulmano ao dos impérios anteriores, segundo a World History Encyclopedia.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Early Muslim conquests",
+        "u": "https://en.wikipedia.org/wiki/Early_Muslim_conquests"
+      },
+      {
+        "t": "World History Encyclopedia, Rashidun Caliphate",
+        "u": "https://www.worldhistory.org/Rashidun_Caliphate/"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Califado",
+        "membros": [
+          {
+            "n": "Califado Rashidun",
+            "nota": "Os quatro primeiros califas."
+          },
+          {
+            "n": "Califado Omíada",
+            "nota": "Levou a expansão até a Península Ibérica.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Adversários",
+        "membros": [
+          {
+            "n": "Império Bizantino",
+            "nota": "Derrotado no rio Yarmuk, em 636."
+          },
+          {
+            "n": "Império Sassânida",
+            "nota": "Derrotado em Qadisiyyah; desapareceu por volta de 651."
+          },
+          {
+            "n": "Reino Visigodo",
+            "nota": "Derrotado em Guadalete, na Península Ibérica, em 711.",
+            "dificil": true
+          },
+          {
+            "n": "Francos",
+            "nota": "Detiveram um exército muçulmano perto de Tours, em 732.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "rebeliao-de-an-lushan",
+    "n": "Rebelião de An Lushan",
+    "periodo": "755–763",
+    "ini": 755,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "O imperador da dinastia Tang cedia à influência da família de sua consorte favorita, e os governadores militares da fronteira acumulavam exércitos e poder próprios.",
+      "envolvidos": "Um general de fronteira de origem provavelmente sogdiana e turca, que fundou um Estado próprio, contra a corte imperial, que só se salvou com a ajuda de um povo nômade das estepes.",
+      "estopim": "O general, que tinha sido favorecido pelo imperador, marchou com suas tropas a partir de sua base em Fanyang e fundou um Estado rival, chamado Yan.",
+      "desfecho": "O Estado rebelde caiu, e a dinastia sobreviveu, mas enfraquecida. Os censos registraram uma queda enorme da população, que vários historiadores consideram um registro pouco confiável."
+    },
+    "dado": "Os censos caíram de 52,9 milhões de pessoas em 755 para 16,9 milhões em 764; historiadores discutem quanto disso foi morte e quanto foi falha de registro.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), An Lushan rebellion",
+        "u": "https://en.wikipedia.org/wiki/An_Lushan_rebellion"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Dinastia Tang",
+        "membros": [
+          {
+            "n": "Dinastia Tang",
+            "nota": "O imperador Xuanzong reinava quando a revolta começou."
+          },
+          {
+            "n": "Grão-Canato Uigur",
+            "nota": "Ajudou os Tang a derrotar os rebeldes.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Rebeldes",
+        "membros": [
+          {
+            "n": "An Lushan",
+            "nota": "General que fundou o Estado de Yan."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "invasoes-vikings",
+    "n": "Invasões vikings",
+    "periodo": "793–1066",
+    "ini": 793,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Povos escandinavos de navegadores e guerreiros saíram em busca de riqueza, escravos e terras; historiadores discutem as causas, entre elas pressão populacional, filhos mais novos sem herança e mudanças nas rotas de comércio.",
+      "envolvidos": "Bandos e, depois, grandes exércitos vindos da Escandinávia contra reinos cristãos das Ilhas Britânicas e do continente, que resistiram, pagaram tributos ou cederam terras.",
+      "estopim": "Um ataque a um mosteiro numa ilha da costa nordeste da Inglaterra, onde monges foram mortos e tesouros levados, inaugurou a era dos ataques.",
+      "desfecho": "Os invasores fundaram assentamentos da Islândia à Groenlândia, uma área de lei própria na Inglaterra e um ducado no norte da França. A era costuma ser encerrada com a morte de um rei norueguês numa batalha na Inglaterra; a cristianização da Escandinávia pesou no fim dos ataques."
+    },
+    "dado": "Navegadores nórdicos chegaram brevemente à América do Norte, numa região que chamaram de Vinland.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Viking expansion",
+        "u": "https://en.wikipedia.org/wiki/Viking_expansion"
+      },
+      {
+        "t": "World History Encyclopedia, Vikings",
+        "u": "https://www.worldhistory.org/Vikings/"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Escandinavos",
+        "membros": [
+          {
+            "n": "Grande Exército Pagão",
+            "nota": "Desembarcou na Ânglia Oriental em 865 e deu origem ao Danelaw.",
+            "dificil": true
+          },
+          {
+            "n": "Rollo",
+            "nota": "Chefe viking que recebeu a Normandia em 911.",
+            "dificil": true
+          },
+          {
+            "n": "Haroldo Hardrada",
+            "nota": "Rei norueguês morto em Stamford Bridge, em 1066.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Reinos atacados",
+        "membros": [
+          {
+            "n": "Wessex",
+            "nota": "O rei Alfredo derrotou o chefe viking Guthrum em 878."
+          },
+          {
+            "n": "Francia",
+            "nota": "Cedeu a Normandia a Rollo.",
+            "dificil": true
+          },
+          {
+            "n": "Haroldo Godwinson",
+            "nota": "Rei inglês que derrotou Hardrada em Stamford Bridge.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "conquista-normanda-da-inglaterra",
+    "n": "Conquista normanda da Inglaterra",
+    "periodo": "1066",
+    "ini": 1066,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "O rei inglês morreu sem filhos e deixou a sucessão em disputa entre três pretendentes: um nobre local escolhido e coroado, um duque do outro lado do Canal da Mancha e um rei escandinavo.",
+      "envolvidos": "Um duque francês de origem nórdica e seus cavaleiros contra o rei recém-coroado e a aristocracia anglo-saxã, que dias antes tinham enfrentado uma invasão norueguesa.",
+      "estopim": "O duque alegava que o falecido rei lhe prometera o trono e que o novo rei lhe jurara apoio. Enquanto o rei inglês derrotava os noruegueses no norte, o duque desembarcou no sul.",
+      "desfecho": "Em Hastings, o rei inglês foi morto, e o duque foi coroado no Natal. A elite anglo-saxã foi quase toda substituída, castelos se espalharam pelo país e o francês normando virou a língua da classe dominante."
+    },
+    "dado": "Em 1086, o Domesday Book registrou que só cerca de 5% das terras ao sul do rio Tees seguiam com donos ingleses.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Norman Conquest",
+        "u": "https://en.wikipedia.org/wiki/Norman_Conquest"
+      },
+      {
+        "t": "World History Encyclopedia, Norman Conquest of England",
+        "u": "https://www.worldhistory.org/Norman_Conquest_of_England/"
+      }
+    ]
+  },
+  {
+    "id": "reconquista",
+    "n": "Reconquista",
+    "periodo": "718–1492",
+    "ini": 718,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Exércitos muçulmanos tinham conquistado quase toda a Península Ibérica, derrubando o reino germânico que a governava; no extremo norte, nas montanhas, sobreviveram pequenos núcleos cristãos.",
+      "envolvidos": "Reinos cristãos do norte da península, que se expandiram e se fundiram ao longo de séculos, contra Estados muçulmanos cada vez mais fragmentados e reforçados por dinastias vindas do norte da África.",
+      "estopim": "Uma vitória de cristãos nas montanhas das Astúrias sobre uma força muçulmana é o marco tradicional do início.",
+      "desfecho": "Depois da tomada de Toledo e da vitória decisiva de Las Navas de Tolosa, os cristãos avançaram até restar só um reino muçulmano, no sul, conquistado pelos Reis Católicos. Historiadores hoje discutem o próprio conceito, criado séculos depois e moldado pelo nacionalismo do século XIX."
+    },
+    "dado": "Carlos Magno tentou invadir a Espanha muçulmana em 778, sem sucesso, e tomou Barcelona em 801, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Reconquista",
+        "u": "https://en.wikipedia.org/wiki/Reconquista"
+      },
+      {
+        "t": "Britannica, Reconquista",
+        "u": "https://www.britannica.com/event/Reconquista"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Reinos cristãos",
+        "membros": [
+          {
+            "n": "Reino das Astúrias",
+            "nota": "Venceu em Covadonga, marco tradicional do início."
+          },
+          {
+            "n": "Castela"
+          },
+          {
+            "n": "Aragão"
+          },
+          {
+            "n": "Portugal"
+          },
+          {
+            "n": "Navarra",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Al-Andalus",
+        "membros": [
+          {
+            "n": "Califado de Córdoba"
+          },
+          {
+            "n": "Almorávidas",
+            "nota": "Dinastia vinda do norte da África.",
+            "dificil": true
+          },
+          {
+            "n": "Almóadas",
+            "nota": "Dinastia vinda do norte da África, derrotada em Las Navas de Tolosa.",
+            "dificil": true
+          },
+          {
+            "n": "Reino Nacérida de Granada",
+            "nota": "Último Estado muçulmano da península, tomado em 1492.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "cruzadas",
+    "n": "Cruzadas",
+    "periodo": "1096–1291",
+    "ini": 1096,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Depois de uma derrota do império cristão do Oriente para os turcos seljúcidas, que avançavam pela Anatólia, o imperador pediu ajuda militar ao Ocidente, e o papado prometeu recompensas espirituais a quem lutasse pela Terra Santa.",
+      "envolvidos": "Cristãos latinos da Europa Ocidental, convocados pelo papa, contra sucessivos poderes muçulmanos do Oriente Próximo, com o império cristão do Oriente num papel ambíguo.",
+      "estopim": "Num concílio em Clermont, na França, o papa Urbano II convocou a primeira expedição para recuperar Jerusalém.",
+      "desfecho": "Os cruzados tomaram Jerusalém e fundaram Estados no Levante, mas Saladino a retomou depois da batalha de Hattin. Uma das expedições acabou saqueando Constantinopla, e a queda de Acre diante dos mamelucos pôs fim aos últimos redutos no continente."
+    },
+    "dado": "A Primeira Cruzada tomou Jerusalém em 15 de julho de 1099.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Crusades",
+        "u": "https://en.wikipedia.org/wiki/Crusades"
+      },
+      {
+        "t": "World History Encyclopedia, Crusades",
+        "u": "https://www.worldhistory.org/Crusades/"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Cruzados",
+        "membros": [
+          {
+            "n": "Papado",
+            "nota": "Urbano II convocou a primeira expedição em 1095."
+          },
+          {
+            "n": "Reino de Jerusalém",
+            "nota": "Estado cruzado fundado depois da conquista de 1099.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Poderes muçulmanos",
+        "membros": [
+          {
+            "n": "Seljúcidas"
+          },
+          {
+            "n": "Fatímidas",
+            "dificil": true
+          },
+          {
+            "n": "Aiúbidas",
+            "dificil": true
+          },
+          {
+            "n": "Mamelucos",
+            "nota": "Tomaram Acre em 1291.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "conquistas-mongois",
+    "n": "Conquistas mongóis",
+    "periodo": "1206–1368",
+    "ini": 1206,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Um chefe unificou as tribos nômades das estepes da Mongólia e foi reconhecido como Grande Cã, título de governante universal.",
+      "envolvidos": "Os exércitos de um império nômade das estepes contra reinos da China, um império da Ásia Central, principados russos, reinos da Europa Central e o califado de Bagdá.",
+      "estopim": "Os primeiros alvos foram dois Estados vizinhos no norte da China; depois veio o ataque a um império da Ásia Central, com a tomada de Bukhara e Samarcanda.",
+      "desfecho": "O império foi do mar Negro à Coreia, saqueou Bagdá e matou o califa, mas foi detido pelos mamelucos em Ain Jalut. Depois se dividiu em quatro canatos, e o último deles a governar a China acabou derrubado."
+    },
+    "dado": "Entre 1237 e 1240, os mongóis arrasaram a maior parte das grandes cidades russas.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Mongol invasions and conquests",
+        "u": "https://en.wikipedia.org/wiki/Mongol_invasions_and_conquests"
+      },
+      {
+        "t": "World History Encyclopedia, Mongol Empire",
+        "u": "https://www.worldhistory.org/Mongol_Empire/"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Império Mongol",
+        "membros": [
+          {
+            "n": "Gengis Khan",
+            "nota": "Unificou as tribos e foi reconhecido Grande Cã em 1206."
+          },
+          {
+            "n": "Horda de Ouro",
+            "nota": "Um dos quatro canatos em que o império se dividiu.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Adversários",
+        "membros": [
+          {
+            "n": "Dinastia Jin",
+            "nota": "Sua capital caiu em 1215."
+          },
+          {
+            "n": "Xia Ocidental",
+            "dificil": true
+          },
+          {
+            "n": "Império Corásmio",
+            "nota": "Perdeu Bukhara e Samarcanda a partir de 1218.",
+            "dificil": true
+          },
+          {
+            "n": "Califado Abássida",
+            "nota": "Bagdá foi saqueada em 1258, e o califa, morto.",
+            "dificil": true
+          },
+          {
+            "n": "Sultanato Mameluco",
+            "nota": "Deteve os mongóis em Ain Jalut, em 1260.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-dos-cem-anos",
+    "n": "Guerra dos Cem Anos",
+    "periodo": "1337–1453",
+    "ini": 1337,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Reis ingleses mantinham terras na França, sobretudo a Gasconha, como vassalos do rei francês. Quando a dinastia francesa ficou sem herdeiros homens, o rei inglês reivindicou o trono pela mãe.",
+      "envolvidos": "Uma monarquia insular e, por um tempo, um poderoso ducado francês aliado contra a coroa francesa, apoiada por um reino do norte da Grã-Bretanha e por um reino ibérico.",
+      "estopim": "O rei francês confiscou a Gasconha, e o rei inglês decidiu impor sua reivindicação pelas armas.",
+      "desfecho": "Depois de grandes vitórias inglesas em Crécy, Poitiers e Azincourt, a França se recuperou com Joana d'Arc no cerco de Orléans e com o fim da aliança borgonhesa; após a derrota em Castillon, a Inglaterra ficou só com Calais."
+    },
+    "dado": "O Tratado de Troyes, de 1420, chegou a fazer dos herdeiros do inglês Henrique V os sucessores do trono francês.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Hundred Years' War",
+        "u": "https://en.wikipedia.org/wiki/Hundred_Years%27_War"
+      },
+      {
+        "t": "World History Encyclopedia, Hundred Years' War",
+        "u": "https://www.worldhistory.org/Hundred_Years%27_War/"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Inglaterra e aliados",
+        "membros": [
+          {
+            "n": "Reino da Inglaterra",
+            "nota": "Eduardo III reivindicou o trono francês pela mãe."
+          },
+          {
+            "n": "Ducado da Borgonha",
+            "nota": "Aliou-se aos ingleses de 1419 a 1435, quando o Tratado de Arras desfez a aliança.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "França e aliados",
+        "membros": [
+          {
+            "n": "Reino da França"
+          },
+          {
+            "n": "Joana d'Arc",
+            "nota": "Ajudou a romper o cerco de Orléans em 1429."
+          },
+          {
+            "n": "Escócia",
+            "nota": "Apoiou a França.",
+            "dificil": true
+          },
+          {
+            "n": "Castela",
+            "nota": "Apoiou a França.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "campanhas-de-tamerlao",
+    "n": "Campanhas de Tamerlão",
+    "periodo": "1370–1405",
+    "ini": 1370,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Depois da fragmentação do império mongol, um chefe de origem turca e mongol tomou o poder na Ásia Central e, sem descender de Gengis Khan, legitimou-se casando com uma princesa dessa linhagem e governando por meio de um cã fantoche.",
+      "envolvidos": "Os exércitos de um emir de Samarcanda contra quase todos os vizinhos, de um canato mongol nas estepes russas e reinos do Cáucaso a sultanatos da Índia e do Oriente Médio, até o império turco da Anatólia.",
+      "estopim": "Ele começou derrotando um rival em Balkh e passou a governar a Transoxiana; dali lançou campanhas em todas as direções.",
+      "desfecho": "Saqueou Délhi e Damasco, retomou Bagdá e derrotou o sultão otomano em Ancara. Morreu em Otrar, a caminho da China, e o império se enfraqueceu em guerras de sucessão, embora o Império Mogol da Índia descendesse de sua linhagem."
+    },
+    "dado": "Nunca usou o título de imperador nem o de califa; manteve o de emir.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Timurid conquests and invasions",
+        "u": "https://en.wikipedia.org/wiki/Timurid_conquests_and_invasions"
+      },
+      {
+        "t": "World History Encyclopedia, Timur",
+        "u": "https://www.worldhistory.org/Timur/"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Timúridas",
+        "membros": [
+          {
+            "n": "Império Timúrida",
+            "nota": "Fundado por Tamerlão, com capital em Samarcanda."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Adversários",
+        "membros": [
+          {
+            "n": "Horda de Ouro",
+            "nota": "Seu cã, Tokhtamysh, foi derrotado em 1395.",
+            "dificil": true
+          },
+          {
+            "n": "Sultanato de Délhi",
+            "nota": "Délhi foi saqueada em 1398.",
+            "dificil": true
+          },
+          {
+            "n": "Império Otomano",
+            "nota": "O sultão Bayezid I foi derrotado em Ancara, em 1402."
+          },
+          {
+            "n": "Reino da Geórgia",
+            "nota": "Alvo de ataques repetidos.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "queda-de-constantinopla",
+    "n": "Queda de Constantinopla",
+    "periodo": "1453",
+    "ini": 1453,
+    "reg": "Mediterrâneo oriental",
+    "pistas": {
+      "fundo": "Um império milenar, reduzido pela peste e por séculos de perdas a pouco mais que a capital, estava cercado por um Estado turco em expansão, que construíra uma fortaleza no Bósforo para controlar o tráfego naval.",
+      "envolvidos": "O último imperador e defensores vindos de repúblicas marítimas italianas contra um sultão com um enorme exército e canhões de grande calibre.",
+      "estopim": "O sultão reuniu o exército, contou com canhões fundidos por um engenheiro húngaro e iniciou o cerco por terra e por mar.",
+      "desfecho": "Os defensores fecharam o porto com uma corrente, mas o sultão mandou arrastar navios por terra até dentro dele. A cidade caiu depois de quase dois meses de cerco, o império deixou de existir, a cidade virou capital do vencedor e sua grande basílica foi transformada em mesquita."
+    },
+    "dado": "Antes do cerco, a Peste Negra tinha matado quase metade dos habitantes da cidade.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Fall of Constantinople",
+        "u": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Defensores",
+        "membros": [
+          {
+            "n": "Império Bizantino",
+            "nota": "Liderado por Constantino XI."
+          },
+          {
+            "n": "Venezianos",
+            "dificil": true
+          },
+          {
+            "n": "Genoveses",
+            "nota": "Giovanni Giustiniani comandou as muralhas terrestres.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Otomanos",
+        "membros": [
+          {
+            "n": "Império Otomano",
+            "nota": "Liderado por Mehmed II."
+          },
+          {
+            "n": "Orban",
+            "nota": "Engenheiro húngaro que fundiu canhões para o sultão.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,22 @@
+// Capturas das páginas de texto e de uma rodada de bandeira respondida a 900 px de altura.
+import puppeteer from 'puppeteer-core';
+import path from 'node:path';
+const [file, out] = process.argv.slice(2);
+const browser = await puppeteer.launch({ executablePath: '/usr/bin/google-chrome', headless: true, args: ['--no-sandbox'] });
+const page = await browser.newPage();
+await page.setViewport({ width: 1366, height: 900 });
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const click = (sel, t) => page.evaluate((sel, t) => { const el = [...document.querySelectorAll(sel)].find((e) => e.textContent.includes(t) && !e.disabled); el?.click(); return !!el; }, sel, t);
+await page.goto('file://' + path.resolve(file)); await sleep(1200);
+await click('button', 'Como jogar'); await sleep(300);
+await page.screenshot({ path: path.join(out, 'como-jogar.png'), fullPage: true });
+await click('button', 'Voltar'); await sleep(200);
+await click('button', 'Sobre e créditos'); await sleep(300);
+await page.screenshot({ path: path.join(out, 'sobre.png'), fullPage: true });
+await click('button', 'Voltar'); await sleep(200);
+await click('button', 'Treinar um módulo'); await sleep(200);
+await click('button.escolha', 'Bandeiras'); await sleep(300);
+await click('button', 'Começar'); await sleep(600);
+const o = await page.$$('.opcao, .dupla'); await o[0].click(); await sleep(700);
+await page.screenshot({ path: path.join(out, 'bandeira-respondida-900.png') });
+await browser.close();

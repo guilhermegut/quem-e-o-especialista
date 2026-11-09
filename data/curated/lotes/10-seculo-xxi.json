@@ -1,0 +1,207 @@
+[
+  {
+    "id": "guerra-do-afeganistao",
+    "n": "Guerra do Afeganistão",
+    "periodo": "2001–2021",
+    "ini": 2001,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "O movimento islâmico que governava o país abrigava a rede terrorista responsável por grandes atentados contra uma superpotência e se recusou a entregar o líder dela.",
+      "envolvidos": "Uma superpotência, uma aliança militar ocidental e forças locais contrárias ao regime contra o movimento deposto, a rede terrorista e um grupo armado aliado; um vizinho foi acusado de dar dinheiro e refúgio aos insurgentes.",
+      "estopim": "Menos de um mês depois dos atentados, uma invasão liderada pela superpotência começou, e o regime caiu em cerca de dois meses.",
+      "desfecho": "Após quase duas décadas de insurgência e a morte do líder terrorista num país vizinho, um acordo assinado no Catar fixou a retirada estrangeira; o movimento retomou a capital, e as últimas tropas da superpotência saíram duas semanas depois."
+    },
+    "dado": "Morreram de 176 mil a mais de 212 mil pessoas, entre elas mais de 46 mil civis. O Paquistão, visto como aliado firme dos Estados Unidos no início da guerra, dava dinheiro, abrigo e apoio político ao Talibã.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), War in Afghanistan (2001–2021)",
+        "u": "https://en.wikipedia.org/wiki/War_in_Afghanistan_(2001%E2%80%932021)"
+      },
+      {
+        "t": "Wikipedia (pt), Guerra do Afeganistão (2001–2021)",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_do_Afeganist%C3%A3o_(2001%E2%80%932021)"
+      },
+      {
+        "t": "Britannica, Afghanistan War",
+        "u": "https://www.britannica.com/event/Afghanistan-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Coalizão e governo afegão",
+        "membros": [
+          {
+            "n": "Estados Unidos"
+          },
+          {
+            "n": "Reino Unido"
+          },
+          {
+            "n": "OTAN",
+            "nota": "A partir de 2003, comandou a força internacional ISAF."
+          },
+          {
+            "n": "Aliança do Norte",
+            "nota": "Forças afegãs contrárias ao Talibã."
+          },
+          {
+            "n": "Governo afegão"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Insurgência",
+        "membros": [
+          {
+            "n": "Talibã"
+          },
+          {
+            "n": "Al-Qaeda"
+          },
+          {
+            "n": "Rede Haqqani",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-do-iraque",
+    "n": "Guerra do Iraque",
+    "periodo": "2003–2011",
+    "ini": 2003,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Em plena guerra ao terror, uma superpotência acusava um ditador árabe de esconder armas de destruição em massa e de ter laços com terroristas; nenhum estoque dessas armas foi encontrado depois.",
+      "envolvidos": "Uma coalizão liderada por uma superpotência, com uma potência europeia e contingentes menores da Oceania e do Leste Europeu, contra o regime do ditador e, depois, contra insurgentes de várias correntes.",
+      "estopim": "Uma invasão iniciada em março derrubou rapidamente o governo, e a capital caiu no mês seguinte.",
+      "desfecho": "O governo caiu e o ditador foi capturado; vieram uma insurgência, um escândalo de abusos numa prisão e uma guerra civil sectária, durante a qual ele foi executado. Um reforço de tropas antecedeu a retirada da superpotência, e depois veio a ascensão de um grupo jihadista."
+    },
+    "dado": "As estimativas de mortos vão de 150 mil a mais de 1 milhão; Saddam Hussein foi capturado em dezembro de 2003 e executado em 2006.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Iraq War",
+        "u": "https://en.wikipedia.org/wiki/Iraq_War"
+      },
+      {
+        "t": "Britannica, Iraq War",
+        "u": "https://www.britannica.com/event/Iraq-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Coalizão",
+        "membros": [
+          {
+            "n": "Estados Unidos"
+          },
+          {
+            "n": "Reino Unido"
+          },
+          {
+            "n": "Austrália"
+          },
+          {
+            "n": "Polônia",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Iraque",
+        "membros": [
+          {
+            "n": "Governo de Saddam Hussein"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-civil-siria",
+    "n": "Guerra Civil Síria",
+    "periodo": "2011–2024",
+    "ini": 2011,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Uma mesma família governava o país havia décadas, com rígidas restrições às liberdades, e protestos ligados a uma onda de revoltas no mundo árabe foram reprimidos com violência.",
+      "envolvidos": "O governo, apoiado por uma grande potência, por uma república islâmica e por uma milícia libanesa, contra rebeldes apoiados por um vizinho do norte e por monarquias do Golfo; forças lideradas por curdos e grupos jihadistas abriram outras frentes.",
+      "estopim": "A prisão de crianças por pichações contra o regime, numa cidade do sul, desencadeou protestos, e a repressão dura transformou a revolta em conflito armado.",
+      "desfecho": "Depois de ataques químicos do governo e de anos de intervenção estrangeira, rebeldes tomaram a capital e o presidente fugiu para Moscou; o líder rebelde que comandou a ofensiva assumiu o poder e foi declarado presidente de transição, embora os confrontos tenham continuado."
+    },
+    "dado": "Situação em 09/11/2026: a Wikipedia em inglês e o Council on Foreign Relations dão a guerra civil por encerrada com a queda de Assad, em dezembro de 2024, mas a Wikipedia em português ainda a trata como em andamento. Em 2026 houve combates em Suwayda e ações contra células do Estado Islâmico, e as Forças Democráticas Sírias, lideradas por curdos, se dissolveram no exército. Eram cerca de 656 mil mortos até março de 2025 e 6,7 milhões de refugiados em dezembro de 2022.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Syrian civil war",
+        "u": "https://en.wikipedia.org/wiki/Syrian_civil_war"
+      },
+      {
+        "t": "Britannica, Syrian Civil War",
+        "u": "https://www.britannica.com/event/Syrian-Civil-War"
+      },
+      {
+        "t": "Council on Foreign Relations, Syria’s Civil War (2011-24)",
+        "u": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-syria"
+      },
+      {
+        "t": "Al Jazeera, Kurdish-led forces in Syria dissolve after merging with the army (25/08/2026)",
+        "u": "https://aljazeera.com/news/2026/8/25/kurdish-led-forces-in-syria-dissolve-after-merging-with-the-army"
+      }
+    ]
+  },
+  {
+    "id": "guerra-russo-ucraniana",
+    "n": "Guerra Russo-Ucraniana",
+    "periodo": "desde 2014",
+    "ini": 2014,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Grandes protestos numa capital do Leste Europeu levaram à fuga do presidente, num movimento que o país chamou de Revolução da Dignidade.",
+      "envolvidos": "Uma grande potência e separatistas apoiados por ela contra o país vizinho, que recebeu armas e ajuda de muitos países ocidentais; um aliado cedeu território para ataques, e tropas de um regime asiático chegaram a lutar ao lado dos invasores.",
+      "estopim": "Tropas disfarçadas ocuparam e anexaram uma península no mar Negro, e logo depois milícias separatistas, apoiadas e em parte comandadas pelo vizinho, tomaram parte de uma região industrial do leste.",
+      "desfecho": "Acordos de cessar-fogo assinados em Minsk nunca foram cumpridos por inteiro; anos depois veio uma invasão em grande escala, que fracassou diante da capital, e a guerra seguia sem acordo de paz, com cerca de um quinto do país ocupado."
+    },
+    "dado": "Situação em 09/11/2026: a guerra continua, sem cessar-fogo geral nem acordo de paz; as tréguas de 2026 foram curtas ou locais e já terminaram, e a Rússia ocupa cerca de um quinto do território ucraniano. A invasão em grande escala começou em 24 de fevereiro de 2022.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Russo-Ukrainian war",
+        "u": "https://en.wikipedia.org/wiki/Russo-Ukrainian_war"
+      },
+      {
+        "t": "Britannica, Russia-Ukraine War",
+        "u": "https://www.britannica.com/event/2022-Russian-invasion-of-Ukraine"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Rússia e aliados",
+        "membros": [
+          {
+            "n": "Rússia"
+          },
+          {
+            "n": "Separatistas do Donbas"
+          },
+          {
+            "n": "Belarus",
+            "nota": "Cedeu território para ataques."
+          },
+          {
+            "n": "Coreia do Norte",
+            "nota": "Enviou tropas que lutaram na região de Kursk.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Ucrânia",
+        "membros": [
+          {
+            "n": "Ucrânia"
+          }
+        ]
+      }
+    }
+  }
+]

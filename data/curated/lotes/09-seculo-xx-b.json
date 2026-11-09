@@ -1,0 +1,511 @@
+[
+  {
+    "id": "guerra-do-vietna",
+    "n": "Guerra do Vietnã",
+    "periodo": "1955–1975",
+    "ini": 1955,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Um acordo internacional dividira o país em dois na altura do paralelo 17; em plena Guerra Fria, o norte buscava a reunificação sob regime comunista e o sul queria continuar alinhado ao Ocidente.",
+      "envolvidos": "O norte comunista e uma guerrilha que atuava no sul, apoiados pelas duas grandes potências comunistas, contra o governo do sul, sustentado por uma superpotência ocidental e por aliados da Ásia e da Oceania.",
+      "estopim": "Um incidente naval num golfo da costa norte, em que navios de uma superpotência relataram ataques, abriu caminho para a escalada militar, justificada pela teoria do dominó.",
+      "desfecho": "Uma grande ofensiva no Ano-Novo lunar foi derrota tática dos guerrilheiros, mas aumentou a oposição à guerra na superpotência; acordos assinados em Paris levaram à retirada de suas tropas, e a capital do sul caiu dois anos depois, seguida da reunificação do país."
+    },
+    "dado": "As estimativas de vietnamitas mortos vão de 970 mil a 3 milhões; mais de 58 mil americanos morreram ou desapareceram.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Vietnam War",
+        "u": "https://en.wikipedia.org/wiki/Vietnam_War"
+      },
+      {
+        "t": "Britannica, Vietnam War",
+        "u": "https://www.britannica.com/event/Vietnam-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Norte e aliados",
+        "membros": [
+          {
+            "n": "Vietnã do Norte"
+          },
+          {
+            "n": "Vietcongue",
+            "nota": "Guerrilha comunista que atuava no sul."
+          },
+          {
+            "n": "União Soviética",
+            "nota": "Apoiou o norte."
+          },
+          {
+            "n": "China",
+            "nota": "Apoiou o norte."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Sul e aliados",
+        "membros": [
+          {
+            "n": "Vietnã do Sul"
+          },
+          {
+            "n": "Estados Unidos"
+          },
+          {
+            "n": "Coreia do Sul",
+            "dificil": true
+          },
+          {
+            "n": "Austrália",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-colonial-portuguesa",
+    "n": "Guerra Colonial Portuguesa",
+    "periodo": "1961–1974",
+    "ini": 1961,
+    "reg": "África",
+    "pistas": {
+      "fundo": "Uma ditadura europeia se recusava a abrir mão de seus territórios na África e os tratava como províncias ultramarinas, parte inseparável do país, sem admitir a independência.",
+      "envolvidos": "Movimentos de libertação de três territórios africanos, alguns deles rivais entre si, contra as forças armadas da metrópole, que mobilizaram centenas de milhares de homens ao longo da guerra.",
+      "estopim": "Revoltas armadas no maior desses territórios, no início do ano, abriram a guerra, que nos anos seguintes se espalhou para os outros dois.",
+      "desfecho": "A guerra só terminou quando a ditadura caiu na metrópole, numa revolução lembrada por flores; o novo regime reconheceu então as independências, inclusive a de um território que já a havia proclamado por conta própria."
+    },
+    "dado": "Do lado português, foram cerca de 8.800 mortos, segundo a Wikipedia em português. A Guiné-Bissau proclamou a independência por conta própria em 1973, antes da queda da ditadura; Portugal só a reconheceu em setembro de 1974.",
+    "fontes": [
+      {
+        "t": "Wikipedia (pt), Guerra Colonial Portuguesa",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_Colonial_Portuguesa"
+      },
+      {
+        "t": "Wikipedia (en), Portuguese Colonial War",
+        "u": "https://en.wikipedia.org/wiki/Portuguese_Colonial_War"
+      },
+      {
+        "t": "Wikipedia (en), Guinea-Bissau",
+        "u": "https://en.wikipedia.org/wiki/Guinea-Bissau"
+      }
+    ]
+  },
+  {
+    "id": "guerra-dos-seis-dias",
+    "n": "Guerra dos Seis Dias",
+    "periodo": "1967",
+    "ini": 1967,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Ataques de guerrilheiros palestinos e represálias israelenses elevavam a tensão nas fronteiras, e dois países árabes vizinhos de Israel firmaram um pacto de defesa.",
+      "envolvidos": "Um Estado judeu contra três vizinhos árabes, com reforço de tropas de um quarto país árabe estacionadas num deles.",
+      "estopim": "Um país árabe fechou um estreito à navegação israelense, expulsou uma força de paz da ONU e concentrou tropas num deserto fronteiriço; Israel respondeu com ataques aéreos de surpresa que destruíram a maior parte da aviação adversária.",
+      "desfecho": "Em menos de uma semana, os israelenses tomaram uma península desértica, uma faixa costeira, a margem oeste de um rio com a parte oriental de uma cidade sagrada e um planalto ao norte, até que cessar-fogos encerraram os combates."
+    },
+    "dado": "Israel passou a controlar o Sinai, Gaza, a Cisjordânia com Jerusalém Oriental e as Colinas de Golã.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Six-Day War",
+        "u": "https://en.wikipedia.org/wiki/Six-Day_War"
+      },
+      {
+        "t": "Britannica, Six-Day War",
+        "u": "https://www.britannica.com/event/Six-Day-War"
+      }
+    ]
+  },
+  {
+    "id": "guerra-do-yom-kipur",
+    "n": "Guerra do Yom Kipur",
+    "periodo": "1973",
+    "ini": 1973,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Seis anos depois de perderem territórios para Israel, dois países árabes queriam recuperá-los, e as aproximações diplomáticas do presidente egípcio tinham sido rejeitadas.",
+      "envolvidos": "Uma coalizão árabe liderada por dois países, com tropas de outros países árabes, contra um Estado judeu; cada lado recebeu reabastecimento de uma superpotência rival.",
+      "estopim": "Um ataque surpresa em duas frentes, no dia mais sagrado do calendário judaico, pegou o adversário desprevenido.",
+      "desfecho": "Cessar-fogos da ONU pararam os combates, depois de um embargo árabe de petróleo; a guerra abriu caminho para acordos que devolveram uma península ao Egito e levaram à paz entre os dois países."
+    },
+    "dado": "Os Acordos de Camp David, de 1978, e o tratado de paz de 1979 levaram à devolução do Sinai ao Egito, concluída em 1982; foi a primeira vez que um país árabe reconheceu Israel.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Yom Kippur War",
+        "u": "https://en.wikipedia.org/wiki/Yom_Kippur_War"
+      },
+      {
+        "t": "Britannica, Yom Kippur War",
+        "u": "https://www.britannica.com/event/Yom-Kippur-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Israel",
+        "membros": [
+          {
+            "n": "Israel"
+          },
+          {
+            "n": "Estados Unidos",
+            "nota": "Reabasteceu Israel durante a guerra."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Coalizão árabe",
+        "membros": [
+          {
+            "n": "Egito"
+          },
+          {
+            "n": "Síria"
+          },
+          {
+            "n": "Iraque",
+            "nota": "Enviou forças à coalizão.",
+            "dificil": true
+          },
+          {
+            "n": "Jordânia",
+            "nota": "Não abriu frente própria, mas mandou brigadas para a frente síria.",
+            "dificil": true
+          },
+          {
+            "n": "União Soviética",
+            "nota": "Reabasteceu os países árabes."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-sovietico-afega",
+    "n": "Guerra Soviético-Afegã",
+    "periodo": "1979–1989",
+    "ini": 1979,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Um partido comunista tomou o poder num país montanhoso da Ásia, fez expurgos e enfrentou revoltas; meses antes da guerra, um de seus líderes assumiu o poder.",
+      "envolvidos": "Uma superpotência e o governo comunista local contra guerrilheiros islâmicos, apoiados por outra superpotência, por um vizinho, por uma monarquia árabe e por uma potência asiática.",
+      "estopim": "Tropas de uma superpotência entraram no país perto do Natal, e o líder que governava foi morto logo depois.",
+      "desfecho": "Após quase uma década de combates, a superpotência retirou suas últimas tropas; o governo comunista resistiu sozinho por cerca de três anos, até cair diante dos guerrilheiros."
+    },
+    "dado": "As estimativas de afegãos mortos vão de 850 mil a 3 milhões, conforme a fonte; segundo o ACNUR, os refugiados chegaram a 6,2 milhões no fim da guerra.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Soviet–Afghan War",
+        "u": "https://en.wikipedia.org/wiki/Soviet%E2%80%93Afghan_War"
+      },
+      {
+        "t": "Wikipedia (pt), Guerra do Afeganistão (1979–1989)",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_do_Afeganist%C3%A3o_(1979%E2%80%931989)"
+      },
+      {
+        "t": "ACNUR, Afghanistan 10 years after Soviet pull-out",
+        "u": "https://www.unhcr.org/node/8533"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Governo e URSS",
+        "membros": [
+          {
+            "n": "União Soviética"
+          },
+          {
+            "n": "República Democrática do Afeganistão",
+            "nota": "Regime comunista do PDPA."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Mujahidin e apoiadores",
+        "membros": [
+          {
+            "n": "Mujahidin"
+          },
+          {
+            "n": "Estados Unidos",
+            "nota": "Apoiou os mujahidin."
+          },
+          {
+            "n": "Paquistão",
+            "nota": "Apoiou os mujahidin."
+          },
+          {
+            "n": "Arábia Saudita",
+            "nota": "Apoiou os mujahidin."
+          },
+          {
+            "n": "China",
+            "nota": "Apoiou os mujahidin.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-ira-iraque",
+    "n": "Guerra Irã-Iraque",
+    "periodo": "1980–1988",
+    "ini": 1980,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Uma revolução islâmica xiita acabara de derrubar a monarquia de um país, e o ditador vizinho temia que ela inspirasse a maioria xiita de seu povo; havia ainda uma disputa antiga por uma hidrovia de fronteira.",
+      "envolvidos": "Dois vizinhos frente a frente: um contou com apoio de países ocidentais, de Estados árabes e de uma superpotência comunista; o outro, com um punhado de aliados no Oriente Médio, no norte da África e na Ásia.",
+      "estopim": "Tropas do ditador invadiram o oeste do país vizinho, de olho em territórios e na hidrovia disputada.",
+      "desfecho": "Depois de ataques a petroleiros e do uso de armas químicas, inclusive contra civis curdos, uma resolução da ONU levou a um cessar-fogo sem mudanças permanentes na fronteira."
+    },
+    "dado": "Cerca de 500 mil pessoas morreram, segundo a Britannica, e o total de baixas é estimado entre 1 e 2 milhões.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Iran–Iraq War",
+        "u": "https://en.wikipedia.org/wiki/Iran%E2%80%93Iraq_War"
+      },
+      {
+        "t": "Britannica, Iran-Iraq War",
+        "u": "https://www.britannica.com/event/Iran-Iraq-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Iraque e apoiadores",
+        "membros": [
+          {
+            "n": "Iraque"
+          },
+          {
+            "n": "União Soviética",
+            "nota": "Principal fornecedora de armas do Iraque."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Irã e apoiadores",
+        "membros": [
+          {
+            "n": "Irã"
+          },
+          {
+            "n": "Síria",
+            "nota": "País árabe que ajudou o Irã.",
+            "dificil": true
+          },
+          {
+            "n": "Líbia",
+            "nota": "Ajudou o Irã, mas se afastou dele a partir de 1987 e reatou com o Iraque.",
+            "dificil": true
+          },
+          {
+            "n": "Coreia do Norte",
+            "nota": "Ajudou o Irã.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-das-malvinas",
+    "n": "Guerra das Malvinas",
+    "periodo": "1982",
+    "ini": 1982,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Um país sul-americano reivindicava havia mais de um século um arquipélago tomado por uma potência europeia, e sua junta militar, criticada pela crise econômica e por violações de direitos humanos, apostou que a \"recuperação\" uniria o povo.",
+      "envolvidos": "Uma ditadura militar sul-americana contra uma antiga potência europeia, que enviou uma força-tarefa naval; um vizinho sul-americano ajudou os europeus, e uma superpotência também os apoiou.",
+      "estopim": "Trabalhadores de sucata, infiltrados por fuzileiros, hastearam a bandeira do país sul-americano numa ilha subantártica ligada ao arquipélago, e pouco depois veio a invasão.",
+      "desfecho": "Após o afundamento de um cruzador sul-americano e de dois destróieres europeus e de combates em terra, o comandante sul-americano se rendeu na capital das ilhas; a derrota apressou a queda da junta, e o governo vencedor ampliou sua maioria na eleição seguinte."
+    },
+    "dado": "Morreram 649 argentinos, 255 britânicos e 3 moradores das ilhas.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Falklands War",
+        "u": "https://en.wikipedia.org/wiki/Falklands_War"
+      },
+      {
+        "t": "Britannica, Falkland Islands War",
+        "u": "https://www.britannica.com/event/Falkland-Islands-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Argentina",
+        "membros": [
+          {
+            "n": "Argentina"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Reino Unido e apoiadores",
+        "membros": [
+          {
+            "n": "Reino Unido"
+          },
+          {
+            "n": "Chile",
+            "nota": "Passou aos britânicos informações de inteligência sobre os militares argentinos.",
+            "dificil": true
+          },
+          {
+            "n": "Estados Unidos",
+            "nota": "Apoiou o Reino Unido."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-do-golfo",
+    "n": "Guerra do Golfo",
+    "periodo": "1990–1991",
+    "ini": 1990,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Endividado depois de uma longa guerra com o vizinho do leste, um ditador acusava um pequeno emirado de produzir petróleo além da cota do cartel e de perfurar em diagonal sob a fronteira.",
+      "envolvidos": "Um regime árabe contra uma coalizão de dezenas de países liderada por uma superpotência, que incluía potências europeias e vários países árabes.",
+      "estopim": "O exército do ditador invadiu o emirado no verão e o anexou dias depois; a ONU impôs um embargo e fixou um prazo para a retirada.",
+      "desfecho": "Uma campanha aérea de semanas e uma ofensiva terrestre de cerca de 100 horas expulsaram os invasores, que incendiaram centenas de poços de petróleo; as sanções foram mantidas e criaram-se zonas de exclusão aérea."
+    },
+    "dado": "As forças iraquianas provocaram mais de 600 incêndios em poços de petróleo do Kuwait.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Gulf War",
+        "u": "https://en.wikipedia.org/wiki/Gulf_War"
+      },
+      {
+        "t": "Britannica, Persian Gulf War",
+        "u": "https://www.britannica.com/event/Persian-Gulf-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Iraque",
+        "membros": [
+          {
+            "n": "Iraque"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Coalizão",
+        "membros": [
+          {
+            "n": "Estados Unidos"
+          },
+          {
+            "n": "Arábia Saudita"
+          },
+          {
+            "n": "Reino Unido"
+          },
+          {
+            "n": "Egito",
+            "dificil": true
+          },
+          {
+            "n": "Síria",
+            "dificil": true
+          },
+          {
+            "n": "França"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerras-iugoslavas",
+    "n": "Guerras Iugoslavas",
+    "periodo": "1991–2001",
+    "ini": 1991,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Após a morte do líder que governara por décadas uma federação socialista dos Bálcãs, crise econômica e nacionalismos enfraqueceram o poder central, e a maior república defendia uma federação mais centralizada sob seu domínio.",
+      "envolvidos": "Repúblicas e minorias que buscavam independência ou autonomia, contra o governo federal, forças da república dominante e, por fim, o governo de uma das novas repúblicas; uma aliança militar ocidental interveio com bombardeios em duas das guerras.",
+      "estopim": "A independência de duas repúblicas do norte levou a uma guerra curta na primeira e a uma longa na segunda, que durou cerca de quatro anos.",
+      "desfecho": "Depois de um massacre reconhecido como genocídio e de bombardeios ocidentais, um acordo negociado e rubricado nos Estados Unidos encerrou a guerra na república do centro; vieram depois uma guerra numa província do sul e uma insurgência na república mais ao sul, e um tribunal internacional julgou crimes de guerra."
+    },
+    "dado": "As estimativas de mortos ficam entre 130 mil e 140 mil.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Yugoslav Wars",
+        "u": "https://en.wikipedia.org/wiki/Yugoslav_Wars"
+      },
+      {
+        "t": "Wikipedia (pt), Guerras iugoslavas",
+        "u": "https://pt.wikipedia.org/wiki/Guerras_iugoslavas"
+      },
+      {
+        "t": "Wikipedia (en), Dayton Agreement",
+        "u": "https://en.wikipedia.org/wiki/Dayton_Agreement"
+      }
+    ]
+  },
+  {
+    "id": "segunda-guerra-do-congo",
+    "n": "Segunda Guerra do Congo",
+    "periodo": "1998–2003",
+    "ini": 1998,
+    "reg": "África",
+    "pistas": {
+      "fundo": "Depois de um genocídio num país vizinho, refugiados hutus se instalaram no leste de um enorme país da África Central, e uma guerra anterior pusera no poder um líder apoiado pelos vizinhos.",
+      "envolvidos": "O governo central, defendido por exércitos de vários países africanos, contra grupos rebeldes apoiados por três vizinhos do leste.",
+      "estopim": "O presidente mandou embora as tropas estrangeiras que o tinham ajudado; os antigos aliados passaram a apoiar novos rebeldes e voltaram a invadir.",
+      "desfecho": "Minérios financiaram boa parte dos combates; o presidente foi assassinado e sucedido pelo filho, e acordos assinados na África do Sul levaram à retirada das tropas e a um governo de transição."
+    },
+    "dado": "As estimativas de mortes divergem muito, de cerca de 860 mil a 5,4 milhões; a maioria morreu de fome e doenças, segundo a Wikipedia em português.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Second Congo War",
+        "u": "https://en.wikipedia.org/wiki/Second_Congo_War"
+      },
+      {
+        "t": "Wikipedia (pt), Segunda Guerra do Congo",
+        "u": "https://pt.wikipedia.org/wiki/Segunda_Guerra_do_Congo"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Governo de Kabila",
+        "membros": [
+          {
+            "n": "República Democrática do Congo",
+            "nota": "Governo de Laurent-Désiré Kabila."
+          },
+          {
+            "n": "Angola"
+          },
+          {
+            "n": "Zimbábue"
+          },
+          {
+            "n": "Namíbia"
+          },
+          {
+            "n": "Chade",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Rebeldes e apoiadores",
+        "membros": [
+          {
+            "n": "Ruanda"
+          },
+          {
+            "n": "Uganda"
+          },
+          {
+            "n": "Burundi",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  }
+]

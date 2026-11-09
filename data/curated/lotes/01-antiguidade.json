@@ -1,0 +1,579 @@
+[
+  {
+    "id": "guerras-medicas",
+    "n": "Guerras Médicas",
+    "periodo": "499–449 a.C.",
+    "ini": -499,
+    "reg": "Mediterrâneo oriental",
+    "pistas": {
+      "fundo": "Um império em expansão tinha conquistado as cidades gregas da costa da Anatólia, que lhe pagavam tributo e deviam serviço militar, enquanto do outro lado do mar as cidades-Estado gregas seguiam independentes.",
+      "envolvidos": "Uma aliança de cidades-Estado, liderada por uma potência terrestre e por uma potência naval rival, contra um império multinacional que contava com cidades gregas submetidas ou simpatizantes.",
+      "estopim": "Cidades gregas da Jônia se rebelaram com a ajuda de navios atenienses e eretrienses. Esmagada a revolta, o império mandou uma expedição para punir as cidades que a tinham apoiado.",
+      "desfecho": "Vitórias gregas em Salamina, Plateia e Mícale expulsaram os invasores. Uma liga naval levou a luta à costa da Ásia, e uma paz negociada, cuja existência alguns historiadores discutem, encerrou as hostilidades."
+    },
+    "dado": "Heródoto é a principal fonte sobre essas guerras, e todos os relatos posteriores dependem dele, apesar de alguns episódios que conta serem duvidosos.",
+    "lados": {
+      "a": {
+        "nome": "Aliança grega",
+        "membros": [
+          {
+            "n": "Esparta",
+            "nota": "Liderou a aliança em terra; o rei Leônidas comandou a defesa das Termópilas."
+          },
+          {
+            "n": "Atenas"
+          },
+          {
+            "n": "Corinto"
+          },
+          {
+            "n": "Plateia",
+            "dificil": true,
+            "nota": "Arrasada pelos persas, seguiu lutando do exílio, como Atenas e Téspias."
+          },
+          {
+            "n": "Téspias",
+            "dificil": true,
+            "nota": "Seus 700 hoplitas ficaram com Leônidas até o fim nas Termópilas."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Império Persa e aliados",
+        "membros": [
+          {
+            "n": "Império Aquemênida"
+          },
+          {
+            "n": "Tessália",
+            "dificil": true,
+            "nota": "Submeteu-se aos persas depois que os gregos abandonaram a defesa do vale de Tempe."
+          },
+          {
+            "n": "Tebas",
+            "dificil": true,
+            "nota": "Mandou 400 hoplitas às Termópilas, mas aderiu aos persas e lutou ao lado deles em Plateia; depois, os gregos executaram seus líderes pró-persas."
+          },
+          {
+            "n": "Macedônia",
+            "dificil": true,
+            "nota": "Vassala dos persas; o rei Alexandre I serviu de mediador da oferta de paz de Mardônio a Atenas."
+          },
+          {
+            "n": "Halicarnasso",
+            "dificil": true,
+            "nota": "Cidade grega da Anatólia, vassala do império."
+          }
+        ]
+      }
+    },
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Greco-Persian Wars",
+        "u": "https://en.wikipedia.org/wiki/Greco-Persian_Wars"
+      },
+      {
+        "t": "Wikipedia (en), Second Persian invasion of Greece",
+        "u": "https://en.wikipedia.org/wiki/Second_Persian_invasion_of_Greece"
+      },
+      {
+        "t": "Wikipedia (en), Battle of Plataea",
+        "u": "https://en.wikipedia.org/wiki/Battle_of_Plataea"
+      },
+      {
+        "t": "Britannica, Greco-Persian Wars",
+        "u": "https://www.britannica.com/event/Greco-Persian-Wars/The-Ionian-Revolt-499-493-bce"
+      },
+      {
+        "t": "World History Encyclopedia, Peace of Callias",
+        "u": "https://www.worldhistory.org/Peace_of_Callias/"
+      },
+      {
+        "t": "EBSCO Research Starters, Ionian Revolt",
+        "u": "https://www.ebsco.com/research-starters/history/ionian-revolt/"
+      }
+    ]
+  },
+  {
+    "id": "conquistas-de-alexandre-o-grande",
+    "n": "Conquistas de Alexandre, o Grande",
+    "periodo": "336–323 a.C.",
+    "ini": -336,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Um rei do norte da Grécia tinha unido as cidades gregas numa liga sob seu comando, com o objetivo declarado de combater o maior império do Oriente Próximo, e foi assassinado antes de começar a campanha.",
+      "envolvidos": "Um reino do norte da Grécia, à frente de uma liga de cidades gregas, contra um império persa que contava com mercenários gregos e com povos da Ásia Central e da Índia.",
+      "estopim": "O filho e sucessor do rei assassinado esmagou revoltas na Grécia, arrasando Tebas, e atravessou o Helesponto rumo à Ásia; a primeira grande batalha foi às margens do rio Granico.",
+      "desfecho": "Depois das vitórias em Isso e Gaugamela, o império persa caiu. As tropas se recusaram a avançar além do rio Beas, na Índia, e, com a morte do conquistador na Babilônia, seus generais disputaram o império por cerca de 40 anos."
+    },
+    "dado": "O império conquistado ia dos Bálcãs e do Egito à Ásia Central e à Índia.",
+    "lados": {
+      "a": {
+        "nome": "Macedônia e aliados gregos",
+        "membros": [
+          {
+            "n": "Reino da Macedônia"
+          },
+          {
+            "n": "Liga de Corinto",
+            "nota": "Liga das cidades gregas criada pelo pai de Alexandre, Filipe II.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Império Persa e aliados",
+        "membros": [
+          {
+            "n": "Império Aquemênida",
+            "nota": "Governado por Dario III, derrotado em Isso e Gaugamela."
+          },
+          {
+            "n": "Mercenários gregos",
+            "nota": "Gregos lutaram dos dois lados: milhares serviram à Pérsia.",
+            "dificil": true
+          },
+          {
+            "n": "Reino de Poro",
+            "nota": "Rei indiano derrotado no rio Hidaspes, em 326 a.C.",
+            "dificil": true
+          }
+        ]
+      }
+    },
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Wars of Alexander the Great",
+        "u": "https://en.wikipedia.org/wiki/Wars_of_Alexander_the_Great"
+      },
+      {
+        "t": "World History Encyclopedia, Alexander the Great",
+        "u": "https://www.worldhistory.org/Alexander_the_Great/"
+      }
+    ]
+  },
+  {
+    "id": "guerras-de-unificacao-da-china-por-qin",
+    "n": "Guerras de unificação da China por Qin",
+    "periodo": "230–221 a.C.",
+    "ini": -230,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Depois de séculos de guerra entre sete reinos, um deles se tornara o mais forte, com reformas administrativas legalistas, uma barreira de montanhas a leste e um Estado capaz de manter exércitos enormes, enquanto a dinastia que reinava sobre todos era apenas cerimonial.",
+      "envolvidos": "O reino mais ocidental, sob um rei jovem e centralizador, contra os seis reinos restantes, conquistados um a um.",
+      "estopim": "O rei lançou a campanha contra o vizinho mais fraco. Durante a guerra, o príncipe herdeiro de um dos alvos mandou um assassino disfarçado de enviado, com um mapa e a cabeça de um general fugitivo; a tentativa falhou e virou pretexto para o ataque.",
+      "desfecho": "O último reino se rendeu sem lutar. O vencedor se proclamou Primeiro Imperador e trocou os feudos por um governo centralizado de 36 comandarias."
+    },
+    "dado": "A unificação lançou as bases da China imperial, segundo a World History Encyclopedia.",
+    "lados": {
+      "a": {
+        "nome": "Qin",
+        "membros": [
+          {
+            "n": "Qin",
+            "nota": "O rei Ying Zheng tornou-se Qin Shi Huangdi, o Primeiro Imperador."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Os seis reinos",
+        "membros": [
+          {
+            "n": "Han",
+            "nota": "O primeiro a cair.",
+            "dificil": true
+          },
+          {
+            "n": "Zhao",
+            "dificil": true
+          },
+          {
+            "n": "Wei",
+            "dificil": true
+          },
+          {
+            "n": "Chu",
+            "dificil": true
+          },
+          {
+            "n": "Yan",
+            "nota": "Seu príncipe herdeiro, Dan, mandou o assassino Jing Ke.",
+            "dificil": true
+          },
+          {
+            "n": "Qi",
+            "nota": "Rendeu-se sem lutar.",
+            "dificil": true
+          }
+        ]
+      }
+    },
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Qin's wars of unification",
+        "u": "https://en.wikipedia.org/wiki/Qin%27s_wars_of_unification"
+      },
+      {
+        "t": "World History Encyclopedia, Warring States Period",
+        "u": "https://www.worldhistory.org/Warring_States_Period/"
+      }
+    ]
+  },
+  {
+    "id": "guerras-galicas",
+    "n": "Guerras Gálicas",
+    "periodo": "58–50 a.C.",
+    "ini": -58,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um político romano muito endividado recebeu o governo de províncias na fronteira norte e via na guerra uma fonte de riqueza e prestígio. Além da fronteira, povos celtas divididos disputavam a região, pressionados por grupos germânicos.",
+      "envolvidos": "Um procônsul romano e suas legiões, apoiados por povos locais aliados, contra uma série de tribos celtas, germânicas e britônicas que no fim se uniram sob um único chefe.",
+      "estopim": "A migração de um povo da região dos Alpes em direção ao oeste deu ao procônsul o pretexto para intervir; no mesmo ano, ele derrotou um rei germânico instalado na região.",
+      "desfecho": "O chefe que unira as tribos venceu em Gergóvia, mas se rendeu depois do cerco de Alésia. A região foi conquistada, e a riqueza e a fama obtidas ajudaram o vencedor na guerra civil que pôs fim à República."
+    },
+    "dado": "O próprio vencedor narrou as campanhas nos Comentários sobre a Guerra Gálica (De Bello Gallico).",
+    "lados": {
+      "a": {
+        "nome": "Roma e aliados",
+        "membros": [
+          {
+            "n": "República Romana",
+            "nota": "Comandada por Júlio César."
+          },
+          {
+            "n": "Éduos",
+            "nota": "Povo gaulês aliado de Roma.",
+            "dificil": true
+          },
+          {
+            "n": "Remos",
+            "nota": "Povo gaulês aliado de Roma.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Povos que resistiram",
+        "membros": [
+          {
+            "n": "Helvécios",
+            "nota": "Sua migração foi o pretexto para a guerra."
+          },
+          {
+            "n": "Belgas"
+          },
+          {
+            "n": "Vênetos",
+            "dificil": true
+          },
+          {
+            "n": "Arvernos",
+            "nota": "Povo de Vercingetórix, que uniu as tribos na revolta final.",
+            "dificil": true
+          },
+          {
+            "n": "Germanos de Ariovisto",
+            "nota": "Derrotados por César no primeiro ano da guerra.",
+            "dificil": true
+          }
+        ]
+      }
+    },
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Gallic Wars",
+        "u": "https://en.wikipedia.org/wiki/Gallic_Wars"
+      },
+      {
+        "t": "Britannica, Gallic Wars",
+        "u": "https://www.britannica.com/event/Gallic-Wars"
+      },
+      {
+        "t": "World History Encyclopedia, Gallic Wars",
+        "u": "https://www.worldhistory.org/Gallic_Wars/"
+      }
+    ]
+  },
+  {
+    "id": "guerra-civil-de-cesar",
+    "n": "Guerra civil de César",
+    "periodo": "49–45 a.C.",
+    "ini": -49,
+    "reg": "Mediterrâneo ocidental",
+    "pistas": {
+      "fundo": "A aliança informal entre três líderes que dominavam a política romana se desfez depois da morte de um deles e da filha de outro, casada com o terceiro; os dois sobreviventes passaram a rivais.",
+      "envolvidos": "Um general vitorioso e suas legiões veteranas contra a maioria do Senado, liderada por seu antigo aliado e ex-genro, com o apoio de um rei africano e da corte egípcia.",
+      "estopim": "O Senado exigiu que o general entregasse o comando, sob pena de ser declarado inimigo público. Ele atravessou com suas tropas o rio que marcava o limite de sua província.",
+      "desfecho": "Derrotado em Farsália, o rival fugiu para o Egito e foi morto lá; os últimos opositores caíram em Tapso e Munda. O vencedor concentrou o poder e foi assassinado no ano seguinte ao fim da guerra."
+    },
+    "dado": "O assassinato de César deixou um vácuo de poder, ocupado depois por Otaviano.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Caesar's civil war",
+        "u": "https://en.wikipedia.org/wiki/Caesar%27s_civil_war"
+      },
+      {
+        "t": "Britannica, Battle of Pharsalus",
+        "u": "https://www.britannica.com/event/Battle-of-Pharsalus"
+      }
+    ]
+  },
+  {
+    "id": "primeira-guerra-judaico-romana",
+    "n": "Primeira Guerra Judaico-Romana",
+    "periodo": "66–73",
+    "ini": 66,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Uma província conquistada por Roma passou, depois de um rei cliente que cobrava impostos pesados, ao governo direto de magistrados romanos, com desigualdade social crescente e tensões religiosas e étnicas.",
+      "envolvidos": "Facções rebeldes que também lutavam entre si, de zelosos da lei a radicais armados de punhais, contra legiões comandadas por um general que viria a ser imperador e, depois, por seu filho.",
+      "estopim": "Uma disputa por um terreno junto a uma sinagoga de Cesareia acabou em violência; depois, o governador romano tomou 17 talentos do tesouro do Templo, e suas tropas mataram mais de 3.600 pessoas em Jerusalém.",
+      "desfecho": "Jerusalém e o Templo foram destruídos, e a última fortaleza rebelde, Massada, caiu alguns anos depois."
+    },
+    "dado": "Foi a primeira de três grandes revoltas judaicas contra Roma.",
+    "lados": {
+      "a": {
+        "nome": "Rebeldes judeus",
+        "membros": [
+          {
+            "n": "Zelotes"
+          },
+          {
+            "n": "Sicários"
+          },
+          {
+            "n": "João de Giscala",
+            "nota": "Líder de uma das facções que disputavam Jerusalém entre si.",
+            "dificil": true
+          },
+          {
+            "n": "Simão bar Giora",
+            "nota": "Líder de outra facção rival dentro da cidade sitiada.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Roma",
+        "membros": [
+          {
+            "n": "Vespasiano",
+            "nota": "Comandou a campanha e depois se tornou imperador."
+          },
+          {
+            "n": "Tito",
+            "nota": "Filho de Vespasiano, tomou Jerusalém."
+          }
+        ]
+      }
+    },
+    "fontes": [
+      {
+        "t": "Wikipedia (en), First Jewish–Roman War",
+        "u": "https://en.wikipedia.org/wiki/First_Jewish%E2%80%93Roman_War"
+      }
+    ]
+  },
+  {
+    "id": "guerra-dos-tres-reinos",
+    "n": "Guerra dos Três Reinos",
+    "periodo": "184–280",
+    "ini": 184,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Uma dinastia imperial estava em declínio havia décadas e foi abalada por uma grande rebelião popular; os generais que a reprimiram passaram a governar por conta própria.",
+      "envolvidos": "Três Estados rivais, cada um fundado por um senhor da guerra: um no norte, o mais forte, e dois no sul, que se aliaram contra ele.",
+      "estopim": "Com o imperador sem controle do país, a vitória dos dois Estados do sul na batalha dos Penhascos Vermelhos impediu que o senhor do norte unificasse o território.",
+      "desfecho": "O Estado do norte conquistou um dos rivais e foi substituído por uma nova dinastia, que conquistou o último e reunificou o país. Um censo do fim do período registrou cerca de 16 milhões de habitantes, contra cerca de 56 milhões antes, números que provavelmente subestimam a população."
+    },
+    "dado": "O período ficou famoso pelo Romance dos Três Reinos, escrito por Luo Guanzhong na dinastia Ming.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Three Kingdoms",
+        "u": "https://en.wikipedia.org/wiki/Three_Kingdoms"
+      }
+    ]
+  },
+  {
+    "id": "campanhas-de-atila",
+    "n": "Campanhas de Átila",
+    "periodo": "434–453",
+    "ini": 434,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um povo nômade da estepe dominava um vasto império de povos vassalos na Europa Central e arrancava tributos crescentes em ouro de Constantinopla, enquanto o poder romano no Ocidente se enfraquecia.",
+      "envolvidos": "Um rei nômade e seus vassalos germânicos contra o que restava do poder romano no Ocidente, defendido por um general que se aliou a um reino germânico rival.",
+      "estopim": "A irmã do imperador do Ocidente pediu ajuda ao rei nômade para escapar de um casamento e lhe mandou seu anel; ele a reclamou como noiva e exigiu metade do império como dote.",
+      "desfecho": "Depois de uma batalha nos Campos Cataláunicos, na Gália, o rei invadiu a Itália e saqueou Aquileia, mas recuou após receber uma delegação do papa Leão I. Morreu pouco depois, e o império se desfez nas mãos dos filhos."
+    },
+    "dado": "O tributo anual pago por Constantinopla chegou a 2.100 libras de ouro.",
+    "lados": {
+      "contexto": "Na batalha dos Campos Cataláunicos (451)",
+      "a": {
+        "nome": "Hunos e vassalos",
+        "membros": [
+          {
+            "n": "Hunos",
+            "nota": "Liderados por Átila."
+          },
+          {
+            "n": "Ostrogodos",
+            "nota": "Povo germânico vassalo dos hunos.",
+            "dificil": true
+          },
+          {
+            "n": "Gépidas",
+            "nota": "Povo germânico vassalo dos hunos.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Romanos e aliados",
+        "membros": [
+          {
+            "n": "Império Romano do Ocidente",
+            "nota": "Comandado pelo general Aécio."
+          },
+          {
+            "n": "Visigodos",
+            "nota": "Aliados de Aécio; seu rei, Teodorico I, morreu na batalha.",
+            "dificil": true
+          }
+        ]
+      }
+    },
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Attila",
+        "u": "https://en.wikipedia.org/wiki/Attila"
+      },
+      {
+        "t": "World History Encyclopedia, Attila the Hun",
+        "u": "https://www.worldhistory.org/Attila_the_Hun/"
+      }
+    ]
+  },
+  {
+    "id": "guerra-gotica-de-justiniano",
+    "n": "Guerra Gótica de Justiniano",
+    "periodo": "535–554",
+    "ini": 535,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um reino germânico governava a Itália, e um imperador em Constantinopla, depois de retomar o norte da África de outro reino germânico, queria recuperar as antigas províncias do Ocidente.",
+      "envolvidos": "Os exércitos do império do Oriente, com auxiliares bárbaros, contra o reino germânico que ocupava a península, que teve dois grandes reis guerreiros.",
+      "estopim": "O rei germânico mandou matar a rainha, e o imperador usou o crime como pretexto para a guerra.",
+      "desfecho": "Depois de duas décadas de luta, com Roma tomada e retomada várias vezes, o último exército germânico foi destruído em Mons Lactarius. A península saiu devastada, e uma nova invasão, poucos anos depois, tomou grande parte dela."
+    },
+    "dado": "A Itália saiu devastada e despovoada; em 568, a invasão lombarda tirou de Constantinopla grande parte da península.",
+    "lados": {
+      "a": {
+        "nome": "Império Romano do Oriente",
+        "membros": [
+          {
+            "n": "Belisário",
+            "nota": "Tomou Nápoles, Roma e Ravena."
+          },
+          {
+            "n": "Narses",
+            "nota": "Derrotou Totila e o último exército godo."
+          },
+          {
+            "n": "Lombardos",
+            "nota": "Lutaram como auxiliares do império.",
+            "dificil": true
+          },
+          {
+            "n": "Hérulos",
+            "nota": "Lutaram como auxiliares do império.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Ostrogodos",
+        "membros": [
+          {
+            "n": "Vitiges",
+            "nota": "Rei godo que cercou Roma."
+          },
+          {
+            "n": "Totila",
+            "nota": "Reanimou a resistência goda e retomou Roma.",
+            "dificil": true
+          }
+        ]
+      }
+    },
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Gothic War (535–554)",
+        "u": "https://en.wikipedia.org/wiki/Gothic_War_(535%E2%80%93554)"
+      },
+      {
+        "t": "Britannica, Belisarius",
+        "u": "https://www.britannica.com/biography/Belisarius"
+      }
+    ]
+  },
+  {
+    "id": "guerra-bizantino-sassanida",
+    "n": "Guerra Bizantino-Sassânida",
+    "periodo": "602–628",
+    "ini": 602,
+    "reg": "Oriente Médio",
+    "pistas": {
+      "fundo": "Dois impérios disputavam o Oriente Próximo havia séculos. Pouco antes, o imperador cristão tinha ajudado o rei persa a recuperar o trono.",
+      "envolvidos": "O império cristão do Mediterrâneo oriental, aliado a um povo turco da estepe, contra o império persa, aliado a nômades da estepe europeia e a povos eslavos.",
+      "estopim": "Um oficial usurpou o trono em Constantinopla e matou o imperador que havia ajudado o rei persa; este declarou guerra para vingá-lo.",
+      "desfecho": "Depois de perder o Levante, Jerusalém e o Egito, o império cristão contra-atacou e venceu perto de Nínive; o rei persa foi derrubado e morto, e as fronteiras voltaram ao que eram. Exaustos, os dois impérios ficaram expostos às conquistas árabes."
+    },
+    "dado": "Foi a última e a mais devastadora das guerras entre romanos e persas.",
+    "lados": {
+      "a": {
+        "nome": "Império Bizantino e aliados",
+        "membros": [
+          {
+            "n": "Império Bizantino",
+            "nota": "Liderado no contra-ataque pelo imperador Heráclio."
+          },
+          {
+            "n": "Turcos ocidentais",
+            "nota": "Aliados de Heráclio na campanha final.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Império Sassânida e aliados",
+        "membros": [
+          {
+            "n": "Império Sassânida",
+            "nota": "Governado por Cosroes II."
+          },
+          {
+            "n": "Ávaros",
+            "nota": "Cercaram Constantinopla com os persas em 626, sem sucesso.",
+            "dificil": true
+          },
+          {
+            "n": "Eslavos",
+            "nota": "Participaram do cerco de 626.",
+            "dificil": true
+          }
+        ]
+      }
+    },
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Byzantine–Sasanian War of 602–628",
+        "u": "https://en.wikipedia.org/wiki/Byzantine%E2%80%93Sasanian_War_of_602%E2%80%93628"
+      },
+      {
+        "t": "World History Encyclopedia, Heraclius",
+        "u": "https://www.worldhistory.org/Heraclius/"
+      }
+    ]
+  }
+]

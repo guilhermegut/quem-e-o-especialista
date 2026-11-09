@@ -1,0 +1,608 @@
+[
+[
+"Nº",
+"Conflito",
+"Período aproximado",
+"Onde"
+],
+[
+"1",
+"Guerras Médicas",
+"499–449 a.C.",
+"Grécia e Império Persa"
+],
+[
+"2",
+"Guerra do Peloponeso",
+"431–404 a.C.",
+"Grécia"
+],
+[
+"3",
+"Conquistas de Alexandre, o Grande",
+"336–323 a.C.",
+"Do Egito à Índia"
+],
+[
+"4",
+"Guerras Púnicas",
+"264–146 a.C.",
+"Mediterrâneo ocidental"
+],
+[
+"5",
+"Guerras de unificação da China por Qin",
+"230–221 a.C.",
+"China"
+],
+[
+"6",
+"Guerras Gálicas",
+"58–50 a.C.",
+"Gália"
+],
+[
+"7",
+"Guerra civil de César",
+"49–45 a.C.",
+"Mundo romano"
+],
+[
+"8",
+"Primeira Guerra Judaico-Romana",
+"66–73",
+"Judeia"
+],
+[
+"9",
+"Guerra dos Três Reinos",
+"184–280",
+"China"
+],
+[
+"10",
+"Campanhas de Átila",
+"434–453",
+"Europa"
+],
+[
+"11",
+"Guerra Gótica de Justiniano",
+"535–554",
+"Itália"
+],
+[
+"12",
+"Guerra Bizantino-Sassânida",
+"602–628",
+"Oriente Médio"
+],
+[
+"13",
+"Conquistas árabes",
+"632–750",
+"Oriente Médio, Norte da África e Península Ibérica"
+],
+[
+"14",
+"Rebelião de An Lushan",
+"755–763",
+"China"
+],
+[
+"15",
+"Invasões vikings",
+"793–1066",
+"Europa"
+],
+[
+"16",
+"Conquista normanda da Inglaterra",
+"1066",
+"Inglaterra"
+],
+[
+"17",
+"Reconquista",
+"718–1492",
+"Península Ibérica"
+],
+[
+"18",
+"Cruzadas",
+"1096–1291",
+"Oriente Médio"
+],
+[
+"19",
+"Conquistas mongóis",
+"1206–1368",
+"Ásia e Europa"
+],
+[
+"20",
+"Guerra dos Cem Anos",
+"1337–1453",
+"França e Inglaterra"
+],
+[
+"21",
+"Campanhas de Tamerlão",
+"1370–1405",
+"Ásia Central e Oriente Médio"
+],
+[
+"22",
+"Queda de Constantinopla",
+"1453",
+"Bizâncio e Império Otomano"
+],
+[
+"23",
+"Guerra das Rosas",
+"1455–1487",
+"Inglaterra"
+],
+[
+"24",
+"Período Sengoku e unificação do Japão",
+"1467–1615",
+"Japão"
+],
+[
+"25",
+"Guerras Italianas",
+"1494–1559",
+"Itália"
+],
+[
+"26",
+"Conquista do Império Asteca",
+"1519–1521",
+"México"
+],
+[
+"27",
+"Conquista do Império Inca",
+"1532–1572",
+"Andes"
+],
+[
+"28",
+"Guerras de religião na França",
+"1562–1598",
+"França"
+],
+[
+"29",
+"Guerra dos Oitenta Anos",
+"1568–1648",
+"Países Baixos"
+],
+[
+"30",
+"Guerra Anglo-Espanhola",
+"1585–1604",
+"Atlântico"
+],
+[
+"31",
+"Invasões japonesas da Coreia",
+"1592–1598",
+"Coreia"
+],
+[
+"32",
+"Guerra dos Trinta Anos",
+"1618–1648",
+"Europa Central"
+],
+[
+"33",
+"Conquista da China pelos manchus",
+"1618–1683",
+"China"
+],
+[
+"34",
+"Invasões holandesas no Brasil",
+"1624–1654",
+"Brasil"
+],
+[
+"35",
+"Guerra da Restauração",
+"1640–1668",
+"Portugal e Espanha"
+],
+[
+"36",
+"Guerra Civil Inglesa",
+"1642–1651",
+"Ilhas Britânicas"
+],
+[
+"37",
+"Grande Guerra do Norte",
+"1700–1721",
+"Báltico"
+],
+[
+"38",
+"Guerra de Sucessão Espanhola",
+"1701–1714",
+"Europa"
+],
+[
+"39",
+"Guerra de Sucessão Austríaca",
+"1740–1748",
+"Europa"
+],
+[
+"40",
+"Guerra dos Sete Anos",
+"1756–1763",
+"Europa, América e Ásia"
+],
+[
+"41",
+"Guerra de Independência dos Estados Unidos",
+"1775–1783",
+"América do Norte"
+],
+[
+"42",
+"Revolução Haitiana",
+"1791–1804",
+"Haiti"
+],
+[
+"43",
+"Guerras Revolucionárias Francesas",
+"1792–1802",
+"Europa"
+],
+[
+"44",
+"Guerras Napoleônicas",
+"1803–1815",
+"Europa"
+],
+[
+"45",
+"Guerra Peninsular",
+"1807–1814",
+"Portugal e Espanha"
+],
+[
+"46",
+"Guerras de independência da América Espanhola",
+"1808–1833",
+"América Latina"
+],
+[
+"47",
+"Guerra de 1812",
+"1812–1815",
+"América do Norte"
+],
+[
+"48",
+"Guerra de Independência da Grécia",
+"1821–1829",
+"Grécia"
+],
+[
+"49",
+"Guerra de Independência do Brasil",
+"1822–1824",
+"Brasil"
+],
+[
+"50",
+"Guerra da Cisplatina",
+"1825–1828",
+"Rio da Prata"
+],
+[
+"51",
+"Revolução Farroupilha",
+"1835–1845",
+"Sul do Brasil"
+],
+[
+"52",
+"Primeira Guerra do Ópio",
+"1839–1842",
+"China"
+],
+[
+"53",
+"Guerra Mexicano-Americana",
+"1846–1848",
+"México e Estados Unidos"
+],
+[
+"54",
+"Rebelião Taiping",
+"1850–1864",
+"China"
+],
+[
+"55",
+"Guerra da Crimeia",
+"1853–1856",
+"Mar Negro"
+],
+[
+"56",
+"Revolta dos Sipaios",
+"1857–1858",
+"Índia"
+],
+[
+"57",
+"Guerras de unificação italiana",
+"1848–1871",
+"Itália"
+],
+[
+"58",
+"Guerra de Secessão",
+"1861–1865",
+"Estados Unidos"
+],
+[
+"59",
+"Guerra do Paraguai",
+"1864–1870",
+"América do Sul"
+],
+[
+"60",
+"Guerra Austro-Prussiana",
+"1866",
+"Europa Central"
+],
+[
+"61",
+"Guerra Boshin",
+"1868–1869",
+"Japão"
+],
+[
+"62",
+"Guerra Franco-Prussiana",
+"1870–1871",
+"França e Alemanha"
+],
+[
+"63",
+"Guerra Russo-Turca",
+"1877–1878",
+"Bálcãs e Cáucaso"
+],
+[
+"64",
+"Guerra do Pacífico",
+"1879–1884",
+"Chile, Peru e Bolívia"
+],
+[
+"65",
+"Primeira Guerra Sino-Japonesa",
+"1894–1895",
+"Coreia e China"
+],
+[
+"66",
+"Guerra de Canudos",
+"1896–1897",
+"Bahia"
+],
+[
+"67",
+"Guerra Hispano-Americana",
+"1898",
+"Caribe e Filipinas"
+],
+[
+"68",
+"Segunda Guerra dos Bôeres",
+"1899–1902",
+"África do Sul"
+],
+[
+"69",
+"Guerra Russo-Japonesa",
+"1904–1905",
+"Manchúria e Coreia"
+],
+[
+"70",
+"Revolução Mexicana",
+"1910–1920",
+"México"
+],
+[
+"71",
+"Guerras Balcânicas",
+"1912–1913",
+"Bálcãs"
+],
+[
+"72",
+"Guerra do Contestado",
+"1912–1916",
+"Paraná e Santa Catarina"
+],
+[
+"73",
+"Primeira Guerra Mundial",
+"1914–1918",
+"Mundo"
+],
+[
+"74",
+"Guerra Civil Russa",
+"1917–1922",
+"Rússia"
+],
+[
+"75",
+"Guerra de Independência Turca",
+"1919–1923",
+"Anatólia"
+],
+[
+"76",
+"Guerra Civil Chinesa",
+"1927–1949",
+"China"
+],
+[
+"77",
+"Revolução Constitucionalista",
+"1932",
+"São Paulo"
+],
+[
+"78",
+"Guerra do Chaco",
+"1932–1935",
+"Bolívia e Paraguai"
+],
+[
+"79",
+"Guerra Civil Espanhola",
+"1936–1939",
+"Espanha"
+],
+[
+"80",
+"Segunda Guerra Sino-Japonesa",
+"1937–1945",
+"China"
+],
+[
+"81",
+"Segunda Guerra Mundial",
+"1939–1945",
+"Mundo"
+],
+[
+"82",
+"Guerra da Indochina",
+"1946–1954",
+"Vietnã, Laos e Camboja"
+],
+[
+"83",
+"Primeira Guerra Árabe-Israelense",
+"1948–1949",
+"Palestina"
+],
+[
+"84",
+"Guerra da Coreia",
+"1950–1953",
+"Coreia"
+],
+[
+"85",
+"Revolução Cubana",
+"1953–1959",
+"Cuba"
+],
+[
+"86",
+"Guerra da Argélia",
+"1954–1962",
+"Argélia"
+],
+[
+"87",
+"Guerra do Vietnã",
+"1955–1975",
+"Vietnã, Laos e Camboja"
+],
+[
+"88",
+"Guerra Colonial Portuguesa",
+"1961–1974",
+"Angola, Moçambique e Guiné-Bissau"
+],
+[
+"89",
+"Guerra dos Seis Dias",
+"1967",
+"Oriente Médio"
+],
+[
+"90",
+"Guerra do Yom Kipur",
+"1973",
+"Oriente Médio"
+],
+[
+"91",
+"Guerra Soviético-Afegã",
+"1979–1989",
+"Afeganistão"
+],
+[
+"92",
+"Guerra Irã-Iraque",
+"1980–1988",
+"Golfo Pérsico"
+],
+[
+"93",
+"Guerra das Malvinas",
+"1982",
+"Atlântico Sul"
+],
+[
+"94",
+"Guerra do Golfo",
+"1990–1991",
+"Kuwait e Iraque"
+],
+[
+"95",
+"Guerras Iugoslavas",
+"1991–2001",
+"Bálcãs"
+],
+[
+"96",
+"Segunda Guerra do Congo",
+"1998–2003",
+"África Central"
+],
+[
+"97",
+"Guerra do Afeganistão",
+"2001–2021",
+"Afeganistão"
+],
+[
+"98",
+"Guerra do Iraque",
+"2003–2011",
+"Iraque"
+],
+[
+"99",
+"Guerra Civil Síria",
+"desde 2011",
+"Síria"
+],
+[
+"100",
+"Guerra Russo-Ucraniana",
+"desde 2014",
+"Ucrânia"
+]
+]

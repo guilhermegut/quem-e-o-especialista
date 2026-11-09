@@ -1,0 +1,1157 @@
+{
+ "copa": [
+  {
+   "ano": 1998,
+   "sede": "França",
+   "campeao": "França",
+   "vice": "Brasil",
+   "placar": "3 a 0",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "sede": "Coreia do Sul e Japão",
+   "campeao": "Brasil",
+   "vice": "Alemanha",
+   "placar": "2 a 0",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "sede": "Alemanha",
+   "campeao": "Itália",
+   "vice": "França",
+   "placar": "1 a 1, 5 a 3 nos pênaltis",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "sede": "África do Sul",
+   "campeao": "Espanha",
+   "vice": "Países Baixos",
+   "placar": "1 a 0 na prorrogação",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "sede": "Brasil",
+   "campeao": "Alemanha",
+   "vice": "Argentina",
+   "placar": "1 a 0 na prorrogação",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "sede": "Rússia",
+   "campeao": "França",
+   "vice": "Croácia",
+   "placar": "4 a 2",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "sede": "Catar",
+   "campeao": "Argentina",
+   "vice": "França",
+   "placar": "3 a 3, 4 a 2 nos pênaltis",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "sede": "Canadá, Estados Unidos e México",
+   "campeao": "Espanha",
+   "vice": "Argentina",
+   "placar": "1 a 0 na prorrogação",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    },
+    {
+     "t": "Wikipedia (en), 2026 FIFA World Cup",
+     "u": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+    }
+   ]
+  }
+ ],
+ "copaFem": [
+  {
+   "ano": 1999,
+   "sede": "Estados Unidos",
+   "campeao": "Estados Unidos",
+   "vice": "China",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "sede": "Estados Unidos",
+   "campeao": "Alemanha",
+   "vice": "Suécia",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "sede": "China",
+   "campeao": "Alemanha",
+   "vice": "Brasil",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "sede": "Alemanha",
+   "campeao": "Japão",
+   "vice": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "sede": "Canadá",
+   "campeao": "Estados Unidos",
+   "vice": "Japão",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "sede": "França",
+   "campeao": "Estados Unidos",
+   "vice": "Países Baixos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "sede": "Austrália e Nova Zelândia",
+   "campeao": "Espanha",
+   "vice": "Inglaterra",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  }
+ ],
+ "olimpiadas": [
+  {
+   "ano": 1996,
+   "estacao": "verao",
+   "cidade": "Atlanta",
+   "pais": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "estacao": "verao",
+   "cidade": "Sydney",
+   "pais": "Austrália",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "estacao": "verao",
+   "cidade": "Atenas",
+   "pais": "Grécia",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "estacao": "verao",
+   "cidade": "Pequim",
+   "pais": "China",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "estacao": "verao",
+   "cidade": "Londres",
+   "pais": "Reino Unido",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "estacao": "verao",
+   "cidade": "Rio de Janeiro",
+   "pais": "Brasil",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "estacao": "verao",
+   "cidade": "Tóquio",
+   "pais": "Japão",
+   "nota": "Adiados para 2021.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "estacao": "verao",
+   "cidade": "Paris",
+   "pais": "França",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2028,
+   "estacao": "verao",
+   "cidade": "Los Angeles",
+   "pais": "Estados Unidos",
+   "nota": "Ainda vão acontecer.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2032,
+   "estacao": "verao",
+   "cidade": "Brisbane",
+   "pais": "Austrália",
+   "nota": "Ainda vão acontecer.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "estacao": "inverno",
+   "cidade": "Nagano",
+   "pais": "Japão",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "estacao": "inverno",
+   "cidade": "Salt Lake City",
+   "pais": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "estacao": "inverno",
+   "cidade": "Turim",
+   "pais": "Itália",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "estacao": "inverno",
+   "cidade": "Vancouver",
+   "pais": "Canadá",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "estacao": "inverno",
+   "cidade": "Sochi",
+   "pais": "Rússia",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "estacao": "inverno",
+   "cidade": "Pyeongchang",
+   "pais": "Coreia do Sul",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "estacao": "inverno",
+   "cidade": "Pequim",
+   "pais": "China",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "estacao": "inverno",
+   "cidade": "Milão e Cortina d'Ampezzo",
+   "pais": "Itália",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2030,
+   "estacao": "inverno",
+   "cidade": "Alpes Franceses",
+   "pais": "França",
+   "nota": "Ainda vão acontecer, numa região com sete cidades.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  }
+ ],
+ "f1": [
+  {
+   "ano": 1996,
+   "piloto": "Damon Hill",
+   "pais": "Reino Unido",
+   "equipe": "Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "piloto": "Jacques Villeneuve",
+   "pais": "Canadá",
+   "equipe": "Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "piloto": "Mika Häkkinen",
+   "pais": "Finlândia",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "piloto": "Mika Häkkinen",
+   "pais": "Finlândia",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "piloto": "Michael Schumacher",
+   "pais": "Alemanha",
+   "equipe": "Ferrari",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "piloto": "Michael Schumacher",
+   "pais": "Alemanha",
+   "equipe": "Ferrari",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "piloto": "Michael Schumacher",
+   "pais": "Alemanha",
+   "equipe": "Ferrari",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "piloto": "Michael Schumacher",
+   "pais": "Alemanha",
+   "equipe": "Ferrari",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "piloto": "Michael Schumacher",
+   "pais": "Alemanha",
+   "equipe": "Ferrari",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "piloto": "Fernando Alonso",
+   "pais": "Espanha",
+   "equipe": "Renault",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "piloto": "Fernando Alonso",
+   "pais": "Espanha",
+   "equipe": "Renault",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "piloto": "Kimi Räikkönen",
+   "pais": "Finlândia",
+   "equipe": "Ferrari",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "piloto": "Lewis Hamilton",
+   "pais": "Reino Unido",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "piloto": "Jenson Button",
+   "pais": "Reino Unido",
+   "equipe": "Brawn",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "piloto": "Sebastian Vettel",
+   "pais": "Alemanha",
+   "equipe": "Red Bull",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "piloto": "Sebastian Vettel",
+   "pais": "Alemanha",
+   "equipe": "Red Bull",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "piloto": "Sebastian Vettel",
+   "pais": "Alemanha",
+   "equipe": "Red Bull",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "piloto": "Sebastian Vettel",
+   "pais": "Alemanha",
+   "equipe": "Red Bull",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "piloto": "Lewis Hamilton",
+   "pais": "Reino Unido",
+   "equipe": "Mercedes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "piloto": "Lewis Hamilton",
+   "pais": "Reino Unido",
+   "equipe": "Mercedes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "piloto": "Nico Rosberg",
+   "pais": "Alemanha",
+   "equipe": "Mercedes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "piloto": "Lewis Hamilton",
+   "pais": "Reino Unido",
+   "equipe": "Mercedes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "piloto": "Lewis Hamilton",
+   "pais": "Reino Unido",
+   "equipe": "Mercedes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "piloto": "Lewis Hamilton",
+   "pais": "Reino Unido",
+   "equipe": "Mercedes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "piloto": "Lewis Hamilton",
+   "pais": "Reino Unido",
+   "equipe": "Mercedes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "piloto": "Max Verstappen",
+   "pais": "Países Baixos",
+   "equipe": "Red Bull",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "piloto": "Max Verstappen",
+   "pais": "Países Baixos",
+   "equipe": "Red Bull",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "piloto": "Max Verstappen",
+   "pais": "Países Baixos",
+   "equipe": "Red Bull",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "piloto": "Max Verstappen",
+   "pais": "Países Baixos",
+   "equipe": "Red Bull",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "piloto": "Lando Norris",
+   "pais": "Reino Unido",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  }
+ ],
+ "bola": [
+  {
+   "ano": 1996,
+   "jogador": "Matthias Sammer",
+   "pais": "Alemanha",
+   "clube": "Borussia Dortmund",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "jogador": "Ronaldo",
+   "pais": "Brasil",
+   "clube": "Inter de Milão",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "jogador": "Zinedine Zidane",
+   "pais": "França",
+   "clube": "Juventus",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "jogador": "Rivaldo",
+   "pais": "Brasil",
+   "clube": "Barcelona",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "jogador": "Luís Figo",
+   "pais": "Portugal",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "jogador": "Michael Owen",
+   "pais": "Inglaterra",
+   "clube": "Liverpool",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "jogador": "Ronaldo",
+   "pais": "Brasil",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "jogador": "Pavel Nedvěd",
+   "pais": "Tchéquia",
+   "clube": "Juventus",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "jogador": "Andriy Shevchenko",
+   "pais": "Ucrânia",
+   "clube": "Milan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "jogador": "Ronaldinho",
+   "pais": "Brasil",
+   "clube": "Barcelona",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "jogador": "Fabio Cannavaro",
+   "pais": "Itália",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "jogador": "Kaká",
+   "pais": "Brasil",
+   "clube": "Milan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "jogador": "Cristiano Ronaldo",
+   "pais": "Portugal",
+   "clube": "Manchester United",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "jogador": "Lionel Messi",
+   "pais": "Argentina",
+   "clube": "Barcelona",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "jogador": "Lionel Messi",
+   "pais": "Argentina",
+   "clube": "Barcelona",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "jogador": "Lionel Messi",
+   "pais": "Argentina",
+   "clube": "Barcelona",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "jogador": "Lionel Messi",
+   "pais": "Argentina",
+   "clube": "Barcelona",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "jogador": "Cristiano Ronaldo",
+   "pais": "Portugal",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "jogador": "Cristiano Ronaldo",
+   "pais": "Portugal",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "jogador": "Lionel Messi",
+   "pais": "Argentina",
+   "clube": "Barcelona",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "jogador": "Cristiano Ronaldo",
+   "pais": "Portugal",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "jogador": "Cristiano Ronaldo",
+   "pais": "Portugal",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "jogador": "Luka Modrić",
+   "pais": "Croácia",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "jogador": "Lionel Messi",
+   "pais": "Argentina",
+   "clube": "Barcelona",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "jogador": "Lionel Messi",
+   "pais": "Argentina",
+   "clube": "Paris Saint-Germain",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "jogador": "Karim Benzema",
+   "pais": "França",
+   "clube": "Real Madrid",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "jogador": "Lionel Messi",
+   "pais": "Argentina",
+   "clube": "Inter Miami",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "jogador": "Rodri",
+   "pais": "Espanha",
+   "clube": "Manchester City",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "jogador": "Ousmane Dembélé",
+   "pais": "França",
+   "clube": "Paris Saint-Germain",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "jogador": "Harry Kane",
+   "pais": "Inglaterra",
+   "clube": "Bayern de Munique",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  }
+ ],
+ "_nota": "Fontes consultadas em 09/11/2026. Em 2020 não houve Bola de Ouro. A temporada 2026 da Fórmula 1 não terminou. De 2010 a 2015 o prêmio se chamou Bola de Ouro da FIFA. Os Jogos de Inverno de 2034 ficaram fora: o nome oficial passou a ser Utah 2034, o que confundiria com Salt Lake City 2002."
+}

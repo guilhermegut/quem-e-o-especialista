@@ -1,0 +1,578 @@
+[
+  {
+    "id": "rebeliao-taiping",
+    "n": "Rebelião Taiping",
+    "periodo": "1850–1864",
+    "ini": 1850,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Uma dinastia de origem manchu, enfraquecida por uma derrota para uma potência europeia, enfrentava fomes, impostos pesados e rápido crescimento da população, e o ressentimento contra ela era forte entre os hakka do sul.",
+      "envolvidos": "Um movimento religioso e político, liderado por um homem que se dizia irmão mais novo de Jesus Cristo, contra a dinastia imperial, que se apoiou em exércitos regionais e numa força com oficiais ocidentais.",
+      "estopim": "O líder proclamou um Reino Celestial, e seus seguidores tomaram Nanquim, rebatizada de Tianjing.",
+      "desfecho": "Exércitos regionais cercaram a capital rebelde, que caiu pouco depois do suicídio do líder; focos de resistência duraram mais alguns anos."
+    },
+    "dado": "As estimativas de mortos vão de 20 a 30 milhões, e algumas chegam a 100 milhões.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Taiping Rebellion",
+        "u": "https://en.wikipedia.org/wiki/Taiping_Rebellion"
+      },
+      {
+        "t": "Britannica, Taiping Rebellion",
+        "u": "https://www.britannica.com/event/Taiping-Rebellion"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Taiping",
+        "membros": [
+          {
+            "n": "Hong Xiuquan",
+            "nota": "Proclamou o Reino Celestial e se suicidou em junho de 1864."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Dinastia Qing",
+        "membros": [
+          {
+            "n": "Dinastia Qing"
+          },
+          {
+            "n": "Exército de Xiang",
+            "nota": "Exército regional de Zeng Guofan.",
+            "dificil": true
+          },
+          {
+            "n": "Exército de Huai",
+            "nota": "Exército regional de Li Hongzhang.",
+            "dificil": true
+          },
+          {
+            "n": "Exército Sempre Vitorioso",
+            "nota": "Força com oficiais ocidentais.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-da-crimeia",
+    "n": "Guerra da Crimeia",
+    "periodo": "1853–1856",
+    "ini": 1853,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um império multiétnico em declínio despertava a cobiça de um vizinho em expansão, e duas potências cristãs disputavam privilégios nos lugares santos da Palestina.",
+      "envolvidos": "Um império eslavo contra o império em declínio, socorrido por duas grandes potências ocidentais e, mais tarde, por um reino italiano.",
+      "estopim": "O império eslavo ocupou os principados do Danúbio, e sua frota destruiu uma esquadra inimiga em Sinope.",
+      "desfecho": "Depois de cerca de um ano de cerco a Sebastopol, a paz assinada em Paris garantiu a integridade do império em declínio e proibiu o vencido de manter navios de guerra no mar Negro."
+    },
+    "dado": "Florence Nightingale lançou as bases da enfermagem moderna ao cuidar dos feridos.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Crimean War",
+        "u": "https://en.wikipedia.org/wiki/Crimean_War"
+      },
+      {
+        "t": "Britannica, Crimean War",
+        "u": "https://www.britannica.com/event/Crimean-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Aliados",
+        "membros": [
+          {
+            "n": "Império Otomano"
+          },
+          {
+            "n": "Reino Unido"
+          },
+          {
+            "n": "França"
+          },
+          {
+            "n": "Sardenha-Piemonte",
+            "nota": "Entrou em janeiro de 1855.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Rússia",
+        "membros": [
+          {
+            "n": "Império Russo",
+            "nota": "Ocupou os principados do Danúbio em 1853."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "revolta-dos-sipaios",
+    "n": "Revolta dos Sipaios",
+    "periodo": "1857–1858",
+    "ini": 1857,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Uma companhia comercial europeia que governava boa parte da Índia anexava Estados, tomava os territórios de príncipes sem herdeiro direto e cobrava impostos pesados sobre a terra.",
+      "envolvidos": "Soldados indianos amotinados e governantes destituídos, em torno do imperador mogol de Délhi, contra a companhia, apoiada por tropas indianas leais e por alguns principados.",
+      "estopim": "Corria o boato de que os cartuchos dos novos fuzis eram engraxados com gordura animal, e soldados indianos se amotinaram em Meerut.",
+      "desfecho": "Depois de combates em Délhi, Kanpur e Lucknow, os britânicos venceram, e uma lei aprovada em Londres acabou com o governo da companhia e instaurou o domínio direto da coroa."
+    },
+    "dado": "A rani Lakshmibai, de Jhansi, foi uma das líderes da revolta.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Indian Rebellion of 1857",
+        "u": "https://en.wikipedia.org/wiki/Indian_Rebellion_of_1857"
+      },
+      {
+        "t": "Britannica, Indian Mutiny",
+        "u": "https://www.britannica.com/event/Indian-Mutiny"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Rebeldes",
+        "membros": [
+          {
+            "n": "Bahadur Shah Zafar",
+            "nota": "Imperador mogol de Délhi."
+          },
+          {
+            "n": "Rani Lakshmibai de Jhansi"
+          },
+          {
+            "n": "Nana Sahib",
+            "dificil": true
+          },
+          {
+            "n": "Sipaios amotinados"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Companhia e aliados",
+        "membros": [
+          {
+            "n": "Companhia Britânica das Índias Orientais"
+          },
+          {
+            "n": "Tropas sikhs",
+            "nota": "Lutaram ao lado dos britânicos.",
+            "dificil": true
+          },
+          {
+            "n": "Gurkhas",
+            "nota": "Lutaram ao lado dos britânicos.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerras-de-unificacao-italiana",
+    "n": "Guerras de unificação italiana",
+    "periodo": "1848–1871",
+    "ini": 1848,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Depois do Congresso de Viena, a península voltou a ser dividida em vários Estados, sob forte influência austríaca, e um movimento nacional ganhou força com revoltas sucessivas.",
+      "envolvidos": "Um reino do noroeste da península, com seu rei e seu primeiro-ministro, voluntários republicanos e, em momentos diferentes, dois aliados estrangeiros, contra o império austríaco, os domínios do papa e o reino do sul.",
+      "estopim": "Com ajuda francesa, uma vitória sobre a Áustria deu a Lombardia ao reino do noroeste.",
+      "desfecho": "Uma expedição de mil voluntários conquistou a Sicília e Nápoles, um reino unificado foi proclamado, a aliança com a Prússia trouxe Veneza, e tropas italianas tomaram Roma, que virou a capital."
+    },
+    "dado": "Giuseppe Mazzini defendia uma república unificada com capital em Roma.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Italian unification",
+        "u": "https://en.wikipedia.org/wiki/Italian_unification"
+      },
+      {
+        "t": "Britannica, Risorgimento",
+        "u": "https://www.britannica.com/event/Risorgimento"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Unificadores",
+        "membros": [
+          {
+            "n": "Reino da Sardenha"
+          },
+          {
+            "n": "Vítor Emanuel II"
+          },
+          {
+            "n": "Cavour",
+            "nota": "Primeiro-ministro do Reino da Sardenha.",
+            "dificil": true
+          },
+          {
+            "n": "Giuseppe Garibaldi",
+            "nota": "Comandou a Expedição dos Mil, em 1860."
+          },
+          {
+            "n": "Prússia",
+            "nota": "Aliada da Itália em 1866.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Adversários",
+        "membros": [
+          {
+            "n": "Império Austríaco"
+          },
+          {
+            "n": "Estados Papais",
+            "nota": "Opuseram-se à unificação até a tomada de Roma, em 1870.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-de-secessao",
+    "n": "Guerra de Secessão",
+    "periodo": "1861–1865",
+    "ini": 1861,
+    "reg": "América do Norte",
+    "pistas": {
+      "fundo": "O país estava dividido sobre a escravidão e sobre sua expansão para os territórios do oeste.",
+      "envolvidos": "Os estados do norte, com estados escravistas de fronteira que não saíram da união, contra onze estados do sul que formaram uma confederação.",
+      "estopim": "A eleição de um presidente antiescravista levou estados do sul à secessão, e forças sulistas bombardearam o Forte Sumter.",
+      "desfecho": "Depois da proclamação de emancipação e da batalha de Gettysburg, o principal general sulista se rendeu em Appomattox; dias depois o presidente foi assassinado, e uma emenda à Constituição aboliu a escravidão."
+    },
+    "dado": "Estima-se que cerca de 700 mil soldados morreram, no conflito mais mortal da história americana.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), American Civil War",
+        "u": "https://en.wikipedia.org/wiki/American_Civil_War"
+      },
+      {
+        "t": "Britannica, American Civil War",
+        "u": "https://www.britannica.com/event/American-Civil-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "União",
+        "membros": [
+          {
+            "n": "Abraham Lincoln"
+          },
+          {
+            "n": "Ulysses S. Grant"
+          },
+          {
+            "n": "Kentucky",
+            "nota": "Estado escravista de fronteira que ficou na União.",
+            "dificil": true
+          },
+          {
+            "n": "Maryland",
+            "nota": "Estado escravista de fronteira que ficou na União.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Confederação",
+        "membros": [
+          {
+            "n": "Estados Confederados da América"
+          },
+          {
+            "n": "Robert E. Lee",
+            "nota": "Rendeu-se a Grant em Appomattox."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-austro-prussiana",
+    "n": "Guerra Austro-Prussiana",
+    "periodo": "1866",
+    "ini": 1866,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Duas potências de língua alemã disputavam a liderança da confederação que reunia os Estados alemães.",
+      "envolvidos": "Um reino do norte, liderado por um chanceler habilidoso e aliado a um reino italiano e a Estados do norte, contra o império do sul, apoiado por vários Estados alemães médios.",
+      "estopim": "Uma disputa sobre a administração de dois ducados tomados da Dinamarca dois anos antes.",
+      "desfecho": "Em poucas semanas, o reino do norte venceu de forma decisiva em Königgrätz; a confederação foi dissolvida, o império do sul ficou fora dos assuntos alemães e o aliado italiano recebeu Veneza."
+    },
+    "dado": "Também é chamada de Guerra das Sete Semanas.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Austro-Prussian War",
+        "u": "https://en.wikipedia.org/wiki/Austro-Prussian_War"
+      },
+      {
+        "t": "Britannica, Seven Weeks' War",
+        "u": "https://www.britannica.com/event/Seven-Weeks-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Prússia e aliados",
+        "membros": [
+          {
+            "n": "Reino da Prússia"
+          },
+          {
+            "n": "Otto von Bismarck"
+          },
+          {
+            "n": "Reino da Itália",
+            "nota": "Recebeu Veneza na paz.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Áustria e aliados",
+        "membros": [
+          {
+            "n": "Império Austríaco"
+          },
+          {
+            "n": "Saxônia",
+            "dificil": true
+          },
+          {
+            "n": "Baviera",
+            "dificil": true
+          },
+          {
+            "n": "Hanôver",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-boshin",
+    "n": "Guerra Boshin",
+    "periodo": "1868–1869",
+    "ini": 1868,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Depois que navios americanos forçaram a abertura do país e tratados desiguais se seguiram, cresceu um movimento que pedia reverenciar o imperador e expulsar os bárbaros.",
+      "envolvidos": "A corte imperial, apoiada por dois grandes domínios do sudoeste, contra o xogunato que governava o país havia mais de dois séculos e seus aliados do norte.",
+      "estopim": "As forças imperiais venceram a batalha de Toba-Fushimi.",
+      "desfecho": "A capital do xogunato se rendeu, domínios do norte resistiram, e legalistas fundaram uma república em Hokkaido, derrotada em Hakodate. A vitória completou a Restauração Meiji."
+    },
+    "dado": "A expedição do comodoro Perry, em 1854, abriu caminho para os tratados que alimentaram o descontentamento.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Boshin War",
+        "u": "https://en.wikipedia.org/wiki/Boshin_War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Corte imperial",
+        "membros": [
+          {
+            "n": "Corte imperial"
+          },
+          {
+            "n": "Satsuma"
+          },
+          {
+            "n": "Chōshū"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Xogunato",
+        "membros": [
+          {
+            "n": "Xogunato Tokugawa"
+          },
+          {
+            "n": "Aliança do Norte",
+            "dificil": true
+          },
+          {
+            "n": "República de Ezo",
+            "nota": "Fundada por legalistas Tokugawa em Hokkaido.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-franco-prussiana",
+    "n": "Guerra Franco-Prussiana",
+    "periodo": "1870–1871",
+    "ini": 1870,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um chanceler queria unir os Estados alemães sob seu reino, e um império vizinho via com alarme o poder crescente do rival depois de uma vitória sobre a Áustria.",
+      "envolvidos": "Um império europeu contra uma confederação de Estados do norte da Alemanha e três Estados do sul que se juntaram a ela.",
+      "estopim": "A candidatura de um príncipe alemão ao trono espanhol, depois retirada, e a publicação de um telegrama editado pelo chanceler provocaram a declaração de guerra.",
+      "desfecho": "O imperador foi capturado em Sedan, a capital caiu depois de um cerco, e os Estados alemães proclamaram um império. A paz impôs uma indenização e a perda da Alsácia e de metade da Lorena."
+    },
+    "dado": "A indenização imposta à França foi de 5 bilhões de francos, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Franco-Prussian War",
+        "u": "https://en.wikipedia.org/wiki/Franco-Prussian_War"
+      },
+      {
+        "t": "Britannica, Franco-German War",
+        "u": "https://www.britannica.com/event/Franco-German-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "França",
+        "membros": [
+          {
+            "n": "Segundo Império Francês"
+          },
+          {
+            "n": "Napoleão III",
+            "nota": "Capturado em Sedan."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Estados alemães",
+        "membros": [
+          {
+            "n": "Prússia"
+          },
+          {
+            "n": "Confederação da Alemanha do Norte",
+            "dificil": true
+          },
+          {
+            "n": "Baviera",
+            "nota": "Estado do sul que se juntou à Prússia.",
+            "dificil": true
+          },
+          {
+            "n": "Württemberg",
+            "dificil": true
+          },
+          {
+            "n": "Baden",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-russo-turca",
+    "n": "Guerra Russo-Turca",
+    "periodo": "1877–1878",
+    "ini": 1877,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Uma revolta búlgara tinha sido reprimida com violência pelo império que governava os Bálcãs, e o pan-eslavismo pressionava o grande império eslavo a intervir.",
+      "envolvidos": "Um império eslavo, à frente de uma coalizão de principados balcânicos e de voluntários búlgaros, contra o império que dominava a região.",
+      "estopim": "Depois da guerra de um principado eslavo contra o império e da repressão à revolta búlgara, a guerra começou.",
+      "desfecho": "Depois do longo cerco de Plevna, um tratado reconheceu a independência de três principados e a autonomia búlgara; um congresso em Berlim revisou os termos e dividiu a Bulgária."
+    },
+    "dado": "O cerco de Plevna durou de julho a dezembro de 1877.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Russo-Turkish War (1877–1878)",
+        "u": "https://en.wikipedia.org/wiki/Russo-Turkish_War_(1877%E2%80%931878)"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Coalizão",
+        "membros": [
+          {
+            "n": "Império Russo"
+          },
+          {
+            "n": "Romênia",
+            "dificil": true
+          },
+          {
+            "n": "Sérvia",
+            "dificil": true
+          },
+          {
+            "n": "Montenegro",
+            "dificil": true
+          },
+          {
+            "n": "Voluntários búlgaros",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Otomanos",
+        "membros": [
+          {
+            "n": "Império Otomano"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-do-pacifico",
+    "n": "Guerra do Pacífico",
+    "periodo": "1879–1884",
+    "ini": 1879,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Empresas de um país exploravam depósitos de salitre num deserto costeiro do vizinho, e um tratado de fronteira proibia aumentar impostos sobre elas.",
+      "envolvidos": "Um país sul-americano contra dois vizinhos unidos por uma aliança secreta.",
+      "estopim": "O governo vizinho criou um novo imposto sobre uma empresa salitreira, e o país prejudicado ocupou o porto de Antofagasta.",
+      "desfecho": "Depois de uma campanha naval em que o encouraçado Huáscar foi capturado, o vencedor ocupou Lima; um tratado lhe deu Tarapacá, e uma trégua deixou um dos derrotados sem saída para o mar."
+    },
+    "dado": "A trégua de 1884 deu ao Chile o controle do litoral boliviano, tornado definitivo em 1904, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), War of the Pacific",
+        "u": "https://en.wikipedia.org/wiki/War_of_the_Pacific"
+      },
+      {
+        "t": "Britannica, War of the Pacific",
+        "u": "https://www.britannica.com/event/War-of-the-Pacific"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Chile",
+        "membros": [
+          {
+            "n": "Chile"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Aliança",
+        "membros": [
+          {
+            "n": "Bolívia"
+          },
+          {
+            "n": "Peru",
+            "nota": "Entrou pela aliança secreta de 1873."
+          }
+        ]
+      }
+    }
+  }
+]

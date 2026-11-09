@@ -1,0 +1,539 @@
+[
+  {
+    "id": "guerras-napoleonicas",
+    "n": "Guerras Napoleônicas",
+    "periodo": "1803–1815",
+    "ini": 1803,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um general que tinha chegado ao poder num país revolucionário e se proclamado imperador dominava o continente, enquanto uma potência naval rival recusava sua hegemonia.",
+      "envolvidos": "Um império continental e seus Estados-clientes contra coalizões sucessivas de monarquias europeias, lideradas por uma potência insular.",
+      "estopim": "Uma paz recente entre as duas grandes rivais desmoronou, e a potência insular declarou guerra.",
+      "desfecho": "Depois de vitórias como Austerlitz e de um bloqueio comercial contra a rival, a invasão da Rússia terminou em desastre. Derrotado em Leipzig, o imperador foi exilado, voltou por cem dias e caiu de vez em Waterloo; um congresso em Viena redesenhou as fronteiras da Europa."
+    },
+    "dado": "O Bloqueio Continental, que tentava sufocar o comércio britânico, vigorou de novembro de 1806 a abril de 1814, segundo a World History Encyclopedia.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Napoleonic Wars",
+        "u": "https://en.wikipedia.org/wiki/Napoleonic_Wars"
+      },
+      {
+        "t": "World History Encyclopedia, Napoleonic Wars",
+        "u": "https://www.worldhistory.org/Napoleonic_Wars/"
+      }
+    ]
+  },
+  {
+    "id": "guerra-peninsular",
+    "n": "Guerra Peninsular",
+    "periodo": "1807–1814",
+    "ini": 1807,
+    "reg": "Europa",
+    "pistas": {
+      "fundo": "Um imperador que dominava o continente exigiu que um reino ibérico aderisse ao bloqueio comercial contra a potência insular; diante da recusa, combinou com o reino vizinho dividir o território do recusante.",
+      "envolvidos": "Os exércitos do império e o rei imposto por ele contra os dois reinos ibéricos, apoiados por um exército expedicionário britânico e por guerrilheiros espanhóis.",
+      "estopim": "Tropas francesas ocuparam Lisboa, e a corte portuguesa partiu para o Brasil; no ano seguinte, o imperador pôs o próprio irmão no trono espanhol, e Madri se rebelou.",
+      "desfecho": "Atrás das linhas fortificadas de Torres Vedras, o exército britânico defendeu Portugal e depois avançou; a vitória em Vitoria expulsou os franceses, e o rei espanhol voltou ao trono. Os dois países saíram devastados."
+    },
+    "dado": "Fernando VII recuperou o trono espanhol em março de 1814, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Peninsular War",
+        "u": "https://en.wikipedia.org/wiki/Peninsular_War"
+      },
+      {
+        "t": "Britannica, Peninsular War",
+        "u": "https://www.britannica.com/event/Peninsular-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Aliados",
+        "membros": [
+          {
+            "n": "Reino Unido",
+            "nota": "O exército de Wellington defendeu Portugal."
+          },
+          {
+            "n": "Portugal"
+          },
+          {
+            "n": "Espanha",
+            "nota": "Era aliada da França em 1807 (Tratado de Fontainebleau) e se rebelou em 1808.",
+            "dificil": true
+          },
+          {
+            "n": "Guerrilheiros espanhóis",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "França",
+        "membros": [
+          {
+            "n": "Império Francês"
+          },
+          {
+            "n": "José Bonaparte",
+            "nota": "Irmão de Napoleão posto no trono espanhol.",
+            "dificil": true
+          },
+          {
+            "n": "Jean-Andoche Junot",
+            "nota": "Comandou a ocupação de Lisboa.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerras-de-independencia-da-america-espanhola",
+    "n": "Guerras de independência da América Espanhola",
+    "periodo": "1808–1833",
+    "ini": 1808,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Elites crioulas ressentiam reformas que as afastavam dos cargos; quando a metrópole foi invadida e seu rei ficou prisioneiro, juntas locais passaram a governar em nome dele.",
+      "envolvidos": "Exércitos independentistas, liderados por generais crioulos que atravessaram fronteiras, contra forças realistas formadas em grande parte por soldados nascidos na própria América.",
+      "estopim": "Um imperador estrangeiro forçou a família real a abdicar e pôs o irmão no trono, deixando as colônias sem um rei legítimo.",
+      "desfecho": "Depois de batalhas como Boyacá, Carabobo, Pichincha e Ayacucho, surgiram vários Estados independentes; só Cuba e Porto Rico continuaram ligadas à antiga metrópole até o fim do século."
+    },
+    "dado": "Entre os líderes estiveram Miguel Hidalgo, no México, Simón Bolívar, José de San Martín e Antonio José de Sucre.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Spanish American wars of independence",
+        "u": "https://en.wikipedia.org/wiki/Spanish_American_wars_of_independence"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Independentistas",
+        "membros": [
+          {
+            "n": "Simón Bolívar"
+          },
+          {
+            "n": "José de San Martín"
+          },
+          {
+            "n": "Antonio José de Sucre",
+            "dificil": true
+          },
+          {
+            "n": "Miguel Hidalgo",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Realistas",
+        "membros": [
+          {
+            "n": "Coroa espanhola"
+          },
+          {
+            "n": "Fernando VII",
+            "nota": "Rei mantido prisioneiro por Napoleão a partir de 1808.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-de-1812",
+    "n": "Guerra de 1812",
+    "periodo": "1812–1815",
+    "ini": 1812,
+    "reg": "América do Norte",
+    "pistas": {
+      "fundo": "Em meio às guerras napoleônicas, a potência naval britânica restringia o comércio de uma jovem república e recrutava à força seus marinheiros, enquanto apoiava povos indígenas que resistiam à expansão dela.",
+      "envolvidos": "Uma jovem república contra a antiga metrópole, apoiada por colonos das províncias vizinhas e por uma confederação indígena.",
+      "estopim": "A república declarou guerra à antiga metrópole por causa do recrutamento forçado de marinheiros e das restrições ao comércio.",
+      "desfecho": "As invasões do Canadá fracassaram, os britânicos incendiaram Washington, e um tratado assinado em Ghent restaurou as fronteiras anteriores; uma grande batalha em Nova Orleans foi travada depois da assinatura. Os povos indígenas foram os grandes perdedores."
+    },
+    "dado": "A confederação de Tecumseh se dissolveu, e os creeks cederam mais de 22 milhões de acres aos Estados Unidos.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), War of 1812",
+        "u": "https://en.wikipedia.org/wiki/War_of_1812"
+      },
+      {
+        "t": "Britannica, War of 1812",
+        "u": "https://www.britannica.com/event/War-of-1812"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Estados Unidos",
+        "membros": [
+          {
+            "n": "Estados Unidos",
+            "nota": "Declararam guerra em 18 de junho de 1812."
+          }
+        ]
+      },
+      "b": {
+        "nome": "Grã-Bretanha e aliados",
+        "membros": [
+          {
+            "n": "Grã-Bretanha"
+          },
+          {
+            "n": "Colonos canadenses",
+            "dificil": true
+          },
+          {
+            "n": "Confederação de Tecumseh",
+            "nota": "Confederação indígena que resistia à expansão americana.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-de-independencia-da-grecia",
+    "n": "Guerra de Independência da Grécia",
+    "periodo": "1821–1829",
+    "ini": 1821,
+    "reg": "Mediterrâneo oriental",
+    "pistas": {
+      "fundo": "Depois de séculos sob domínio de um império muçulmano, ideias iluministas e nacionalistas se espalharam entre os gregos, em parte por meio de uma sociedade secreta.",
+      "envolvidos": "Rebeldes de um povo submetido, com voluntários estrangeiros entusiastas da causa, contra o império que os governava, socorrido pelas tropas de seu vassalo egípcio; no fim, três grandes potências europeias intervieram.",
+      "estopim": "Alexandre Ypsilantis lançou a revolta nos principados do Danúbio, e o Peloponeso se levantou logo depois.",
+      "desfecho": "Depois de um massacre em Quios que chocou a Europa, uma frota britânica, francesa e russa destruiu a esquadra otomano-egípcia em Navarino; um protocolo assinado em Londres reconheceu a independência, e um príncipe bávaro virou rei."
+    },
+    "dado": "O poeta britânico Lord Byron foi um dos filelenos que apoiaram os gregos.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Greek War of Independence",
+        "u": "https://en.wikipedia.org/wiki/Greek_War_of_Independence"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Gregos e aliados",
+        "membros": [
+          {
+            "n": "Revolucionários gregos"
+          },
+          {
+            "n": "Filiki Eteria",
+            "nota": "Sociedade secreta fundada em 1814 que preparou a revolta.",
+            "dificil": true
+          },
+          {
+            "n": "Lord Byron",
+            "nota": "Fileleno britânico.",
+            "dificil": true
+          },
+          {
+            "n": "França",
+            "nota": "Participou da batalha de Navarino, em 1827.",
+            "dificil": true
+          },
+          {
+            "n": "Rússia",
+            "nota": "Participou da batalha de Navarino, em 1827.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Império Otomano e aliados",
+        "membros": [
+          {
+            "n": "Império Otomano"
+          },
+          {
+            "n": "Egito de Ibrahim Paxá",
+            "nota": "Vassalo otomano que ajudou a reconquistar terreno.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-de-independencia-do-brasil",
+    "n": "Guerra de Independência do Brasil",
+    "periodo": "1822–1824",
+    "ini": 1822,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "A corte portuguesa tinha passado mais de uma década na colônia; depois de uma revolução liberal na metrópole, as Cortes de Lisboa quiseram reduzir a autonomia brasileira e exigiram a volta do príncipe regente.",
+      "envolvidos": "O príncipe que ficou e proclamou a independência, com uma esquadra comandada por um almirante britânico e voluntários locais, contra tropas portuguesas que controlavam cidades do Norte, do Nordeste e do Sul.",
+      "estopim": "O príncipe decidiu permanecer no país, contrariando as Cortes, e proclamou a independência; guarnições portuguesas resistiram.",
+      "desfecho": "Em Salvador, cerca de 10 mil soldados portugueses se renderam; houve combates no Piauí, no Maranhão e no Grão-Pará, e as últimas tropas deixaram a Cisplatina. Portugal reconheceu a independência por um tratado, mediante pagamento de dois milhões de libras."
+    },
+    "dado": "Maria Quitéria lutou na Bahia ao lado das forças brasileiras.",
+    "fontes": [
+      {
+        "t": "Wikipedia (pt), Guerra da Independência do Brasil",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_da_Independ%C3%AAncia_do_Brasil"
+      },
+      {
+        "t": "Wikipedia (en), Brazilian War of Independence",
+        "u": "https://en.wikipedia.org/wiki/Brazilian_War_of_Independence"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Brasil",
+        "membros": [
+          {
+            "n": "D. Pedro I"
+          },
+          {
+            "n": "Lord Cochrane",
+            "nota": "Comandou a Marinha brasileira."
+          },
+          {
+            "n": "Pierre Labatut",
+            "dificil": true
+          },
+          {
+            "n": "Maria Quitéria",
+            "nota": "Lutou na Bahia ao lado das forças brasileiras.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Portugal",
+        "membros": [
+          {
+            "n": "Cortes de Lisboa",
+            "nota": "Queriam reduzir a autonomia do Brasil."
+          },
+          {
+            "n": "Madeira de Melo",
+            "nota": "Comandava as tropas portuguesas na Bahia.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-da-cisplatina",
+    "n": "Guerra da Cisplatina",
+    "periodo": "1825–1828",
+    "ini": 1825,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Uma província ao norte do rio da Prata, anexada pelo império vizinho poucos anos antes, era disputada desde os tempos coloniais, porque suas fronteiras nunca tinham sido fixadas.",
+      "envolvidos": "Um império sul-americano contra as províncias unidas do outro lado do rio, que apoiavam rebeldes locais.",
+      "estopim": "Um grupo de 33 exilados desembarcou e iniciou uma rebelião, declarando a união da província com os vizinhos; o império declarou guerra.",
+      "desfecho": "O império impôs um bloqueio naval, mas em terra ninguém venceu de forma decisiva. Com mediação britânica, um tratado criou um novo país independente entre os dois rivais."
+    },
+    "dado": "O conflito custou cerca de 8 mil vidas brasileiras e abalou D. Pedro I, contribuindo para sua abdicação em 1831, segundo a Wikipedia em português.",
+    "fontes": [
+      {
+        "t": "Wikipedia (pt), Guerra da Cisplatina",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_da_Cisplatina"
+      },
+      {
+        "t": "Wikipedia (en), Cisplatine War",
+        "u": "https://en.wikipedia.org/wiki/Cisplatine_War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Império do Brasil",
+        "membros": [
+          {
+            "n": "Império do Brasil"
+          },
+          {
+            "n": "D. Pedro I"
+          }
+        ]
+      },
+      "b": {
+        "nome": "Rio da Prata",
+        "membros": [
+          {
+            "n": "Províncias Unidas do Rio da Prata"
+          },
+          {
+            "n": "Trinta e Três Orientais",
+            "nota": "Rebeldes liderados por Juan Antonio Lavalleja.",
+            "dificil": true
+          },
+          {
+            "n": "Juan Antonio Lavalleja",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "revolucao-farroupilha",
+    "n": "Revolução Farroupilha",
+    "periodo": "1835–1845",
+    "ini": 1835,
+    "reg": "América do Sul",
+    "pistas": {
+      "fundo": "Estancieiros de uma província do extremo sul se ressentiam dos impostos sobre o charque e o couro, da concorrência do charque platino, mais barato, e da centralização do Império, que nomeava os presidentes provinciais.",
+      "envolvidos": "Estancieiros republicanos da província, com soldados negros e um revolucionário italiano, contra o governo imperial e suas tropas.",
+      "estopim": "Rebeldes liderados por um estancieiro tomaram a capital da província.",
+      "desfecho": "Proclamaram uma república e depois outra em Santa Catarina; um corpo de lanceiros negros foi destruído num ataque surpresa. Um general imperial pressionou com uma longa campanha e negociou uma paz que deu anistia, liberdade aos escravizados que lutaram pela república e o direito de escolher o presidente da província."
+    },
+    "dado": "A República Rio-Grandense teve capital em Piratini.",
+    "fontes": [
+      {
+        "t": "Wikipedia (pt), Guerra dos Farrapos",
+        "u": "https://pt.wikipedia.org/wiki/Guerra_dos_Farrapos"
+      },
+      {
+        "t": "Wikipedia (en), Ragamuffin War",
+        "u": "https://en.wikipedia.org/wiki/Ragamuffin_War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Farroupilhas",
+        "membros": [
+          {
+            "n": "Bento Gonçalves",
+            "nota": "Liderou a tomada de Porto Alegre em 1835."
+          },
+          {
+            "n": "Giuseppe Garibaldi",
+            "nota": "Ajudou a proclamar a República Juliana.",
+            "dificil": true
+          },
+          {
+            "n": "Lanceiros Negros",
+            "nota": "Soldados negros cujo corpo foi destruído em Porongos, em 1844.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "Império",
+        "membros": [
+          {
+            "n": "Império do Brasil"
+          },
+          {
+            "n": "Luís Alves de Lima e Silva",
+            "nota": "Futuro Caxias, comandou as forças imperiais a partir de 1842.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "primeira-guerra-do-opio",
+    "n": "Primeira Guerra do Ópio",
+    "periodo": "1839–1842",
+    "ini": 1839,
+    "reg": "Ásia",
+    "pistas": {
+      "fundo": "Uma potência europeia tinha déficit no comércio com a China e o cobria vendendo ópio cultivado em sua colônia na Índia, apesar da proibição imposta pelo imperador.",
+      "envolvidos": "Uma marinha europeia muito superior em navios e armas contra o império chinês.",
+      "estopim": "Um comissário imperial confiscou o ópio dos comerciantes estrangeiros e o destruiu publicamente em Humen.",
+      "desfecho": "Derrotado, o império assinou em Nanquim um tratado que cedeu a ilha de Hong Kong, abriu cinco portos ao comércio e impôs uma indenização. Muitos historiadores veem aí o início do século de humilhação chinês."
+    },
+    "dado": "Cerca de 1.400 toneladas de ópio confiscado foram destruídas em 1839, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), First Opium War",
+        "u": "https://en.wikipedia.org/wiki/First_Opium_War"
+      },
+      {
+        "t": "Britannica, Opium Wars",
+        "u": "https://www.britannica.com/topic/Opium-Wars"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Grã-Bretanha",
+        "membros": [
+          {
+            "n": "Reino Unido"
+          },
+          {
+            "n": "Marinha Real",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "China",
+        "membros": [
+          {
+            "n": "Dinastia Qing"
+          },
+          {
+            "n": "Lin Zexu",
+            "nota": "Comissário que destruiu o ópio em Humen."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "guerra-mexicano-americana",
+    "n": "Guerra Mexicano-Americana",
+    "periodo": "1846–1848",
+    "ini": 1846,
+    "reg": "América do Norte",
+    "pistas": {
+      "fundo": "Uma república norte-americana em expansão tinha anexado um território que o vizinho do sul ainda considerava seu, e os dois disputavam qual rio marcava a fronteira.",
+      "envolvidos": "Uma república em expansão, movida pela crença num destino de ocupar o continente, contra o vizinho do sul, que contou com um batalhão de imigrantes irlandeses e alemães.",
+      "estopim": "O presidente mandou tropas para a área disputada, e a derrota de uma patrulha diante da cavalaria inimiga serviu de pretexto para pedir a declaração de guerra.",
+      "desfecho": "Depois de vitórias no norte, um exército desembarcou e tomou a capital inimiga. Pelo tratado de paz, o país derrotado perdeu mais da metade de seu território, e o vencedor pagou 15 milhões de dólares."
+    },
+    "dado": "Os Estados Unidos ganharam mais de 500 mil milhas quadradas de território, até o Pacífico, segundo a Britannica.",
+    "fontes": [
+      {
+        "t": "Wikipedia (en), Mexican–American War",
+        "u": "https://en.wikipedia.org/wiki/Mexican%E2%80%93American_War"
+      },
+      {
+        "t": "Britannica, Mexican-American War",
+        "u": "https://www.britannica.com/event/Mexican-American-War"
+      }
+    ],
+    "lados": {
+      "a": {
+        "nome": "Estados Unidos",
+        "membros": [
+          {
+            "n": "James K. Polk",
+            "nota": "Presidente que pediu a declaração de guerra."
+          },
+          {
+            "n": "Zachary Taylor"
+          },
+          {
+            "n": "Winfield Scott",
+            "nota": "Tomou a Cidade do México em 1847.",
+            "dificil": true
+          }
+        ]
+      },
+      "b": {
+        "nome": "México",
+        "membros": [
+          {
+            "n": "México"
+          },
+          {
+            "n": "Batalhão de São Patrício",
+            "nota": "Imigrantes irlandeses e alemães que lutaram pelo México.",
+            "dificil": true
+          }
+        ]
+      }
+    }
+  }
+]
