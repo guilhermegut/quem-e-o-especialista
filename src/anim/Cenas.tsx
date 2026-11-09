@@ -14,40 +14,61 @@ const grade = geoGraticule10();
 
 export const PALETA = ['#0071e3', '#e0245e', '#157a33', '#8e3fd0', '#b84a00', '#f5c542', '#30b0c7'];
 
-// ---------- Abertura: o nome do jogo entra palavra por palavra, com bolas coloridas em órbita ----------
+// ---------- Abertura: o nome do jogo entra palavra por palavra; "Especialista" em ouro, com aura e brilhos ----------
+// Ouro em faixas horizontais (efeito metálico) e um reflexo de luz que atravessa a palavra de tempos em tempos.
+const OURO_BASE = 'linear-gradient(180deg, #f6dd8a 0%, #e2b64a 38%, #a9781c 62%, #d9ab45 82%, #f3d47a 100%)';
+const REFLEXO = 'linear-gradient(100deg, rgba(255,255,255,0) 42%, rgba(255,250,232,0.95) 50%, rgba(255,255,255,0) 58%)';
+const ESTRELA = 'M0,-1 C0.12,-0.12 0.12,-0.12 1,0 C0.12,0.12 0.12,0.12 0,1 C-0.12,0.12 -0.12,0.12 -1,0 C-0.12,-0.12 -0.12,-0.12 0,-1Z';
+const BRILHOS: [number, number, number][] = [
+  [-3, 18, 1], [6, 96, 0.7], [27, -14, 0.8], [52, 104, 0.9], [74, -10, 1.1], [101, 26, 0.85], [95, 94, 0.65], [-6, 70, 0.55],
+];
+
+const PalavraOraculo = ({ texto, frame, fps, altura, atraso }: { texto: string; frame: number; fps: number; altura: number; atraso: number }) => {
+  const s = spring({ frame: frame - atraso, fps, config: { damping: 12, mass: 0.7 } });
+  const ciclo = (frame - atraso - 12) % 150;
+  const pos = frame - atraso - 12 < 0 ? 110 : interpolate(ciclo, [0, 70], [110, -10], clamp);
+  const aura = s * (0.78 + 0.22 * Math.sin(frame / 38));
+  return (
+    <span style={{ position: 'relative', display: 'inline-block', transform: `translateY(${(1 - s) * 60}px) scale(${0.8 + 0.2 * s})`, opacity: s }}>
+      <span aria-hidden style={{ position: 'absolute', inset: '-55% -18%', borderRadius: '50%', opacity: aura, background: 'radial-gradient(ellipse at center, rgba(236,196,96,0.34) 0%, rgba(236,196,96,0.12) 42%, rgba(236,196,96,0) 70%)' }} />
+      {BRILHOS.map(([x, y, tam], k) => {
+        const t = 0.5 + 0.5 * Math.sin(frame / 11 + k * 1.7);
+        const r = altura * 0.12 * tam * (0.4 + 0.8 * t) * s;
+        return (
+          <svg key={k} aria-hidden width={r * 2} height={r * 2} viewBox="-1 -1 2 2"
+            style={{ position: 'absolute', left: `calc(${x}% - ${r}px)`, top: `calc(${y}% - ${r}px)`, opacity: (0.25 + 0.75 * t) * s, transform: `rotate(${frame * 0.6 + k * 20}deg)` }}>
+            <path d={ESTRELA} fill={k % 3 === 0 ? '#fff6d8' : '#e6be5c'} />
+          </svg>
+        );
+      })}
+      <span style={{
+        position: 'relative', fontSize: altura, fontWeight: 800, letterSpacing: '-0.035em', lineHeight: 1, display: 'inline-block',
+        backgroundImage: `${REFLEXO}, ${OURO_BASE}`, backgroundSize: '250% 100%, 100% 100%', backgroundPosition: `${pos}% 0, 0 0`, backgroundRepeat: 'no-repeat',
+        WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent',
+        filter: 'drop-shadow(0 0 14px rgba(214,166,60,0.45)) drop-shadow(0 2px 1px rgba(110,78,16,0.35))',
+      }}>
+        {texto}
+      </span>
+    </span>
+  );
+};
+
 export const Abertura = () => {
   const frame = useCurrentFrame();
   const { width, height, fps } = useVideoConfig();
-  const palavras = ['Quem', 'é', 'o', 'Especialista'];
-  const volta = 300; // uma volta das bolas a cada 10 s
+  const palavras = ['Quem', 'é', 'o'];
   return (
     <AbsoluteFill style={{ fontFamily: FONTE, alignItems: 'center', justifyContent: 'center' }}>
-      {PALETA.map((cor, i) => {
-        const a = ((frame % volta) / volta) * Math.PI * 2 + (i * Math.PI * 2) / PALETA.length;
-        const rx = width * 0.42, ry = height * 0.36;
-        const s = spring({ frame: frame - i * 3, fps, config: { damping: 14 } });
-        const r = (14 + 10 * random(`r${i}`)) * s;
-        return <div key={cor} style={{ position: 'absolute', left: width / 2 + Math.cos(a) * rx - r, top: height / 2 + Math.sin(a) * ry - r, width: r * 2, height: r * 2, borderRadius: '50%', background: cor, opacity: 0.9 }} />;
-      })}
       <div style={{ display: 'flex', gap: width * 0.018, alignItems: 'baseline', flexWrap: 'wrap', justifyContent: 'center', maxWidth: width * 0.86 }}>
         {palavras.map((p, i) => {
           const s = spring({ frame: frame - 6 - i * 6, fps, config: { damping: 12, mass: 0.7 } });
-          const destaque = p === 'Especialista';
           return (
-            <span
-              key={p}
-              style={{
-                fontSize: height * (destaque ? 0.27 : 0.2), fontWeight: 800, letterSpacing: '-0.045em', lineHeight: 1,
-                transform: `translateY(${(1 - s) * 60}px) scale(${0.8 + 0.2 * s})`, opacity: s, display: 'inline-block',
-                ...(destaque
-                  ? { backgroundImage: 'linear-gradient(120deg, #0071e3, #8e3fd0 45%, #e0245e 75%, #ff9500)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }
-                  : { color: 'var(--preto, #1d1d1f)' }),
-              }}
-            >
+            <span key={p} style={{ fontSize: height * 0.2, fontWeight: 800, letterSpacing: '-0.045em', lineHeight: 1, transform: `translateY(${(1 - s) * 60}px) scale(${0.8 + 0.2 * s})`, opacity: s, display: 'inline-block', color: 'var(--preto, #1d1d1f)' }}>
               {p}
             </span>
           );
         })}
+        <PalavraOraculo texto="Especialista" frame={frame} fps={fps} altura={height * 0.27} atraso={24} />
       </div>
     </AbsoluteFill>
   );
