@@ -78,7 +78,7 @@ export function Game({ rounds, level, titulo, onFinish, onQuit, inicio, onProgre
 
   if (vinheta) {
     const n = rounds.filter((r) => r.mod === round.mod).length;
-    const comecar = () => setVinheta(false);
+    const comecar = () => { calar(); setVinheta(false); };
     return (
       <div className="vinheta" data-mod={round.mod} role="dialog" aria-labelledby="vinheta-titulo">
         <AnimVinheta numero={mod.numero} total={MODULES.length} titulo={mod.nome} chamada={mod.chamada} cor={COR[round.mod]} icone={round.mod} nivel={LEVELS[level].titulo} />

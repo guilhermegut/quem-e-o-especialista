@@ -20,7 +20,7 @@ import { TEMA_NOME, alternarTema } from './tema';
 import { Game } from './Game';
 import { Results, falaDoResultado, type Parte } from './Results';
 import { AnimAbertura, AnimCelebracao, preloadAnim } from './Anim';
-import { falar, quantasFalas } from './voz';
+import { comecarCom, falar, quantasFalas } from './voz';
 import { lerAndamento, limparAndamento, salvarAndamento, type Andamento } from './andamento';
 
 type Screen =
@@ -267,7 +267,7 @@ function Menu({ hoje, go, onDaily }: { hoje: string; go: (s: Screen) => void; on
   const estIniciado = !est && dailyStarted(hoje, 'estagiario');
   const liberado = primeLiberado(hoje);
   const primePendente = liberado && !dailyStarted(hoje, 'prime');
-  const jogar = () => { if (!dailyStarted(hoje, 'estagiario')) falar('abertura'); onDaily('estagiario'); };
+  const jogar = () => { if (!dailyStarted(hoje, 'estagiario')) comecarCom('abertura'); onDaily('estagiario'); };
 
   return (
     <div className="menu">

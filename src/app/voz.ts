@@ -16,14 +16,20 @@ for (const [path, url] of Object.entries(arquivos)) {
 }
 
 let atual: HTMLAudioElement | null = null;
+let abrirCom: Fala | null = null;
+
+/** A próxima fala começa com esta (usado para a boas-vindas antes da primeira vinheta do dia). */
+export function comecarCom(f: Fala) { abrirCom = f; }
 
 export const temVoz = (f: Fala) => Boolean(URL_DA[f]);
 export const quantasFalas = () => Object.keys(URL_DA).length;
 
 /** Toca uma fala ou uma sequência (interrompe a anterior). O navegador só deixa tocar depois de um gesto do usuário. */
 export function falar(f: Fala | Fala[]) {
+  const pedido = Array.isArray(f) ? f : [f];
+  if (abrirCom) { pedido.unshift(abrirCom); abrirCom = null; }
   if (!getSettings().som) return;
-  const fila = (Array.isArray(f) ? f : [f]).map((x) => URL_DA[x]).filter((u): u is string => Boolean(u));
+  const fila = pedido.map((x) => URL_DA[x]).filter((u): u is string => Boolean(u));
   calar();
   const tocar = (k: number) => {
     if (k >= fila.length) return;
