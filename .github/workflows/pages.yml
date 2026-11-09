@@ -26,6 +26,11 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+        env:
+          # Chave publicável do Supabase: feita para ficar no navegador; as tabelas só aceitam as funções qe_*.
+          VITE_SUPABASE_URL: https://msfdggpjvriyioxisndd.supabase.co
+          VITE_SUPABASE_KEY: sb_publishable_kV2kRTjBkqSf_qwYyr8C2w_KJHhdv9L
+          VITE_RANKING_HOST: quemeoespecialista.com.br
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

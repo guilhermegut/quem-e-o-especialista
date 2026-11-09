@@ -20,6 +20,10 @@ Os dados prontos ficam em `src/data/` e já vêm no repositório. Para gerá-los
 
 O workflow `.github/workflows/pages.yml` roda os testes, gera o site e publica no GitHub Pages a cada push na branch `main`. No repositório, em Settings → Pages, a origem deve ser "GitHub Actions".
 
+## Ranking
+
+O ranking público (do dia, da semana e geral) usa um projeto Supabase. Não há login: o jogador escolhe um apelido e recebe um ID e um token aleatórios, guardados só no navegador; o banco guarda o hash do token. As tabelas ficam no esquema `ranking`, fora da API pública, e o site só usa as funções `qe_*`, que conferem data, nível, limites de pontuação e de duração e aceitam só a primeira tentativa do dia. O banco está em `supabase/migrations/`. O build lê `VITE_SUPABASE_URL`, `VITE_SUPABASE_KEY` (chave publicável) e `VITE_RANKING_HOST` (o ranking só aparece nesse endereço); sem elas, o ranking fica escondido.
+
 ## Narração
 
 As falas ficam em `src/voz/` com o nome `NN-id.mp3` (por exemplo `01-abertura.mp3`). O jogo carrega o que encontrar ali; sem arquivos, a opção de narração avisa que as gravações não estão incluídas.

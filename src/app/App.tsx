@@ -21,6 +21,8 @@ import { Game } from './Game';
 import { Results, falaDoResultado, type Parte } from './Results';
 import { AnimAbertura, AnimCelebracao, preloadAnim } from './Anim';
 import { comecarCom, falar, quantasFalas } from './voz';
+import { rankingAtivo, sincronizar } from '../engine/ranking';
+import { TelaRanking } from './Ranking';
 import { lerAndamento, limparAndamento, salvarAndamento, type Andamento } from './andamento';
 
 type Screen =
@@ -33,7 +35,8 @@ type Screen =
   | { s: 'treino'; mod: ModuleId; level: LevelId; rounds: Round[]; historico: RoundResult[] }
   | { s: 'treino-fim'; mod: ModuleId; level: LevelId; novoNivel: LevelId; results: RoundResult[] }
   | { s: 'como' }
-  | { s: 'sobre' };
+  | { s: 'sobre' }
+  | { s: 'ranking' };
 
 /** Volta à rodada em que a partida estava quando a página recarregou. */
 function retomar(a: Andamento): Screen | null {
@@ -63,6 +66,7 @@ export function App() {
   const home = () => { limparAndamento(); setScreen({ s: 'menu' }); };
 
   useEffect(() => { window.scrollTo(0, 0); }, [screen.s]);
+  useEffect(() => { void sincronizar(); }, []);
 
   const startDailyMatch = (level: LevelId, nivel1?: Parte) => {
     saveSettings({ nivel: level });
@@ -142,6 +146,7 @@ export function App() {
         <Results
           partes={screen.partes} duel={screen.duel} onHome={home} prime={screen.prime}
           onPrime={screen.prime === 'liberado' ? () => startDailyMatch('prime', screen.partes[0]) : undefined}
+          onRanking={() => { limparAndamento(); setScreen({ s: 'ranking' }); }}
         />
       );
     case 'duelo':
@@ -201,6 +206,8 @@ export function App() {
       return <ComoJogar onBack={home} />;
     case 'sobre':
       return <Sobre onBack={home} />;
+    case 'ranking':
+      return <TelaRanking hoje={hoje} onBack={home} />;
   }
 }
 
@@ -293,6 +300,7 @@ function Menu({ hoje, go, onDaily }: { hoje: string; go: (s: Screen) => void; on
         <div className="menu-acoes">
           <button type="button" className="botao" onClick={() => go({ s: 'duelo' })}>Duelar com um amigo</button>
           <button type="button" className="botao" onClick={() => go({ s: 'treino-escolha' })}>Treinar um módulo</button>
+          {rankingAtivo() && <button type="button" className="botao" onClick={() => go({ s: 'ranking' })}>Ranking</button>}
         </div>
         <nav className="menu-links">
           <button type="button" className="botao-texto" onClick={() => go({ s: 'como' })}>Como jogar</button>
@@ -400,7 +408,9 @@ function Sobre({ onBack }: { onBack: () => void }) {
     <Pagina titulo="Sobre e créditos" onBack={onBack}>
       <div className="texto-corrido">
         <p>Quem é o Especialista é um projeto pessoal. Versão de conteúdo {CONTENT_VERSION}.</p>
-        <p>Privacidade: o jogo não usa cookies, não tem anúncios nem coleta dados. Pontuações, sequência e preferências ficam guardadas só neste navegador.</p>
+        {rankingAtivo()
+          ? <p>Privacidade: o jogo não usa cookies nem anúncios. Pontuações, sequência e preferências ficam guardadas neste navegador. Se você escolher um apelido para o ranking, o apelido e, para cada Desafio do Dia, a pontuação, a duração e a data vão para o servidor do ranking (Supabase, região de São Paulo). Não pedimos nome, e-mail nem login, e você pode apagar tudo na tela do ranking. Como em qualquer site, os provedores de hospedagem (GitHub e Supabase) registram dados técnicos de acesso, como o endereço IP.</p>
+          : <p>Privacidade: o jogo não usa cookies, não tem anúncios nem coleta dados. Pontuações, sequência e preferências ficam guardadas só neste navegador.</p>}
         <h2>Dados</h2>
         <ul>
           <li>Países e terras: Natural Earth, escala 1:50m na partida e 1:110m no menu, via world-atlas {DATA_VERSIONS['world-atlas']} (dados em domínio público; pacote sob licença ISC).</li>

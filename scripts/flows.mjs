@@ -8,7 +8,7 @@ await page.setViewport({ width: 1280, height: 860 });
 const errors = [];
 page.on('pageerror', (e) => errors.push(e.message));
 page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
-await page.goto('file://' + path.resolve(file));
+await page.goto(/^https?:/.test(file) ? file : 'file://' + path.resolve(file));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const click = async (sel, t) => { const ok = await page.evaluate((sel, t) => { const el = [...document.querySelectorAll(sel)].find((e) => e.textContent.includes(t) && !e.disabled); el?.click(); return !!el; }, sel, t); if (!ok) throw new Error(`sem ${sel} ${t}`); };
 async function playRounds(n, answerIdx = 0) {

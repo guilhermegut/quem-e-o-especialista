@@ -13,6 +13,8 @@ import { CONFLITO } from '../engine/conflitos';
 import { copyText, fmtInt } from './format';
 import { AnimPlacar } from './Anim';
 import { falar, type Fala } from './voz';
+import { rankingAtivo } from '../engine/ranking';
+import { RankingNoResultado } from './Ranking';
 
 /** Uma partida terminada: um nível. O resultado mostra uma (só o Nível 1) ou duas (Nível 1 e Prime). */
 export interface Parte { spec: MatchSpec; rounds: Round[]; results: RoundResult[]; ranked: boolean }
@@ -24,6 +26,7 @@ interface Props {
   /** Depois do Nível 1: 'bloqueado' (não chegou a 60%) ou 'liberado' (chegou, mas preferiu não jogar agora). */
   prime?: 'liberado' | 'bloqueado' | null;
   onPrime?: () => void;
+  onRanking?: () => void;
 }
 
 export function roundLabel(r: Round): string {
@@ -66,7 +69,7 @@ function Resumo({ spec, score, ranked, rounds, results }: { spec: MatchSpec; sco
   );
 }
 
-export function Results({ partes, duel, onHome, prime = null, onPrime }: Props) {
+export function Results({ partes, duel, onHome, prime = null, onPrime, onRanking }: Props) {
   const [nome, setNome] = useState(getSettings().nome);
   const [copiado, setCopiado] = useState<'' | 'resultado' | 'desafio' | 'falhou'>('');
   const notas = partes.map((p) => {
@@ -74,6 +77,7 @@ export function Results({ partes, duel, onHome, prime = null, onPrime }: Props) 
     return { raw, score: finalScore(raw, LEVELS[p.spec.level].multiplicador), bruto: raw.reduce((a, b) => a + b, 0) };
   });
   const base = partes[0];
+  const diarias = partes.flatMap((p) => (p.ranked && p.spec.kind === 'daily' ? [p.spec] : []));
   // O código de duelo leva o Nível 1, que todo mundo joga.
   const code = useMemo(() => encodeDuel(base.spec, nome || 'Alguém', notas[0].raw, notas[0].score), [base.spec, nome, notas]);
   const link = duelLink(code);
@@ -154,6 +158,10 @@ export function Results({ partes, duel, onHome, prime = null, onPrime }: Props) 
           </details>
         </div>
       ))}
+
+      {rankingAtivo() && onRanking && diarias.length > 0 && (
+        <RankingNoResultado data={diarias[0].date} niveis={diarias.map((d) => d.level)} onVerRanking={onRanking} />
+      )}
 
       <section className="compartilhar" aria-labelledby="titulo-desafiar">
         <h2 id="titulo-desafiar">Desafie um amigo</h2>

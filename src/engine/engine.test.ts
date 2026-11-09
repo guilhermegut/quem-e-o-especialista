@@ -323,3 +323,13 @@ describe('partida de até 5 minutos e liberação do Prime', () => {
     }
   });
 });
+
+import { segundaDaSemana } from './ranking';
+describe('ranking', () => {
+  it('a semana do ranking começa na segunda-feira', () => {
+    expect(segundaDaSemana('2026-11-09')).toBe('2026-11-09');
+    expect(segundaDaSemana('2026-11-15')).toBe('2026-11-09');
+    expect(segundaDaSemana('2026-11-16')).toBe('2026-11-16');
+    expect(segundaDaSemana('2027-01-01')).toBe('2026-12-28');
+  });
+});

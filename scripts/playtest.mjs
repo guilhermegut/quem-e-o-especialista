@@ -12,7 +12,7 @@ await page.setViewport({ width: +W, height: +H, deviceScaleFactor: 1 });
 const errors = [];
 page.on('console', (m) => { if (m.type() === 'error' || m.type() === 'warning') errors.push(`${m.type()}: ${m.text()}`); });
 page.on('pageerror', (e) => errors.push(`pageerror: ${e.message}`));
-await page.goto('file://' + path.resolve(file));
+await page.goto(/^https?:/.test(file) ? file : 'file://' + path.resolve(file));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const shot = async (name) => page.screenshot({ path: path.join(outDir, `${name}.png`) });
 const clickText = async (sel, text) => {

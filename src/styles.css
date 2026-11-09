@@ -590,3 +590,17 @@ h1, h2, h3 { font-weight: 800; }
 .sair-confirma { display: inline-flex; gap: 14px; align-items: center; }
 .vinheta-retomada { background: var(--superficie); border-radius: 99px; padding: 6px 14px; font-weight: 600; font-size: var(--t-1); box-shadow: var(--sombra); }
 .menu-nota { color: var(--cinza-2); font-size: var(--t-1); align-self: center; }
+
+/* ---------- Ranking ---------- */
+.abas { display: inline-flex; gap: 4px; padding: 4px; background: var(--cinza-5); border-radius: 999px; align-self: flex-start; flex-wrap: wrap; }
+.abas .aba { border: none; background: none; padding: 8px 18px; border-radius: 999px; font-weight: 600; color: var(--cinza-1); cursor: pointer; font-size: var(--t0, 1rem); }
+.abas .aba[aria-selected="true"], .abas .aba[aria-pressed="true"] { background: var(--superficie); color: var(--preto); box-shadow: var(--sombra); }
+.abas .aba:focus-visible { outline: 3px solid var(--foco-suave); outline-offset: 2px; }
+.abas-pequenas .aba { padding: 6px 14px; font-size: var(--t-1); }
+.ranking-tabela tr.ranking-voce td { background: var(--foco-suave); font-weight: 700; }
+.ranking-erro { color: var(--c-errado); font-weight: 600; }
+.ranking-resultado, .ranking-voce-bloco { display: flex; flex-direction: column; gap: 12px; }
+.ranking-entrar { display: flex; flex-direction: column; gap: 12px; max-width: 520px; }
+.ranking-colocacao { font-size: var(--t1); }
+.ranking-voce-bloco .botao-texto, .ranking-voce-bloco .sair-confirma { align-self: flex-start; }
+.ranking-legenda { margin-bottom: 10px; }

@@ -37,6 +37,14 @@ export const startDaily = (date: string, level: LevelId) => {
   if (!get(`${dailyKey(date, level)}:inicio`)) set(`${dailyKey(date, level)}:inicio`, new Date().toISOString());
 };
 export const dailyStarted = (date: string, level: LevelId) => Boolean(get(`${dailyKey(date, level)}:inicio`));
+/** Segundos entre o início e o fim da tentativa ranqueada, limitados ao que o ranking aceita. */
+export const dailyDuracao = (date: string, level: LevelId): number | null => {
+  const ini = get(`${dailyKey(date, level)}:inicio`);
+  const rec = getDaily(date, level);
+  if (!ini || !rec) return null;
+  const s = Math.round((Date.parse(rec.finishedAt) - Date.parse(ini)) / 1000);
+  return Number.isFinite(s) ? Math.min(10800, Math.max(30, s)) : null;
+};
 
 /** O Prime do dia libera quando a tentativa ranqueada do Estagiário fez ao menos PRIME_MIN_RAW pontos brutos. */
 export const rawOf = (rec: DailyRecord | null) => (rec ? rec.rounds.reduce((a, r) => a + r.raw, 0) : 0);
