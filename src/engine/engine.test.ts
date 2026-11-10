@@ -330,7 +330,8 @@ describe('partida de até 5 minutos e liberação do Prime', () => {
         expect(Math.max(...r.opcoes)).toBeLessThanOrEqual(2026);
         expect(new Set(r.opcoes.map((a, i) => (i ? a - r.opcoes[i - 1] : r.passo))).size).toBe(1);
         expect(fotoPrecision(r, r.certo)).toBe(1);
-        if (r.certo > 0) expect(fotoPrecision(r, r.certo - 1)).toBe(0.6);
+        if (r.certo > 0) expect(fotoPrecision(r, r.certo - 1)).toBe(0.4);
+        if (r.certo > 1) expect(fotoPrecision(r, r.certo - 2)).toBe(0);
         expect(fotoPrecision(r, null)).toBe(0);
       }
     } finally { FOTO.delete('t'); }
@@ -346,6 +347,18 @@ describe('partida de até 5 minutos e liberação do Prime', () => {
 });
 
 import { segundaDaSemana } from './ranking';
+describe('Não sei e penalidade', () => {
+  it('errar com resposta marcada custa 100 a partir de 11/11/2026; antes, zero', async () => {
+    const { pontosRespondida, regrasNaoSei, PENALIDADE_ERRO } = await import('./scoring');
+    expect(PENALIDADE_ERRO).toBe(100);
+    expect(regrasNaoSei('2026-11-10')).toBe(false);
+    expect(regrasNaoSei('2026-11-11')).toBe(true);
+    const esperado = regrasNaoSei() ? -100 : 0;
+    expect(pontosRespondida(0, 1)).toBe(esperado);
+    expect(pontosRespondida(1, 1)).toBe(1000);
+  });
+});
+
 describe('ranking', () => {
   it('a semana do ranking começa na segunda-feira', () => {
     expect(segundaDaSemana('2026-11-09')).toBe('2026-11-09');

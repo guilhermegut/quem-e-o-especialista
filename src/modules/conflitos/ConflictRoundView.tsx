@@ -4,7 +4,8 @@ import {
   type ConflictRound, type Conflito, type DossieRound, type LadosRound,
 } from '../../engine/conflitos';
 import { timerFor, type LevelId } from '../../engine/levels';
-import { roundPoints } from '../../engine/scoring';
+import { pontosRespondida, regrasNaoSei, roundPoints } from '../../engine/scoring';
+import { NaoSei } from '../comum/NaoSei';
 import type { RoundResult } from '../../engine/storage';
 import { fmtInt } from '../../app/format';
 import { useCountdown } from '../../app/useCountdown';
@@ -63,8 +64,9 @@ function DossieView({ round, level, onTimer, onResolved, onNext, isLast }: Props
   const choose = useCallback((id: string, timeLeft: number) => {
     if (done) return;
     setChosen(id);
+    if (id === '') { setPoints(0); onResolved({ mod: 'conflitos', precision: 0, raw: 0, detail: 'não sabia' }); return; }
     const ok = id === round.answer;
-    const pts = ok ? roundPoints(valor, timeLeft / seconds) : 0;
+    const pts = pontosRespondida(ok ? valor : 0, timeLeft / seconds);
     setPoints(pts);
     const pistas = `${abertas} ${abertas === 1 ? 'pista' : 'pistas'}`;
     onResolved({ mod: 'conflitos', precision: ok ? valor : 0, raw: pts, detail: ok ? `acertou com ${pistas}` : `marcou ${CONFLITO.get(id)!.n} com ${pistas}` });
@@ -82,6 +84,7 @@ function DossieView({ round, level, onTimer, onResolved, onNext, isLast }: Props
       if (!done && (e.key === 'p' || e.key === 'P') && abertas < PISTAS.length) { setAbertas(abertas + 1); return; }
       const n = Number(e.key);
       if (!done && n >= 1 && n <= round.options.length) choose(round.options[n - 1], timer.now());
+      else if (!done && e.key === '0' && regrasNaoSei()) choose('', 0);
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -122,12 +125,13 @@ function DossieView({ round, level, onTimer, onResolved, onNext, isLast }: Props
           </button>
         ))}
       </div>
-      {!done && <p className="dica">Teclas 1 a 4 respondem; P abre a próxima pista.</p>}
+      {!done && regrasNaoSei() && <NaoSei onClick={() => choose('', 0)} />}
+      {!done && <p className="dica">Teclas 1 a 4 respondem; P abre a próxima pista{regrasNaoSei() ? '; 0 é Não sei' : ''}.</p>}
 
       {done && (
         <section className="cartao-rodada cartao-bandeira" aria-live="polite">
           <Placar
-            titulo={timedOut ? 'Tempo esgotado' : chosen === round.answer ? 'Acertou' : 'Errou'}
+            titulo={timedOut ? 'Tempo esgotado' : chosen === '' ? 'Não sabia' : chosen === round.answer ? 'Acertou' : 'Errou'}
             legenda={`${ponto(`${c.n}, ${c.periodo}`)} ${abertas === 1 ? 'Você usou 1 pista.' : `Você usou ${abertas} pistas.`}`}
             points={points}
           />
@@ -159,12 +163,15 @@ function LadosView({ round, level, onTimer, onResolved, onNext, isLast }: Props 
   const [certos, setCertos] = useState(0);
   const completo = answers.every((a) => a !== null);
 
-  const finish = useCallback((timeLeft: number, porTempo: boolean) => {
+  const [naoSabia, setNaoSabia] = useState(false);
+  const finish = useCallback((timeLeft: number, porTempo: boolean, pulou = false) => {
     if (done) return;
     setDone(true);
     setTimedOut(porTempo);
+    setNaoSabia(pulou);
+    if (pulou) { setPoints(0); setCertos(0); onResolved({ mod: 'conflitos', precision: 0, raw: 0, detail: 'não sabia' }); return; }
     const r = ladosPrecision(level, round, answers);
-    const pts = roundPoints(r.p, porTempo ? 0 : timeLeft / seconds);
+    const pts = porTempo ? roundPoints(r.p, 0) : pontosRespondida(r.p, timeLeft / seconds);
     setPoints(pts);
     setCertos(r.certos);
     onResolved({ mod: 'conflitos', precision: r.p, raw: pts, detail: `${r.certos} de ${round.membros.length} no lado certo${porTempo ? ', tempo esgotado' : ''}` });
@@ -225,6 +232,7 @@ function LadosView({ round, level, onTimer, onResolved, onNext, isLast }: Props 
       {!done && (
         <div className="cartao-acoes">
           <button type="button" className="botao botao-primario" disabled={!completo} onClick={() => finish(timer.now(), false)}>Confirmar</button>
+          {regrasNaoSei() && <NaoSei onClick={() => finish(0, false, true)} />}
           {!completo && <span className="dica">Escolha um lado para todos.</span>}
         </div>
       )}
@@ -232,8 +240,8 @@ function LadosView({ round, level, onTimer, onResolved, onNext, isLast }: Props 
       {done && (
         <section className="cartao-rodada cartao-bandeira" aria-live="polite">
           <Placar
-            titulo={`${certos} de ${round.membros.length}`}
-            legenda={timedOut ? 'no lado certo; o tempo acabou.' : 'no lado certo.'}
+            titulo={naoSabia ? 'Não sabia' : `${certos} de ${round.membros.length}`}
+            legenda={naoSabia ? 'Os lados certos estão marcados acima.' : timedOut ? 'no lado certo; o tempo acabou.' : 'no lado certo.'}
             points={points}
           />
           {c.dado && <p className="contexto">{c.dado}</p>}

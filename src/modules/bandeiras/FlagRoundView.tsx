@@ -2,9 +2,10 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { CITY, COUNTRY, countryName } from '../../data';
 import { timerFor, type LevelId } from '../../engine/levels';
 import type { FlagRound } from '../../engine/match';
-import { REVEAL_STAGE_PRECISION, roundPoints } from '../../engine/scoring';
+import { REVEAL_STAGE_PRECISION, pontosRespondida, regrasNaoSei } from '../../engine/scoring';
+import { NaoSei, PontosRodada } from '../comum/NaoSei';
 import type { RoundResult } from '../../engine/storage';
-import { fmtInt, fmtPop } from '../../app/format';
+import { fmtPop } from '../../app/format';
 import { useCountdown } from '../../app/useCountdown';
 
 interface Props {
@@ -48,9 +49,10 @@ export function FlagRoundView({ round, level, flags, onTimer, onResolved, onNext
   const choose = useCallback((i: number, timeLeft: number) => {
     if (done) return;
     setChosen(i);
+    if (i < 0) { setPoints(0); onResolved({ mod: 'bandeiras', precision: 0, raw: 0, detail: 'não sabia' }); return; }
     const ok = i === correctIndex;
     const precision = ok ? (round.variant === 'revelacao' ? REVEAL_STAGE_PRECISION[stage] : 1) : 0;
-    const pts = roundPoints(precision, timeLeft / seconds);
+    const pts = pontosRespondida(precision, timeLeft / seconds);
     setPoints(pts);
     const marcou = round.variant === 'intrusa' ? `marcou a dupla ${countryName(round.pairs[i].label)}` : `marcou ${countryName(round.options[i])}`;
     const detail = !ok ? marcou : round.variant === 'revelacao' ? `acertou na etapa ${stage + 1} de 4` : 'acertou';
@@ -76,6 +78,7 @@ export function FlagRoundView({ round, level, flags, onTimer, onResolved, onNext
       if (done && e.key === 'Enter') { onNext(); return; }
       const n = Number(e.key);
       if (!done && n >= 1 && n <= count) choose(n - 1, timer.now());
+      else if (!done && e.key === '0' && regrasNaoSei()) choose(-1, 0);
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -129,21 +132,23 @@ export function FlagRoundView({ round, level, flags, onTimer, onResolved, onNext
     );
   }
 
+  const naoSei = !done && regrasNaoSei() ? <NaoSei onClick={() => choose(-1, 0)} /> : null;
   const factsCC = round.variant === 'intrusa' ? round.pairs[round.wrongIndex].flag : round.answer;
 
   return (
     <div className="rodada-bandeira">
       <p className="cartao-pergunta">{enunciado}</p>
       {corpo}
+      {naoSei}
       {done && (
       <section className="cartao-rodada cartao-bandeira" aria-live="polite">
           <>
             <div className="placar-rodada">
               <div>
-                <span className="placar-numero">{timedOut ? 'Tempo esgotado' : chosen === correctIndex ? 'Acertou' : 'Errou'}</span>
+                <span className="placar-numero">{timedOut ? 'Tempo esgotado' : chosen === -1 ? 'Não sabia' : chosen === correctIndex ? 'Acertou' : 'Errou'}</span>
                 <span className="placar-legenda">{resposta}</span>
               </div>
-              <div className="placar-pontos">+{fmtInt(points)}</div>
+              <PontosRodada pontos={points} />
             </div>
             <p className="contexto">{countryFacts(factsCC)}</p>
             <p className="fonte">Fonte: Unicode CLDR 49; world-countries 5.1.0 (ODbL); GeoNames. Bandeiras: flag-icons 7.6.0 (MIT).</p>

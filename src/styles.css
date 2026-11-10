@@ -616,3 +616,9 @@ h1, h2, h3 { font-weight: 800; }
 .foto-opcoes { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
 .foto-opcoes .opcao { justify-content: center; font-size: var(--t1, 1.25rem); font-variant-numeric: tabular-nums; font-weight: 700; }
 @media (max-width: 560px) { .foto-opcoes { grid-template-columns: repeat(3, minmax(0, 1fr)); } .foto-quadro { max-height: 44vh; } }
+
+/* ---------- Não sei ---------- */
+.nao-sei { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.botao-nao-sei { background: transparent; border: 1.5px dashed var(--cinza-3, #86868b); color: var(--preto); }
+.botao-nao-sei { display: inline-flex; align-items: center; gap: 8px; }
+.botao-nao-sei .tecla { position: static; transform: none; width: 22px; height: 22px; }

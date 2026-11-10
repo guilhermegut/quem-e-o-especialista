@@ -1,3 +1,4 @@
+import { todayBR } from './date';
 // Pontuação: cada rodada vale até 1.000 pontos brutos.
 // 850 pela precisão e até 150 pela velocidade, proporcional à precisão
 // (chute rápido e errado não ganha bônus). A soma é multiplicada pelo nível.
@@ -35,4 +36,16 @@ export function shareSymbol(precision: number): string {
   if (precision >= 0.4) return '◑';
   if (precision > 0.05) return '◔';
   return '○';
+}
+
+// ---------- "Não sei" e penalidade por erro (a partir do Desafio de 11/11/2026) ----------
+// Em Bandeiras, Mundo hoje, Cultura e Guerras: errar com resposta marcada custa 10% de uma resposta certa;
+// "Não sei" e tempo esgotado valem zero. O total do dia nunca fica abaixo de zero (finalScore).
+export const PENALIDADE_ERRO = 100;
+export const NAO_SEI_DESDE = '2026-11-11';
+export const regrasNaoSei = (date: string = todayBR()) => date >= NAO_SEI_DESDE;
+
+/** Pontos de uma rodada respondida: se a precisão for zero e a regra valer, perde a penalidade. */
+export function pontosRespondida(precision: number, timeLeftFraction: number): number {
+  return precision <= 0 && regrasNaoSei() ? -PENALIDADE_ERRO : roundPoints(precision, timeLeftFraction);
 }

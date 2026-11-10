@@ -12,7 +12,7 @@ import { flagPool, generateMatch, mapPool, trainingSet, type MatchSpec, type Rou
 import { conflictItems } from '../engine/conflitos';
 import { TEMA_NOME as NOME_TEMA, TEMAS_CULTURA, TEMAS_MUNDO, temaPool } from '../engine/quiz';
 import { randomSeed } from '../engine/rng';
-import { finalScore } from '../engine/scoring';
+import { finalScore, regrasNaoSei, NAO_SEI_DESDE, PENALIDADE_ERRO } from '../engine/scoring';
 import {
   dailyStarted, getDaily, getSettings, getTrainingLevel, primeLiberado, rawOf, recentExposure, recordExposure,
   saveDailyIfFirst, saveSettings, saveTrainingLevel, startDaily, type RoundResult,
@@ -376,12 +376,13 @@ function ComoJogar({ onBack }: { onBack: () => void }) {
         <p>Três perguntas por dia, de três destes quatro temas: esporte (Copas do Mundo, Olimpíadas, Fórmula 1 e Bola de Ouro), filosofia, pintura e cultura pop (Oscar, livros e videogames mais vendidos). Nas obras de arte, o jogo pergunta pelo autor e pelo movimento, nunca pelo lugar onde estão.</p>
         {mods.some((m) => m.id === 'foto') && (<>
           <h2>Foto</h2>
-          <p>Uma fotografia aparece na tela e você escolhe, entre cinco anos, quando ela foi tirada. Repare nos carros, nas roupas, nos anúncios, nas cores e na própria imagem: grão, nitidez, preto e branco. No Estagiário, os anos estão a cerca de uma década uns dos outros; no Prime, a 3 a 5 anos. Acertar vale 100%; marcar o ano vizinho vale 60%, e o seguinte, 20%. O tempo só começa quando a foto termina de carregar. São {fmtInt(FOTOS.length)} fotos de acervos públicos ou com licença livre, com fonte, autor e licença ao fim de cada rodada.</p>
+          <p>Uma fotografia aparece na tela e você escolhe, entre cinco anos, quando ela foi tirada. Repare nos carros, nas roupas, nos anúncios, nas cores e na própria imagem: grão, nitidez, preto e branco. No Estagiário, os anos estão a cerca de uma década uns dos outros; no Prime, a 3 a 5 anos. Acertar vale 100%; marcar o ano vizinho vale 40%; os demais, zero. O tempo só começa quando a foto termina de carregar. São {fmtInt(FOTOS.length)} fotos de acervos públicos ou com licença livre, com fonte, autor e licença ao fim de cada rodada.</p>
         </>)}
         <h2>Guerras</h2>
         <p>O módulo usa {conflictItems('estagiario').length} conflitos dos séculos XX e XXI: as duas guerras mundiais, Afeganistão e Iraque, as guerras com Israel, as guerras do Oriente Médio e as guerras com países europeus como beligerantes principais. Duas dinâmicas se alternam. No Dossiê, as pistas de um conflito aparecem uma de cada vez; com uma pista aberta, o acerto vale 100%, com duas 75%, com três 50% e com as quatro 30%. Em Lados, você diz de que lado estava cada participante.</p>
         <h2>Pontos</h2>
         <p>Cada rodada vale até 1.000 pontos: 850 pela precisão e até 150 pela rapidez, na proporção da precisão. Chute rápido e errado não ganha bônus. Nos pares, conta a fração de ligações certas.</p>
+        <p>{regrasNaoSei() ? 'Em' : `A partir do Desafio de ${formatDateBR(NAO_SEI_DESDE)}, em`} Bandeiras, Mundo hoje, Cultura e Guerras há o botão Não sei (tecla 0), que vale zero. Resposta errada custa {fmtInt(PENALIDADE_ERRO)} pontos, 10% de um acerto; deixar o tempo acabar vale zero. Assim, chutar sem saber deixa de compensar. A Foto não tem Não sei nem desconto: o ano vizinho já rende 40%. O total da partida nunca fica abaixo de zero.</p>
         <h2>Por que não dá para decorar</h2>
         <p>O desafio percorre todo o acervo de cada módulo antes de repetir um item, e a ordem muda a cada ciclo. Intervalo mínimo até um item voltar ao desafio:</p>
         <table className="detalhe">

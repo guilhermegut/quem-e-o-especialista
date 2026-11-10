@@ -38,9 +38,9 @@ export function fotoRound(rng: Rng, level: LevelId, id: string): FotoRound {
   return { mod: 'foto', key: `foto:${id}`, id, opcoes, certo: pos, passo };
 }
 
-/** Acerto vale 1; uma opção ao lado vale 0,6; duas, 0,2. */
+/** Acerto vale 1; a opção ao lado vale 0,4; as demais, 0 (o chute puro rende em média 33%, não 44%). */
 export function fotoPrecision(r: FotoRound, escolha: number | null): number {
   if (escolha === null || escolha < 0) return 0;
-  const erro = Math.abs(r.opcoes[escolha] - r.opcoes[r.certo]);
-  return Math.max(0, Math.round((1 - erro / (2.5 * r.passo)) * 100) / 100);
+  const d = Math.abs(escolha - r.certo);
+  return d === 0 ? 1 : d === 1 ? 0.4 : 0;
 }

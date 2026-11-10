@@ -2,9 +2,9 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { countryName } from '../../data';
 import { timerFor, type LevelId } from '../../engine/levels';
 import { TEMA_NOME, quizPrecision, type QuizRound } from '../../engine/quiz';
-import { roundPoints } from '../../engine/scoring';
+import { pontosRespondida, regrasNaoSei, roundPoints } from '../../engine/scoring';
+import { NaoSei, PontosRodada } from '../comum/NaoSei';
 import type { RoundResult } from '../../engine/storage';
-import { fmtInt } from '../../app/format';
 import { useCountdown } from '../../app/useCountdown';
 
 interface Props {
@@ -51,12 +51,14 @@ export function QuizRoundView({ round, level, flags, onTimer, onResolved, onNext
   const [fim, setFim] = useState<{ precision: number; pts: number; tempo: boolean } | null>(null);
   const done = fim !== null;
 
+  const [naoSabia, setNaoSabia] = useState(false);
   const resolver = useCallback((resposta: number[] | null, timeLeft: number, tempo: boolean) => {
     if (fim) return;
     const precision = quizPrecision(round, resposta);
-    const pts = roundPoints(precision, tempo ? 0 : timeLeft / seconds);
+    // Penalidade só para quem marcou uma resposta e errou; "Não sei" e tempo esgotado valem zero.
+    const pts = tempo || !resposta ? roundPoints(precision, 0) : pontosRespondida(precision, timeLeft / seconds);
     setFim({ precision, pts, tempo });
-    const detail = tempo && !resposta ? 'tempo esgotado' : pares ? `${Math.round(precision * 3)} de 3 ligações certas` : precision === 1 ? 'acertou' : `marcou ${round.opcoes[resposta![0]]}`;
+    const detail = !resposta ? (tempo ? 'tempo esgotado' : 'não sabia') : pares ? `${Math.round(precision * 3)} de 3 ligações certas` : precision === 1 ? 'acertou' : `marcou ${round.opcoes[resposta[0]]}`;
     onResolved({ mod: round.mod, precision, raw: pts, detail });
   }, [fim, round, seconds, pares, onResolved]);
 
@@ -83,7 +85,9 @@ export function QuizRoundView({ round, level, flags, onTimer, onResolved, onNext
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (done && e.key === 'Enter') { onNext(); return; }
-      if (done || pares) return;
+      if (done) return;
+      if (e.key === '0' && regrasNaoSei()) { setNaoSabia(true); resolver(null, 0, false); return; }
+      if (pares) return;
       const n = Number(e.key);
       if (n >= 1 && n <= round.opcoes.length) escolher(n - 1);
     };
@@ -93,7 +97,7 @@ export function QuizRoundView({ round, level, flags, onTimer, onResolved, onNext
 
   const certoLinha = useMemo(() => round.certo, [round]);
   const estado = (i: number) => (!done ? '' : i === round.certo[0] ? 'opcao-certa' : i === escolha ? 'opcao-errada' : 'opcao-apagada');
-  const veredito = !fim ? '' : fim.tempo && fim.precision === 0 ? 'Tempo esgotado' : fim.precision === 1 ? 'Acertou' : fim.precision > 0 ? 'Quase lá' : 'Errou';
+  const veredito = !fim ? '' : naoSabia ? 'Não sabia' : fim.tempo && fim.precision === 0 ? 'Tempo esgotado' : fim.precision === 1 ? 'Acertou' : fim.precision > 0 ? 'Quase lá' : 'Errou';
 
   return (
     <div className={`rodada-quiz formato-${round.formato}`}>
@@ -146,6 +150,8 @@ export function QuizRoundView({ round, level, flags, onTimer, onResolved, onNext
         </ul>
       )}
 
+      {!done && regrasNaoSei() && <NaoSei onClick={() => { setNaoSabia(true); resolver(null, 0, false); }} />}
+
       {fim && (
         <section className="cartao-rodada cartao-quiz" aria-live="polite">
           <div className="placar-rodada">
@@ -153,7 +159,7 @@ export function QuizRoundView({ round, level, flags, onTimer, onResolved, onNext
               <span className="placar-numero">{veredito}</span>
               {!pares && round.certo[0] !== escolha && <span className="placar-legenda">Resposta: {round.opcoes[round.certo[0]]}.</span>}
             </div>
-            <div className="placar-pontos">+{fmtInt(fim.pts)}</div>
+            <PontosRodada pontos={fim.pts} />
           </div>
           <p className="contexto">{round.explicacao}</p>
           <p className="fonte">
