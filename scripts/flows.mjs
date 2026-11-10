@@ -11,6 +11,7 @@ page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
 await page.goto(/^https?:/.test(file) ? file : 'file://' + path.resolve(file));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const click = async (sel, t) => { const ok = await page.evaluate((sel, t) => { const el = [...document.querySelectorAll(sel)].find((e) => e.textContent.includes(t) && !e.disabled); el?.click(); return !!el; }, sel, t); if (!ok) throw new Error(`sem ${sel} ${t}`); };
+const RODADAS = Number(process.env.RODADAS || 15);
 async function playRounds(n, answerIdx = 0) {
   for (let i = 0; i < n; i++) {
     if (await page.$('.vinheta')) { await sleep(300); await click('button', 'Começar'); await sleep(500); }
@@ -38,7 +39,7 @@ async function playRounds(n, answerIdx = 0) {
 await sleep(1500);
 // 1) Desafio do dia, Estagiário
 await click('button', 'Jogar o desafio de hoje'); await sleep(600);
-await playRounds(15, 0);
+await playRounds(RODADAS, 0);
 console.log('   prime:', await page.$eval('.prime-aviso', (e) => e.innerText.replace(/\n/g, ' ')).catch(() => 'sem aviso'));
 const stamp1 = await page.$eval('.resumo', (e) => e.innerText.replace(/\n/g, ' '));
 await page.type('.campo input', 'Guilherme');
@@ -51,7 +52,7 @@ await click('button', 'Voltar ao início'); await sleep(300);
 console.log('2) menu:', await page.$eval('.menu-placar', (e) => e.innerText), '|', await page.$eval('.jogar-hoje-acao', (e) => e.innerText));
 await click('button', 'Jogar de novo, como treino'); await sleep(600);
 console.log('   vinheta:', await page.$eval('.vinheta-nivel', (e) => e.innerText));
-await playRounds(15, 1);
+await playRounds(RODADAS, 1);
 console.log('   nota da 2ª:', await page.$eval('.resumo-nota', (e) => e.innerText));
 await click('button', 'Voltar ao início'); await sleep(300);
 console.log('   menu mantém a 1ª:', await page.$eval('.menu-placar', (e) => e.innerText));
@@ -61,7 +62,7 @@ await page.type('.campo textarea', 'olha esse: ' + code); await sleep(200);
 console.log('3) desafio lido:', await page.$eval('.desafio-recebido p', (e) => e.innerText));
 await click('button', 'Aceitar e jogar'); await sleep(300);
 console.log('   vinheta:', await page.$eval('.vinheta-nivel', (e) => e.innerText));
-await playRounds(15, 2);
+await playRounds(RODADAS, 2);
 console.log('   veredito:', await page.$eval('.duelo-veredito', (e) => e.innerText), '|', await page.$eval('.duelo-numeros', (e) => e.innerText.replace(/\n/g, ' ')));
 await page.screenshot({ path: path.join(out, 'duelo-resultado.png'), fullPage: true });
 // código adulterado

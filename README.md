@@ -1,6 +1,6 @@
 # Quem é o Especialista
 
-Jogo web diário em português do Brasil. Cada dia traz o mesmo desafio para todos os jogadores, com cinco módulos de três rodadas: Mapa, Bandeiras, Mundo hoje (moedas, líderes do G20 e religiões), Cultura (esporte, filosofia, arte e cultura pop) e Guerras. Quem faz 60% dos pontos no Nível Estagiário desbloqueia o Nível Prime do dia, que começa em seguida. Cada nível leva no máximo cerca de cinco minutos.
+Jogo web diário em português do Brasil. Cada dia traz o mesmo desafio para todos os jogadores, com seis módulos de três rodadas: Mapa, Bandeiras, Mundo hoje (moedas, líderes do G20 e religiões), Cultura (esporte, filosofia, arte e cultura pop), Foto (em que ano a foto foi tirada) e Guerras. O Foto entrou em 11/11/2026; até ali eram cinco módulos. Quem faz 60% dos pontos no Nível Estagiário desbloqueia o Nível Prime do dia, que começa em seguida. Cada nível leva no máximo cerca de cinco minutos.
 
 Também há duelo por link ou código (o amigo joga as mesmas rodadas e vê o placar rodada a rodada), treino livre por módulo, tema claro e escuro, narração com a voz do autor e animações feitas com Remotion. Tudo roda no navegador: não há servidor, cookies nem coleta de dados; o histórico fica no armazenamento local do navegador.
 

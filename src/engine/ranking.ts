@@ -3,7 +3,7 @@
 // Sem as variáveis VITE_SUPABASE_URL e VITE_SUPABASE_KEY no build, o ranking fica escondido.
 import { CONTENT_VERSION } from '../data';
 import { todayBR } from './date';
-import type { LevelId } from './levels';
+import { maxRaw, type LevelId } from './levels';
 import { apagar, dailyDuracao, getDaily, gravarJSON, lerJSON, rawOf } from './storage';
 
 const env = (import.meta as { env?: Record<string, string | undefined> }).env ?? {};
@@ -87,7 +87,7 @@ export async function enviar(data: string, nivel: LevelId): Promise<Colocacao | 
   if (!j || !rec || dur === null) return null;
   const c = await rpc<Colocacao>('qe_enviar', {
     p_jogador: j.id, p_token: j.token, p_data: data, p_nivel: nivel,
-    p_bruto: Math.max(0, Math.min(15000, rawOf(rec))), p_duracao_s: dur, p_versao: CONTENT_VERSION,
+    p_bruto: Math.max(0, Math.min(maxRaw(data), rawOf(rec))), p_duracao_s: dur, p_versao: CONTENT_VERSION,
   });
   gravarJSON(kEnviado(data, nivel), c);
   return c;

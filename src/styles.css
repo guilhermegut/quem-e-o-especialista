@@ -608,14 +608,18 @@ h1, h2, h3 { font-weight: 800; }
 
 /* ---------- Foto ---------- */
 [data-mod='foto'] { --cor: var(--c-foto); }
-.rodada-foto { display: flex; flex-direction: column; gap: 16px; max-width: 920px; margin: 0 auto; width: 100%; }
-.foto-quadro { position: relative; margin: 0; width: 100%; max-height: 56vh; background: #111; border-radius: var(--raio-grande, 20px); overflow: hidden; display: flex; align-items: center; justify-content: center; box-shadow: var(--sombra); }
+.rodada-foto { display: flex; flex-direction: column; align-items: center; gap: 16px; max-width: 920px; margin: 0 auto; width: 100%; }
+.rodada-foto > .quiz-topo, .rodada-foto > .quiz-pergunta { align-self: stretch; }
+.foto-quadro { position: relative; margin: 0; width: min(100%, calc(56vh * var(--ar, 1.5))); aspect-ratio: var(--ar, 1.5); background: #111; border-radius: var(--raio-grande, 20px); overflow: hidden; display: flex; align-items: center; justify-content: center; box-shadow: var(--sombra); }
 .foto-quadro img { width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity 0.35s ease; user-select: none; }
 .foto-quadro img.foto-pronta { opacity: 1; }
 .foto-carregando { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 12px; color: #f5f5f7; font-weight: 600; }
-.foto-opcoes { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.foto-opcoes { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; width: min(720px, 100%); }
+.foto-opcoes .opcao-certa::after, .foto-opcoes .opcao-errada::after { position: static; transform: none; margin-left: 6px; }
+.foto-opcoes .opcao-certa::after { content: '✓'; }
+.foto-opcoes .opcao-errada::after { content: '✕'; }
 .foto-opcoes .opcao { justify-content: center; font-size: var(--t1, 1.25rem); font-variant-numeric: tabular-nums; font-weight: 700; }
-@media (max-width: 560px) { .foto-opcoes { grid-template-columns: repeat(3, minmax(0, 1fr)); } .foto-quadro { max-height: 44vh; } }
+@media (max-width: 560px) { .foto-opcoes { grid-template-columns: repeat(3, minmax(0, 1fr)); } .foto-quadro { width: min(100%, calc(44vh * var(--ar, 1.5))); } }
 
 /* ---------- Não sei ---------- */
 .nao-sei { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }

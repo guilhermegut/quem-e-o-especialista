@@ -7,7 +7,7 @@ import { dailyItems, flagPool, generateMatch, mapPool, _internals, type FlagRoun
 import { finalScore, mapPrecision, roundPoints, shareSymbol } from './scoring';
 import { quizPrecision, temaDaKey, temaPool, _quizInternals, TEMAS_CULTURA, TEMAS_MUNDO, type QuizRound } from './quiz';
 import { FOTO_DESDE, maxRaw, modulosDoDia, primeMinRaw, ROUNDS_PER_MODULE, temposDoDia } from './levels';
-import { FOTO, fotoPrecision, fotoRound } from './fotos';
+import { FOTO, FOTOS, fotoPrecision, fotoRound } from './fotos';
 import { CONFLITO, CONFLITOS, CONFLITOS_JOGO, EM_JOGO, PISTAS, conflictItems, conflictRound, dossieRound, ladosPrecision, ladosRound } from './conflitos';
 import { rngFrom } from './rng';
 import type { ConflictRound } from './match';
@@ -340,9 +340,25 @@ describe('partida de até 5 minutos e liberação do Prime', () => {
     for (const level of ['estagiario', 'prime'] as const) for (let d = 0; d < 60; d++) {
       const date = new Date(Date.UTC(2026, 10, 1 + d)).toISOString().slice(0, 10);
       const m = generateMatch({ kind: 'daily', date, level });
-      expect(m.rounds).toHaveLength(15);
+      expect(m.rounds).toHaveLength(modulosDoDia(date).length * ROUNDS_PER_MODULE);
       expect(m.rounds.filter((x) => x.mod === 'conflitos')).toHaveLength(3);
+      expect(m.rounds.filter((x) => x.mod === 'foto')).toHaveLength(date >= FOTO_DESDE ? 3 : 0);
     }
+  });
+  it('fotos não se repetem entre os níveis nem antes de o acervo acabar', () => {
+    const vistos = new Set<string>();
+    const dias = Math.floor(FOTOS.length / (2 * ROUNDS_PER_MODULE));
+    for (let d = 0; d < dias; d++) {
+      const date = new Date(Date.parse(FOTO_DESDE + 'T12:00:00Z') + d * 864e5).toISOString().slice(0, 10);
+      for (const level of ['estagiario', 'prime'] as const) {
+        for (const r of generateMatch({ kind: 'daily', date, level }).rounds) {
+          if (r.mod !== 'foto') continue;
+          expect(vistos.has(r.id)).toBe(false);
+          vistos.add(r.id);
+        }
+      }
+    }
+    expect(vistos.size).toBe(dias * 2 * ROUNDS_PER_MODULE);
   });
 });
 

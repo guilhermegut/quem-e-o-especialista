@@ -1,6 +1,6 @@
 import { CITIES, CITY, COUNTRIES, COUNTRY, CONTENT_VERSION, IDENTICAL_DE, SIMILAR, type City } from '../data';
 import { dayIndex } from './date';
-import { modulosDoDia, ROUNDS_PER_MODULE, type LevelId, type ModuleId } from './levels';
+import { FOTO_DESDE, modulosDoDia, ROUNDS_PER_MODULE, type LevelId, type ModuleId } from './levels';
 import { todayBR } from './date';
 import { FOTOS, fotoRound, type FotoRound } from './fotos';
 import { rngFrom, shuffle, type Rng } from './rng';
@@ -119,7 +119,7 @@ export function dailyItems(mod: ModuleId, level: LevelId, date: string, cv = CON
     const pool = fotoPool();
     const porDia = ROUNDS_PER_MODULE * 2;
     const perCycleF = Math.floor(pool.length / porDia);
-    const idxF = Math.max(0, dayIndex(date));
+    const idxF = Math.max(0, dayIndex(date) - dayIndex(FOTO_DESDE)); // o 1º ciclo começa no lançamento
     const order = shuffle(rngFrom(`${cv}|foto|ciclo${Math.floor(idxF / perCycleF)}`), pool);
     const ini = (idxF % perCycleF) * porDia + (level === 'prime' ? ROUNDS_PER_MODULE : 0);
     return order.slice(ini, ini + ROUNDS_PER_MODULE);

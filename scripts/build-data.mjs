@@ -243,7 +243,7 @@ for (const a of ccs) {
 
 // ---------- Saída ----------
 // d2: ordem fixa dos módulos e fronteiras no Estrategista (06/11/2026)
-const CONTENT_VERSION = 'd5';
+const CONTENT_VERSION = 'd6';
 const write = (f, o) => fs.writeFileSync(path.join(OUT, f), JSON.stringify(o));
 write('countries.json', countryRows);
 write('cities.json', cityRows.map((r) => [r.id, r.n, r.cc, r.lat, r.lon, r.pop, r.cap, r.amb ? 1 : 0, NO_COUNTRY_LABEL.has(r.id) ? 1 : 0]));

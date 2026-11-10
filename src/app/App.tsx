@@ -432,6 +432,7 @@ function Sobre({ onBack }: { onBack: () => void }) {
           <li>Filosofia e arte: verbetes da Wikipedia em português e em inglês, citados em cada pergunta.</li>
           <li>Exônimos de cidades: Wikipédia em português e Natural Earth 5.1.2, camada de localidades povoadas (domínio público), com a lista curada pelo projeto.</li>
           <li>Bandeiras: flag-icons {DATA_VERSIONS['flag-icons']}, licença MIT.</li>
+          {FOTOS.length > 0 && <li>Fotografias: {fmtInt(FOTOS.length)} imagens em domínio público ou com licença livre, do Nationaal Archief (coleção Anefo, CC0), da Library of Congress (Bain News Service, Harris & Ewing e FSA/OWI) e dos National Archives dos EUA, em domínio público, da Agência Brasil (CC BY 3.0 BR) e de fotógrafos que publicam no Wikimedia Commons (CC BY e CC BY-SA), entre outros acervos. Autor, acervo, licença e link de cada foto aparecem ao fim da rodada. As imagens foram reduzidas e, nas fotos de negativos, aparadas nas bordas; as versões alteradas de obras CC BY-SA seguem sob a mesma licença.</li>}
           <li>Guerras e conflitos: textos escritos pelo projeto a partir de Britannica, Wikipedia, World History Encyclopedia e outras fontes, listadas ao fim de cada rodada.</li>
         </ul>
         <h2>Correções feitas nos dados</h2>
@@ -441,9 +442,9 @@ function Sobre({ onBack }: { onBack: () => void }) {
           <li>Bairros e subúrbios que o GeoNames registra como cidades foram descartados (Brooklyn, Kowloon, Çankaya).</li>
         </ul>
         <h2>Animação, voz e tipografia</h2>
-        <p>Animações feitas com Remotion, usada sob a licença gratuita para pessoas físicas. Narração com a voz do autor do projeto, gerada no ElevenLabs a partir de um clone autorizado por ele. Tipografia Inter, de Rasmus Andersson, sob a SIL Open Font License 1.1, empacotada pelo Fontsource.</p>
+        <p>Animações feitas com Remotion, usada sob a licença gratuita para pessoas físicas. Narração com a voz do autor do projeto, gerada no ElevenLabs a partir de um clone autorizado por ele. Tipografia Inter, de Rasmus Andersson, e Playfair Display, de Claus Eggers Sørensen, ambas sob a SIL Open Font License 1.1, empacotadas pelo Fontsource.</p>
         <h2>Licenças</h2>
-        <p>CC BY 4.0: creativecommons.org/licenses/by/4.0. ODbL 1.0: opendatacommons.org/licenses/odbl/1-0. Unicode License v3: unicode.org/license.txt. SIL OFL 1.1: openfontlicense.org. Os dados do world-countries continuam sob a ODbL; alterações feitas aqui estão listadas acima.</p>
+        <p>CC BY 4.0: creativecommons.org/licenses/by/4.0. As licenças das fotografias têm link em cada rodada. ODbL 1.0: opendatacommons.org/licenses/odbl/1-0. Unicode License v3: unicode.org/license.txt. SIL OFL 1.1: openfontlicense.org. Os dados do world-countries continuam sob a ODbL; alterações feitas aqui estão listadas acima.</p>
       </div>
     </Pagina>
   );

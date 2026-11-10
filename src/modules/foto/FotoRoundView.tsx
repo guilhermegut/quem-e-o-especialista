@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState, type CSSProperties } from 'react';
 import { timerFor, type LevelId } from '../../engine/levels';
 import { FOTO, fotoPrecision, fotoSrc, type FotoRound } from '../../engine/fotos';
 import { roundPoints } from '../../engine/scoring';
@@ -59,7 +59,7 @@ export function FotoRoundView({ round, level, onTimer, onResolved, onNext, isLas
         <span className="quiz-formato">{level === 'prime' ? 'Anos próximos' : 'Décadas'}</span>
       </div>
       <h2 className="quiz-pergunta">Em que ano esta foto foi tirada?</h2>
-      <figure className="foto-quadro" style={{ aspectRatio: `${foto.w} / ${foto.h}` }}>
+      <figure className="foto-quadro" style={{ '--ar': foto.w / foto.h } as CSSProperties}>
         <img
           src={fotoSrc(round.id)}
           alt="Fotografia da rodada. A descrição aparece depois da resposta."
