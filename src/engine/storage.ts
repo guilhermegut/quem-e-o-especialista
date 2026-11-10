@@ -1,5 +1,5 @@
 // localStorage sempre protegido: pode falhar (modo privado, iframe, cota) sem derrubar o jogo.
-import { FOTO_DESDE, primeMinRaw, type LevelId, type ModuleId } from './levels';
+import { NOVOS_DESDE, primeMinRaw, type LevelId, type ModuleId } from './levels';
 
 const PREFIX = 'geoduelo:';
 const memory = new Map<string, string>();
@@ -47,18 +47,19 @@ export const dailyDuracao = (date: string, level: LevelId): number | null => {
 };
 
 /**
- * O Foto entrou no meio do Desafio de FOTO_DESDE. Quem já tinha jogado esse dia na versão de cinco módulos
- * recomeça: some a tentativa antiga (e a marca de envio ao ranking), e a nova conta como primeira. Roda uma vez.
+ * Os módulos novos (Esportes, Foto em linha do tempo e Lógica) entram no Desafio de NOVOS_DESDE. Quem já tinha
+ * jogado esse dia numa versão anterior recomeça: some a tentativa antiga (e a marca de envio ao ranking), e a nova
+ * conta como primeira. Roda uma vez por aparelho.
  */
-export function reiniciarDiaDoFoto() {
-  const marca = `reinicio:${FOTO_DESDE}`;
+export function reiniciarDiaDosNovos() {
+  const marca = `reinicio:${NOVOS_DESDE}:oito`;
   if (get(marca)) return;
   for (const l of ['estagiario', 'prime'] as const) {
-    const rec = getDaily(FOTO_DESDE, l);
-    if (rec && rec.rounds.some((r) => r.mod === 'foto')) continue;
-    apagar(dailyKey(FOTO_DESDE, l));
-    apagar(`${dailyKey(FOTO_DESDE, l)}:inicio`);
-    apagar(`ranking:enviado:${FOTO_DESDE}:${l}`);
+    const rec = getDaily(NOVOS_DESDE, l);
+    if (rec && rec.rounds.some((r) => r.mod === 'logica')) continue;
+    apagar(dailyKey(NOVOS_DESDE, l));
+    apagar(`${dailyKey(NOVOS_DESDE, l)}:inicio`);
+    apagar(`ranking:enviado:${NOVOS_DESDE}:${l}`);
   }
   set(marca, '1');
 }

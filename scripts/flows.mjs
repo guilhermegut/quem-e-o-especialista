@@ -29,6 +29,11 @@ async function playRounds(n, answerIdx = 0) {
       const b = await (await page.$('.mapa canvas')).boundingBox();
       await page.mouse.click(b.x + b.width * 0.55, b.y + b.height * 0.35); await sleep(200);
       await click('button', 'Confirmar posição'); await sleep(1700);
+    } else if (await page.$('.rodada-foto')) {
+      await page.waitForFunction(() => document.querySelector('.foto-pronta') || document.querySelector('.foto-carregando .botao'), { timeout: 15000 });
+      if (await page.$('.foto-carregando .botao')) await click('.foto-carregando .botao', 'Seguir');
+      else { for (let k = 0; k <= answerIdx; k++) await click('.linha-acoes button', '+10'); await click('.linha-acoes button', 'Confirmar'); }
+      await sleep(300);
     } else {
       await sleep(300);
       const opts = await page.$$('.opcao, .dupla'); await opts[answerIdx % opts.length].click(); await sleep(300);

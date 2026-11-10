@@ -5,7 +5,8 @@ import { todayBR } from './date';
 import { FOTOS, fotoRound, type FotoRound } from './fotos';
 import { rngFrom, shuffle, type Rng } from './rng';
 const pick = <T,>(rng: Rng, arr: T[]) => arr[Math.floor(rng() * arr.length)];
-import { TEMAS_CULTURA, TEMAS_MUNDO, quizRound, temaDaKey, temaPool, type QuizRound, type Tema } from './quiz';
+import { TEMAS_CULTURA, TEMAS_ESPORTES, TEMAS_MUNDO, quizRound, temaDaKey, temaPool, type QuizRound, type Tema } from './quiz';
+import { TIPOS_LOGICA, logicaPool, logicaRound, type LogicaRound, type TipoLogica } from './logica';
 import { CONFLITO, conflictItems, conflictRound, type ConflictRound } from './conflitos';
 
 /** Põe nas posições de Lados (2ª e 4ª) conflitos que têm lados cadastrados, sem mudar o conjunto do dia. */
@@ -29,8 +30,8 @@ export interface FlagClassic { mod: 'bandeiras'; key: string; variant: 'classico
 export interface FlagReveal { mod: 'bandeiras'; key: string; variant: 'revelacao'; answer: string; options: string[]; focus: [number, number] }
 export interface FlagIntruder { mod: 'bandeiras'; key: string; variant: 'intrusa'; pairs: { flag: string; label: string }[]; wrongIndex: number }
 export type FlagRound = FlagClassic | FlagReveal | FlagIntruder;
-export type Round = MapRound | FlagRound | ConflictRound | QuizRound | FotoRound;
-export type { ConflictRound, QuizRound, FotoRound };
+export type Round = MapRound | FlagRound | ConflictRound | QuizRound | FotoRound | LogicaRound;
+export type { ConflictRound, QuizRound, FotoRound, LogicaRound };
 
 export type MatchSpec =
   | { kind: 'daily'; date: string; level: LevelId }
@@ -73,14 +74,16 @@ export function flagPool(level: LevelId): Item[] {
   return base.map((c) => ({ key: `flag:${c.cc}`, cc: c.cc }));
 }
 
-const quizItems = (tema: Tema, level: LevelId): Item[] => temaPool(tema, level).map((key) => ({ key, cc: key }));
+/** Temas do quiz e tipos da Lógica funcionam igual: um item por tema e por dia, três temas diferentes por partida. */
+const quizItems = (tema: Tema | TipoLogica, level: LevelId): Item[] =>
+  ((TIPOS_LOGICA as string[]).includes(tema) ? logicaPool(tema as TipoLogica) : temaPool(tema as Tema, level)).map((key) => ({ key, cc: key }));
 const fotoPool = (): Item[] => FOTOS.map((f) => ({ key: `foto:${f.id}`, cc: f.id }));
 const poolFor = (mod: ModuleId, level: LevelId): Item[] =>
   mod === 'mapa' ? mapPool(level) : mod === 'bandeiras' ? flagPool(level) : mod === 'conflitos' ? conflictItems(level) : mod === 'foto' ? fotoPool() : [];
-const TEMAS: Partial<Record<ModuleId, Tema[]>> = { mundo: TEMAS_MUNDO, cultura: TEMAS_CULTURA };
+const TEMAS: Partial<Record<ModuleId, (Tema | TipoLogica)[]>> = { mundo: TEMAS_MUNDO, cultura: TEMAS_CULTURA, esportes: TEMAS_ESPORTES, logica: TIPOS_LOGICA };
 
 /** Rotação sem repetição de um único tema do quiz: um item por dia, o ciclo embaralhado pela seed. */
-function dailyQuizItem(tema: Tema, level: LevelId, date: string, cv: string): Item {
+function dailyQuizItem(tema: Tema | TipoLogica, level: LevelId, date: string, cv: string): Item {
   const pool = quizItems(tema, level);
   const idx = Math.max(0, dayIndex(date));
   const order = shuffle(rngFrom(`${cv}|${level}|quiz|${tema}|ciclo${Math.floor(idx / pool.length)}`), pool);
@@ -201,7 +204,8 @@ function mapRound(item: Item, level: LevelId): MapRound {
 export function buildRounds(mod: ModuleId, level: LevelId, items: Item[], rng: Rng): Round[] {
   if (mod === 'mapa') return items.map((it) => mapRound(it, level));
   if (mod === 'conflitos') return arrangeConflicts(items).map((it, i) => conflictRound(rng, level, it.key.slice(5), i));
-  if (mod === 'mundo' || mod === 'cultura') return items.map((it) => quizRound(rng, level, mod, temaDaKey(it.key), it.key));
+  if (mod === 'mundo' || mod === 'cultura' || mod === 'esportes') return items.map((it) => quizRound(rng, level, mod, temaDaKey(it.key, mod), it.key));
+  if (mod === 'logica') return items.map((it) => logicaRound(level, it.key));
   if (mod === 'foto') return items.map((it) => fotoRound(rng, level, it.key.slice(5)));
   const variants = flagVariants(rng, level);
   return items.map((it, i) => flagRound(rng, it, level, variants[i]));

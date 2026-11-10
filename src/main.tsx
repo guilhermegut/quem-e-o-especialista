@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client';
 import './styles.css';
 import { App } from './app/App';
 import { aplicarTema } from './app/tema';
-import { reiniciarDiaDoFoto } from './engine/storage';
+import { reiniciarDiaDosNovos } from './engine/storage';
 
 aplicarTema();
-reiniciarDiaDoFoto();
+reiniciarDiaDosNovos();
 
 // Depois de uma atualização do site, os arquivos antigos deixam de existir. Se a página aberta
 // pedir um deles, recarrega uma vez; a partida em andamento é retomada pelo salvamento local.

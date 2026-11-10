@@ -16,6 +16,8 @@ import { AnimPlacar } from './Anim';
 import { falar, type Fala } from './voz';
 import { rankingAtivo } from '../engine/ranking';
 import { RankingNoResultado } from './Ranking';
+import { COR } from './cores';
+import { TIPO_NOME } from '../engine/logica';
 
 /** Uma partida terminada: um nível. O resultado mostra uma (só o Nível 1) ou duas (Nível 1 e Prime). */
 export interface Parte { spec: MatchSpec; rounds: Round[]; results: RoundResult[]; ranked: boolean }
@@ -37,12 +39,13 @@ export function roundLabel(r: Round): string {
     if (r.variant === 'intrusa') return `Dupla errada: ${countryName(r.pairs[r.wrongIndex].flag)}`;
     return `Bandeira: ${countryName(r.answer)}`;
   }
-  if (r.mod === 'foto') return `Foto de ${r.opcoes[r.certo]}: ${FOTO.get(r.id)?.titulo ?? ''}`;
+  if (r.mod === 'foto') return `Foto de ${FOTO.get(r.id)?.ano ?? ''}: ${FOTO.get(r.id)?.titulo ?? ''}`;
+  if (r.mod === 'logica') return `Lógica: ${TIPO_NOME[r.tipoLogica]}`;
   return `${TEMA_NOME[r.tema]}: ${r.formato === 'pares' ? r.esquerda!.join(', ') : r.opcoes[r.certo[0]]}`;
 }
 
 const TIER_TEXT = { otimo: 'ótimo', bom: 'bom', 'raspão': 'raspão', erro: 'errou' } as const;
-const COR_MOD = { mapa: '#0071e3', bandeiras: '#e0245e', mundo: '#157a33', cultura: '#8e3fd0', foto: '#0a6e8a', conflitos: '#b84a00' } as const;
+const COR_MOD = COR;
 
 const diaDe = (spec: MatchSpec) => (spec.kind === 'daily' ? spec.date : undefined);
 

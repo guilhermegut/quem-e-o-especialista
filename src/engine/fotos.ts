@@ -1,4 +1,4 @@
-// Módulo Foto: em que ano esta fotografia foi tirada? Cinco anos como opções, igualmente espaçados.
+// Módulo Foto: em que ano esta fotografia foi tirada? O jogador arrasta uma linha do tempo de 1900 a 2026.
 // As fotos ficam em public/fotos/<id>.webp, com ficha (ano, acervo, autor, licença, link) em src/data/fotos.json.
 import FOTOS_JSON from '../data/fotos.json';
 import type { LevelId } from './levels';
@@ -17,30 +17,28 @@ export interface Foto {
   h: number;
 }
 
-export interface FotoRound { mod: 'foto'; key: string; id: string; opcoes: number[]; certo: number; passo: number }
+export interface FotoRound { mod: 'foto'; key: string; id: string }
 
 export const FOTOS = FOTOS_JSON as Foto[];
 export const FOTO = new Map(FOTOS.map((f) => [f.id, f]));
 export const fotoSrc = (id: string) => `fotos/${id}.webp`;
 
-const ANO_MIN = 1880;
-const ANO_MAX = 2026;
+/** A linha do tempo vai de 1900 ao ano atual; fotos mais antigas ficam fora do acervo. */
+export const ANO_MIN = 1900;
+export const ANO_MAX = 2026;
+/** O cursor começa no meio da linha, igual para todas as fotos, para não dar pista. */
+export const ANO_INICIAL = 1963;
 
-/** Estagiário: anos a 8–12 de distância; Prime: a 3–5. A resposta cai numa posição sorteada. */
-export function fotoRound(rng: Rng, level: LevelId, id: string): FotoRound {
-  const f = FOTO.get(id);
-  if (!f) throw new Error(`foto desconhecida: ${id}`);
-  const passo = level === 'estagiario' ? 8 + Math.floor(rng() * 5) : 3 + Math.floor(rng() * 3);
-  let pos = Math.floor(rng() * 5);
-  while (pos < 4 && f.ano + (4 - pos) * passo > ANO_MAX) pos++;
-  while (pos > 0 && f.ano - pos * passo < ANO_MIN) pos--;
-  const opcoes = Array.from({ length: 5 }, (_, i) => f.ano + (i - pos) * passo);
-  return { mod: 'foto', key: `foto:${id}`, id, opcoes, certo: pos, passo };
+export function fotoRound(_rng: Rng, _level: LevelId, id: string): FotoRound {
+  if (!FOTO.get(id)) throw new Error(`foto desconhecida: ${id}`);
+  return { mod: 'foto', key: `foto:${id}`, id };
 }
 
-/** Acerto vale 1; a opção ao lado vale 0,4; as demais, 0 (o chute puro rende em média 33%, não 44%). */
-export function fotoPrecision(r: FotoRound, escolha: number | null): number {
-  if (escolha === null || escolha < 0) return 0;
-  const d = Math.abs(escolha - r.certo);
-  return d === 0 ? 1 : d === 1 ? 0.4 : 0;
+/** Anos de tolerância: a pontuação cai a cerca de 37% a essa distância, como os quilômetros do mapa. */
+export const K_FOTO: Record<LevelId, number> = { estagiario: 6, prime: 4 };
+/** Cravar o ano vale 1; errar por um ano já vale 0,85 (o bônus de cravar) e daí cai exponencialmente. */
+export function fotoPrecision(level: LevelId, certo: number, escolha: number | null): number {
+  if (escolha === null) return 0;
+  const d = Math.abs(escolha - certo);
+  return d === 0 ? 1 : 0.85 * Math.exp(-(d - 1) / K_FOTO[level]);
 }

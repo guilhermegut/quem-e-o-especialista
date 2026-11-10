@@ -6,8 +6,8 @@ import { haversineKm } from './geo';
 import { dailyItems, flagPool, generateMatch, mapPool, _internals, type FlagRound } from './match';
 import { finalScore, mapPrecision, roundPoints, shareSymbol } from './scoring';
 import { quizPrecision, temaDaKey, temaPool, _quizInternals, TEMAS_CULTURA, TEMAS_MUNDO, type QuizRound } from './quiz';
-import { FOTO_DESDE, maxRaw, modulosDoDia, primeMinRaw, ROUNDS_PER_MODULE, temposDoDia } from './levels';
-import { FOTO, FOTOS, fotoPrecision, fotoRound } from './fotos';
+import { FOTO_DESDE, NOVOS_DESDE, maxRaw, modulosDoDia, primeMinRaw, ROUNDS_PER_MODULE, temposDoDia } from './levels';
+import { FOTOS, fotoPrecision } from './fotos';
 import { CONFLITO, CONFLITOS, CONFLITOS_JOGO, EM_JOGO, PISTAS, conflictItems, conflictRound, dossieRound, ladosPrecision, ladosRound } from './conflitos';
 import { rngFrom } from './rng';
 import type { ConflictRound } from './match';
@@ -304,37 +304,37 @@ describe('quiz: Mundo hoje e Cultura', () => {
 });
 
 describe('partida de até 5 minutos e liberação do Prime', () => {
-  it('três rodadas por módulo e tempo máximo de resposta de até 5 minutos, antes e depois do módulo Foto', () => {
+  it('três rodadas por módulo; com oito módulos a resposta cabe em pouco mais de 6 minutos no pior caso', () => {
     expect(modulosDoDia('2026-11-09').map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'conflitos']);
-    expect(modulosDoDia('2099-01-01').map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'foto', 'conflitos']);
-    for (const dia of ['2026-11-09', '2026-11-10', '2099-01-01']) for (const l of ['estagiario', 'prime'] as const) {
+    expect(modulosDoDia('2099-01-01').map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'esportes', 'foto', 'logica', 'conflitos']);
+    for (const dia of ['2026-11-09', '2099-01-01']) for (const l of ['estagiario', 'prime'] as const) {
       const total = modulosDoDia(dia).reduce((a, m) => a + temposDoDia(dia)[l][m.id] * ROUNDS_PER_MODULE, 0);
-      expect(total).toBeLessThanOrEqual(300);
+      expect(total).toBeLessThanOrEqual(dia < FOTO_DESDE ? 300 : 390);
     }
     expect(temposDoDia('2026-11-10').estagiario.conflitos).toBe(38);
+    if (NOVOS_DESDE > FOTO_DESDE) {
+      expect(modulosDoDia(FOTO_DESDE).map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'foto', 'conflitos']);
+      expect(maxRaw(FOTO_DESDE)).toBe(18000);
+    }
+    expect(modulosDoDia(NOVOS_DESDE)).toHaveLength(8);
   });
   it('Prime libera com 60% do máximo bruto do dia', () => {
     expect(maxRaw('2026-11-09')).toBe(15000);
     expect(primeMinRaw('2026-11-09')).toBe(9000);
-    expect(maxRaw('2099-01-01')).toBe(18000);
-    expect(primeMinRaw('2099-01-01')).toBe(10800);
+    expect(maxRaw('2099-01-01')).toBe(24000);
+    expect(primeMinRaw('2099-01-01')).toBe(14400);
     expect(FOTO_DESDE >= '2026-11-10').toBe(true);
   });
-  it('foto: cinco anos igualmente espaçados com a resposta, dentro de 1880–2026; pontuação parcial', () => {
-    const f = { id: 't', ano: 2021, titulo: '', acervo: '', autor: '', licenca: '', url: '', w: 4, h: 3 };
-    FOTO.set('t', f);
-    try {
-      for (let k = 0; k < 50; k++) for (const level of ['estagiario', 'prime'] as const) {
-        const r = fotoRound(rngFrom('f' + k), level, 't');
-        expect(r.opcoes[r.certo]).toBe(2021);
-        expect(Math.max(...r.opcoes)).toBeLessThanOrEqual(2026);
-        expect(new Set(r.opcoes.map((a, i) => (i ? a - r.opcoes[i - 1] : r.passo))).size).toBe(1);
-        expect(fotoPrecision(r, r.certo)).toBe(1);
-        if (r.certo > 0) expect(fotoPrecision(r, r.certo - 1)).toBe(0.4);
-        if (r.certo > 1) expect(fotoPrecision(r, r.certo - 2)).toBe(0);
-        expect(fotoPrecision(r, null)).toBe(0);
-      }
-    } finally { FOTO.delete('t'); }
+  it('foto: pontuação pela distância em anos, com bônus por cravar', () => {
+    for (const level of ['estagiario', 'prime'] as const) {
+      expect(fotoPrecision(level, 1969, 1969)).toBe(1);
+      expect(fotoPrecision(level, 1969, 1970)).toBeCloseTo(0.85);
+      expect(fotoPrecision(level, 1969, 1968)).toBeCloseTo(0.85);
+      expect(fotoPrecision(level, 1969, null)).toBe(0);
+      expect(fotoPrecision(level, 1969, 1975)).toBeLessThan(fotoPrecision(level, 1969, 1972));
+    }
+    expect(fotoPrecision('prime', 1969, 1979)).toBeLessThan(fotoPrecision('estagiario', 1969, 1979));
+    expect(FOTOS.every((f) => f.ano >= 1900 && f.ano <= 2026)).toBe(true);
   });
   it('partidas de 60 dias seguidos geram sem erro nos dois níveis', () => {
     for (const level of ['estagiario', 'prime'] as const) for (let d = 0; d < 60; d++) {
@@ -384,17 +384,59 @@ describe('ranking', () => {
   });
 });
 
-import { getDaily, reiniciarDiaDoFoto, saveDailyIfFirst, startDaily } from './storage';
-describe('reinício do dia em que o Foto entrou', () => {
-  it('apaga a tentativa de cinco módulos e mantém a nova', () => {
+import { getDaily, reiniciarDiaDosNovos, saveDailyIfFirst, startDaily } from './storage';
+describe('reinício do dia em que os módulos novos entraram', () => {
+  it('apaga a tentativa antiga e mantém a de oito módulos', () => {
     const velho = { score: 5000, rounds: [{ mod: 'mapa' as const, precision: 1, raw: 1000, detail: '' }], finishedAt: '2026-11-10T12:00:00Z' };
-    startDaily(FOTO_DESDE, 'estagiario'); saveDailyIfFirst(FOTO_DESDE, 'estagiario', velho);
-    reiniciarDiaDoFoto();
-    expect(getDaily(FOTO_DESDE, 'estagiario')).toBeNull();
-    const novo = { ...velho, rounds: [{ mod: 'foto' as const, precision: 1, raw: 1000, detail: '' }] };
-    saveDailyIfFirst(FOTO_DESDE, 'estagiario', velho);
-    reiniciarDiaDoFoto(); // segunda chamada não faz nada
-    expect(getDaily(FOTO_DESDE, 'estagiario')).not.toBeNull();
-    expect(novo.rounds[0].mod).toBe('foto');
+    startDaily(NOVOS_DESDE, 'estagiario'); saveDailyIfFirst(NOVOS_DESDE, 'estagiario', velho);
+    reiniciarDiaDosNovos();
+    expect(getDaily(NOVOS_DESDE, 'estagiario')).toBeNull();
+    const novo = { ...velho, rounds: [{ mod: 'logica' as const, precision: 1, raw: 1000, detail: '' }] };
+    saveDailyIfFirst(NOVOS_DESDE, 'estagiario', velho);
+    reiniciarDiaDosNovos(); // segunda chamada não faz nada
+    expect(getDaily(NOVOS_DESDE, 'estagiario')).not.toBeNull();
+    expect(novo.rounds[0].mod).toBe('logica');
+  });
+});
+
+import { TIPOS_LOGICA, logicaPool, logicaRound, _logicaInternals } from './logica';
+import { TEMAS_ESPORTES, quizRound as qr, temaDaKey as tdk, temaPool as tp } from './quiz';
+describe('Lógica', () => {
+  it('cada tipo gera quatro opções distintas com uma certa, nos dois níveis', () => {
+    for (const tipo of TIPOS_LOGICA) for (const level of ['estagiario', 'prime'] as const) for (const key of logicaPool(tipo).slice(0, 120)) {
+      const r = logicaRound(level, key);
+      expect(r.opcoes.length).toBe(4);
+      const distintas = new Set(r.opcoes.map((o) => JSON.stringify(o))).size;
+      // No intruso, três figuras são iguais e uma é diferente; nos demais, as quatro opções são distintas.
+      if (tipo !== 'intruso') expect(distintas).toBe(4);
+      if (tipo === 'intruso') expect(r.opcoes.filter((o) => JSON.stringify(o) === JSON.stringify(r.opcoes[r.certo])).length).toBe(1);
+      expect(r.certo).toBeGreaterThanOrEqual(0);
+      expect(r.certo).toBeLessThan(4);
+      expect(logicaRound(level, key)).toEqual(r); // determinístico
+    }
+  });
+  it('espelho: o reflexo de cada peça não coincide com nenhuma rotação dela', () => {
+    const { normalizar, girar, refletir, PECAS } = _logicaInternals;
+    for (const p of PECAS) {
+      let rot = normalizar(p);
+      const rots = [rot]; for (let i = 0; i < 3; i++) { rot = girar(rot); rots.push(rot); }
+      const ref = JSON.stringify(refletir(normalizar(p)));
+      expect(rots.map((r) => JSON.stringify(r))).not.toContain(ref);
+    }
+  });
+});
+describe('Esportes', () => {
+  it('todos os itens de todos os temas geram pergunta com a resposta entre as opções', () => {
+    for (const tema of TEMAS_ESPORTES) for (const level of ['estagiario', 'prime'] as const) {
+      const pool = tp(tema, level);
+      expect(pool.length).toBeGreaterThan(5);
+      for (const key of pool) for (const s of [1, 2]) {
+        expect(tdk(key, 'esportes')).toBe(tema);
+        const r = qr(rngFrom(`e${s}${key}`), level, 'esportes', tema, key);
+        expect(new Set(r.opcoes).size).toBe(r.opcoes.length);
+        if (r.formato !== 'pares') { expect(r.opcoes.length).toBe(4); expect(r.certo[0]).toBeGreaterThanOrEqual(0); }
+        else expect(r.certo.every((c) => c >= 0)).toBe(true);
+      }
+    }
   });
 });

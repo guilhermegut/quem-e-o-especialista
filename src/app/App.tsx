@@ -4,9 +4,9 @@ import { formatDateBR, todayBR } from '../engine/date';
 import { decodeDuel, type DuelPayload } from '../engine/duel';
 import { formatKm, haversineKm } from '../engine/geo';
 import { LEVEL_ORDER, LEVELS, maxRaw, modulosDoDia, primeMinRaw, ROUNDS_PER_MODULE, temposDoDia, type LevelId, type ModuleId } from '../engine/levels';
-import { FOTOS } from '../engine/fotos';
+import { FOTOS, K_FOTO } from '../engine/fotos';
 
-const EXTENSO = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete'];
+const EXTENSO = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito'];
 const listaNomes = (nomes: string[]) => nomes.slice(0, -1).join(', ') + ' e ' + nomes[nomes.length - 1];
 import { flagPool, generateMatch, mapPool, trainingSet, type MatchSpec, type Round } from '../engine/match';
 import { conflictItems } from '../engine/conflitos';
@@ -286,7 +286,7 @@ function Menu({ hoje, go, onDaily }: { hoje: string; go: (s: Screen) => void; on
         <p className="menu-data">Desafio de {formatDateBR(hoje)}</p>
         <h1 className="sr-only">Quem é o Especialista</h1>
         <AnimAbertura />
-        <p className="menu-lead">{modulosDoDia(hoje).length === 6 ? 'Seis temas, cinco minutos. Mapa, bandeiras, mundo de hoje, cultura, fotos e guerras' : 'Cinco temas, cinco minutos. Mapa, bandeiras, mundo de hoje, cultura e guerras'}: todo dia uma partida nova, a mesma para todo mundo.</p>
+        <p className="menu-lead">{modulosDoDia(hoje).length === 8 ? 'Oito temas, uns seis minutos. Mapa, bandeiras, mundo de hoje, cultura, esportes, fotos, lógica e guerras' : 'Cinco temas, cinco minutos. Mapa, bandeiras, mundo de hoje, cultura e guerras'}: todo dia uma partida nova, a mesma para todo mundo.</p>
         <ul className="menu-modulos" aria-label="Módulos da partida">
           {modulosDoDia(hoje).map((m) => <li key={m.id} data-mod={m.id}>{m.nome}</li>)}
         </ul>
@@ -363,7 +363,7 @@ function ComoJogar({ onBack }: { onBack: () => void }) {
   return (
     <Pagina titulo="Como jogar" onBack={onBack}>
       <div className="texto-corrido">
-        <p>Cada partida tem {EXTENSO[mods.length]} módulos, sempre nesta ordem, com três rodadas cada: {listaNomes(mods.map((m) => m.nome))}. São {mods.length * ROUNDS_PER_MODULE} rodadas e até {fmtInt(maxRaw())} pontos brutos. Somando o tempo de leitura das respostas, a partida cabe em cerca de cinco minutos por nível: o tempo máximo de resposta é de {Math.floor(tempo('estagiario') / 60)} min {tempo('estagiario') % 60} s no Estagiário e {Math.floor(tempo('prime') / 60)} min {tempo('prime') % 60} s no Prime.</p>
+        <p>Cada partida tem {EXTENSO[mods.length]} módulos, sempre nesta ordem, com três rodadas cada: {listaNomes(mods.map((m) => m.nome))}. São {mods.length * ROUNDS_PER_MODULE} rodadas e até {fmtInt(maxRaw())} pontos brutos. Na prática, a partida leva de cinco a seis minutos por nível: o tempo máximo de resposta é de {Math.floor(tempo('estagiario') / 60)} min {tempo('estagiario') % 60} s no Estagiário e {Math.floor(tempo('prime') / 60)} min {tempo('prime') % 60} s no Prime.</p>
         <h2>Dois níveis</h2>
         <p>O desafio do dia começa no Nível 1, Estagiário. Se você fizer {fmtInt(primeMinRaw())} pontos brutos ou mais (60% do máximo), a tela avisa que o Nível 2, Prime, foi desbloqueado e ele começa na sequência; no fim aparecem os dois resultados. Se preferir parar, fica só o resultado do Nível 1, e o Prime continua disponível no menu até o fim do dia. O Prime é um degrau acima, sem salto brusco: um pouco menos de tempo, alternativas mais próximas da resposta e multiplicador de 1,25. Para valer no ranking, o Prime precisa ter sido liberado pela primeira tentativa do dia no Nível 1.</p>
         <h2>Mapa</h2>
@@ -373,16 +373,24 @@ function ComoJogar({ onBack }: { onBack: () => void }) {
         <h2>Mundo hoje</h2>
         <p>Uma pergunta sobre moedas, uma sobre líderes do G20 nos últimos 30 anos e uma sobre a religião predominante de um país, em formatos que variam: múltipla escolha, ligue os pares e, no Prime, ache o intruso. Nos líderes, o jogo pergunta por quem comandava o governo: presidentes, primeiros-ministros e chanceleres; na França, na Rússia e na China, pelo presidente; na Arábia Saudita, pelo rei.</p>
         <h2>Cultura</h2>
-        <p>Três perguntas por dia, de três destes quatro temas: esporte (Copas do Mundo, Olimpíadas, Fórmula 1 e Bola de Ouro), filosofia, pintura e cultura pop (Oscar, livros e videogames mais vendidos). Nas obras de arte, o jogo pergunta pelo autor e pelo movimento, nunca pelo lugar onde estão.</p>
+        <p>{mods.some((m) => m.id === 'esportes') ? 'Uma pergunta de filosofia, uma de pintura e uma de cultura pop (Oscar, livros e videogames mais vendidos).' : 'Três perguntas por dia, de três destes quatro temas: esporte, filosofia, pintura e cultura pop (Oscar, livros e videogames mais vendidos).'} Nas obras de arte, o jogo pergunta pelo autor e pelo movimento, nunca pelo lugar onde estão.</p>
+        {mods.some((m) => m.id === 'esportes') && (<>
+          <h2>Esportes</h2>
+          <p>Três perguntas por dia, de três destes oito temas: futebol (Copas do Mundo desde 1930, Copa feminina e Bola de Ouro), Olimpíadas de Moscou 1980 em diante, tênis (Grand Slams de 1990 em diante), Fórmula 1 de 1980 em diante, boxe de 1980 em diante, MMA, NBA de 1985 em diante e NFL (Super Bowls de 2005 em diante).</p>
+        </>)}
         {mods.some((m) => m.id === 'foto') && (<>
           <h2>Foto</h2>
-          <p>Uma fotografia aparece na tela e você escolhe, entre cinco anos, quando ela foi tirada. Repare nos carros, nas roupas, nos anúncios, nas cores e na própria imagem: grão, nitidez, preto e branco. No Estagiário, os anos estão a cerca de uma década uns dos outros; no Prime, a 3 a 5 anos. Acertar vale 100%; marcar o ano vizinho vale 40%; os demais, zero. O tempo só começa quando a foto termina de carregar. São {fmtInt(FOTOS.length)} fotos de acervos públicos ou com licença livre, com fonte, autor e licença ao fim de cada rodada.</p>
+          <p>Uma fotografia aparece na tela e você arrasta a linha do tempo, de 1900 a 2026, até o ano em que acha que ela foi tirada; as setas do teclado e os botões de ±1 e ±10 ajustam, e Enter confirma. Como no mapa, quanto mais perto, mais pontos: cravar o ano vale o máximo, errar por um ano vale 85%, e a pontuação cai a cerca de um terço a {K_FOTO.estagiario} anos de distância no Estagiário e a {K_FOTO.prime} anos no Prime. Se o tempo acabar com o cursor fora do lugar inicial, vale a posição dele. Há cenas do cotidiano, em que contam carros, roupas e a própria imagem, e fotos de fatos históricos. O tempo só começa quando a foto termina de carregar. São {fmtInt(FOTOS.length)} fotos de acervos públicos ou com licença livre, com fonte, autor e licença ao fim de cada rodada.</p>
+        </>)}
+        {mods.some((m) => m.id === 'logica') && (<>
+          <h2>Lógica</h2>
+          <p>Três desafios rápidos de raciocínio, de tipos diferentes a cada dia: continuar uma sequência de números, prever o giro de uma seta, contar lados, achar a figura que não combina, pesar formas numa balança, reconhecer o reflexo de uma peça no espelho, adiantar um relógio e completar um quadro de formas. São gerados por regra, então não se repetem.</p>
         </>)}
         <h2>Guerras</h2>
         <p>O módulo usa {conflictItems('estagiario').length} conflitos dos séculos XX e XXI: as duas guerras mundiais, Afeganistão e Iraque, as guerras com Israel, as guerras do Oriente Médio e as guerras com países europeus como beligerantes principais. Duas dinâmicas se alternam. No Dossiê, as pistas de um conflito aparecem uma de cada vez; com uma pista aberta, o acerto vale 100%, com duas 75%, com três 50% e com as quatro 30%. Em Lados, você diz de que lado estava cada participante.</p>
         <h2>Pontos</h2>
         <p>Cada rodada vale até 1.000 pontos: 850 pela precisão e até 150 pela rapidez, na proporção da precisão. Chute rápido e errado não ganha bônus. Nos pares, conta a fração de ligações certas.</p>
-        <p>{regrasNaoSei() ? 'Em' : `A partir do Desafio de ${formatDateBR(NAO_SEI_DESDE)}, em`} Bandeiras, Mundo hoje, Cultura e Guerras há o botão Não sei (tecla 0), que vale zero. Resposta errada custa {fmtInt(PENALIDADE_ERRO)} pontos, 10% de um acerto; deixar o tempo acabar vale zero. Assim, chutar sem saber deixa de compensar. A Foto não tem Não sei nem desconto: o ano vizinho já rende 40%. O total da partida nunca fica abaixo de zero.</p>
+        <p>{regrasNaoSei() ? 'Em' : `A partir do Desafio de ${formatDateBR(NAO_SEI_DESDE)}, em`} Bandeiras, Mundo hoje, Cultura, Esportes, Lógica e Guerras há o botão Não sei (tecla 0), que vale zero. Resposta errada custa {fmtInt(PENALIDADE_ERRO)} pontos, 10% de um acerto; deixar o tempo acabar vale zero. Assim, chutar sem saber deixa de compensar. Mapa e Foto não têm Não sei nem desconto: neles a pontuação cai com a distância. O total da partida nunca fica abaixo de zero.</p>
         <h2>Por que não dá para decorar</h2>
         <p>O desafio percorre todo o acervo de cada módulo antes de repetir um item, e a ordem muda a cada ciclo. Intervalo mínimo até um item voltar ao desafio:</p>
         <table className="detalhe">
@@ -432,7 +440,7 @@ function Sobre({ onBack }: { onBack: () => void }) {
           <li>Filosofia e arte: verbetes da Wikipedia em português e em inglês, citados em cada pergunta.</li>
           <li>Exônimos de cidades: Wikipédia em português e Natural Earth 5.1.2, camada de localidades povoadas (domínio público), com a lista curada pelo projeto.</li>
           <li>Bandeiras: flag-icons {DATA_VERSIONS['flag-icons']}, licença MIT.</li>
-          {FOTOS.length > 0 && <li>Fotografias: {fmtInt(FOTOS.length)} imagens em domínio público ou com licença livre, do Nationaal Archief (coleção Anefo, CC0), da Library of Congress (Bain News Service, Harris & Ewing e FSA/OWI) e dos National Archives dos EUA, em domínio público, da Agência Brasil (CC BY 3.0 BR) e de fotógrafos que publicam no Wikimedia Commons (CC BY e CC BY-SA), entre outros acervos. Autor, acervo, licença e link de cada foto aparecem ao fim da rodada. As imagens foram reduzidas e, nas fotos de negativos, aparadas nas bordas; as versões alteradas de obras CC BY-SA seguem sob a mesma licença.</li>}
+          {FOTOS.length > 0 && <li>Fotografias: {fmtInt(FOTOS.length)} imagens em domínio público ou com licença livre, do Nationaal Archief (coleção Anefo, CC0), da NASA, da Library of Congress (Bain News Service, Harris & Ewing e FSA/OWI), dos National Archives e das Forças Armadas dos EUA, do Imperial War Museums e de outros acervos públicos, em domínio público, do Bundesarchiv (CC BY-SA), da Agência Brasil (CC BY 3.0 BR) e de fotógrafos que publicam no Wikimedia Commons (CC BY e CC BY-SA), entre outros. Autor, acervo, licença e link de cada foto aparecem ao fim da rodada. As imagens foram reduzidas e, nas fotos de negativos, aparadas nas bordas; as versões alteradas de obras CC BY-SA seguem sob a mesma licença.</li>}
           <li>Guerras e conflitos: textos escritos pelo projeto a partir de Britannica, Wikipedia, World History Encyclopedia e outras fontes, listadas ao fim de cada rodada.</li>
         </ul>
         <h2>Correções feitas nos dados</h2>

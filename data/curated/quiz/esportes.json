@@ -1,6 +1,201 @@
 {
  "copa": [
   {
+   "ano": 1930,
+   "sede": "Uruguai",
+   "campeao": "Uruguai",
+   "vice": "Argentina",
+   "placar": "4 a 2",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1934,
+   "sede": "Itália",
+   "campeao": "Itália",
+   "vice": "Tchecoslováquia",
+   "placar": "2 a 1 na prorrogação",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1938,
+   "sede": "França",
+   "campeao": "Itália",
+   "vice": "Hungria",
+   "placar": "4 a 2",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1950,
+   "sede": "Brasil",
+   "campeao": "Uruguai",
+   "vice": "Brasil",
+   "placar": "2 a 1 no jogo decisivo do quadrangular final",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1954,
+   "sede": "Suíça",
+   "campeao": "Alemanha Ocidental",
+   "vice": "Hungria",
+   "placar": "3 a 2",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1958,
+   "sede": "Suécia",
+   "campeao": "Brasil",
+   "vice": "Suécia",
+   "placar": "5 a 2",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1962,
+   "sede": "Chile",
+   "campeao": "Brasil",
+   "vice": "Tchecoslováquia",
+   "placar": "3 a 1",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1966,
+   "sede": "Inglaterra",
+   "campeao": "Inglaterra",
+   "vice": "Alemanha Ocidental",
+   "placar": "4 a 2 na prorrogação",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1970,
+   "sede": "México",
+   "campeao": "Brasil",
+   "vice": "Itália",
+   "placar": "4 a 1",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1974,
+   "sede": "Alemanha Ocidental",
+   "campeao": "Alemanha Ocidental",
+   "vice": "Países Baixos",
+   "placar": "2 a 1",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1978,
+   "sede": "Argentina",
+   "campeao": "Argentina",
+   "vice": "Países Baixos",
+   "placar": "3 a 1 na prorrogação",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1982,
+   "sede": "Espanha",
+   "campeao": "Itália",
+   "vice": "Alemanha Ocidental",
+   "placar": "3 a 1",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1986,
+   "sede": "México",
+   "campeao": "Argentina",
+   "vice": "Alemanha Ocidental",
+   "placar": "3 a 2",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "sede": "Itália",
+   "campeao": "Alemanha Ocidental",
+   "vice": "Argentina",
+   "placar": "1 a 0",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "sede": "Estados Unidos",
+   "campeao": "Brasil",
+   "vice": "Itália",
+   "placar": "0 a 0, 3 a 2 nos pênaltis",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup finals",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+    }
+   ]
+  },
+  {
    "ano": 1998,
    "sede": "França",
    "campeao": "França",
@@ -111,6 +306,30 @@
  ],
  "copaFem": [
   {
+   "ano": 1991,
+   "sede": "China",
+   "campeao": "Estados Unidos",
+   "vice": "Noruega",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "sede": "Suécia",
+   "campeao": "Noruega",
+   "vice": "Alemanha",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA Women's World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+    }
+   ]
+  },
+  {
    "ano": 1999,
    "sede": "Estados Unidos",
    "campeao": "Estados Unidos",
@@ -196,6 +415,223 @@
   }
  ],
  "olimpiadas": [
+  {
+   "ano": 1980,
+   "estacao": "inverno",
+   "cidade": "Lake Placid",
+   "pais": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1984,
+   "estacao": "inverno",
+   "cidade": "Sarajevo",
+   "pais": "Iugoslávia",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1988,
+   "estacao": "inverno",
+   "cidade": "Calgary",
+   "pais": "Canadá",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "estacao": "inverno",
+   "cidade": "Albertville",
+   "pais": "França",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "estacao": "inverno",
+   "cidade": "Lillehammer",
+   "pais": "Noruega",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "estacao": "inverno",
+   "cidade": "Nagano",
+   "pais": "Japão",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "estacao": "inverno",
+   "cidade": "Salt Lake City",
+   "pais": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "estacao": "inverno",
+   "cidade": "Turim",
+   "pais": "Itália",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "estacao": "inverno",
+   "cidade": "Vancouver",
+   "pais": "Canadá",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "estacao": "inverno",
+   "cidade": "Sochi",
+   "pais": "Rússia",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "estacao": "inverno",
+   "cidade": "Pyeongchang",
+   "pais": "Coreia do Sul",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "estacao": "inverno",
+   "cidade": "Pequim",
+   "pais": "China",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "estacao": "inverno",
+   "cidade": "Milão e Cortina d'Ampezzo",
+   "pais": "Itália",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 2030,
+   "estacao": "inverno",
+   "cidade": "Alpes Franceses",
+   "pais": "França",
+   "nota": "Ainda vão acontecer, numa região com sete cidades.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1980,
+   "estacao": "verao",
+   "cidade": "Moscou",
+   "pais": "União Soviética",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1984,
+   "estacao": "verao",
+   "cidade": "Los Angeles",
+   "pais": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1988,
+   "estacao": "verao",
+   "cidade": "Seul",
+   "pais": "Coreia do Sul",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "estacao": "verao",
+   "cidade": "Barcelona",
+   "pais": "Espanha",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Olympic Games host cities",
+     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
+    }
+   ]
+  },
   {
    "ano": 1996,
    "estacao": "verao",
@@ -318,118 +754,201 @@
      "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
     }
    ]
-  },
-  {
-   "ano": 1998,
-   "estacao": "inverno",
-   "cidade": "Nagano",
-   "pais": "Japão",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
-  },
-  {
-   "ano": 2002,
-   "estacao": "inverno",
-   "cidade": "Salt Lake City",
-   "pais": "Estados Unidos",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
-  },
-  {
-   "ano": 2006,
-   "estacao": "inverno",
-   "cidade": "Turim",
-   "pais": "Itália",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
-  },
-  {
-   "ano": 2010,
-   "estacao": "inverno",
-   "cidade": "Vancouver",
-   "pais": "Canadá",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
-  },
-  {
-   "ano": 2014,
-   "estacao": "inverno",
-   "cidade": "Sochi",
-   "pais": "Rússia",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
-  },
-  {
-   "ano": 2018,
-   "estacao": "inverno",
-   "cidade": "Pyeongchang",
-   "pais": "Coreia do Sul",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
-  },
-  {
-   "ano": 2022,
-   "estacao": "inverno",
-   "cidade": "Pequim",
-   "pais": "China",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
-  },
-  {
-   "ano": 2026,
-   "estacao": "inverno",
-   "cidade": "Milão e Cortina d'Ampezzo",
-   "pais": "Itália",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
-  },
-  {
-   "ano": 2030,
-   "estacao": "inverno",
-   "cidade": "Alpes Franceses",
-   "pais": "França",
-   "nota": "Ainda vão acontecer, numa região com sete cidades.",
-   "fontes": [
-    {
-     "t": "Wikipedia (en), List of Olympic Games host cities",
-     "u": "https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities"
-    }
-   ]
   }
  ],
  "f1": [
+  {
+   "ano": 1980,
+   "piloto": "Alan Jones",
+   "pais": "Austrália",
+   "equipe": "Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1981,
+   "piloto": "Nelson Piquet",
+   "pais": "Brasil",
+   "equipe": "Brabham",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1982,
+   "piloto": "Keke Rosberg",
+   "pais": "Finlândia",
+   "equipe": "Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1983,
+   "piloto": "Nelson Piquet",
+   "pais": "Brasil",
+   "equipe": "Brabham",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1984,
+   "piloto": "Niki Lauda",
+   "pais": "Áustria",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1985,
+   "piloto": "Alain Prost",
+   "pais": "França",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1986,
+   "piloto": "Alain Prost",
+   "pais": "França",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1987,
+   "piloto": "Nelson Piquet",
+   "pais": "Brasil",
+   "equipe": "Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1988,
+   "piloto": "Ayrton Senna",
+   "pais": "Brasil",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1989,
+   "piloto": "Alain Prost",
+   "pais": "França",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "piloto": "Ayrton Senna",
+   "pais": "Brasil",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "piloto": "Ayrton Senna",
+   "pais": "Brasil",
+   "equipe": "McLaren",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "piloto": "Nigel Mansell",
+   "pais": "Reino Unido",
+   "equipe": "Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "piloto": "Alain Prost",
+   "pais": "França",
+   "equipe": "Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "piloto": "Michael Schumacher",
+   "pais": "Alemanha",
+   "equipe": "Benetton",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "piloto": "Michael Schumacher",
+   "pais": "Alemanha",
+   "equipe": "Benetton",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Formula One World Drivers' Champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Formula_One_World_Drivers%27_Champions"
+    }
+   ]
+  },
   {
    "ano": 1996,
    "piloto": "Damon Hill",
@@ -1153,5 +1672,5511 @@
    ]
   }
  ],
- "_nota": "Fontes consultadas em 09/11/2026. Em 2020 não houve Bola de Ouro. A temporada 2026 da Fórmula 1 não terminou. De 2010 a 2015 o prêmio se chamou Bola de Ouro da FIFA. Os Jogos de Inverno de 2034 ficaram fora: o nome oficial passou a ser Utah 2034, o que confundiria com Salt Lake City 2002."
+ "_nota": "Fontes consultadas em 09/11/2026. Em 2020 não houve Bola de Ouro. A temporada 2026 da Fórmula 1 não terminou. De 2010 a 2015 o prêmio se chamou Bola de Ouro da FIFA. Os Jogos de Inverno de 2034 ficaram fora: o nome oficial passou a ser Utah 2034, o que confundiria com Salt Lake City 2002. Em 10/11/2026 entraram Copas desde 1930 e a Copa feminina desde 1991, F1 desde 1980, sedes olímpicas desde 1980, quadro de medalhas dos Jogos de Verão desde Moscou 1980, Grand Slams de simples desde 1990 (Wimbledon 2020 foi cancelado), finais da NBA desde 1985 e Super Bowls disputados de 2005 em diante. Os resultados de 2026 (Grand Slams, final da NBA, Super Bowl LX) foram conferidos em notícias de 10/11/2026.",
+ "olimpMedalhas": [
+  {
+   "ano": 1980,
+   "cidade": "Moscou",
+   "lider": "União Soviética",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 1980 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/1980_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 1984,
+   "cidade": "Los Angeles",
+   "lider": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 1984 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/1984_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 1988,
+   "cidade": "Seul",
+   "lider": "União Soviética",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 1988 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/1988_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "cidade": "Barcelona",
+   "lider": "Equipe Unificada",
+   "nota": "Equipe Unificada reuniu ex-repúblicas soviéticas.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 1992 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/1992_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "cidade": "Atlanta",
+   "lider": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 1996 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/1996_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "cidade": "Sydney",
+   "lider": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2000 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/2000_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "cidade": "Atenas",
+   "lider": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2004 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/2004_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "cidade": "Pequim",
+   "lider": "China",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2008 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/2008_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "cidade": "Londres",
+   "lider": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2012 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/2012_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "cidade": "Rio de Janeiro",
+   "lider": "Estados Unidos",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2016 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/2016_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "cidade": "Tóquio",
+   "lider": "Estados Unidos",
+   "nota": "Os Jogos de Tóquio 2020 foram disputados em 2021, por causa da pandemia.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2020 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/2020_Summer_Olympics_medal_table"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "cidade": "Paris",
+   "lider": "Estados Unidos",
+   "nota": "Estados Unidos e China empataram em ouros (40); os americanos ficaram à frente pelas pratas.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2024 Summer Olympics medal table",
+     "u": "https://en.wikipedia.org/wiki/2024_Summer_Olympics_medal_table"
+    }
+   ]
+  }
+ ],
+ "tenis": [
+  {
+   "ano": 1990,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Ivan Lendl",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Boris Becker",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Jim Courier",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Jim Courier",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Andre Agassi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Boris Becker",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Petr Korda",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Yevgeny Kafelnikov",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Andre Agassi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Andre Agassi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Thomas Johansson",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Andre Agassi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Marat Safin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Stan Wawrinka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Jannik Sinner",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Jannik Sinner",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "torneio": "ao",
+   "genero": "m",
+   "campeao": "Carlos Alcaraz",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Andrés Gómez",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Jim Courier",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Jim Courier",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Sergi Bruguera",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Sergi Bruguera",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Thomas Muster",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Yevgeny Kafelnikov",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Gustavo Kuerten",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Carlos Moyá",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Andre Agassi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Gustavo Kuerten",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Gustavo Kuerten",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Albert Costa",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Juan Carlos Ferrero",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Gastón Gaudio",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Stan Wawrinka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Carlos Alcaraz",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Carlos Alcaraz",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "torneio": "rg",
+   "genero": "m",
+   "campeao": "Alexander Zverev",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Stefan Edberg",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Michael Stich",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Andre Agassi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Richard Krajicek",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Goran Ivanišević",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Lleyton Hewitt",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Andy Murray",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Andy Murray",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Carlos Alcaraz",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Carlos Alcaraz",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Jannik Sinner",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "torneio": "wim",
+   "genero": "m",
+   "campeao": "Jannik Sinner",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Stefan Edberg",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Stefan Edberg",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Andre Agassi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Patrick Rafter",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Patrick Rafter",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Andre Agassi",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Marat Safin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Lleyton Hewitt",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Pete Sampras",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Andy Roddick",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Roger Federer",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Juan Martín del Potro",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Andy Murray",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Marin Čilić",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Stan Wawrinka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Rafael Nadal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Dominic Thiem",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Daniil Medvedev",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Carlos Alcaraz",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Novak Djokovic",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Jannik Sinner",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Carlos Alcaraz",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "torneio": "uso",
+   "genero": "m",
+   "campeao": "Alexander Zverev",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam men's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_men%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Mary Pierce",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Martina Hingis",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Martina Hingis",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Martina Hingis",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Lindsay Davenport",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Jennifer Capriati",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Jennifer Capriati",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Justine Henin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Amélie Mauresmo",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Maria Sharapova",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Kim Clijsters",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Victoria Azarenka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Victoria Azarenka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Li Na",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Angelique Kerber",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Caroline Wozniacki",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Naomi Osaka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Sofia Kenin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Naomi Osaka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Ashleigh Barty",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Aryna Sabalenka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Aryna Sabalenka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Madison Keys",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "torneio": "ao",
+   "genero": "f",
+   "campeao": "Elena Rybakina",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Arantxa Sánchez Vicario",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Iva Majoli",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Arantxa Sánchez Vicario",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Mary Pierce",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Jennifer Capriati",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Justine Henin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Anastasia Myskina",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Justine Henin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Justine Henin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Justine Henin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Ana Ivanović",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Svetlana Kuznetsova",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Francesca Schiavone",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Li Na",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Maria Sharapova",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Maria Sharapova",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Garbiñe Muguruza",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Jeļena Ostapenko",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Simona Halep",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Ashleigh Barty",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Iga Świątek",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Barbora Krejčíková",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Iga Świątek",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Iga Świątek",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Iga Świątek",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Coco Gauff",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "torneio": "rg",
+   "genero": "f",
+   "campeao": "Mirra Andreeva",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Martina Navratilova",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Conchita Martínez",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Martina Hingis",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Jana Novotná",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Lindsay Davenport",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Venus Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Venus Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Maria Sharapova",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Venus Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Amélie Mauresmo",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Venus Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Venus Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Petra Kvitová",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Marion Bartoli",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Petra Kvitová",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Garbiñe Muguruza",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Angelique Kerber",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Simona Halep",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Ashleigh Barty",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Elena Rybakina",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Markéta Vondroušová",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Barbora Krejčíková",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Iga Świątek",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "torneio": "wim",
+   "genero": "f",
+   "campeao": "Linda Nosková",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Gabriela Sabatini",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Monica Seles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Arantxa Sánchez Vicario",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Steffi Graf",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Martina Hingis",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Lindsay Davenport",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Venus Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Venus Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Justine Henin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Svetlana Kuznetsova",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Kim Clijsters",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Maria Sharapova",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Justine Henin",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Kim Clijsters",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Kim Clijsters",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Samantha Stosur",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Serena Williams",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Flavia Pennetta",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Angelique Kerber",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Sloane Stephens",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Naomi Osaka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Bianca Andreescu",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Naomi Osaka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Emma Raducanu",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Iga Świątek",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Coco Gauff",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Aryna Sabalenka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Aryna Sabalenka",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "torneio": "uso",
+   "genero": "f",
+   "campeao": "Elena Rybakina",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Grand Slam women's singles champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions"
+    }
+   ]
+  }
+ ],
+ "nba": [
+  {
+   "ano": 1985,
+   "campeao": "Los Angeles Lakers",
+   "vice": "Boston Celtics",
+   "mvpFinais": "Kareem Abdul-Jabbar",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1986,
+   "campeao": "Boston Celtics",
+   "vice": "Houston Rockets",
+   "mvpFinais": "Larry Bird",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1987,
+   "campeao": "Los Angeles Lakers",
+   "vice": "Boston Celtics",
+   "mvpFinais": "Magic Johnson",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1988,
+   "campeao": "Los Angeles Lakers",
+   "vice": "Detroit Pistons",
+   "mvpFinais": "James Worthy",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1989,
+   "campeao": "Detroit Pistons",
+   "vice": "Los Angeles Lakers",
+   "mvpFinais": "Joe Dumars",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1990,
+   "campeao": "Detroit Pistons",
+   "vice": "Portland Trail Blazers",
+   "mvpFinais": "Isiah Thomas",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1991,
+   "campeao": "Chicago Bulls",
+   "vice": "Los Angeles Lakers",
+   "mvpFinais": "Michael Jordan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1992,
+   "campeao": "Chicago Bulls",
+   "vice": "Portland Trail Blazers",
+   "mvpFinais": "Michael Jordan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1993,
+   "campeao": "Chicago Bulls",
+   "vice": "Phoenix Suns",
+   "mvpFinais": "Michael Jordan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1994,
+   "campeao": "Houston Rockets",
+   "vice": "New York Knicks",
+   "mvpFinais": "Hakeem Olajuwon",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1995,
+   "campeao": "Houston Rockets",
+   "vice": "Orlando Magic",
+   "mvpFinais": "Hakeem Olajuwon",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1996,
+   "campeao": "Chicago Bulls",
+   "vice": "Seattle SuperSonics",
+   "mvpFinais": "Michael Jordan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1997,
+   "campeao": "Chicago Bulls",
+   "vice": "Utah Jazz",
+   "mvpFinais": "Michael Jordan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1998,
+   "campeao": "Chicago Bulls",
+   "vice": "Utah Jazz",
+   "mvpFinais": "Michael Jordan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 1999,
+   "campeao": "San Antonio Spurs",
+   "vice": "New York Knicks",
+   "mvpFinais": "Tim Duncan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2000,
+   "campeao": "Los Angeles Lakers",
+   "vice": "Indiana Pacers",
+   "mvpFinais": "Shaquille O'Neal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2001,
+   "campeao": "Los Angeles Lakers",
+   "vice": "Philadelphia 76ers",
+   "mvpFinais": "Shaquille O'Neal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2002,
+   "campeao": "Los Angeles Lakers",
+   "vice": "New Jersey Nets",
+   "mvpFinais": "Shaquille O'Neal",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2003,
+   "campeao": "San Antonio Spurs",
+   "vice": "New Jersey Nets",
+   "mvpFinais": "Tim Duncan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2004,
+   "campeao": "Detroit Pistons",
+   "vice": "Los Angeles Lakers",
+   "mvpFinais": "Chauncey Billups",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2005,
+   "campeao": "San Antonio Spurs",
+   "vice": "Detroit Pistons",
+   "mvpFinais": "Tim Duncan",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2006,
+   "campeao": "Miami Heat",
+   "vice": "Dallas Mavericks",
+   "mvpFinais": "Dwyane Wade",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2007,
+   "campeao": "San Antonio Spurs",
+   "vice": "Cleveland Cavaliers",
+   "mvpFinais": "Tony Parker",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2008,
+   "campeao": "Boston Celtics",
+   "vice": "Los Angeles Lakers",
+   "mvpFinais": "Paul Pierce",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2009,
+   "campeao": "Los Angeles Lakers",
+   "vice": "Orlando Magic",
+   "mvpFinais": "Kobe Bryant",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2010,
+   "campeao": "Los Angeles Lakers",
+   "vice": "Boston Celtics",
+   "mvpFinais": "Kobe Bryant",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2011,
+   "campeao": "Dallas Mavericks",
+   "vice": "Miami Heat",
+   "mvpFinais": "Dirk Nowitzki",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2012,
+   "campeao": "Miami Heat",
+   "vice": "Oklahoma City Thunder",
+   "mvpFinais": "LeBron James",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2013,
+   "campeao": "Miami Heat",
+   "vice": "San Antonio Spurs",
+   "mvpFinais": "LeBron James",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2014,
+   "campeao": "San Antonio Spurs",
+   "vice": "Miami Heat",
+   "mvpFinais": "Kawhi Leonard",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2015,
+   "campeao": "Golden State Warriors",
+   "vice": "Cleveland Cavaliers",
+   "mvpFinais": "Andre Iguodala",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2016,
+   "campeao": "Cleveland Cavaliers",
+   "vice": "Golden State Warriors",
+   "mvpFinais": "LeBron James",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2017,
+   "campeao": "Golden State Warriors",
+   "vice": "Cleveland Cavaliers",
+   "mvpFinais": "Kevin Durant",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2018,
+   "campeao": "Golden State Warriors",
+   "vice": "Cleveland Cavaliers",
+   "mvpFinais": "Kevin Durant",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2019,
+   "campeao": "Toronto Raptors",
+   "vice": "Golden State Warriors",
+   "mvpFinais": "Kawhi Leonard",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2020,
+   "campeao": "Los Angeles Lakers",
+   "vice": "Miami Heat",
+   "mvpFinais": "LeBron James",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2021,
+   "campeao": "Milwaukee Bucks",
+   "vice": "Phoenix Suns",
+   "mvpFinais": "Giannis Antetokounmpo",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2022,
+   "campeao": "Golden State Warriors",
+   "vice": "Boston Celtics",
+   "mvpFinais": "Stephen Curry",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2023,
+   "campeao": "Denver Nuggets",
+   "vice": "Miami Heat",
+   "mvpFinais": "Nikola Jokić",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2024,
+   "campeao": "Boston Celtics",
+   "vice": "Dallas Mavericks",
+   "mvpFinais": "Jaylen Brown",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2025,
+   "campeao": "Oklahoma City Thunder",
+   "vice": "Indiana Pacers",
+   "mvpFinais": "Shai Gilgeous-Alexander",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "ano": 2026,
+   "campeao": "New York Knicks",
+   "vice": "San Antonio Spurs",
+   "mvpFinais": "Jalen Brunson",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of NBA champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_NBA_champions"
+    },
+    {
+     "t": "Wikipedia (en), NBA Finals Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Bill_Russell_NBA_Finals_Most_Valuable_Player"
+    }
+   ]
+  }
+ ],
+ "nfl": [
+  {
+   "sb": "XXXIX",
+   "ano": 2005,
+   "campeao": "New England Patriots",
+   "vice": "Philadelphia Eagles",
+   "placar": "24 a 21",
+   "mvp": "Deion Branch",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XL",
+   "ano": 2006,
+   "campeao": "Pittsburgh Steelers",
+   "vice": "Seattle Seahawks",
+   "placar": "21 a 10",
+   "mvp": "Hines Ward",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLI",
+   "ano": 2007,
+   "campeao": "Indianapolis Colts",
+   "vice": "Chicago Bears",
+   "placar": "29 a 17",
+   "mvp": "Peyton Manning",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLII",
+   "ano": 2008,
+   "campeao": "New York Giants",
+   "vice": "New England Patriots",
+   "placar": "17 a 14",
+   "mvp": "Eli Manning",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLIII",
+   "ano": 2009,
+   "campeao": "Pittsburgh Steelers",
+   "vice": "Arizona Cardinals",
+   "placar": "27 a 23",
+   "mvp": "Santonio Holmes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLIV",
+   "ano": 2010,
+   "campeao": "New Orleans Saints",
+   "vice": "Indianapolis Colts",
+   "placar": "31 a 17",
+   "mvp": "Drew Brees",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLV",
+   "ano": 2011,
+   "campeao": "Green Bay Packers",
+   "vice": "Pittsburgh Steelers",
+   "placar": "31 a 25",
+   "mvp": "Aaron Rodgers",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLVI",
+   "ano": 2012,
+   "campeao": "New York Giants",
+   "vice": "New England Patriots",
+   "placar": "21 a 17",
+   "mvp": "Eli Manning",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLVII",
+   "ano": 2013,
+   "campeao": "Baltimore Ravens",
+   "vice": "San Francisco 49ers",
+   "placar": "34 a 31",
+   "mvp": "Joe Flacco",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLVIII",
+   "ano": 2014,
+   "campeao": "Seattle Seahawks",
+   "vice": "Denver Broncos",
+   "placar": "43 a 8",
+   "mvp": "Malcolm Smith",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "XLIX",
+   "ano": 2015,
+   "campeao": "New England Patriots",
+   "vice": "Seattle Seahawks",
+   "placar": "28 a 24",
+   "mvp": "Tom Brady",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "50",
+   "ano": 2016,
+   "campeao": "Denver Broncos",
+   "vice": "Carolina Panthers",
+   "placar": "24 a 10",
+   "mvp": "Von Miller",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LI",
+   "ano": 2017,
+   "campeao": "New England Patriots",
+   "vice": "Atlanta Falcons",
+   "placar": "34 a 28 na prorrogação",
+   "mvp": "Tom Brady",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LII",
+   "ano": 2018,
+   "campeao": "Philadelphia Eagles",
+   "vice": "New England Patriots",
+   "placar": "41 a 33",
+   "mvp": "Nick Foles",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LIII",
+   "ano": 2019,
+   "campeao": "New England Patriots",
+   "vice": "Los Angeles Rams",
+   "placar": "13 a 3",
+   "mvp": "Julian Edelman",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LIV",
+   "ano": 2020,
+   "campeao": "Kansas City Chiefs",
+   "vice": "San Francisco 49ers",
+   "placar": "31 a 20",
+   "mvp": "Patrick Mahomes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LV",
+   "ano": 2021,
+   "campeao": "Tampa Bay Buccaneers",
+   "vice": "Kansas City Chiefs",
+   "placar": "31 a 9",
+   "mvp": "Tom Brady",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LVI",
+   "ano": 2022,
+   "campeao": "Los Angeles Rams",
+   "vice": "Cincinnati Bengals",
+   "placar": "23 a 20",
+   "mvp": "Cooper Kupp",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LVII",
+   "ano": 2023,
+   "campeao": "Kansas City Chiefs",
+   "vice": "Philadelphia Eagles",
+   "placar": "38 a 35",
+   "mvp": "Patrick Mahomes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LVIII",
+   "ano": 2024,
+   "campeao": "Kansas City Chiefs",
+   "vice": "San Francisco 49ers",
+   "placar": "25 a 22 na prorrogação",
+   "mvp": "Patrick Mahomes",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LIX",
+   "ano": 2025,
+   "campeao": "Philadelphia Eagles",
+   "vice": "Kansas City Chiefs",
+   "placar": "40 a 22",
+   "mvp": "Jalen Hurts",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  },
+  {
+   "sb": "LX",
+   "ano": 2026,
+   "campeao": "Seattle Seahawks",
+   "vice": "New England Patriots",
+   "placar": "29 a 13",
+   "mvp": "Kenneth Walker III",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of Super Bowl champions",
+     "u": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+    },
+    {
+     "t": "Wikipedia (en), Super Bowl Most Valuable Player",
+     "u": "https://en.wikipedia.org/wiki/Super_Bowl_Most_Valuable_Player"
+    }
+   ]
+  }
+ ],
+ "livres": [
+  {
+   "tema": "futebol",
+   "pergunta": "Qual seleção tem mais títulos da Copa do Mundo masculina?",
+   "certa": "Brasil",
+   "erradas": [
+    "Alemanha",
+    "Itália",
+    "Argentina"
+   ],
+   "explicacao": "O Brasil venceu cinco Copas: 1958, 1962, 1970, 1994 e 2002.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), FIFA World Cup",
+     "u": "https://en.wikipedia.org/wiki/FIFA_World_Cup"
+    }
+   ]
+  },
+  {
+   "tema": "futebol",
+   "pergunta": "Quem é o maior artilheiro da história das Copas do Mundo masculinas?",
+   "certa": "Kylian Mbappé",
+   "erradas": [
+    "Miroslav Klose",
+    "Ronaldo",
+    "Lionel Messi"
+   ],
+   "explicacao": "O francês Kylian Mbappé chegou a 22 gols em Copas (2018, 2022 e 2026) e superou Lionel Messi, com 21, e Miroslav Klose, com 16.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), List of FIFA World Cup top goalscorers",
+     "u": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_top_goalscorers"
+    }
+   ]
+  },
+  {
+   "tema": "futebol",
+   "pergunta": "Quantas Copas do Mundo Pelé ganhou como jogador?",
+   "certa": "Três",
+   "erradas": [
+    "Duas",
+    "Quatro",
+    "Uma"
+   ],
+   "explicacao": "Pelé foi campeão em 1958, 1962 e 1970, único jogador com três títulos.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Pelé",
+     "u": "https://en.wikipedia.org/wiki/Pel%C3%A9"
+    }
+   ]
+  },
+  {
+   "tema": "futebol",
+   "pergunta": "Em que estádio foi disputada a final da Copa de 2014?",
+   "certa": "Maracanã",
+   "erradas": [
+    "Mineirão",
+    "Arena Corinthians",
+    "Estádio Nacional de Brasília"
+   ],
+   "explicacao": "A Alemanha venceu a Argentina por 1 a 0, na prorrogação, no Maracanã.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2014 FIFA World Cup final",
+     "u": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_final"
+    }
+   ]
+  },
+  {
+   "tema": "futebol",
+   "pergunta": "Por quanto a Alemanha venceu o Brasil na semifinal da Copa de 2014?",
+   "certa": "7 a 1",
+   "erradas": [
+    "5 a 0",
+    "4 a 1",
+    "6 a 2"
+   ],
+   "explicacao": "O jogo foi no Mineirão, em Belo Horizonte, em 8 de julho de 2014.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Brazil v Germany (2014 FIFA World Cup)",
+     "u": "https://en.wikipedia.org/wiki/Brazil_v_Germany_(2014_FIFA_World_Cup)"
+    }
+   ]
+  },
+  {
+   "tema": "futebol",
+   "pergunta": "Qual jogadora brasileira foi eleita seis vezes a melhor do mundo pela FIFA?",
+   "certa": "Marta",
+   "erradas": [
+    "Formiga",
+    "Cristiane",
+    "Debinha"
+   ],
+   "explicacao": "Marta ganhou o prêmio em 2006, 2007, 2008, 2009, 2010 e 2018.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Marta (footballer)",
+     "u": "https://en.wikipedia.org/wiki/Marta_(footballer)"
+    }
+   ]
+  },
+  {
+   "tema": "futebol",
+   "pergunta": "Quem ganhou mais vezes a Bola de Ouro?",
+   "certa": "Lionel Messi",
+   "erradas": [
+    "Cristiano Ronaldo",
+    "Michel Platini",
+    "Johan Cruyff"
+   ],
+   "explicacao": "Messi venceu oito vezes, a última em 2023.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Ballon d'Or",
+     "u": "https://en.wikipedia.org/wiki/Ballon_d%27Or"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Que país liderou o boicote aos Jogos Olímpicos de Moscou, em 1980?",
+   "certa": "Estados Unidos",
+   "erradas": [
+    "Reino Unido",
+    "China",
+    "França"
+   ],
+   "explicacao": "Os Estados Unidos lideraram o boicote em protesto contra a invasão soviética do Afeganistão.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 1980 Summer Olympics boycott",
+     "u": "https://en.wikipedia.org/wiki/1980_Summer_Olympics_boycott"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Que país liderou o boicote aos Jogos de Los Angeles, em 1984?",
+   "certa": "União Soviética",
+   "erradas": [
+    "Cuba",
+    "China",
+    "Alemanha Oriental"
+   ],
+   "explicacao": "A União Soviética e aliados do bloco socialista não foram a Los Angeles; a China participou.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 1984 Summer Olympics boycott",
+     "u": "https://en.wikipedia.org/wiki/1984_Summer_Olympics_boycott"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Quantas medalhas de ouro Michael Phelps ganhou nos Jogos de Pequim 2008?",
+   "certa": "Oito",
+   "erradas": [
+    "Seis",
+    "Sete",
+    "Nove"
+   ],
+   "explicacao": "Phelps ganhou as oito provas que disputou em Pequim, recorde para uma única edição.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Michael Phelps",
+     "u": "https://en.wikipedia.org/wiki/Michael_Phelps"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Quantas medalhas de ouro olímpicas Michael Phelps ganhou na carreira?",
+   "certa": "23",
+   "erradas": [
+    "18",
+    "20",
+    "28"
+   ],
+   "explicacao": "Phelps somou 28 medalhas olímpicas, das quais 23 de ouro, entre 2004 e 2016.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Michael Phelps",
+     "u": "https://en.wikipedia.org/wiki/Michael_Phelps"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Em quantas edições seguidas Usain Bolt venceu os 100 metros olímpicos?",
+   "certa": "Três",
+   "erradas": [
+    "Duas",
+    "Quatro",
+    "Uma"
+   ],
+   "explicacao": "Bolt venceu os 100 m em Pequim 2008, Londres 2012 e Rio 2016.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Usain Bolt",
+     "u": "https://en.wikipedia.org/wiki/Usain_Bolt"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Contra quem o Brasil ganhou o primeiro ouro olímpico do futebol masculino, na Rio 2016?",
+   "certa": "Alemanha",
+   "erradas": [
+    "Argentina",
+    "Espanha",
+    "México"
+   ],
+   "explicacao": "Empate em 1 a 1 e vitória por 5 a 4 nos pênaltis, no Maracanã; Neymar converteu a última cobrança.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Football at the 2016 Summer Olympics – Men's tournament",
+     "u": "https://en.wikipedia.org/wiki/Football_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_tournament"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Em que Jogos a seleção masculina de vôlei do Brasil ganhou seu primeiro ouro olímpico?",
+   "certa": "Barcelona 1992",
+   "erradas": [
+    "Atenas 2004",
+    "Los Angeles 1984",
+    "Seul 1988"
+   ],
+   "explicacao": "O Brasil venceu os Países Baixos na final de Barcelona; o segundo ouro veio em Atenas 2004.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Brazil men's national volleyball team",
+     "u": "https://en.wikipedia.org/wiki/Brazil_men%27s_national_volleyball_team"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Em que prova Joaquim Cruz foi campeão olímpico em Los Angeles 1984?",
+   "certa": "800 metros",
+   "erradas": [
+    "1.500 metros",
+    "400 metros",
+    "Maratona"
+   ],
+   "explicacao": "Joaquim Cruz venceu os 800 m com recorde olímpico na época.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Joaquim Cruz",
+     "u": "https://en.wikipedia.org/wiki/Joaquim_Cruz"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Em que aparelho Rebeca Andrade ganhou o ouro em Paris 2024?",
+   "certa": "Solo",
+   "erradas": [
+    "Salto",
+    "Trave",
+    "Barras assimétricas"
+   ],
+   "explicacao": "Rebeca venceu o solo em Paris; em Tóquio 2020 o ouro dela tinha sido no salto.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Rebeca Andrade",
+     "u": "https://en.wikipedia.org/wiki/Rebeca_Andrade"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Quantas medalhas de ouro Simone Biles ganhou nos Jogos do Rio 2016?",
+   "certa": "Quatro",
+   "erradas": [
+    "Três",
+    "Cinco",
+    "Duas"
+   ],
+   "explicacao": "Biles venceu individual geral, equipe, salto e solo no Rio.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Simone Biles",
+     "u": "https://en.wikipedia.org/wiki/Simone_Biles"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Em que ano foram de fato disputados os Jogos de Tóquio 2020?",
+   "certa": "2021",
+   "erradas": [
+    "2020",
+    "2022",
+    "2019"
+   ],
+   "explicacao": "Os Jogos foram adiados por causa da pandemia de covid-19 e mantiveram o nome Tóquio 2020.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2020 Summer Olympics",
+     "u": "https://en.wikipedia.org/wiki/2020_Summer_Olympics"
+    }
+   ]
+  },
+  {
+   "tema": "olimpiadas",
+   "pergunta": "Onde foi a cerimônia de abertura dos Jogos de Paris 2024?",
+   "certa": "No rio Sena",
+   "erradas": [
+    "No Stade de France",
+    "No Parc des Princes",
+    "No Champ de Mars"
+   ],
+   "explicacao": "As delegações desfilaram em barcos pelo Sena, primeira abertura fora de um estádio.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), 2024 Summer Olympics opening ceremony",
+     "u": "https://en.wikipedia.org/wiki/2024_Summer_Olympics_opening_ceremony"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Quem Mike Tyson derrotou em 1986 para se tornar o mais jovem campeão dos pesados da história?",
+   "certa": "Trevor Berbick",
+   "erradas": [
+    "Larry Holmes",
+    "Evander Holyfield",
+    "Michael Spinks"
+   ],
+   "explicacao": "Tyson tinha 20 anos quando nocauteou Berbick e ganhou o cinturão do CMB.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Mike Tyson",
+     "u": "https://en.wikipedia.org/wiki/Mike_Tyson"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Quem nocauteou Mike Tyson em Tóquio, em 1990, numa das maiores zebras do boxe?",
+   "certa": "Buster Douglas",
+   "erradas": [
+    "Evander Holyfield",
+    "Lennox Lewis",
+    "George Foreman"
+   ],
+   "explicacao": "James \"Buster\" Douglas venceu por nocaute no 10º assalto, em fevereiro de 1990.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Mike Tyson vs. Buster Douglas",
+     "u": "https://en.wikipedia.org/wiki/Mike_Tyson_vs._Buster_Douglas"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Em 1997, Mike Tyson foi desclassificado por morder a orelha de qual adversário?",
+   "certa": "Evander Holyfield",
+   "erradas": [
+    "Lennox Lewis",
+    "Peter McNeeley",
+    "Frank Bruno"
+   ],
+   "explicacao": "Foi a revanche entre os dois em Las Vegas, em junho de 1997.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Evander Holyfield vs. Mike Tyson II",
+     "u": "https://en.wikipedia.org/wiki/Evander_Holyfield_vs._Mike_Tyson_II"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Em 1980, Muhammad Ali voltou ao ringue e perdeu para quem?",
+   "certa": "Larry Holmes",
+   "erradas": [
+    "Leon Spinks",
+    "Ken Norton",
+    "Joe Frazier"
+   ],
+   "explicacao": "Holmes venceu Ali em Las Vegas, em outubro de 1980; Ali ainda lutaria uma última vez em 1981.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Larry Holmes vs. Muhammad Ali",
+     "u": "https://en.wikipedia.org/wiki/Larry_Holmes_vs._Muhammad_Ali"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Aos 45 anos, George Foreman reconquistou o título dos pesados em 1994 contra quem?",
+   "certa": "Michael Moorer",
+   "erradas": [
+    "Evander Holyfield",
+    "Riddick Bowe",
+    "Tommy Morrison"
+   ],
+   "explicacao": "Foreman nocauteou Moorer no 10º assalto e virou o mais velho campeão dos pesados.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Michael Moorer vs. George Foreman",
+     "u": "https://en.wikipedia.org/wiki/Michael_Moorer_vs._George_Foreman"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Floyd Mayweather Jr. se aposentou invicto com quantas vitórias?",
+   "certa": "50",
+   "erradas": [
+    "47",
+    "49",
+    "52"
+   ],
+   "explicacao": "Mayweather encerrou a carreira com 50 vitórias e nenhuma derrota, após vencer Conor McGregor em 2017.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Floyd Mayweather Jr.",
+     "u": "https://en.wikipedia.org/wiki/Floyd_Mayweather_Jr."
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Quem Floyd Mayweather enfrentou na luta de 2015 que bateu recordes de arrecadação?",
+   "certa": "Manny Pacquiao",
+   "erradas": [
+    "Canelo Álvarez",
+    "Oscar De La Hoya",
+    "Miguel Cotto"
+   ],
+   "explicacao": "Mayweather venceu por decisão unânime em Las Vegas, em maio de 2015.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Floyd Mayweather Jr. vs. Manny Pacquiao",
+     "u": "https://en.wikipedia.org/wiki/Floyd_Mayweather_Jr._vs._Manny_Pacquiao"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Manny Pacquiao, campeão mundial em oito categorias, é de que país?",
+   "certa": "Filipinas",
+   "erradas": [
+    "México",
+    "Indonésia",
+    "Tailândia"
+   ],
+   "explicacao": "Pacquiao é o único boxeador campeão mundial em oito categorias de peso.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Manny Pacquiao",
+     "u": "https://en.wikipedia.org/wiki/Manny_Pacquiao"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Qual boxeador brasileiro, conhecido como Popó, foi campeão mundial?",
+   "certa": "Acelino Freitas",
+   "erradas": [
+    "Éder Jofre",
+    "Maguila",
+    "Robson Conceição"
+   ],
+   "explicacao": "Acelino \"Popó\" Freitas foi campeão mundial nos superpenas e nos leves.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Acelino Freitas",
+     "u": "https://en.wikipedia.org/wiki/Acelino_Freitas"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Quem ganhou a primeira medalha de ouro olímpica do boxe brasileiro, na Rio 2016?",
+   "certa": "Robson Conceição",
+   "erradas": [
+    "Esquiva Falcão",
+    "Hebert Conceição",
+    "Yamaguchi Falcão"
+   ],
+   "explicacao": "Robson Conceição venceu na categoria até 60 kg; Hebert Conceição seria ouro em Tóquio 2020.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Robson Conceição",
+     "u": "https://en.wikipedia.org/wiki/Robson_Concei%C3%A7%C3%A3o"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Os irmãos Vitali e Wladimir Klitschko, campeões dos pesados, são de que país?",
+   "certa": "Ucrânia",
+   "erradas": [
+    "Rússia",
+    "Polônia",
+    "Belarus"
+   ],
+   "explicacao": "Os dois dominaram a categoria dos pesados nos anos 2000 e início dos 2010.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Klitschko brothers",
+     "u": "https://en.wikipedia.org/wiki/Klitschko_brothers"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Quem tirou os cinturões dos pesados de Wladimir Klitschko em 2015?",
+   "certa": "Tyson Fury",
+   "erradas": [
+    "Anthony Joshua",
+    "Deontay Wilder",
+    "Oleksandr Usyk"
+   ],
+   "explicacao": "Fury venceu por pontos em Düsseldorf, em novembro de 2015.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Wladimir Klitschko vs. Tyson Fury",
+     "u": "https://en.wikipedia.org/wiki/Wladimir_Klitschko_vs._Tyson_Fury"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Quem virou, em 2024, o primeiro campeão indiscutível dos pesados na era dos quatro cinturões?",
+   "certa": "Oleksandr Usyk",
+   "erradas": [
+    "Tyson Fury",
+    "Anthony Joshua",
+    "Deontay Wilder"
+   ],
+   "explicacao": "Usyk venceu Tyson Fury em Riad, em maio de 2024.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Tyson Fury vs. Oleksandr Usyk",
+     "u": "https://en.wikipedia.org/wiki/Tyson_Fury_vs._Oleksandr_Usyk"
+    }
+   ]
+  },
+  {
+   "tema": "boxe",
+   "pergunta": "Qual boxeador mexicano ficou conhecido como Canelo?",
+   "certa": "Saúl Álvarez",
+   "erradas": [
+    "Julio César Chávez",
+    "Juan Manuel Márquez",
+    "Érik Morales"
+   ],
+   "explicacao": "Saúl \"Canelo\" Álvarez foi campeão em quatro categorias de peso.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Canelo Álvarez",
+     "u": "https://en.wikipedia.org/wiki/Canelo_%C3%81lvarez"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Quem venceu o UFC 1, em 1993?",
+   "certa": "Royce Gracie",
+   "erradas": [
+    "Ken Shamrock",
+    "Gerard Gordeau",
+    "Dan Severn"
+   ],
+   "explicacao": "Royce Gracie finalizou três adversários na mesma noite, em Denver.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), UFC 1",
+     "u": "https://en.wikipedia.org/wiki/UFC_1"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Em que cidade foi realizado o UFC 1, em 1993?",
+   "certa": "Denver",
+   "erradas": [
+    "Las Vegas",
+    "Rio de Janeiro",
+    "Los Angeles"
+   ],
+   "explicacao": "O evento foi no McNichols Sports Arena, em Denver, Colorado.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), UFC 1",
+     "u": "https://en.wikipedia.org/wiki/UFC_1"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Qual brasileiro, apelidado de Spider, foi campeão dos médios do UFC de 2006 a 2013?",
+   "certa": "Anderson Silva",
+   "erradas": [
+    "Vitor Belfort",
+    "Wanderlei Silva",
+    "Lyoto Machida"
+   ],
+   "explicacao": "Anderson Silva ganhou o cinturão em 2006 e o perdeu para Chris Weidman em 2013.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Anderson Silva",
+     "u": "https://en.wikipedia.org/wiki/Anderson_Silva"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Com que cartel Khabib Nurmagomedov se aposentou invicto no MMA?",
+   "certa": "29 vitórias e nenhuma derrota",
+   "erradas": [
+    "27 vitórias e nenhuma derrota",
+    "30 vitórias e nenhuma derrota",
+    "25 vitórias e nenhuma derrota"
+   ],
+   "explicacao": "Khabib encerrou a carreira em 2020, como campeão dos leves do UFC.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Khabib Nurmagomedov",
+     "u": "https://en.wikipedia.org/wiki/Khabib_Nurmagomedov"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Quem foi o primeiro lutador a ter dois cinturões do UFC ao mesmo tempo, em 2016?",
+   "certa": "Conor McGregor",
+   "erradas": [
+    "Georges St-Pierre",
+    "Daniel Cormier",
+    "Jon Jones"
+   ],
+   "explicacao": "McGregor, campeão dos penas, venceu Eddie Alvarez pelo cinturão dos leves no UFC 205.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Conor McGregor",
+     "u": "https://en.wikipedia.org/wiki/Conor_McGregor"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Qual brasileira foi campeã de duas categorias do UFC ao mesmo tempo?",
+   "certa": "Amanda Nunes",
+   "erradas": [
+    "Cris Cyborg",
+    "Jéssica Andrade",
+    "Mackenzie Dern"
+   ],
+   "explicacao": "Amanda Nunes acumulou os cinturões dos galos e dos penas a partir de 2018.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Amanda Nunes",
+     "u": "https://en.wikipedia.org/wiki/Amanda_Nunes"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Quem nocauteou Ronda Rousey com um chute na cabeça em 2015?",
+   "certa": "Holly Holm",
+   "erradas": [
+    "Amanda Nunes",
+    "Miesha Tate",
+    "Cris Cyborg"
+   ],
+   "explicacao": "Holm venceu no UFC 193, em Melbourne, e tirou o cinturão dos galos de Rousey.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Holly Holm",
+     "u": "https://en.wikipedia.org/wiki/Holly_Holm"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "José Aldo, primeiro campeão dos penas do UFC, nasceu em que cidade?",
+   "certa": "Manaus",
+   "erradas": [
+    "Rio de Janeiro",
+    "Belém",
+    "Curitiba"
+   ],
+   "explicacao": "Aldo nasceu em Manaus e treinou na Nova União, no Rio de Janeiro.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), José Aldo",
+     "u": "https://en.wikipedia.org/wiki/Jos%C3%A9_Aldo"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Em que esporte Alex Poatan Pereira se destacou antes de ser campeão do UFC?",
+   "certa": "Kickboxing",
+   "erradas": [
+    "Jiu-jítsu",
+    "Esgrima",
+    "Luta greco-romana"
+   ],
+   "explicacao": "Pereira foi campeão de kickboxing no Glory e chegou a vencer Israel Adesanya nessa modalidade.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Alex Pereira",
+     "u": "https://en.wikipedia.org/wiki/Alex_Pereira"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Em que categoria Demetrious Johnson fez 11 defesas seguidas do cinturão do UFC?",
+   "certa": "Peso-mosca",
+   "erradas": [
+    "Peso-galo",
+    "Peso-pena",
+    "Peso-leve"
+   ],
+   "explicacao": "Johnson foi o primeiro campeão dos moscas do UFC e defendeu o título 11 vezes.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Demetrious Johnson",
+     "u": "https://en.wikipedia.org/wiki/Demetrious_Johnson"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Em que organização japonesa Wanderlei Silva e Minotauro fizeram fama?",
+   "certa": "Pride",
+   "erradas": [
+    "K-1",
+    "Shooto",
+    "Rizin"
+   ],
+   "explicacao": "Wanderlei Silva foi o primeiro campeão dos médios e Minotauro, o primeiro campeão dos pesados do Pride, uma das organizações de MMA mais populares do mundo nos dez anos em que existiu.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), Pride Fighting Championships",
+     "u": "https://en.wikipedia.org/wiki/Pride_Fighting_Championships"
+    }
+   ]
+  },
+  {
+   "tema": "mma",
+   "pergunta": "Em que cidade brasileira aconteceu o UFC 134, em 2011?",
+   "certa": "Rio de Janeiro",
+   "erradas": [
+    "São Paulo",
+    "Belo Horizonte",
+    "Brasília"
+   ],
+   "explicacao": "O UFC Rio, com Anderson Silva contra Yushin Okami, marcou a volta do UFC ao Brasil.",
+   "fontes": [
+    {
+     "t": "Wikipedia (en), UFC 134",
+     "u": "https://en.wikipedia.org/wiki/UFC_134"
+    }
+   ]
+  }
+ ]
 }

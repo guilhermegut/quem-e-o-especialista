@@ -19,7 +19,7 @@ interface Props {
 
 const uri = (svg: string) => `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
 const FORMATO_NOME = { escolha: 'Múltipla escolha', intruso: 'Ache o intruso', pares: 'Ligue os pares' } as const;
-const TEMA_ICONE = { moeda: '¤', lider: '★', religiao: '✦', esporte: '◎', filosofia: '❝', arte: '◐', pop: '♪' } as const;
+const TEMA_ICONE: Record<string, string> = { moeda: '¤', lider: '★', religiao: '✦', esporte: '◎', filosofia: '❝', arte: '◐', pop: '♪', futebol: '◎', olimpiadas: '◯', tenis: '◍', f1: '⚑', boxe: '◆', mma: '◈', nba: '◉', nfl: '⬮' };
 
 function Destaque({ round, flags }: { round: QuizRound; flags: Record<string, string> | null }) {
   const d = round.destaque;

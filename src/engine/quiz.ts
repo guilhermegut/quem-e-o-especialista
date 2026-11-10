@@ -1,11 +1,13 @@
-// Quiz de Mundo hoje (moedas, líderes do G20, religiões) e Cultura (esporte, filosofia, arte).
+// Quiz de Mundo hoje (moedas, líderes do G20, religiões), Cultura (filosofia, arte, cultura pop) e Esportes.
 // Cada rodada sai de um item do acervo e de um formato: escolha, intruso ou pares.
 import data from '../data/quiz.json';
 import { COUNTRIES, COUNTRY, countryName } from '../data';
 import type { LevelId } from './levels';
 import { shuffle, type Rng } from './rng';
 
-export type Tema = 'moeda' | 'lider' | 'religiao' | 'esporte' | 'filosofia' | 'arte' | 'pop';
+export type TemaEsporte = 'futebol' | 'olimpiadas' | 'tenis' | 'f1' | 'boxe' | 'mma' | 'nba' | 'nfl';
+export type Tema = 'moeda' | 'lider' | 'religiao' | 'esporte' | 'filosofia' | 'arte' | 'pop' | TemaEsporte;
+export type ModQuiz = 'mundo' | 'cultura' | 'esportes';
 export type Formato = 'escolha' | 'intruso' | 'pares';
 export interface Fonte { t: string; u: string }
 export type Destaque =
@@ -15,7 +17,7 @@ export type Destaque =
   | { tipo: 'citacao'; texto: string };
 
 export interface QuizRound {
-  mod: 'mundo' | 'cultura';
+  mod: ModQuiz;
   key: string;
   tema: Tema;
   formato: Formato;
@@ -31,10 +33,15 @@ export interface QuizRound {
   fontes: Fonte[];
 }
 
-export const TEMA_NOME: Record<Tema, string> = { moeda: 'Moedas', lider: 'Líderes do G20', religiao: 'Religiões', esporte: 'Esporte', filosofia: 'Filosofia', arte: 'Arte', pop: 'Cultura pop' };
+export const TEMA_NOME: Record<Tema, string> = {
+  moeda: 'Moedas', lider: 'Líderes do G20', religiao: 'Religiões', esporte: 'Esporte', filosofia: 'Filosofia', arte: 'Arte', pop: 'Cultura pop',
+  futebol: 'Futebol', olimpiadas: 'Olimpíadas', tenis: 'Tênis', f1: 'Fórmula 1', boxe: 'Boxe', mma: 'MMA', nba: 'NBA', nfl: 'NFL',
+};
 export const TEMAS_MUNDO: Tema[] = ['moeda', 'lider', 'religiao'];
-/** Cultura tem quatro temas e três rodadas: a cada dia, três deles. */
-export const TEMAS_CULTURA: Tema[] = ['esporte', 'filosofia', 'arte', 'pop'];
+/** Cultura: um tema por rodada. O esporte saiu para o módulo Esportes em 10/11/2026. */
+export const TEMAS_CULTURA: Tema[] = ['filosofia', 'arte', 'pop'];
+/** Esportes: oito temas, três por dia. */
+export const TEMAS_ESPORTES: TemaEsporte[] = ['futebol', 'olimpiadas', 'tenis', 'f1', 'boxe', 'mma', 'nba', 'nfl'];
 
 // ---------- Dados ----------
 interface Moeda { code: string; nome: string; base: string; simbolo: string | null }
@@ -45,6 +52,11 @@ interface Copa { ano: number; sede: string; campeao: string; vice: string; placa
 interface Olimpiada { ano: number; estacao: 'verao' | 'inverno'; cidade: string; pais: string; nota?: string; fontes: Fonte[] }
 interface F1 { ano: number; piloto: string; pais: string; equipe: string; fontes: Fonte[] }
 interface Bola { ano: number; jogador: string; pais: string; clube: string; fontes: Fonte[] }
+interface Medalhas { ano: number; cidade: string; lider: string; nota?: string; fontes: Fonte[] }
+interface Tenis { ano: number; torneio: 'ao' | 'rg' | 'wim' | 'uso'; genero: 'm' | 'f'; campeao: string; fontes: Fonte[] }
+interface Nba { ano: number; campeao: string; vice: string; mvpFinais: string; fontes: Fonte[] }
+interface Nfl { sb: string; ano: number; campeao: string; vice: string; placar: string; mvp: string; fontes: Fonte[] }
+interface EsLivre extends Livre { tema: TemaEsporte }
 interface Filosofo { n: string; origem: string; epoca: string; obras: string[]; conceito?: string; frase?: string; extra?: string; fontes: Fonte[] }
 interface Livre { pergunta: string; certa: string; erradas: string[]; explicacao: string; fontes: Fonte[] }
 interface Pop {
@@ -61,7 +73,7 @@ const D = data as unknown as {
   simbolos: { simbolo: string; base: string }[];
   religioes: Record<string, Religiao>;
   lideres: PaisLider[];
-  esportes: { copa: Copa[]; copaFem: Copa[]; olimpiadas: Olimpiada[]; f1: F1[]; bola: Bola[] };
+  esportes: { copa: Copa[]; copaFem: Copa[]; olimpiadas: Olimpiada[]; f1: F1[]; bola: Bola[]; olimpMedalhas: Medalhas[]; tenis: Tenis[]; nba: Nba[]; nfl: Nfl[]; livres: EsLivre[] };
   filosofos: Filosofo[];
   filosofiaLivres: Livre[];
   obras: Obra[];
@@ -391,6 +403,90 @@ function esporteRound(rng: Rng, level: LevelId, key: string, formato: Formato): 
   };
 }
 
+
+// ---------- Esportes (módulo próprio desde 10/11/2026) ----------
+const TORNEIO: Record<Tenis['torneio'], string> = { ao: 'Australian Open', rg: 'Roland Garros', wim: 'Wimbledon', uso: 'US Open' };
+const GENERO: Record<Tenis['genero'], string> = { m: 'masculino', f: 'feminino' };
+const livresDe = (t: TemaEsporte) => E.livres.map((l, i) => ({ l, i })).filter((x) => x.l.tema === t).map((x) => `eslivre:${x.i}`);
+
+export function esportesPool(tema: TemaEsporte, level: LevelId): string[] {
+  switch (tema) {
+    case 'futebol': return [...E.copa.map((c) => `copa:${c.ano}`), ...E.bola.map((b) => `bola:${b.ano}`), ...(level === 'prime' ? E.copaFem.map((c) => `copafem:${c.ano}`) : []), ...livresDe('futebol')];
+    case 'olimpiadas': return [
+      ...E.olimpiadas.filter((o) => o.ano >= 1980 && (level === 'prime' || o.estacao === 'verao')).map((o) => `olim:${o.estacao}:${o.ano}`),
+      ...E.olimpMedalhas.map((m) => `olimmed:${m.ano}`), ...livresDe('olimpiadas')];
+    case 'tenis': return E.tenis.map((t) => `tenis:${t.torneio}:${t.genero}:${t.ano}`);
+    case 'f1': return E.f1.map((f) => `f1:${f.ano}`);
+    case 'boxe': return livresDe('boxe');
+    case 'mma': return livresDe('mma');
+    case 'nba': return E.nba.map((n) => `nba:${n.ano}`);
+    case 'nfl': return E.nfl.map((n) => `nfl:${n.sb}`);
+  }
+}
+
+function esportesRound(rng: Rng, level: LevelId, key: string, formato: Formato, tema: TemaEsporte): Omit<QuizRound, 'mod' | 'key'> {
+  const [tipo, a, b, c] = key.split(':');
+  if (tipo === 'eslivre') {
+    const l = E.livres[Number(a)];
+    return { tema, formato: 'escolha', pergunta: l.pergunta, ...escolha(rng, l.certa, l.erradas), explicacao: l.explicacao, fontes: l.fontes };
+  }
+  if (tipo === 'olimmed') {
+    const m = E.olimpMedalhas.find((x) => x.ano === Number(a))!;
+    const paises = [...new Set([...E.olimpMedalhas.map((x) => x.lider), 'China', 'Alemanha', 'Reino Unido', 'Rússia', 'França'])];
+    return {
+      tema, formato: 'escolha', pergunta: `Que país liderou o quadro de medalhas dos Jogos Olímpicos de ${m.cidade} ${m.ano}?`,
+      ...escolha(rng, m.lider, distratores(rng, paises, [m.lider], 3)), explicacao: `${m.cidade} ${m.ano}: ${m.lider} terminou em primeiro no quadro de medalhas, que ordena os países pelos ouros.${m.nota ? ` ${m.nota}` : ''}`, fontes: m.fontes,
+    };
+  }
+  if (tipo === 'tenis') {
+    const t = E.tenis.find((x) => x.torneio === a && x.genero === b && x.ano === Number(c))!;
+    const mesmos = E.tenis.filter((x) => x.genero === t.genero);
+    const prova = `${TORNEIO[t.torneio]} (simples ${GENERO[t.genero]})`;
+    if (formato === 'pares') {
+      const sel = [t];
+      for (const x of shuffle(rng, mesmos.filter((y) => y.torneio === t.torneio))) if (sel.length < 3 && !sel.some((s) => s.campeao === x.campeao || s.ano === x.ano)) sel.push(x);
+      return { tema, pergunta: `Ligue cada ano ao campeão de ${prova}.`, ...pares(rng, sel.map((x) => String(x.ano)), sel.map((x) => x.campeao)), explicacao: sel.map((x) => `${x.ano}: ${x.campeao}`).join('; ') + '.', fontes: t.fontes };
+    }
+    const nomes = [...new Set(mesmos.map((x) => x.campeao))];
+    const perto = level === 'prime' ? mesmos.filter((x) => Math.abs(x.ano - t.ano) <= 3).map((x) => x.campeao) : [];
+    return { tema, formato: 'escolha', pergunta: `Quem venceu o ${prova} em ${t.ano}?`, ...escolha(rng, t.campeao, distratores(rng, nomes, [t.campeao], 3, perto)), explicacao: `${TORNEIO[t.torneio]} ${t.ano}, simples ${GENERO[t.genero]}: ${t.campeao}.`, fontes: t.fontes };
+  }
+  if (tipo === 'nba') {
+    const n = E.nba.find((x) => x.ano === Number(a))!;
+    const txt = (x: Nba) => `${x.ano}: ${x.campeao} venceu ${x.vice} na final; MVP das finais: ${x.mvpFinais}`;
+    if (formato === 'pares') {
+      const sel = [n];
+      for (const x of shuffle(rng, E.nba)) if (sel.length < 3 && !sel.some((s) => s.campeao === x.campeao)) sel.push(x);
+      return { tema, pergunta: 'Ligue cada temporada ao time campeão da NBA.', ...pares(rng, sel.map((x) => String(x.ano)), sel.map((x) => x.campeao)), explicacao: sel.map(txt).join('; ') + '.', fontes: n.fontes };
+    }
+    if (rng() < 0.4) {
+      const mvps = [...new Set(E.nba.map((x) => x.mvpFinais))];
+      const perto = level === 'prime' ? E.nba.filter((x) => Math.abs(x.ano - n.ano) <= 4).map((x) => x.mvpFinais) : [];
+      return { tema, formato: 'escolha', pergunta: `Quem foi o MVP das finais da NBA de ${n.ano}?`, ...escolha(rng, n.mvpFinais, distratores(rng, mvps, [n.mvpFinais], 3, perto)), explicacao: txt(n) + '.', fontes: n.fontes };
+    }
+    const times = [...new Set(E.nba.flatMap((x) => [x.campeao, x.vice]))];
+    return { tema, formato: 'escolha', pergunta: `Que time foi campeão da NBA em ${n.ano}?`, ...escolha(rng, n.campeao, distratores(rng, times, [n.campeao], 3, level === 'prime' ? [n.vice] : [])), explicacao: txt(n) + '.', fontes: n.fontes };
+  }
+  if (tipo === 'nfl') {
+    const n = E.nfl.find((x) => x.sb === a)!;
+    const nome = `Super Bowl ${n.sb}`;
+    const txt = (x: Nfl) => `Super Bowl ${x.sb} (${x.ano}): ${x.campeao} ${x.placar} ${x.vice}; MVP: ${x.mvp}`;
+    if (formato === 'pares') {
+      const sel = [n];
+      for (const x of shuffle(rng, E.nfl)) if (sel.length < 3 && !sel.some((s) => s.campeao === x.campeao)) sel.push(x);
+      return { tema, pergunta: 'Ligue cada Super Bowl ao time campeão.', ...pares(rng, sel.map((x) => `${x.sb} (${x.ano})`), sel.map((x) => x.campeao)), explicacao: sel.map(txt).join('; ') + '.', fontes: n.fontes };
+    }
+    if (rng() < 0.35) {
+      const mvps = [...new Set(E.nfl.map((x) => x.mvp))];
+      return { tema, formato: 'escolha', pergunta: `Quem foi eleito o MVP do ${nome}, disputado em ${n.ano}?`, ...escolha(rng, n.mvp, distratores(rng, mvps, [n.mvp], 3)), explicacao: txt(n) + '.', fontes: n.fontes };
+    }
+    const times = [...new Set(E.nfl.flatMap((x) => [x.campeao, x.vice]))];
+    return { tema, formato: 'escolha', pergunta: `Quem venceu o ${nome}, disputado em ${n.ano}?`, ...escolha(rng, n.campeao, distratores(rng, times, [n.campeao], 3, level === 'prime' ? [n.vice] : [])), explicacao: txt(n) + '.', fontes: n.fontes };
+  }
+  // Copa, Copa feminina, Bola de Ouro, sedes olímpicas e F1 reaproveitam as perguntas do antigo tema Esporte.
+  return { ...esporteRound(rng, level, key, formato), tema };
+}
+
 // ---------- Filosofia ----------
 const FIL = D.filosofos;
 const filTexto = (f: Filosofo) => `${f.n} (${f.origem}; ${f.epoca}): ${f.obras.join(', ')}.${f.extra ? ` ${f.extra}` : ''}`;
@@ -491,6 +587,7 @@ function popRound(rng: Rng, level: LevelId, key: string, formato: Formato): Omit
 
 // ---------- Acervo e montagem ----------
 export function temaPool(tema: Tema, level: LevelId): string[] {
+  if ((TEMAS_ESPORTES as Tema[]).includes(tema)) return esportesPool(tema as TemaEsporte, level);
   switch (tema) {
     case 'moeda': return moedaPool(level);
     case 'lider': return liderPool();
@@ -499,6 +596,7 @@ export function temaPool(tema: Tema, level: LevelId): string[] {
     case 'filosofia': return [...FIL.map((_, i) => `fil:${i}`), ...D.filosofiaLivres.map((_, i) => `fillivre:${i}`)];
     case 'arte': return OB.map((_, i) => `obra:${i}`);
     case 'pop': return [...P.oscarFilme.map((x) => `oscar:${x.ano}`), ...P.oscarDirecao.map((x) => `direcao:${x.ano}`), ...P.livros.map((_, i) => `livro:${i}`), ...P.jogos.map((_, i) => `jogo:${i}`)];
+    default: return [];
   }
 }
 
@@ -506,16 +604,17 @@ export function temaPool(tema: Tema, level: LevelId): string[] {
 export function formatoPara(rng: Rng, level: LevelId, tema: Tema, key: string): Formato {
   const r = rng();
   const podeIntruso = tema === 'lider' || tema === 'religiao' || (tema === 'moeda' && key.startsWith('moeda:') && BASES_INTRUSO.has(D.moedas[key.slice(6)].base));
-  const podePares = !key.startsWith('simbolo:') && !key.startsWith('olim:') && !key.startsWith('bola:') && !key.startsWith('fillivre:') && !key.startsWith('jogo:');
+  const podePares = !['simbolo:', 'olim:', 'olimmed:', 'bola:', 'fillivre:', 'jogo:', 'eslivre:'].some((p) => key.startsWith(p));
   if (level === 'estagiario') return podePares && r < 0.2 ? 'pares' : 'escolha';
   if (podeIntruso && r < 0.25) return 'intruso';
   if (podePares && r < 0.5) return 'pares';
   return 'escolha';
 }
 
-export function quizRound(rng: Rng, level: LevelId, mod: 'mundo' | 'cultura', tema: Tema, key: string): QuizRound {
+export function quizRound(rng: Rng, level: LevelId, mod: ModQuiz, tema: Tema, key: string): QuizRound {
   const formato = formatoPara(rng, level, tema, key);
-  const build = { moeda: moedaRound, lider: liderRound, religiao: religiaoRound, esporte: esporteRound, filosofia: filosofiaRound, arte: arteRound, pop: popRound }[tema];
+  if ((TEMAS_ESPORTES as Tema[]).includes(tema)) return { mod, key, ...esportesRound(rng, level, key, formato, tema as TemaEsporte) };
+  const build = ({ moeda: moedaRound, lider: liderRound, religiao: religiaoRound, esporte: esporteRound, filosofia: filosofiaRound, arte: arteRound, pop: popRound } as Record<string, typeof moedaRound>)[tema];
   return { mod, key, ...build(rng, level, key, formato) };
 }
 
@@ -526,8 +625,12 @@ export function quizPrecision(round: QuizRound, resposta: number[] | null): numb
   return resposta[0] === round.certo[0] ? 1 : 0;
 }
 
-export const temaDaKey = (key: string): Tema => {
+export const temaDaKey = (key: string, mod: ModQuiz = 'cultura'): Tema => {
   const p = key.split(':')[0];
+  if (mod === 'esportes') {
+    if (p === 'eslivre') return E.livres[Number(key.split(':')[1])].tema;
+    return ({ copa: 'futebol', copafem: 'futebol', bola: 'futebol', olim: 'olimpiadas', olimmed: 'olimpiadas', tenis: 'tenis', f1: 'f1', nba: 'nba', nfl: 'nfl' } as Record<string, Tema>)[p];
+  }
   return ({ moeda: 'moeda', simbolo: 'moeda', lider: 'lider', religiao: 'religiao', copa: 'esporte', copafem: 'esporte', olim: 'esporte', f1: 'esporte', bola: 'esporte', fil: 'filosofia', fillivre: 'filosofia', obra: 'arte', oscar: 'pop', direcao: 'pop', livro: 'pop', jogo: 'pop' } as Record<string, Tema>)[p];
 };
 

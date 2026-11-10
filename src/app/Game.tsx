@@ -11,9 +11,11 @@ import { loadGeo, type GeoData } from '../modules/mapa/geodata';
 import { MapRoundView } from '../modules/mapa/MapRoundView';
 import { ConflictRoundView } from '../modules/conflitos/ConflictRoundView';
 import { QuizRoundView } from '../modules/quiz/QuizRoundView';
+import { LogicaRoundView } from '../modules/logica/LogicaRoundView';
 import { AnimVinheta, preloadAnim } from './Anim';
 import { fmtSigned } from './format';
 import { calar, falar, type Fala } from './voz';
+import { COR } from './cores';
 
 interface Props {
   rounds: Round[];
@@ -26,8 +28,7 @@ interface Props {
   onProgresso?: (p: { i: number; results: RoundResult[]; emRodada: boolean }) => void;
 }
 
-const COR: Record<ModuleId, string> = { mapa: '#0071e3', bandeiras: '#e0245e', mundo: '#157a33', cultura: '#8e3fd0', foto: '#0a6e8a', conflitos: '#b84a00' };
-const FALA_MOD: Record<ModuleId, Fala> = { mapa: 'mod-mapa', bandeiras: 'mod-bandeiras', mundo: 'mod-mundo', cultura: 'mod-cultura', foto: 'mod-foto', conflitos: 'mod-guerras' };
+const FALA_MOD: Record<ModuleId, Fala> = { mapa: 'mod-mapa', bandeiras: 'mod-bandeiras', mundo: 'mod-mundo', cultura: 'mod-cultura', esportes: 'mod-esportes', foto: 'mod-foto', logica: 'mod-logica', conflitos: 'mod-guerras' };
 
 export function Game({ rounds, level, titulo, onFinish, onQuit, inicio, onProgresso }: Props) {
   const [geo, setGeo] = useState<GeoData | null>(null);
@@ -96,7 +97,9 @@ export function Game({ rounds, level, titulo, onFinish, onQuit, inicio, onProgre
             {n} rodadas de até {timerFor(level, round.mod)} segundos. Até 1.000 pontos por rodada
             {LEVELS[level].multiplicador !== 1 ? `, multiplicados por ${LEVELS[level].multiplicador.toLocaleString('pt-BR')} no fim` : ''}.
             {round.mod === 'conflitos' && ' Alterna Dossiê, em que cada pista aberta reduz o valor do acerto, e Lados, em que você diz quem lutou com quem.'}
-            {(round.mod === 'mundo' || round.mod === 'cultura') && ' Uma pergunta de cada tema, em formatos que variam: múltipla escolha, ligue os pares e ache o intruso.'}
+            {(round.mod === 'mundo' || round.mod === 'cultura' || round.mod === 'esportes') && ' Uma pergunta de cada tema, em formatos que variam: múltipla escolha, ligue os pares e ache o intruso.'}
+            {round.mod === 'foto' && ' Arraste a linha do tempo até o ano da foto: quanto mais perto, mais pontos, e cravar o ano vale o máximo.'}
+            {round.mod === 'logica' && ' Três desafios rápidos de raciocínio, de tipos diferentes.'}
           </p>
           <button type="button" className="botao botao-primario botao-grande" disabled={!ready} onClick={comecar} autoFocus>
             {ready ? 'Começar' : 'Carregando…'}
@@ -132,7 +135,10 @@ export function Game({ rounds, level, titulo, onFinish, onQuit, inicio, onProgre
         {round.mod === 'conflitos' && (
           <ConflictRoundView key={i} round={round} level={level} onTimer={onTimer} onResolved={onResolved} onNext={next} isLast={i + 1 === rounds.length} />
         )}
-        {(round.mod === 'mundo' || round.mod === 'cultura') && (
+        {round.mod === 'logica' && (
+          <LogicaRoundView key={i} round={round} level={level} onTimer={onTimer} onResolved={onResolved} onNext={next} isLast={i + 1 === rounds.length} />
+        )}
+        {(round.mod === 'mundo' || round.mod === 'cultura' || round.mod === 'esportes') && (
           <QuizRoundView key={i} round={round} level={level} flags={flags} onTimer={onTimer} onResolved={onResolved} onNext={next} isLast={i + 1 === rounds.length} />
         )}
         {round.mod === 'foto' && (

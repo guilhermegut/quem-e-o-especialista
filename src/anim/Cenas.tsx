@@ -19,7 +19,8 @@ export const PALETA = ['#0071e3', '#e0245e', '#157a33', '#8e3fd0', '#b84a00', '#
 const SERIFA = "'Playfair Display', Georgia, 'Times New Roman', serif";
 const ORBITA = [
   { cor: '#0071e3', icone: 'globo' }, { cor: '#e0245e', icone: 'bandeira' }, { cor: '#157a33', icone: 'moeda' },
-  { cor: '#8e3fd0', icone: 'arte' }, { cor: '#0a6e8a', icone: 'camera' }, { cor: '#b84a00', icone: 'escudo' },
+  { cor: '#8e3fd0', icone: 'arte' }, { cor: '#c2410c', icone: 'trofeu' }, { cor: '#0a6e8a', icone: 'camera' },
+  { cor: '#4f46e5', icone: 'peca' }, { cor: '#b84a00', icone: 'escudo' },
 ] as const;
 
 const IconeOrbita = ({ icone }: { icone: (typeof ORBITA)[number]['icone'] }) => {
@@ -28,6 +29,8 @@ const IconeOrbita = ({ icone }: { icone: (typeof ORBITA)[number]['icone'] }) => 
   if (icone === 'bandeira') return <g {...t}><path d="M-6 8V-8" /><path d="M-6 -7H6L3.5 -3L6 1H-6" fill="#fff" fillOpacity={0.9} /></g>;
   if (icone === 'moeda') return <g {...t}><circle r="7.5" /><text x="0" y="3.6" textAnchor="middle" fontSize="9.5" fontWeight="800" fill="#fff" stroke="none" fontFamily="Inter, Arial">$</text></g>;
   if (icone === 'camera') return <g {...t}><rect x="-8" y="-4.5" width="16" height="11" rx="2" /><path d="M-3.5 -4.5L-2 -7H2L3.5 -4.5" /><circle cy="1" r="3.2" /></g>;
+  if (icone === 'trofeu') return <g {...t}><path d="M-5 -7H5V-2C5 2 2.5 4 0 4C-2.5 4 -5 2 -5 -2Z" /><path d="M-5 -5.5H-7.5V-3C-7.5 -1 -6 0 -4.6 0M5 -5.5H7.5V-3C7.5 -1 6 0 4.6 0M0 4V7M-3.5 7.5H3.5" /></g>;
+  if (icone === 'peca') return <g {...t}><path d="M-7 -3H-3C-3 -7 3 -7 3 -3H7V7H-7Z" /><path d="M-7 2H-4C-4 5 -1 5 -1 2" /></g>;
   if (icone === 'arte') return <g {...t}><rect x="-7.5" y="-6" width="15" height="12" rx="1.5" /><path d="M-5.5 4L-1.5 -0.5L1.5 2.5L3.5 0.5L5.5 4" /><circle cx="3.2" cy="-2.6" r="1.2" fill="#fff" /></g>;
   return <g {...t}><path d="M0 -8L6.5 -5.5V0.5C6.5 4.5 3.6 7 0 8.3C-3.6 7 -6.5 4.5 -6.5 0.5V-5.5Z" /><path d="M-3 0.5L-0.8 2.8L3.2 -1.6" /></g>;
 };
@@ -179,7 +182,37 @@ const Camera = ({ frame, size }: { frame: number; size: number }) => {
   );
 };
 
-const ICONE = { mapa: Globo, bandeiras: Bandeira, mundo: Moedas, cultura: Moldura, foto: Camera, conflitos: Radar } as const;
+// Bola: quica e gira.
+const Bola = ({ frame, size }: { frame: number; size: number }) => {
+  const t = (frame % 30) / 30;
+  const y = 150 - 70 * 4 * t * (1 - t);
+  return (
+    <svg width={size} height={size} viewBox="0 0 300 300">
+      <ellipse cx={150} cy={262} rx={70 - 30 * 4 * t * (1 - t)} ry={10} fill="#fff" opacity={0.25} />
+      <g transform={`translate(150 ${y}) rotate(${frame * 6})`}>
+        <circle r={90} fill="rgba(255,255,255,0.14)" stroke="#fff" strokeWidth={10} />
+        <polygon points="0,-34 32,-10 20,28 -20,28 -32,-10" fill="#fff" />
+        <path d="M0 -34V-88M32 -10L84 -28M20 28L52 72M-20 28L-52 72M-32 -10L-84 -28" stroke="#fff" strokeWidth={8} />
+      </g>
+    </svg>
+  );
+};
+// Lógica: três formas que trocam de lugar.
+const Formas = ({ frame, size }: { frame: number; size: number }) => {
+  const p = interpolate(frame % 45, [0, 30], [0, 1], { ...clamp, easing: SUAVE });
+  const pos = [[80, 110], [220, 110], [150, 220]];
+  const at = (k: number) => { const a = pos[k % 3], b = pos[(k + 1) % 3]; return [a[0] + (b[0] - a[0]) * p, a[1] + (b[1] - a[1]) * p]; };
+  const [c1, c2, c3] = [at(0), at(1), at(2)];
+  return (
+    <svg width={size} height={size} viewBox="0 0 300 300">
+      <circle cx={c1[0]} cy={c1[1]} r={46} fill="#fff" />
+      <rect x={c2[0] - 42} y={c2[1] - 42} width={84} height={84} rx={8} fill="none" stroke="#fff" strokeWidth={12} />
+      <polygon points={`${c3[0]},${c3[1] - 50} ${c3[0] + 48},${c3[1] + 36} ${c3[0] - 48},${c3[1] + 36}`} fill="rgba(255,255,255,0.5)" stroke="#fff" strokeWidth={10} strokeLinejoin="round" />
+    </svg>
+  );
+};
+
+const ICONE = { mapa: Globo, bandeiras: Bandeira, mundo: Moedas, cultura: Moldura, esportes: Bola, foto: Camera, logica: Formas, conflitos: Radar } as const;
 export type IconeId = keyof typeof ICONE;
 
 // ---------- Vinheta de módulo ----------

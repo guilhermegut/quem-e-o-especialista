@@ -1,17 +1,5 @@
 [
  {
-  "id": "f003c58e7",
-  "ano": 1968,
-  "titulo": "A banda Tee Set num programa de TV",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Anefo (autor não identificado)",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:TV_programma_%27...Puntje,_puntje,_puntje...%27._Popgroep_Tee_Set,_Bestanddeelnr_921-5933.jpg",
-  "w": 922,
-  "h": 611
- },
- {
   "id": "f00c812fd",
   "ano": 1942,
   "titulo": "Oficina de locomotivas da Chicago and North Western, em Chicago",
@@ -46,18 +34,6 @@
   "h": 568
  },
  {
-  "id": "f03412a16",
-  "ano": 1985,
-  "titulo": "O ministro Van Aardenne inaugura centro de computação do banco NMB",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Rob Bogaerts",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Minister_Van_Aardenne_opent_nieuw_computercentrum_van_NMB_in_Amsterdam_Zuid_Oost,_Bestanddeelnr_933-4916.jpg",
-  "w": 922,
-  "h": 610
- },
- {
   "id": "f037b7dce",
   "ano": 1956,
   "titulo": "Roterdã: obras da Estação Central",
@@ -79,6 +55,17 @@
   "url": "https://commons.wikimedia.org/wiki/File:Rex_theatre.jpg",
   "w": 877,
   "h": 922
+ },
+ {
+  "id": "f04c8c250",
+  "ano": 1944,
+  "titulo": "Tropas americanas desembarcam na Normandia no Dia D",
+  "acervo": "Guarda Costeira dos EUA",
+  "autor": "Chief Photographer's Mate (CPHOM) Robert F. Sargent, U.S. Coast Guard",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:1944_NormandyLST_clean.jpg",
+  "w": 960,
+  "h": 728
  },
  {
   "id": "f05bd6828",
@@ -105,6 +92,17 @@
   "h": 655
  },
  {
+  "id": "f05e76542",
+  "ano": 2011,
+  "titulo": "O ônibus espacial Atlantis rebocado depois do último voo do programa",
+  "acervo": "NASA",
+  "autor": "Kim Shiflett",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:STS-135_Atlantis%27_final_tow_back.jpg",
+  "w": 960,
+  "h": 639
+ },
+ {
   "id": "f05ec5f7d",
   "ano": 1922,
   "titulo": "Multidão diante de uma igreja, em Washington",
@@ -126,18 +124,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:145dx_-_Air_Canada_Boeing_767-300,_C-FMWV@CDG,11.08.2001_-_Flickr_-_Aero_Icarus.jpg",
   "w": 960,
   "h": 641
- },
- {
-  "id": "f079afa5d",
-  "ano": 1972,
-  "titulo": "O príncipe Claus na cozinha do restaurante de estrada Postiljon, em Nulde",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Rob Mieremet",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Prins_Claus_opent_Postiljon_pleisterplaats_Nulde_Claus_in_de_keuken,_Bestanddeelnr_925-4931.jpg",
-  "w": 607,
-  "h": 922
  },
  {
   "id": "f08d717a1",
@@ -174,29 +160,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Paasdrukte,_drukte_bij_de_grensovergang_Bergh_bij_Arnhem,_Bestanddeelnr_929-6390.jpg",
   "w": 922,
   "h": 610
- },
- {
-  "id": "f0af10167",
-  "ano": 1925,
-  "titulo": "Eddie Cantor e esposa",
-  "acervo": "Library of Congress (Bain News Service)",
-  "autor": "Bain News Service",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Eddie_Cantor_and_wife_LCCN2014718353.tif",
-  "w": 902,
-  "h": 529
- },
- {
-  "id": "f0c5a92e0",
-  "ano": 1952,
-  "titulo": "A rainha visita exposição da editora De Bezige Bij no castelo Muiderslot",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Daan Noske",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:H._M._bezoekt_tentoonstelling_Bezige_Bij_Muiderslot,_Bestanddeelnr_905-4319.jpg",
-  "w": 826,
-  "h": 922
  },
  {
   "id": "f0fadea55",
@@ -293,6 +256,18 @@
   "h": 611
  },
  {
+  "id": "f14fdf029",
+  "ano": 2011,
+  "titulo": "Multidão na Praça Tahrir, no Cairo, durante a Primavera Árabe",
+  "acervo": "Wikimedia Commons",
+  "autor": "Jonathan Rashad",
+  "licenca": "CC BY 2.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Tahrir_Square_-_February_10,_2011.png",
+  "w": 720,
+  "h": 462
+ },
+ {
   "id": "f1549f995",
   "ano": 1937,
   "titulo": "Carro de refugiado da seca à beira de uma plantação de cenoura, no Vale de Coachella, Califórnia",
@@ -342,7 +317,7 @@
  {
   "id": "f175e7fda",
   "ano": 1989,
-  "titulo": "Henriette van Opijnen, porta-voz dos controladores de voo de Schiphol",
+  "titulo": "Porta-voz dos controladores de voo de Schiphol",
   "acervo": "Nationaal Archief (Fotocollectie Anefo)",
   "autor": "Rob Bogaerts",
   "licenca": "CC0",
@@ -390,13 +365,24 @@
  {
   "id": "f1afd7cdd",
   "ano": 1946,
-  "titulo": "Joshua Spradley, mineiro, cozinha em sua casa",
+  "titulo": "Mineiro cozinha em sua casa",
   "acervo": "National Archives dos EUA",
   "autor": "Russell Lee",
   "licenca": "Domínio público",
   "url": "https://commons.wikimedia.org/wiki/File:Joshua_Spradley,_miner,_who_lives_alone_in_garage_house,_cooking_his_meal._He_has_lived_here_for_four_years,_pays..._-_NARA_-_540934.jpg",
   "w": 708,
   "h": 922
+ },
+ {
+  "id": "f1b21d667",
+  "ano": 1988,
+  "titulo": "Acendimento da pira olímpica nos Jogos de Seul",
+  "acervo": "Departamento de Defesa dos EUA",
+  "autor": "Ken Hackman, U.S. Air Force",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Seoul_Olympic_torch.jpg",
+  "w": 960,
+  "h": 641
  },
  {
   "id": "f1b567625",
@@ -432,6 +418,17 @@
   "url": "https://commons.wikimedia.org/wiki/File:Festejos_Buenos_Aires_-_Copa_del_mundo_2022_-_02.png",
   "w": 960,
   "h": 640
+ },
+ {
+  "id": "f1c666502",
+  "ano": 1969,
+  "titulo": "Astronauta na superfície da Lua, na missão Apollo 11",
+  "acervo": "NASA",
+  "autor": "Neil A. Armstrong",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Aldrin_Apollo_11.jpg",
+  "w": 960,
+  "h": 960
  },
  {
   "id": "f1c6c0134",
@@ -493,7 +490,7 @@
  {
   "id": "f1fc66bc8",
   "ano": 1908,
-  "titulo": "Orville Wright voa diante da multidão",
+  "titulo": "Avião de Orville Wright voa diante da multidão",
   "acervo": "Library of Congress (Bain News Service)",
   "autor": "Bain News Service",
   "licenca": "Domínio público",
@@ -562,6 +559,28 @@
   "h": 639
  },
  {
+  "id": "f23cb0df9",
+  "ano": 1903,
+  "titulo": "Primeiro voo do Wright Flyer, dos irmãos Wright, em Kitty Hawk, Carolina do Norte",
+  "acervo": "Library of Congress",
+  "autor": "John T. Daniels",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:First_flight3.jpg",
+  "w": 960,
+  "h": 622
+ },
+ {
+  "id": "f23f68947",
+  "ano": 1918,
+  "titulo": "Multidão diante do Palácio de Buckingham no Dia do Armistício, fim da Primeira Guerra",
+  "acervo": "Imperial War Museums",
+  "autor": "American official photographer",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Armistice_Day_in_London,_11_November_1918_Q47852.jpg",
+  "w": 960,
+  "h": 696
+ },
+ {
   "id": "f25e24a1a",
   "ano": 1969,
   "titulo": "Loja De Gruyter em Amstelveen",
@@ -586,6 +605,28 @@
   "h": 403
  },
  {
+  "id": "f268bc3a6",
+  "ano": 1998,
+  "titulo": "Os módulos Unity e Zarya, primeiras peças da Estação Espacial Internacional",
+  "acervo": "NASA",
+  "autor": "NASA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Unity-Zarya_Meet_on_Orbit_(49177404063).jpg",
+  "w": 958,
+  "h": 960
+ },
+ {
+  "id": "f27779979",
+  "ano": 1904,
+  "titulo": "Edifício do Governo na Exposição da Compra da Louisiana, em St. Louis",
+  "acervo": "Wikimedia Commons",
+  "autor": "Autor não identificado",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Louisiana_Purchase_Exposition_St._Louis_1904.jpg",
+  "w": 960,
+  "h": 725
+ },
+ {
   "id": "f28890623",
   "ano": 1984,
   "titulo": "“Computer aan zee”: curso de informática nas férias em Noordwijk",
@@ -596,18 +637,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Computer_aan_zee_vakantie_in_Noordwijk_de_eerste_cursisten_(5a),_idem_(6a),_Bestanddeelnr_933-0268.jpg",
   "w": 922,
   "h": 611
- },
- {
-  "id": "f299b1fe2",
-  "ano": 1992,
-  "titulo": "Fernando Collor deixa a Presidência",
-  "acervo": "Agência Brasil",
-  "autor": "Elza Fiuza",
-  "licenca": "CC BY 3.0 BR",
-  "licencaUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Fernando_Collor_deixa_a_presid%C3%AAncia.jpg",
-  "w": 800,
-  "h": 553
  },
  {
   "id": "f29a48dde",
@@ -643,6 +672,18 @@
   "url": "https://commons.wikimedia.org/wiki/File:Curtiss_F4C_1924.jpg",
   "w": 902,
   "h": 535
+ },
+ {
+  "id": "f2cd6e5fb",
+  "ano": 2024,
+  "titulo": "Montagem com as fases do eclipse solar sobre a Terminal Tower, em Cleveland",
+  "acervo": "Wikimedia Commons",
+  "autor": "EDrost88",
+  "licenca": "CC BY 2.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:2024_Solar_Eclipse_over_Cleveland_Terminal_Tower_-_53650722351.jpg",
+  "w": 960,
+  "h": 640
  },
  {
   "id": "f2ce89b8e",
@@ -682,13 +723,24 @@
  {
   "id": "f3404a76f",
   "ano": 1946,
-  "titulo": "Rhoda Sergent passa as calças do marido",
+  "titulo": "Mulher passa as calças do marido",
   "acervo": "National Archives dos EUA",
   "autor": "Russell Lee",
   "licenca": "Domínio público",
   "url": "https://commons.wikimedia.org/wiki/File:Mrs._Blaine_(Rhoda)_Sergent,_pressing_her_husband%27s_trousers,_this_was_on_Friday_afternoon_and_it_is_customary_for..._-_NARA_-_541287.tif",
   "w": 713,
   "h": 922
+ },
+ {
+  "id": "f3450b5fb",
+  "ano": 1930,
+  "titulo": "Jogadores da Argentina passeiam de ônibus em Montevidéu, durante a primeira Copa do Mundo",
+  "acervo": "Revista El Gráfico",
+  "autor": "Autor não identificado",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Jugadores_argentinos_montevideo.jpg",
+  "w": 960,
+  "h": 571
  },
  {
   "id": "f354bda28",
@@ -701,6 +753,18 @@
   "url": "https://commons.wikimedia.org/wiki/File:Trainer_Michels_verlaat_het_vliegtuig,_Bestanddeelnr_924-6137.jpg",
   "w": 922,
   "h": 613
+ },
+ {
+  "id": "f3619f4af",
+  "ano": 1980,
+  "titulo": "Arquibancadas do estádio Lujniki nos Jogos Olímpicos de Moscou",
+  "acervo": "Wikimedia Commons",
+  "autor": "Валентин Ботенков",
+  "licenca": "CC BY-SA 3.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D1%82%D0%B5%D0%BD%D0%BA%D0%BE%D0%B2-%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D0%B0-1980-%D1%82%D1%80%D0%B8%D0%B1%D1%83%D0%BD%D1%8B.jpg",
+  "w": 960,
+  "h": 623
  },
  {
   "id": "f3680ca16",
@@ -785,15 +849,15 @@
   "h": 724
  },
  {
-  "id": "f3db7489d",
-  "ano": 1927,
-  "titulo": "Curtis D. Wilbur discursa para a multidão",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
+  "id": "f3dd273fe",
+  "ano": 1929,
+  "titulo": "Multidão em Wall Street depois do crash da Bolsa de Nova York",
+  "acervo": "Associated Press",
+  "autor": "Associated Press",
   "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Curtis_D._Wilbur_addressing_crowd_LCCN2016888528.jpg",
-  "w": 902,
-  "h": 640
+  "url": "https://commons.wikimedia.org/wiki/File:Crowds_gathering_outside_New_York_Stock_Exchange_(4).jpg",
+  "w": 960,
+  "h": 707
  },
  {
   "id": "f4064ce5d",
@@ -830,18 +894,6 @@
   "h": 611
  },
  {
-  "id": "f415141b1",
-  "ano": 1988,
-  "titulo": "O ex-presidente Jimmy Carter chega a Schiphol",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Rob Croes",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Ex-president_Jimmy_Carter_bij_aankomst_op_Schiphol,_Bestanddeelnr_934-3328.jpg",
-  "w": 922,
-  "h": 611
- },
- {
   "id": "f42c05254",
   "ano": 1938,
   "titulo": "Novidade no plantio de algodão, em Washington",
@@ -853,18 +905,6 @@
   "h": 664
  },
  {
-  "id": "f43b55709",
-  "ano": 1952,
-  "titulo": "Chegada do sr. Susanto a Schiphol",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "J.D. Noske",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Aankomst_Mr._Susanto_Schiphol,_Bestanddeelnr_904-9660.jpg",
-  "w": 922,
-  "h": 822
- },
- {
   "id": "f4442efc5",
   "ano": 1923,
   "titulo": "Homem com automóvel, aves e coelhos abatidos na caça",
@@ -874,17 +914,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Man_with_automobile_and_game_birds_and_rabbits_LCCN2016892796.tif",
   "w": 902,
   "h": 639
- },
- {
-  "id": "f44b54a49",
-  "ano": 1925,
-  "titulo": "William H. Taft, à direita, junto a um automóvel",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:William_H._Taft,_right,_at_automobile_LCCN2016894267.tif",
-  "w": 700,
-  "h": 826
  },
  {
   "id": "f4620941f",
@@ -934,17 +963,6 @@
   "h": 720
  },
  {
-  "id": "f49bd5da9",
-  "ano": 1922,
-  "titulo": "G. de Landa e esposa com Lady Patricia Moore",
-  "acervo": "Library of Congress (Bain News Service)",
-  "autor": "Bain News Service",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:G._De_Landa_(Escandron)_and_wife_%26_Lady_Patricia_Moore_LCCN2014715303.jpg",
-  "w": 621,
-  "h": 787
- },
- {
   "id": "f49f9e1b6",
   "ano": 1988,
   "titulo": "Loja Vroom & Dreesmann na Kalverstraat, em Amsterdã",
@@ -955,17 +973,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Vroom_en_Dreesmann_Amsterdam_exterieur_winkel_met_naam,_Kalverstraat_203-223.jpg",
   "w": 922,
   "h": 611
- },
- {
-  "id": "f4a21f346",
-  "ano": 1909,
-  "titulo": "Louis Blériot e seu avião",
-  "acervo": "Library of Congress (Bain News Service)",
-  "autor": "Bain News Service",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Bleriot_and_aeroplane.jpg",
-  "w": 902,
-  "h": 531
  },
  {
   "id": "f4abe6287",
@@ -1014,18 +1021,6 @@
   "h": 663
  },
  {
-  "id": "f4d6c1d2f",
-  "ano": 1962,
-  "titulo": "Inauguração de escritório com o prefeito Van Hall",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Joop van Bilsen",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Nieuw_kantoor_Vereniging_voor_Veilig_Kantoor_geopend_do_Burgemeester_Van_Hall,_Bestanddeelnr_914-5434.jpg",
-  "w": 922,
-  "h": 738
- },
- {
   "id": "f4dedf6f6",
   "ano": 1962,
   "titulo": "Desfile de moda entre flores e vacas, em Bovenkarspel",
@@ -1035,18 +1030,6 @@
   "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "url": "https://commons.wikimedia.org/wiki/File:Illusion_des_Fleurs_modeshow_Bovenkarspel_Modellen_tussen_bloemen_en_koeien,_Bestanddeelnr_913-5455.jpg",
   "w": 910,
-  "h": 922
- },
- {
-  "id": "f4fe56cf7",
-  "ano": 1952,
-  "titulo": "A princesa Sumair, estilista, visita Amsterdã",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Daan Noske",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Prinses_Sumair_mode-ontwerpster_bezoekt_Amsterdam,_Bestanddeelnr_934-5378.jpg",
-  "w": 911,
   "h": 922
  },
  {
@@ -1165,6 +1148,39 @@
   "h": 611
  },
  {
+  "id": "f57c789ca",
+  "ano": 1981,
+  "titulo": "Primeiro lançamento do ônibus espacial Columbia",
+  "acervo": "NASA",
+  "autor": "NASA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg",
+  "w": 960,
+  "h": 960
+ },
+ {
+  "id": "f58a21a28",
+  "ano": 1914,
+  "titulo": "Navio americano atravessa o Canal do Panamá na época da inauguração",
+  "acervo": "Spaarnestad Photo",
+  "autor": "Autor não identificado",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Rond_de_opening_van_het_Panamakanaal,_Augustus_1914_Een_Amerikaanse_stoomboot_vaart_onder_grote,_SFA004000379.jpg",
+  "w": 960,
+  "h": 463
+ },
+ {
+  "id": "f5ae6a8fb",
+  "ano": 2026,
+  "titulo": "A Terra fotografada da nave Orion pela tripulação da Artemis II",
+  "acervo": "NASA",
+  "autor": "Reid Wiseman /NASA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Earth_From_the_Perspective_of_Artemis_II.jpg",
+  "w": 960,
+  "h": 640
+ },
+ {
   "id": "f5bc86880",
   "ano": 1966,
   "titulo": "Movimento de Páscoa na fronteira em Berg, perto de Zevenaar, com carros em seis filas",
@@ -1224,29 +1240,6 @@
   "h": 922
  },
  {
-  "id": "f5e8dad3d",
-  "ano": 1978,
-  "titulo": "O príncipe Claus cumprimenta Annie Schilder, do BZN, na inauguração de estúdio em Hilversum",
-  "acervo": "Nationaal Archief",
-  "autor": "Koen Suyk",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:ClausBZNSchilder.jpg",
-  "w": 922,
-  "h": 610
- },
- {
-  "id": "f5ef4f724",
-  "ano": 1906,
-  "titulo": "E. Lillian Todd ao lado de seu avião",
-  "acervo": "Library of Congress (Bain News Service)",
-  "autor": "Bain News Service",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:E._Lillian_Todd_standing_with_her_airplane_LCCN2002722147.tif",
-  "w": 902,
-  "h": 528
- },
- {
   "id": "f5ef6d1e8",
   "ano": 2013,
   "titulo": "Protesto contra o aumento das passagens de ônibus no Rio",
@@ -1281,18 +1274,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Haiti_national_football_team_training_in_Port-au-Prince_2004-08-16_4.jpg",
   "w": 960,
   "h": 637
- },
- {
-  "id": "f613cffbc",
-  "ano": 1961,
-  "titulo": "A princesa Irene inaugura a exposição Levend Erfdeel",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Eric Koch",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Prinses_Irene_opent_tentoonstelling_Levend_Erfdeel_._Prinses_Irene_en_mr._Kruls,_Bestanddeelnr_913-0953.jpg",
-  "w": 877,
-  "h": 922
  },
  {
   "id": "f6153cf44",
@@ -1456,6 +1437,18 @@
   "h": 635
  },
  {
+  "id": "f688f4099",
+  "ano": 2010,
+  "titulo": "Instalação da plataforma do resgate dos mineiros soterrados no Chile",
+  "acervo": "Governo do Chile",
+  "autor": "Hugo Infante/Governo do Chile",
+  "licenca": "CC BY 2.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Chile_Miners_Rescue_(5076021344).jpg",
+  "w": 960,
+  "h": 640
+ },
+ {
   "id": "f68a345cc",
   "ano": 1998,
   "titulo": "Bonde da linha A em Moscou",
@@ -1503,6 +1496,17 @@
   "h": 610
  },
  {
+  "id": "f6a5a33e5",
+  "ano": 2012,
+  "titulo": "Autorretrato do robô Curiosity em Marte",
+  "acervo": "NASA",
+  "autor": "NASA/JPL-Caltech/MSSS",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:PIA16239_High-Resolution_Self-Portrait_by_Curiosity_Rover_Arm_Camera.jpg",
+  "w": 690,
+  "h": 960
+ },
+ {
   "id": "f6c229884",
   "ano": 2018,
   "titulo": "Mercedes Classe B no Salão do Automóvel de Paris",
@@ -1525,6 +1529,29 @@
   "url": "https://commons.wikimedia.org/wiki/File:Nieuwe_Amstelbrug_met_tram_te_Amsterdam,_Bestanddeelnr_930-3861.jpg",
   "w": 922,
   "h": 612
+ },
+ {
+  "id": "f6cb21318",
+  "ano": 2010,
+  "titulo": "Estádio Soccer City no jogo de abertura da Copa do Mundo da África do Sul",
+  "acervo": "Wikimedia Commons",
+  "autor": "Celso FLORES",
+  "licenca": "CC BY 2.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:FIFA_World_Cup_2010_Mexico_VS_South_Africa.jpg",
+  "w": 960,
+  "h": 640
+ },
+ {
+  "id": "f6d6abc70",
+  "ano": 1976,
+  "titulo": "Panorama da superfície de Marte feito pela sonda Viking 2",
+  "acervo": "NASA",
+  "autor": "NASA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Panorama-VikingLander2-1-1976.jpg",
+  "w": 960,
+  "h": 333
  },
  {
   "id": "f6f0c1570",
@@ -1562,16 +1589,15 @@
   "h": 922
  },
  {
-  "id": "f72b8cfde",
-  "ano": 1962,
-  "titulo": "A rainha Juliana e a rainha Elisabeth caminham até o ônibus",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Hugo van Gelderen",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Koningin_Juliana_(achter)_en_koningin_Elisabeth_lopen_naar_de_autobus,_Bestanddeelnr_913-8569.jpg",
-  "w": 913,
-  "h": 922
+  "id": "f71ee7159",
+  "ano": 1912,
+  "titulo": "Machu Picchu fotografada por Hiram Bingham depois da limpeza das ruínas",
+  "acervo": "National Geographic",
+  "autor": "Hiram Bingham III",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Machupicchu_hb10.jpg",
+  "w": 960,
+  "h": 597
  },
  {
   "id": "f73111c20",
@@ -1586,27 +1612,26 @@
   "h": 721
  },
  {
-  "id": "f73423848",
-  "ano": 1906,
-  "titulo": "Henry Fournier em seu carro de corrida",
-  "acervo": "Library of Congress (Bain News Service)",
-  "autor": "Bain News Service",
+  "id": "f740a6da6",
+  "ano": 1977,
+  "titulo": "Lançamento da sonda Voyager 2",
+  "acervo": "NASA",
+  "autor": "NASA",
   "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Henry_Fournier_in_his_racer_(automobile)_LCCN2003671070.jpg",
-  "w": 659,
-  "h": 787
+  "url": "https://commons.wikimedia.org/wiki/File:Voyager_2_launch_1977.jpg",
+  "w": 781,
+  "h": 960
  },
  {
-  "id": "f73b6b06e",
-  "ano": 1964,
-  "titulo": "Campeonato nacional de natação: Ria van Velzen e Corrie Winkel",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Joop van Bilsen",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Nationale_zwemkampioenschappen,_Ria_van_Velzen,_Corrie_Winkel,_Bestanddeelnr_916-7486.jpg",
-  "w": 922,
-  "h": 664
+  "id": "f742fbc91",
+  "ano": 1990,
+  "titulo": "O ônibus espacial Discovery decola levando o telescópio Hubble",
+  "acervo": "NASA",
+  "autor": "NASA / ESA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Hubble_Launch_(hst_launch_hi).tiff",
+  "w": 639,
+  "h": 960
  },
  {
   "id": "f745f4f01",
@@ -1726,6 +1751,18 @@
   "h": 634
  },
  {
+  "id": "f790dba6f",
+  "ano": 2007,
+  "titulo": "Cerimônia de abertura dos Jogos Pan-Americanos no Maracanã",
+  "acervo": "Agência Brasil",
+  "autor": "Ricardo Stuckert/PR",
+  "licenca": "CC BY 3.0 BR",
+  "licencaUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+  "url": "https://commons.wikimedia.org/wiki/File:Abertura_Jogos_Panamericanos_2_13072007.jpg",
+  "w": 960,
+  "h": 640
+ },
+ {
   "id": "f7a0158ec",
   "ano": 2017,
   "titulo": "Viaturas da Guarda Municipal de Vitória",
@@ -1795,6 +1832,17 @@
   "h": 720
  },
  {
+  "id": "f7ebbf0d3",
+  "ano": 2022,
+  "titulo": "Lançamento da missão Artemis I, da NASA",
+  "acervo": "NASA",
+  "autor": "Joel Kowsky",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Artemis_I_Launch_(NHQ202211160017).jpg",
+  "w": 960,
+  "h": 960
+ },
+ {
   "id": "f7f36f95a",
   "ano": 1990,
   "titulo": "Estação Berlin-Schöneweide do S-Bahn",
@@ -1842,6 +1890,18 @@
   "h": 787
  },
  {
+  "id": "f80970ad6",
+  "ano": 1989,
+  "titulo": "Manifestantes em Praga durante a Revolução de Veludo",
+  "acervo": "Wikimedia Commons",
+  "autor": "RobbieIanMorrison",
+  "licenca": "CC BY 4.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:1989_November_Prague_Velvet_Revolution_protester_crowd_fingers_in_air_general_shot.jpg",
+  "w": 960,
+  "h": 633
+ },
+ {
   "id": "f823f6f29",
   "ano": 1974,
   "titulo": "Grande congestionamento em Düsseldorf durante greve",
@@ -1852,6 +1912,18 @@
   "url": "https://commons.wikimedia.org/wiki/File:Grote_autodrukte_in_D%C3%BCsseldorf,_Bestanddeelnr_926-9978.jpg",
   "w": 922,
   "h": 614
+ },
+ {
+  "id": "f82594bc5",
+  "ano": 1988,
+  "titulo": "Deputados comemoram a promulgação da Constituição no Congresso Nacional",
+  "acervo": "Agência Brasil",
+  "autor": "Agência Brasil",
+  "licenca": "CC BY 3.0 BR",
+  "licencaUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+  "url": "https://commons.wikimedia.org/wiki/File:Promulga%C3%A7%C3%A3o-Constitui%C3%A7%C3%A3o-1988.jpg",
+  "w": 960,
+  "h": 692
  },
  {
   "id": "f8272eece",
@@ -1899,6 +1971,29 @@
   "url": "https://commons.wikimedia.org/wiki/File:Bell_Aircraft_Corp._introduces_the_XV-3,_File_No._907-3854_(cropped).jpg",
   "w": 922,
   "h": 720
+ },
+ {
+  "id": "f8554fe2b",
+  "ano": 2018,
+  "titulo": "Lançamento do primeiro Falcon Heavy, da SpaceX",
+  "acervo": "SpaceX",
+  "autor": "SpaceX",
+  "licenca": "CC0",
+  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "url": "https://commons.wikimedia.org/wiki/File:Falcon_Heavy_Demo_Mission_(40126462231).jpg",
+  "w": 960,
+  "h": 640
+ },
+ {
+  "id": "f8560cc49",
+  "ano": 1972,
+  "titulo": "A Terra vista pela Apollo 17, na foto conhecida como Blue Marble",
+  "acervo": "NASA",
+  "autor": "Harrison Schmitt / Apollo 17",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:The_Blue_Marble,_AS17-148-22727.jpg",
+  "w": 960,
+  "h": 960
  },
  {
   "id": "f863ab234",
@@ -2005,7 +2100,7 @@
  {
   "id": "f8b7ed8cb",
   "ano": 1950,
-  "titulo": "O sr. Sissingh com dois filhotes de foca em sua loja, em Vlissingen",
+  "titulo": "Comerciante com dois filhotes de foca em sua loja, em Vlissingen",
   "acervo": "Nationaal Archief (Fotocollectie Anefo)",
   "autor": "Daan Noske",
   "licenca": "CC0",
@@ -2026,29 +2121,6 @@
   "h": 922
  },
  {
-  "id": "f8b9b4727",
-  "ano": 1928,
-  "titulo": "O vice-presidente Dawes entrega troféu a oficial britânico por recorde de velocidade em automóvel",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Vice_President_Dawes_presents_silver_trophy_to_British_Army_Officer_for_establishing_new_racing_automobile_record._Capt_Malcom_Campbell_who_established_a_new_world%27s_automobile_racing_record_LCCN2016888702.jpg",
-  "w": 902,
-  "h": 640
- },
- {
-  "id": "f8bdcf79b",
-  "ano": 2016,
-  "titulo": "Usain Bolt vence os 200 m na Olimpíada do Rio",
-  "acervo": "Agência Brasil",
-  "autor": "Fernando Frazão",
-  "licenca": "CC BY 3.0 BR",
-  "licencaUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Bolt_conquista_tricampeonato_tamb%C3%A9m_nos_200_metros_1038876-18.08.2016_ffz-8057.jpg",
-  "w": 960,
-  "h": 640
- },
- {
   "id": "f8c5bc6ed",
   "ano": 1970,
   "titulo": "Trânsito numa estrada",
@@ -2059,17 +2131,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Verkeer_op_buitenweg,_Bestanddeelnr_923-3885.jpg",
   "w": 922,
   "h": 605
- },
- {
-  "id": "f8c73e0cf",
-  "ano": 1936,
-  "titulo": "A fotógrafa Dorothea Lange sobre um automóvel, na Califórnia",
-  "acervo": "Library of Congress (FSA/OWI)",
-  "autor": "Rondal Partridge",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Dorothea_Lange_atop_automobile_in_California_(restored).png",
-  "w": 874,
-  "h": 922
  },
  {
   "id": "f8c992987",
@@ -2108,6 +2169,17 @@
   "h": 607
  },
  {
+  "id": "f904c7ab7",
+  "ano": 1970,
+  "titulo": "Astronauta da Apollo 13 é içado por helicóptero depois do pouso no mar",
+  "acervo": "NASA",
+  "autor": "NASA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Apollo_13_Recovery_Area_-_GPN-2002-000052.jpg",
+  "w": 960,
+  "h": 619
+ },
+ {
   "id": "f9057bbc7",
   "ano": 1949,
   "titulo": "Hata desce do avião",
@@ -2120,6 +2192,39 @@
   "h": 922
  },
  {
+  "id": "f90743295",
+  "ano": 1995,
+  "titulo": "O ônibus espacial Atlantis acoplado à estação russa Mir",
+  "acervo": "NASA",
+  "autor": "NASA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Atlantis_docked_to_MIR_-_GPN-2000-001315.jpg",
+  "w": 960,
+  "h": 768
+ },
+ {
+  "id": "f90c93234",
+  "ano": 1997,
+  "titulo": "O robô Sojourner na superfície de Marte, na missão Mars Pathfinder",
+  "acervo": "NASA",
+  "autor": "NASA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Sojourner_on_Mars_PIA01122.jpg",
+  "w": 960,
+  "h": 880
+ },
+ {
+  "id": "f90edab08",
+  "ano": 1954,
+  "titulo": "Multidão acompanha o traslado do corpo de Getúlio Vargas, no Rio de Janeiro",
+  "acervo": "Arquivo Nacional",
+  "autor": "Autor não identificado",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Traslado_do_corpo_de_Get%C3%BAlio_Vargas_do_Rio_de_Janeiro_para_o_enterro_em_S%C3%A3o_Borja.tif",
+  "w": 960,
+  "h": 872
+ },
+ {
   "id": "f92684078",
   "ano": 1919,
   "titulo": "Parque infantil no terraço de uma loja em Nova York, enquanto as mães fazem compras",
@@ -2129,6 +2234,18 @@
   "url": "https://commons.wikimedia.org/wiki/File:Children%27s_playground_on_roof_of_large_New_York_store_while_mothers_are_shopping;_Large_sandbox_LCCN2016652415.tif",
   "w": 902,
   "h": 615
+ },
+ {
+  "id": "f95377d15",
+  "ano": 1989,
+  "titulo": "Pessoa martela o Muro de Berlim depois da abertura da fronteira",
+  "acervo": "Wikimedia Commons",
+  "autor": "Raphaël Thiémard",
+  "licenca": "CC BY-SA 2.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Berlin_1989,_Fall_der_Mauer,_Chute_du_mur_10.jpg",
+  "w": 960,
+  "h": 639
  },
  {
   "id": "f95d935f5",
@@ -2416,6 +2533,18 @@
   "h": 737
  },
  {
+  "id": "fa53d22b2",
+  "ano": 1958,
+  "titulo": "O Atomium na Expo 58, em Bruxelas",
+  "acervo": "Wikimedia Commons",
+  "autor": "Autor não identificado",
+  "licenca": "CC0",
+  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "url": "https://commons.wikimedia.org/wiki/File:Expo_58,_Atomium_foto_2.jpg",
+  "w": 960,
+  "h": 669
+ },
+ {
   "id": "fa67a2559",
   "ano": 2009,
   "titulo": "Manifestantes diante do STF no julgamento da ADPF 153",
@@ -2498,27 +2627,15 @@
   "h": 726
  },
  {
-  "id": "facc10701",
-  "ano": 1888,
-  "titulo": "Fachada da Casa Granado, no Rio de Janeiro",
-  "acervo": "Biblioteca Nacional (Coleção Thereza Christina)",
-  "autor": "Marc Ferrez",
+  "id": "fae319bfb",
+  "ano": 1946,
+  "titulo": "O ENIAC, um dos primeiros computadores eletrônicos, na Universidade da Pensilvânia",
+  "acervo": "Exército dos EUA",
+  "autor": "Autor não identificado",
   "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Frente_comercial_da_Casa_Granado_em_1888_(Marc_Ferrez).jpg",
-  "w": 806,
-  "h": 960
- },
- {
-  "id": "fada0e151",
-  "ano": 1958,
-  "titulo": "June Christy na cozinha do restaurante indonésio Bali",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Harry Pot",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:June_Christy_in_de_keuken_van_het_Indische_restaurant_Bali,_Bestanddeelnr_909-4068.jpg",
-  "w": 922,
-  "h": 712
+  "url": "https://commons.wikimedia.org/wiki/File:Classic_shot_of_the_ENIAC_(full_resolution).jpg",
+  "w": 960,
+  "h": 694
  },
  {
   "id": "faec9a633",
@@ -2555,6 +2672,17 @@
   "h": 568
  },
  {
+  "id": "fb3e9a3b8",
+  "ano": 2000,
+  "titulo": "Cerimônia de abertura dos Jogos Olímpicos de Sydney",
+  "acervo": "Departamento de Defesa dos EUA",
+  "autor": "TSGT Rick Sforza",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:2000_Summer_Olympics_opening_ceremony_1.JPEG",
+  "w": 960,
+  "h": 623
+ },
+ {
   "id": "fb4926515",
   "ano": 1907,
   "titulo": "Revista do esquadrão de trânsito da polícia",
@@ -2578,6 +2706,18 @@
   "h": 571
  },
  {
+  "id": "fb58e1a58",
+  "ano": 2013,
+  "titulo": "Estádio FNB, em Joanesburgo, no memorial de Nelson Mandela",
+  "acervo": "Wikimedia Commons",
+  "autor": "Clement Khanye",
+  "licenca": "CC BY-SA 3.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Mandela-Memorial-FNB-_2013-12-10-2.jpg",
+  "w": 717,
+  "h": 960
+ },
+ {
   "id": "fb6d0bf82",
   "ano": 1918,
   "titulo": "Interior de loja com o cartaz “Não desperdice comida”",
@@ -2587,17 +2727,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:STORE_INTERIOR.%27WASTE_NO_FOOD%27_LCCN2016868064.jpg",
   "w": 664,
   "h": 826
- },
- {
-  "id": "fb7c69267",
-  "ano": 1923,
-  "titulo": "Woodrow Wilson num automóvel",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Woodrow_Wilson_in_automobile_LCCN2016892974.jpg",
-  "w": 902,
-  "h": 640
  },
  {
   "id": "fb7caed0a",
@@ -2660,20 +2789,9 @@
   "h": 608
  },
  {
-  "id": "fbb581ae5",
-  "ano": 1924,
-  "titulo": "O embaixador J. J. Jusserand junto a um automóvel, na Casa Branca",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:J.J._Jusserand_at_automobile._White_House,_Washington,_D.C._LCCN2016893785.jpg",
-  "w": 902,
-  "h": 640
- },
- {
   "id": "fbba53ef1",
   "ano": 1942,
-  "titulo": "Bernice Strutz monta peças numa fábrica de pianos convertida para motores de avião",
+  "titulo": "Operária monta peças numa fábrica de pianos convertida para motores de avião",
   "acervo": "Library of Congress (FSA/OWI)",
   "autor": "Ann Rosener",
   "licenca": "Domínio público",
@@ -2704,18 +2822,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Juiz_Wilson_Witzel_com_%C3%8Dndios_do_Museu_do_%C3%8Dndio_(2).jpg",
   "w": 960,
   "h": 639
- },
- {
-  "id": "fbd542ebf",
-  "ano": 1957,
-  "titulo": "Dorus com o prefeito Van Rooy no velho Ford",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Daan Noske",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Dorus_met_burgemeester_van_Rooy_in_het_oude_fordje,_Bestanddeelnr_909-1159.jpg",
-  "w": 922,
-  "h": 918
  },
  {
   "id": "fbd5c95af",
@@ -2786,6 +2892,29 @@
   "url": "https://commons.wikimedia.org/wiki/File:19940817a_Gare_Saint-Lazare.jpg",
   "w": 960,
   "h": 643
+ },
+ {
+  "id": "fc376d187",
+  "ano": 2014,
+  "titulo": "O cometa 67P fotografado pela sonda Rosetta",
+  "acervo": "Agência Espacial Europeia",
+  "autor": "ESA/Rosetta/NAVCAM",
+  "licenca": "CC BY-SA 3.0 igo",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
+  "url": "https://commons.wikimedia.org/wiki/File:Comet_67P_on_19_September_2014_NavCam_mosaic.jpg",
+  "w": 960,
+  "h": 764
+ },
+ {
+  "id": "fc3fe20a1",
+  "ano": 1906,
+  "titulo": "San Francisco em ruínas depois do terremoto",
+  "acervo": "National Archives dos EUA",
+  "autor": "Autor não identificado",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Sanfranciscoearthquake1906.jpg",
+  "w": 960,
+  "h": 743
  },
  {
   "id": "fc3ffe567",
@@ -2893,6 +3022,18 @@
   "h": 615
  },
  {
+  "id": "fc693934c",
+  "ano": 1961,
+  "titulo": "Milícias armadas diante do Portão de Brandemburgo durante a construção do Muro de Berlim",
+  "acervo": "Bundesarchiv",
+  "autor": "Peter Heinz Junge",
+  "licenca": "CC BY-SA 3.0 de",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-85458-0002,_Berlin,_Mauerbau,_Kampfgruppen_am_Brandenburger_Tor.jpg",
+  "w": 773,
+  "h": 800
+ },
+ {
   "id": "fc69d9290",
   "ano": 1912,
   "titulo": "Caminhões da loja de departamentos Woodward & Lothrop, em Washington",
@@ -2902,6 +3043,17 @@
   "url": "https://commons.wikimedia.org/wiki/File:WOODWARD_%26_LOTHROP%27S_DEPARTMENT_STORE,_WASHINGTON,_D.C._TRUCKS_LCCN2016864191.jpg",
   "w": 902,
   "h": 604
+ },
+ {
+  "id": "fc69ea69c",
+  "ano": 1918,
+  "titulo": "Paciente de gripe espanhola tratado no hospital naval de Nova Orleans",
+  "acervo": "Marinha dos EUA (Navy Medicine)",
+  "autor": "Navy Medicine",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Treating_an_Influenza_patient_at_Navl_Hospital_New_Orleans,_1918.jpg",
+  "w": 960,
+  "h": 752
  },
  {
   "id": "fc73d4005",
@@ -2914,6 +3066,18 @@
   "url": "https://commons.wikimedia.org/wiki/File:Keikyu_2011_at_Shin-Banba_stn_19950702.jpg",
   "w": 960,
   "h": 661
+ },
+ {
+  "id": "fc7d611e6",
+  "ano": 2024,
+  "titulo": "Os anéis olímpicos na Torre Eiffel para os Jogos de Paris",
+  "acervo": "Wikimedia Commons",
+  "autor": "Ibex73",
+  "licenca": "CC BY 4.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by/4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Olympic_rings_on_the_Eiffel_Tower_2024_(2).jpg",
+  "w": 960,
+  "h": 540
  },
  {
   "id": "fc90fda24",
@@ -2939,16 +3103,26 @@
   "h": 787
  },
  {
-  "id": "fc9fb3938",
-  "ano": 1963,
-  "titulo": "Kuypers e Donner observam o computador no torneio de xadrez da IBM",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Winfried Walta",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Derde_IBM_Meestertoernooi._Kuypers_en_Donner_kijken_naar_computer_die_uitslag_ge,_Bestanddeelnr_915-4813.jpg",
-  "w": 922,
-  "h": 614
+  "id": "fc9569df1",
+  "ano": 1913,
+  "titulo": "Linha de montagem da Ford",
+  "acervo": "National Archives dos EUA",
+  "autor": "Autor não identificado",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Ford_assembly_line_-_1913.jpg",
+  "w": 960,
+  "h": 693
+ },
+ {
+  "id": "fc9a8e18a",
+  "ano": 1917,
+  "titulo": "Manifestação de estonianos em Petrogrado, durante a Revolução Russa",
+  "acervo": "Wikimedia Commons",
+  "autor": "Autor não identificado",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Open_Letter_Demonstration_of_Estonians_in_Petrograd_1917_March_26th.jpg",
+  "w": 940,
+  "h": 535
  },
  {
   "id": "fca3ab875",
@@ -2999,18 +3173,6 @@
   "h": 922
  },
  {
-  "id": "fcc0f1b48",
-  "ano": 2003,
-  "titulo": "Lula conversa com Fidel Castro ao chegar a Havana",
-  "acervo": "Agência Brasil",
-  "autor": "Antonio Milena",
-  "licenca": "CC BY 3.0 BR",
-  "licencaUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Lula_and_Castro9851.jpeg",
-  "w": 643,
-  "h": 960
- },
- {
   "id": "fcda5e45f",
   "ano": 1935,
   "titulo": "Armazém e agência de correio de Nethers",
@@ -3031,17 +3193,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Crowd,_Washington_Monument_in_background;_Washington,_D.C._LCCN2016890075.tif",
   "w": 902,
   "h": 639
- },
- {
-  "id": "fcf41b5c2",
-  "ano": 1929,
-  "titulo": "O presidente Hoover entrega a Medalha de Honra a Michael Valente",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:President_Hoover_presents_Congressional_Medal_of_Honor_to_World_War_hero._Michael_Valente,_formerly_Private,_Company_D,_107th_infantry,_27th_Division_during_the_World_War,_receiving_from_LCCN2016889455.tif",
-  "w": 700,
-  "h": 826
  },
  {
   "id": "fcf44bd77",
@@ -3078,18 +3229,6 @@
   "h": 706
  },
  {
-  "id": "fd1bcf0f8",
-  "ano": 1949,
-  "titulo": "Kees Broekman parte de bicicleta para a Noruega",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Winterbergen",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Kees_Broekman_per_fiets_naar_Noorwegen,_Bestanddeelnr_934-5276.jpg",
-  "w": 922,
-  "h": 715
- },
- {
   "id": "fd2355982",
   "ano": 1925,
   "titulo": "Controle de trânsito em Tóquio",
@@ -3113,6 +3252,29 @@
   "h": 628
  },
  {
+  "id": "fd43d4340",
+  "ano": 1912,
+  "titulo": "O Titanic atracado em Southampton, dias antes da viagem inaugural",
+  "acervo": "Wikimedia Commons",
+  "autor": "Autor não identificado",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:RMS_Titanic_in_Southampton,_April_9th_of_1912.jpg",
+  "w": 960,
+  "h": 558
+ },
+ {
+  "id": "fd44c62d6",
+  "ano": 2008,
+  "titulo": "Multidão no Grant Park, em Chicago, na noite da eleição de Obama",
+  "acervo": "Wikimedia Commons",
+  "autor": "Pablo Manriquez",
+  "licenca": "CC BY 2.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by/2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Grant_Park_election_night_2008_(3084045317).jpg",
+  "w": 960,
+  "h": 643
+ },
+ {
   "id": "fd45c01e1",
   "ano": 1981,
   "titulo": "Homens com roupa de proteção desinfetam uma cozinha contra baratas",
@@ -3123,6 +3285,30 @@
   "url": "https://commons.wikimedia.org/wiki/File:Mannen_in_beschermende_kleding_bespuiten_een_keuken_ter_bestrijding_van_kakkerla,_Bestanddeelnr_931-2643.jpg",
   "w": 922,
   "h": 612
+ },
+ {
+  "id": "fd4fa2bfe",
+  "ano": 2020,
+  "titulo": "A Praça do Comércio vazia durante o confinamento da covid-19, em Lisboa",
+  "acervo": "Wikimedia Commons",
+  "autor": "Jules Verne Times Two",
+  "licenca": "CC BY-SA 4.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Empty_Pra%C3%A7a_do_Com%C3%A9rcio_during_the_COVID-19_lockdown,_Lisbon,_Portugal_julesvernex2.jpg",
+  "w": 960,
+  "h": 622
+ },
+ {
+  "id": "fd5d9a6ef",
+  "ano": 2023,
+  "titulo": "Público na posse de Lula em Brasília",
+  "acervo": "Wikimedia Commons",
+  "autor": "Sintegrity",
+  "licenca": "CC BY-SA 4.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Bras%C3%ADlia_-_Posse_de_Luiz_In%C3%A1cio_Lula_da_Silva_2023_(217).jpg",
+  "w": 960,
+  "h": 720
  },
  {
   "id": "fd6017363",
@@ -3159,6 +3345,29 @@
   "h": 922
  },
  {
+  "id": "fd91dff02",
+  "ano": 1901,
+  "titulo": "Cortejo fúnebre da rainha Vitória",
+  "acervo": "Royal Collection Trust",
+  "autor": "J. Russell and Sons",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Queen_Victoria%27s_funeral_procession.jpg",
+  "w": 960,
+  "h": 586
+ },
+ {
+  "id": "fdad5440a",
+  "ano": 2018,
+  "titulo": "Incêndio no Museu Nacional, no Rio de Janeiro",
+  "acervo": "Wikimedia Commons",
+  "autor": "Felipe Milanez",
+  "licenca": "CC BY-SA 4.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Fire_-_Museu_Nacional_06.jpg",
+  "w": 960,
+  "h": 720
+ },
+ {
   "id": "fdbf33e4d",
   "ano": 1985,
   "titulo": "Neve e frio intenso atrapalham o trânsito na Holanda do Norte",
@@ -3169,6 +3378,18 @@
   "url": "https://commons.wikimedia.org/wiki/File:Grote_hinder_voor_verkeer_door_sneeuw_en_strenge_vorst_verkeer_in_Noord_Holland_,_Bestanddeelnr_933-1947.jpg",
   "w": 922,
   "h": 610
+ },
+ {
+  "id": "fdd9cea95",
+  "ano": 2016,
+  "titulo": "Atletas na cerimônia de abertura dos Jogos Olímpicos Rio 2016, no Maracanã",
+  "acervo": "Agência Brasil",
+  "autor": "Fernando Frazão/Agência Brasil",
+  "licenca": "CC BY 3.0 BR",
+  "licencaUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+  "url": "https://commons.wikimedia.org/wiki/File:2016_Summer_Olympics_opening_ceremony_1035369-olimpiadas_abertura-2902.jpg",
+  "w": 960,
+  "h": 640
  },
  {
   "id": "fddc5ef02",
@@ -3216,6 +3437,29 @@
   "h": 690
  },
  {
+  "id": "fe1989452",
+  "ano": 2003,
+  "titulo": "Concorde da British Airways pousa em Manchester no último voo do avião",
+  "acervo": "Wikimedia Commons",
+  "autor": "Ken Fielding",
+  "licenca": "CC BY-SA 3.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "url": "https://commons.wikimedia.org/wiki/File:G-BOAC_1_BAC-SNIAS_Concorde_102_British_Aws(last_flt)_MAN_31OCT03_(10731626666).jpg",
+  "w": 960,
+  "h": 640
+ },
+ {
+  "id": "fe19e20d9",
+  "ano": 1973,
+  "titulo": "A estação espacial Skylab vista da nave da missão Skylab 3",
+  "acervo": "NASA",
+  "autor": "NASA",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Skylab_3_Close-Up_-_GPN-2000-001711.jpg",
+  "w": 960,
+  "h": 937
+ },
+ {
   "id": "fe2869e37",
   "ano": 1948,
   "titulo": "Trem com soldado",
@@ -3251,15 +3495,15 @@
   "h": 662
  },
  {
-  "id": "fe35d9e5c",
-  "ano": 1927,
-  "titulo": "O presidente Coolidge e a sra. Coolidge descem do automóvel",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
+  "id": "fe392111f",
+  "ano": 1922,
+  "titulo": "Tesouros na antecâmara da tumba de Tutancâmon, fotografados por Harry Burton",
+  "acervo": "Wikimedia Commons",
+  "autor": "Harry Burton",
   "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:President_Coolidge_and_Mrs._Coolidge_exiting_automobile_LCCN2016888349.jpg",
-  "w": 902,
-  "h": 640
+  "url": "https://commons.wikimedia.org/wiki/File:Tutankhamun_tomb_photographs_2_020.jpg",
+  "w": 960,
+  "h": 711
  },
  {
   "id": "fe3eb2152",
@@ -3271,6 +3515,18 @@
   "url": "https://commons.wikimedia.org/wiki/File:Bathing_beauties_dancing_on_beach_LCCN2016892533.tif",
   "w": 902,
   "h": 639
+ },
+ {
+  "id": "fe41570b7",
+  "ano": 1951,
+  "titulo": "O Festival da Grã-Bretanha, com a Skylon e o Domo da Descoberta, em Londres",
+  "acervo": "Geograph",
+  "autor": "Ben Brooksbank",
+  "licenca": "CC BY-SA 2.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Festival_of_Britain_Exhibition,_1951_(geograph_4571066).jpg",
+  "w": 960,
+  "h": 594
  },
  {
   "id": "fe482abe8",
@@ -3296,29 +3552,6 @@
   "h": 922
  },
  {
-  "id": "fe50c2a8b",
-  "ano": 1982,
-  "titulo": "A princesa Juliana inaugura exposição de telecomunicações na Floriade",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Rob Bogaerts",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Prinses_Juliana_opent_tele-tentoonstelling_op_Floriade,_Bestanddeelnr_932-2223.jpg",
-  "w": 922,
-  "h": 609
- },
- {
-  "id": "fe6385eda",
-  "ano": 1928,
-  "titulo": "Calvin Coolidge, com grande público nas arquibancadas ao fundo",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Calvin_Coolidge;_large_crowd_in_stands_in_background_LCCN2016889104.tif",
-  "w": 902,
-  "h": 639
- },
- {
   "id": "fe66969ef",
   "ano": 1907,
   "titulo": "Praia Vermelha, no Rio, com os terrenos de uma futura exposição",
@@ -3341,18 +3574,6 @@
   "h": 666
  },
  {
-  "id": "fe72f1301",
-  "ano": 1977,
-  "titulo": "A banda Pussycat recebe prêmio de exportação",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Bert Verhoeff",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Limburgse_popgroep_Pussycat_krijgt_exportprijs_van_Conamu_uitgereikt_door_Engels,_Bestanddeelnr_928-9650.jpg",
-  "w": 922,
-  "h": 613
- },
- {
   "id": "fe7f5da33",
   "ano": 1986,
   "titulo": "Protesto pró-Bouterse no Binnenhof, em Haia",
@@ -3362,18 +3583,6 @@
   "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "url": "https://commons.wikimedia.org/wiki/File:Demonstratie_pro-Bouterse_van_Liga_van_Surinaamse_Patriotten_op_Binnenhof_in_D,_Bestanddeelnr_933-8437.jpg",
   "w": 614,
-  "h": 922
- },
- {
-  "id": "fe87bd7ef",
-  "ano": 1959,
-  "titulo": "Heidi Brühl no Weekendshow da televisão",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Henk Lindeboom",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Televisie_Weekendshow,_Heidi_Bruhl,_Bestanddeelnr_910-7854.jpg",
-  "w": 920,
   "h": 922
  },
  {
@@ -3410,18 +3619,6 @@
   "h": 640
  },
  {
-  "id": "febb60587",
-  "ano": 1959,
-  "titulo": "Corine Rottschäfer em casa, na cozinha com a mãe",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Herbert Behrens",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Corine_Rottsch%C3%A4fer_thuis,_in_de_keuken_links_ma_en_rechts_Corine,_Bestanddeelnr_910-8198.jpg",
-  "w": 922,
-  "h": 744
- },
- {
   "id": "fec355f7f",
   "ano": 1941,
   "titulo": "Rapazes com um automóvel na manhã de Páscoa, no South Side de Chicago",
@@ -3431,18 +3628,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:Easter_1941_Chicago_Youths_with_Automobile_crop_2.jpg",
   "w": 922,
   "h": 655
- },
- {
-  "id": "fec581e4b",
-  "ano": 1992,
-  "titulo": "Shin Kanemaru e Jiang Zemin",
-  "acervo": "Ministério das Relações Exteriores do Japão",
-  "autor": "Ministério das Relações Exteriores do Japão",
-  "licenca": "CC BY 4.0",
-  "licencaUrl": "https://creativecommons.org/licenses/by/4.0",
-  "url": "https://commons.wikimedia.org/wiki/File:Shin_Kanemaru_and_Jiang_Zemin_19920407.jpg",
-  "w": 960,
-  "h": 683
  },
  {
   "id": "fece2a906",
@@ -3490,6 +3675,17 @@
   "url": "https://commons.wikimedia.org/wiki/File:Eloy,_Pinal_County,_Arizona._Cotton_yard,_pickers%27_squatter_camp,_lettuce,_shed,_and_main_street_of_._._._-_NARA_-_522516.jpg",
   "w": 922,
   "h": 738
+ },
+ {
+  "id": "ff0197fc9",
+  "ano": 2015,
+  "titulo": "Plutão fotografado pela sonda New Horizons",
+  "acervo": "NASA",
+  "autor": "NASA/JHUAPL/SwRI",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Pluto-01_Stern_03_Pluto_Color_TXT.jpg",
+  "w": 960,
+  "h": 960
  },
  {
   "id": "ff044b982",
@@ -3549,6 +3745,17 @@
   "h": 608
  },
  {
+  "id": "ff18f1449",
+  "ano": 1919,
+  "titulo": "Delegações na assinatura do Tratado de Versalhes, na Galeria dos Espelhos",
+  "acervo": "National Archives dos EUA",
+  "autor": "Helen Johns Kirtland e Lucian Swift Kirtland",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Treaty_of_Versailles_Signing,_Hall_of_Mirrors.jpg",
+  "w": 960,
+  "h": 695
+ },
+ {
   "id": "ff19cd291",
   "ano": 1935,
   "titulo": "Três meninas diante do Casino Cinema, em Nova Orleans",
@@ -3572,6 +3779,17 @@
   "h": 697
  },
  {
+  "id": "ff3d8adc2",
+  "ano": 1963,
+  "titulo": "Multidão ouve o discurso de Kennedy em Berlim Ocidental",
+  "acervo": "Biblioteca Presidencial John F. Kennedy",
+  "autor": "Robert Knudsen, White House",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:JFK_speech_Ich_bin_ein_berliner_1.jpg",
+  "w": 960,
+  "h": 948
+ },
+ {
   "id": "ff44d1eed",
   "ano": 1995,
   "titulo": "Obras de extensão da Avenida Brigadeiro Faria Lima, em São Paulo",
@@ -3580,18 +3798,6 @@
   "licenca": "CC BY 3.0",
   "licencaUrl": "https://creativecommons.org/licenses/by/3.0",
   "url": "https://commons.wikimedia.org/wiki/File:Avenida_Brigadeiro_Faria_Lima_1995.jpg",
-  "w": 960,
-  "h": 639
- },
- {
-  "id": "ff47ecf26",
-  "ano": 2010,
-  "titulo": "Lula e a seleção brasileira de futebol, em Brasília",
-  "acervo": "Agência Brasil",
-  "autor": "Fabio Rodrigues Pozzebom",
-  "licenca": "CC BY 3.0 BR",
-  "licencaUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:Lula_e_a_Sele%C3%A7%C3%A3o_Brasileira_de_Futebol_em_2010_Foto3.jpg",
   "w": 960,
   "h": 639
  },
@@ -3630,18 +3836,6 @@
   "h": 735
  },
  {
-  "id": "ff6730559",
-  "ano": 1964,
-  "titulo": "A banda The Honeycombs ensaia na Holanda",
-  "acervo": "Nationaal Archief (Fotocollectie Anefo)",
-  "autor": "Eric Koch",
-  "licenca": "CC0",
-  "licencaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "url": "https://commons.wikimedia.org/wiki/File:The_Honey_Combs_(beatgroep)_in_Holland,_tijdens_repetiti_in_Grote_Schouwburg_Zui,_Bestanddeelnr_917-2260.jpg",
-  "w": 922,
-  "h": 607
- },
- {
   "id": "ff6959ddf",
   "ano": 1929,
   "titulo": "A Praça das Nações e o cinema Paraíso",
@@ -3651,17 +3845,6 @@
   "url": "https://commons.wikimedia.org/wiki/File:PRAANAO1.JPG",
   "w": 853,
   "h": 579
- },
- {
-  "id": "ff6b83a0b",
-  "ano": 1921,
-  "titulo": "Grupo junto a um automóvel, com W. H. Taft ao centro",
-  "acervo": "Library of Congress (Harris & Ewing)",
-  "autor": "Harris & Ewing",
-  "licenca": "Domínio público",
-  "url": "https://commons.wikimedia.org/wiki/File:Group_outside_automobile;_W.H._Taft,_center_LCCN2016890890.tif",
-  "w": 902,
-  "h": 639
  },
  {
   "id": "ff6fd8615",
@@ -3709,6 +3892,40 @@
   "url": "https://commons.wikimedia.org/wiki/File:Borac_Laraki.jpg",
   "w": 960,
   "h": 720
+ },
+ {
+  "id": "ff7ee4550",
+  "ano": 1945,
+  "titulo": "Ônibus de dois andares abre caminho na multidão do Dia da Vitória na Europa, em Londres",
+  "acervo": "Imperial War Museums",
+  "autor": "Ministry of Information Photo Division Photographer",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:Ve_Day_Celebrations_in_London,_England,_UK,_8_May_1945_D24587.jpg",
+  "w": 960,
+  "h": 718
+ },
+ {
+  "id": "ff7f50758",
+  "ano": 2021,
+  "titulo": "Foguete Ariane 5 lança o telescópio espacial James Webb",
+  "acervo": "NASA",
+  "autor": "Bill Ingalls",
+  "licenca": "Domínio público",
+  "url": "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Launch_(NHQ202112250010).jpg",
+  "w": 960,
+  "h": 872
+ },
+ {
+  "id": "ff85ad1d1",
+  "ano": 2019,
+  "titulo": "Incêndio na catedral de Notre-Dame, em Paris",
+  "acervo": "Wikimedia Commons",
+  "autor": "GodefroyParis",
+  "licenca": "CC BY-SA 4.0",
+  "licencaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "url": "https://commons.wikimedia.org/wiki/File:Notre-Dame_en_feu,_20h06.jpg",
+  "w": 960,
+  "h": 615
  },
  {
   "id": "ff963faab",
