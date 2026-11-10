@@ -305,7 +305,7 @@ describe('quiz: Mundo hoje e Cultura', () => {
 
 describe('partida de até 5 minutos e liberação do Prime', () => {
   it('três rodadas por módulo e tempo máximo de resposta de até 5 minutos, antes e depois do módulo Foto', () => {
-    expect(modulosDoDia('2026-11-10').map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'conflitos']);
+    expect(modulosDoDia('2026-11-09').map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'conflitos']);
     expect(modulosDoDia('2099-01-01').map((m) => m.id)).toEqual(['mapa', 'bandeiras', 'mundo', 'cultura', 'foto', 'conflitos']);
     for (const dia of ['2026-11-09', '2026-11-10', '2099-01-01']) for (const l of ['estagiario', 'prime'] as const) {
       const total = modulosDoDia(dia).reduce((a, m) => a + temposDoDia(dia)[l][m.id] * ROUNDS_PER_MODULE, 0);
@@ -314,8 +314,8 @@ describe('partida de até 5 minutos e liberação do Prime', () => {
     expect(temposDoDia('2026-11-10').estagiario.conflitos).toBe(38);
   });
   it('Prime libera com 60% do máximo bruto do dia', () => {
-    expect(maxRaw('2026-11-10')).toBe(15000);
-    expect(primeMinRaw('2026-11-10')).toBe(9000);
+    expect(maxRaw('2026-11-09')).toBe(15000);
+    expect(primeMinRaw('2026-11-09')).toBe(9000);
     expect(maxRaw('2099-01-01')).toBe(18000);
     expect(primeMinRaw('2099-01-01')).toBe(10800);
     expect(FOTO_DESDE >= '2026-11-10').toBe(true);
@@ -367,8 +367,8 @@ describe('Não sei e penalidade', () => {
   it('errar com resposta marcada custa 100 a partir de 11/11/2026; antes, zero', async () => {
     const { pontosRespondida, regrasNaoSei, PENALIDADE_ERRO } = await import('./scoring');
     expect(PENALIDADE_ERRO).toBe(100);
-    expect(regrasNaoSei('2026-11-10')).toBe(false);
-    expect(regrasNaoSei('2026-11-11')).toBe(true);
+    expect(regrasNaoSei('2026-11-09')).toBe(false);
+    expect(regrasNaoSei('2026-11-10')).toBe(true);
     const esperado = regrasNaoSei() ? -100 : 0;
     expect(pontosRespondida(0, 1)).toBe(esperado);
     expect(pontosRespondida(1, 1)).toBe(1000);
@@ -381,5 +381,20 @@ describe('ranking', () => {
     expect(segundaDaSemana('2026-11-15')).toBe('2026-11-09');
     expect(segundaDaSemana('2026-11-16')).toBe('2026-11-16');
     expect(segundaDaSemana('2027-01-01')).toBe('2026-12-28');
+  });
+});
+
+import { getDaily, reiniciarDiaDoFoto, saveDailyIfFirst, startDaily } from './storage';
+describe('reinício do dia em que o Foto entrou', () => {
+  it('apaga a tentativa de cinco módulos e mantém a nova', () => {
+    const velho = { score: 5000, rounds: [{ mod: 'mapa' as const, precision: 1, raw: 1000, detail: '' }], finishedAt: '2026-11-10T12:00:00Z' };
+    startDaily(FOTO_DESDE, 'estagiario'); saveDailyIfFirst(FOTO_DESDE, 'estagiario', velho);
+    reiniciarDiaDoFoto();
+    expect(getDaily(FOTO_DESDE, 'estagiario')).toBeNull();
+    const novo = { ...velho, rounds: [{ mod: 'foto' as const, precision: 1, raw: 1000, detail: '' }] };
+    saveDailyIfFirst(FOTO_DESDE, 'estagiario', velho);
+    reiniciarDiaDoFoto(); // segunda chamada não faz nada
+    expect(getDaily(FOTO_DESDE, 'estagiario')).not.toBeNull();
+    expect(novo.rounds[0].mod).toBe('foto');
   });
 });

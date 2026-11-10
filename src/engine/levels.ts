@@ -22,7 +22,7 @@ export type ModuleId = 'mapa' | 'bandeiras' | 'mundo' | 'cultura' | 'foto' | 'co
 // O módulo Foto entra no Desafio do Dia a partir desta data (virada à meia-noite de Brasília).
 // VITE_FOTO_DESDE muda a data só em builds de teste.
 const ENV = (import.meta as { env?: Record<string, string | undefined> }).env ?? {};
-export const FOTO_DESDE = ENV.VITE_FOTO_DESDE ?? '2026-11-11';
+export const FOTO_DESDE = ENV.VITE_FOTO_DESDE ?? '2026-11-10';
 
 type Tempos = Record<LevelId, Record<ModuleId, number>>;
 /** Até 09/11/2026. */

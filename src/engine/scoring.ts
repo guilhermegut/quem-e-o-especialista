@@ -42,7 +42,7 @@ export function shareSymbol(precision: number): string {
 // Em Bandeiras, Mundo hoje, Cultura e Guerras: errar com resposta marcada custa 10% de uma resposta certa;
 // "Não sei" e tempo esgotado valem zero. O total do dia nunca fica abaixo de zero (finalScore).
 export const PENALIDADE_ERRO = 100;
-export const NAO_SEI_DESDE = '2026-11-11';
+export const NAO_SEI_DESDE = '2026-11-10';
 export const regrasNaoSei = (date: string = todayBR()) => date >= NAO_SEI_DESDE;
 
 /** Pontos de uma rodada respondida: se a precisão for zero e a regra valer, perde a penalidade. */

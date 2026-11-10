@@ -3,7 +3,7 @@
 
 create or replace function ranking.foto_desde() returns date
 language sql immutable set search_path = '' as $$
-  select '2026-11-11'::date
+  select '2026-11-10'::date
 $$;
 
 create or replace function ranking.max_bruto(p_data date) returns integer

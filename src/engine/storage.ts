@@ -1,5 +1,5 @@
 // localStorage sempre protegido: pode falhar (modo privado, iframe, cota) sem derrubar o jogo.
-import { primeMinRaw, type LevelId, type ModuleId } from './levels';
+import { FOTO_DESDE, primeMinRaw, type LevelId, type ModuleId } from './levels';
 
 const PREFIX = 'geoduelo:';
 const memory = new Map<string, string>();
@@ -45,6 +45,23 @@ export const dailyDuracao = (date: string, level: LevelId): number | null => {
   const s = Math.round((Date.parse(rec.finishedAt) - Date.parse(ini)) / 1000);
   return Number.isFinite(s) ? Math.min(10800, Math.max(30, s)) : null;
 };
+
+/**
+ * O Foto entrou no meio do Desafio de FOTO_DESDE. Quem já tinha jogado esse dia na versão de cinco módulos
+ * recomeça: some a tentativa antiga (e a marca de envio ao ranking), e a nova conta como primeira. Roda uma vez.
+ */
+export function reiniciarDiaDoFoto() {
+  const marca = `reinicio:${FOTO_DESDE}`;
+  if (get(marca)) return;
+  for (const l of ['estagiario', 'prime'] as const) {
+    const rec = getDaily(FOTO_DESDE, l);
+    if (rec && rec.rounds.some((r) => r.mod === 'foto')) continue;
+    apagar(dailyKey(FOTO_DESDE, l));
+    apagar(`${dailyKey(FOTO_DESDE, l)}:inicio`);
+    apagar(`ranking:enviado:${FOTO_DESDE}:${l}`);
+  }
+  set(marca, '1');
+}
 
 /** O Prime do dia libera quando a tentativa ranqueada do Estagiário fez ao menos PRIME_MIN_RAW pontos brutos. */
 export const rawOf = (rec: DailyRecord | null) => (rec ? rec.rounds.reduce((a, r) => a + r.raw, 0) : 0);
